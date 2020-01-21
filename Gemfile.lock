@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/planningalerts-scrapers/icon_scraper.git
-  revision: f285e441f6cef69d5cdec278a7c73b9b6d4236ee
+  revision: 0b1ba739b5a6bdb631485410d9bf64c7f3b10324
   specs:
     icon_scraper (0.1.0)
       activesupport
@@ -19,11 +19,12 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.3)
+    activesupport (6.0.2.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+      zeitwerk (~> 2.2)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     concurrent-ruby (1.1.5)
@@ -36,7 +37,7 @@ GEM
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     httpclient (2.8.3)
-    i18n (1.6.0)
+    i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     mechanize (2.7.6)
       domain_name (~> 0.5, >= 0.5.1)
@@ -47,25 +48,25 @@ GEM
       nokogiri (~> 1.6)
       ntlm-http (~> 0.1, >= 0.1.1)
       webrobots (>= 0.0.9, < 0.2)
-    mime-types (3.2.2)
+    mime-types (3.3.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2019.0331)
+    mime-types-data (3.2019.1009)
     mini_portile2 (2.4.0)
-    minitest (5.11.3)
+    minitest (5.14.0)
     net-http-digest_auth (1.4.1)
     net-http-persistent (3.1.0)
       connection_pool (~> 2.2)
-    nokogiri (1.10.3)
+    nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
     ntlm-http (0.1.1)
     public_suffix (3.1.1)
     safe_yaml (1.0.5)
-    sqlite3 (1.4.1)
+    sqlite3 (1.4.2)
     sqlite_magic (0.0.6)
       sqlite3
     thread_safe (0.3.6)
     timecop (0.9.1)
-    tzinfo (1.2.5)
+    tzinfo (1.2.6)
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
@@ -76,6 +77,7 @@ GEM
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
     webrobots (0.1.2)
+    zeitwerk (2.2.2)
 
 PLATFORMS
   ruby
@@ -91,4 +93,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.2
+   1.17.3
