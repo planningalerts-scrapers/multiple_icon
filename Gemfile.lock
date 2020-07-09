@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/planningalerts-scrapers/icon_scraper.git
-  revision: b7f421eef66abebe616137f60cab755ad86fe580
+  revision: a1ebece447228cdccc1340cec2af3311d685ed17
   specs:
     icon_scraper (0.1.0)
       activesupport
