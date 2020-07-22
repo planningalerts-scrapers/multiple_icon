@@ -49,7 +49,7 @@ RSpec.describe IconScraper do
       expect(results).to eq expected
     end
 
-    IconScraper::AUTHORITIES.keys.each do |authority|
+    IconScraper::AUTHORITIES.each_key do |authority|
       it authority do
         test_scraper(authority)
       end
