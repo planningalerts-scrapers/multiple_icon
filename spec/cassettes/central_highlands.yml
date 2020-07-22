@@ -1,0 +1,512 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://track.chrc.qld.gov.au/Pages/XC.Track/SearchApplication.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - track.chrc.qld.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Location:
+      - "/Common/Common/terms.aspx"
+      Set-Cookie:
+      - ASP.NET_SessionId=12tzyevszrmtvfioyfskzgnp; path=/; HttpOnly
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Mon, 29 Jul 2019 04:28:41 GMT
+      Content-Length:
+      - '142'
+    body:
+      encoding: UTF-8
+      string: "<html><head><title>Object moved</title></head><body>\r\n<h2>Object
+        moved to <a href=\"/Common/Common/terms.aspx\">here</a>.</h2>\r\n</body></html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://track.chrc.qld.gov.au/Common/Common/terms.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=12tzyevszrmtvfioyfskzgnp
+      Host:
+      - track.chrc.qld.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Mon, 29 Jul 2019 04:28:41 GMT
+      Content-Length:
+      - '15530'
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head
+        id=\"ctl00_Head1\"><title>\r\n\tTerms and Conditions\r\n</title><meta http-equiv=\"Expires\"
+        content=\"0\" /><meta http-equiv=\"Cache-Control\" content=\"no-cache\" /><meta
+        http-equiv=\"Pragma\" content=\"no-cache\" /><link href=\"../../favicon.ico\"
+        type=\"image/x-icon\" rel=\"icon\" /><link href=\"../../favicon.ico\" type=\"image/x-icon\"
+        rel=\"shortcut icon\" /><link href=\"../../HttpCombiner.ashx?s=IconCss&amp;t=text/css\"
+        type=\"text/css\" rel=\"Stylesheet\" media=\"all\" />\r\n    <base target=\"_top\"
+        />\r\n\r\n    <!-- Conditional Queries to load the Formatted Lists CSS files
+        -->\r\n    <!--[if lt IE 8]>\r\n        <link type=\"text/css\" href=\"../../App_Themes/Icon/IE7.css\"
+        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if gt IE 7]>\r\n\t
+        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
+        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if !IE]><!-->\r\n
+        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
+        rel=\"Stylesheet\" />\r\n    <!--<![endif]-->\r\n\r\n    <style type='text/css'></style><meta
+        http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" /><link href=\"../../App_Themes/Default/Default.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Default/User.css\"
+        type=\"text/css\" rel=\"stylesheet\" /></head>\r\n<body id=\"background\">\r\n
+        \   <form method=\"post\" action=\"./terms.aspx\" id=\"aspnetForm\" role=\"form\"
+        autocomplete=\"off\">\r\n<input type=\"hidden\" name=\"ctl00_rcss_TSSM\" id=\"ctl00_rcss_TSSM\"
+        value=\"\" />\r\n<input type=\"hidden\" name=\"ctl00_script_TSM\" id=\"ctl00_script_TSM\"
+        value=\"\" />\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\"
+        value=\"/wEPDwUKMTQ2MzgzODU5OQ9kFgJmD2QWAgIDD2QWBAIEDxYCHgRUZXh0ZWQCCA9kFgICAQ9kFgQCAQ8WAh8ABfsbPHA+CiAgICA8c3Ryb25nPkRpc2NsYWltZXI8L3N0cm9uZz4KPC9wPgo8cD4KICAgIFRoaXMgaW5mb3JtYXRpb246CjwvcD4KPHA+Cjx1bD4KICAgIDxsaT4KCQlJcyB0byBhc3Npc3QgY3VzdG9tZXJzIGluIHRyYWNraW5nIHByb2dyZXNzIG9mIHRoZSBkZXZlbG9wbWVudAoJCWFwcGxpY2F0aW9ucy4KICAgIDwvbGk+CjwvdWw+CjwvcD4KPHA+Cjx1bD4KICAgIDxsaT4KCQlEZWFscyB3aXRoIGtleSBtaWxlc3RvbmVzIGluIHRoZSBkZXZlbG9wbWVudCBhcHBsaWNhdGlvbiBwcm9jZXNzIC0gaXQgaXMKCQlub3QgYSBkZXRhaWxlZCBoaXN0b3J5LgogICAgPC9saT4KPC91bD4KPC9wPgo8cD4KPHVsPgogICAgPGxpPgoJCVNob3VsZCBOT1QgYmUgcmVsaWVkIHVwb24gYXMgYWNjdXJhdGUgZXNwZWNpYWxseSBieSB0aG9zZSB3aG8gbWF5IGJlCgkJdXNpbmcgdGhpcyBhcyBhIGJhc2lzIHRvIGRlY2lkZSB3aGV0aGVyIHRvIHB1cmNoYXNlIG9yIGZpbmFuY2UgcHJvcGVydHkgLQoJCWlmIHlvdSBmYWxsIGludG8gdGhhdCBjYXRlZ29yeSB5b3Ugc2hvdWxkIG9idGFpbiBmdXJ0aGVyIHdyaXR0ZW4KCQljb25maXJtYXRpb24gZnJvbSBDb3VuY2lsLgogICAgPC9saT4KPC91bD4KPC9wPgo8cD4KICAgIFBsZWFzZSBub3RlIHRoYXQgc29tZSB0eXBlcyBvZiBkb2N1bWVudHMgKGUuZy4gcGxhbnMsIGRyYXdpbmdzIGFuZAogICAgZG9jdW1lbnRzIGNvbnRhaW5pbmcgcGVyc29uYWwgaW5mb3JtYXRpb24pIG1heSBub3QgYmUgYXZhaWxhYmxlIHRocm91Z2gKICAgIFRyYWNrLCBldmVuIGlmIHRoZXkgZm9ybSBwYXJ0IG9mIGEgZGV2ZWxvcG1lbnQgYXBwbGljYXRpb24gd2hpY2ggaXMKICAgIG90aGVyd2lzZSBhdmFpbGFibGUuCjwvcD4KPHA+CiAgICBUaGUgaW5mb3JtYXRpb24gYXZhaWxhYmxlIG9uIFRyYWNrIG1heSBiZSBpbmNvbXBsZXRlIGFuZCBzaG91bGQgbm90IGJlCiAgICByZWxpZWQgdXBvbiBhcyBhIHNlYXJjaC4gTm8gd2FycmFudHkgaXMgZ2l2ZW4gaW4gcmVsYXRpb24gdG8gdGhlIGRhdGEKICAgIChpbmNsdWRpbmcgYWNjdXJhY3ksIHJlbGlhYmlsaXR5LCBjb21wbGV0ZW5lc3Mgb3Igc3VpdGFiaWxpdHkpIGFuZCBubwogICAgbGlhYmlsaXR5IGFjY2VwdGVkIChpbmNsdWRpbmcgd2l0aG91dCBsaW1pdGF0aW9uLCBsaWFiaWxpdHkgaW4gbmVnbGlnZW5jZSkKICAgIGZvciBhbnkgbG9zcyBkYW1hZ2Ugb3IgY29zdHMgKGluY2x1ZGluZyBjb25zZXF1ZW50aWFsIGRhbWFnZSkgcmVsYXRpbmcgdG8KICAgIGFueSB1c2Ugb2YgdGhlIGRhdGEuIEN1c3RvbWVycyBzaG91bGQgY29udGludWUgdG8gcGVyZm9ybSB0aGVpciBidWlsZGluZwogICAgc2VhcmNoIG9ubGluZSBhdCBjZW50cmFsaGlnaGxhbmRzLnFsZC5nb3YuYXUsIG92ZXIgdGhlIGNvdW50ZXIgYXQgb25lIG9mCiAgICBvdXIgQ3VzdG9tZXIgU2VydmljZSBDZW50cmVzIG9yIGJ5IGZheCwgcG9zdCBvciBlbWFpbC4KPC9wPgo8cD4KICAgIDxzdHJvbmc+Q29weXJpZ2h0PC9zdHJvbmc+CjwvcD4KPHA+CiAgICBDb3VuY2lsIChvciBvdGhlciBhZ2VuY2llcykKPC9wPgo8dWw+CiAgICA8bGk+CiAgICAgICAgT3ducyBjb3B5cmlnaHQgdG8gbWF0ZXJpYWwgb24gdGhpcyBzaXRlLgogICAgPC9saT4KPC91bD4KPHA+Cjx1bD4KICAgIDxsaT4KCQlHcmFudHMgeW91IGEgbGljZW5jZSB0byByZXByb2R1Y2UgdGhlIGNvbnRlbnRzIG9mIHRoaXMgd2Vic2l0ZSBpbiB5b3VyCiAgICB3ZWIgYnJvd3NlciAoYW5kIGluIGFueSBjYWNoZSBmaWxlIHByb2R1Y2VkIGJ5IHlvdXIgd2ViIGJyb3dzZXIpIGZvciB0aGUKICAgIHNvbGUgcHVycG9zZSBvZiB2aWV3aW5nIHRoZSBjb250ZW50LgogICAgPC9saT4KPC91bD4KPC9wPgo8cD4KICAgIENlbnRyYWwgSGlnaGxhbmRzIFJlZ2lvbmFsIENvdW5jaWwgcmVzZXJ2ZXMgYWxsIG90aGVyIGludGVsbGVjdHVhbCBwcm9wZXJ0eQogICAgcmlnaHRzLgo8L3A+CjxwPgogICAgPHN0cm9uZz5JbmZvcm1hdGlvbiBwcml2YWN5PC9zdHJvbmc+CjwvcD4KPHA+CiAgICBUcmFjayBtYXkgcmVjb3JkIHNvbWUgaW5mb3JtYXRpb24gYWJvdXQgZWFjaCBhY2Nlc3MgdG8gdGhlIHdlYnNpdGUgKGZvcgogICAgZXhhbXBsZSwgdGhlIElQIGFkZHJlc3Mgb2YgdGhlIGNvbXB1dGVyIGZyb20gd2hpY2ggVHJhY2sgaXMgYWNjZXNzZWQsIHRoZQogICAgZGF0ZSBhbmQgdGltZSBvZiBhY2Nlc3MsIGFuZCB0aGUgcGFnZXMsIGRvY3VtZW50cyBvciBpbmZvcm1hdGlvbiBhY2Nlc3NlZCkuCiAgICBUaGlzIGluZm9ybWF0aW9uIGlzIHVzZWQgZm9yIHN0YXRpc3RpY2FsIGFuZCBzaXRlIGRldmVsb3BtZW50IHB1cnBvc2VzLgogICAgRXhjZXB0IGZvciBpbmZvcm1hdGlvbiBzcGVjaWZpY2FsbHkgcHJvdmlkZWQgYnkgdXNlcnMsIENvdW5jaWwgZG9lcyBub3QKICAgIGNvbGxlY3QgYW55IG90aGVyIHBlcnNvbmFsIGluZm9ybWF0aW9uIGR1cmluZyB1c2Ugb2YgVHJhY2suIEFueSBwZXJzb25hbAogICAgaW5mb3JtYXRpb24gc3BlY2lmaWNhbGx5IHByb3ZpZGVkIHdpbGwgbm90IGJlIGRpc2Nsb3NlZCB0byB0aGlyZCBwYXJ0aWVzCiAgICBleGNlcHQgd2l0aCB0aGUgY29uc2VudCBvZiB0aGUgc3ViamVjdCB1c2VyLCBvciB3aGVyZSByZXF1aXJlZCBieSBsYXcuCjwvcD4KPHA+CiAgICBEYXRhIG11c3Qgbm90IGJlIHVzZWQgZm9yIGRpcmVjdCBtYXJrZXRpbmcgb3IgYmUgdXNlZCBpbiBicmVhY2ggb2YgdGhlCiAgICBwcml2YWN5IGxhd3MuCjwvcD4KPHA+CiAgICBDb3VuY2lsIHRha2VzIHN0ZXBzIHRvIG1haW50YWluIHRoZSBjdXJyZW5jeSBhbmQgYWNjdXJhY3kgb2YgdGhlIHBlcnNvbmFsCiAgICBpbmZvcm1hdGlvbiBpdCBob2xkcy4gSWYgdXNlcnMgcmVxdWlyZSBhY2Nlc3MgdG8gYW55IHBlcnNvbmFsIGluZm9ybWF0aW9uCiAgICBhYm91dCB0aGVtIHRoYXQgbWF5IGJlIGhlbGQgYnkgQ291bmNpbCwgb3IgaWYgdXNlcnMgaGF2ZSBhbnkgb3RoZXIKICAgIHF1ZXN0aW9ucyBhYm91dCBpbmZvcm1hdGlvbiBwcml2YWN5LCBlLW1haWwgdXMgYXQgZW5xdWlyaWVzQGNocmMucWxkLmdvdi5hdQogICAgb3IgY2FsbCAxMzAwIDI0MiA2ODYKPC9wPgo8cD4KICAgIDxzdHJvbmc+T3duZXJzaGlwPC9zdHJvbmc+CjwvcD4KPHA+CiAgICBBbGwgbWF0dGVycyByZWxhdGluZyB0byB0aGlzIHdlYnNpdGUgYXJlIGdvdmVybmVkIGJ5IHRoZSBsYXdzIG9mIHRoZSBTdGF0ZQogICAgb2YgUXVlZW5zbGFuZCwgQXVzdHJhbGlhLgo8L3A+CjxwPgpCeSBhY2Nlc3NpbmcgdGhpcyBpbmZvcm1hdGlvbiBJIHJlcXVlc3QgdG8gZG8gc28gdW5kZXIgU2VjdGlvbiAyNjQgb2YgdGhlICAgIDxlbT5QbGFubmluZyBBY3Q8L2VtPiA8ZW0+MjAxNiA8L2VtPmFuZCBJIHVuZGVyc3RhbmQgdGhhdCBDb3VuY2lsIGlzIG1ha2luZwp0aGUgaW5mb3JtYXRpb24gYXZhaWxhYmxlIHVuZGVyIHRoZSBwcm92aXNpb25zIG9mIFNlY3Rpb24gMjY0IG9mIHRoZSAgICA8ZW0+UGxhbm5pbmcgQWN0IDIwMTY8L2VtPi4KPC9wPgo8cD4KICAgIEkgdW5kZXJzdGFuZCB0aGlzIGRpc2NsYWltZXIgYW5kIGFncmVlIHdpdGggdGhlIHRlcm1zIGFuZCBjb25kaXRpb25zLgo8L3A+ZAIJDxYCHwBlZGS8Qvi3Fu5eeoXbGQEjJ3s/bVLeSw==\"
+        />\r\n\r\n\r\n<script src=\"/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl00_script_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen%3ab7585254-495e-4311-9545-1f910247aca5%3aea597d4b\"
+        type=\"text/javascript\"></script>\r\n<script type=\"text/javascript\">\r\n//<![CDATA[\r\nif
+        (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework
+        failed to load.');\r\n//]]>\r\n</script>\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\"
+        id=\"__VIEWSTATEGENERATOR\" value=\"A8DC4E82\" />\r\n<input type=\"hidden\"
+        name=\"__EVENTVALIDATION\" id=\"__EVENTVALIDATION\" value=\"/wEdAAMI5JlnAFCWnix1140w3VsVRN3IHP978JyB8nnPGPiPCD9XFS9pW1AKGZILcM4HQymxVfgRD69eWBdYaYRwVeYSmpbY+A==\"
+        />\r\n        \r\n        <script type=\"text/javascript\" src=\"../../HttpCombiner.ashx?s=IconJs&t=text/javascript\"></script>\r\n
+        \       <script type=\"text/javascript\">\r\n            jGrowlPosition =
+        \"top-right\";\r\n        </script>\r\n        <div id=\"ctl00_throbber_throbber\"
+        class=\"globalThrobber\">\r\n    <img class=\"throbber\" src=\"../../Common/Common/Image.aspx?rid=throbber.gif\"
+        alt=\"Loading...\" />\r\n</div>\r\n\r\n<script type=\"text/javascript\">\r\n
+        \   $(document).ready(function(){        \r\n        $('.globalThrobber')\r\n
+        \           .ajaxStart(function() {\r\n                if ($('.throbber:visible').length
+        == 0) {\r\n                    $(this).show();\r\n                }\r\n            })
+        \ \r\n            .ajaxStop(function() {\r\n                $(this).hide();\r\n
+        \           })\r\n        ;\r\n    });\r\n</script>\r\n        \r\n\r\n<script
+        type=\"text/javascript\">\r\n    /*This script is designed to alert the user
+        when session timout is reached and redirect to home page*/\r\n    var timer1;\r\n
+        \   window.clearTimeout(timer1);\r\n    var $dialog;\r\n    $(document).ready(function()\r\n
+        \   {\r\n        $dialog = $('<div></div>').html('Your session has expired,
+        you will now be redirected to the home page.').dialog(\r\n        {\r\n            buttons:\r\n
+        \           {   \r\n                'Ok': function()\r\n                {\r\n
+        \                   $(this).dialog('close');\r\n                    window.location
+        = 'https://track.chrc.qld.gov.au/Pages/XC.Track/SearchApplication.aspx';\r\n
+        \               }\r\n            },\r\n            show: \"fade\",\r\n            hide:
+        \"fade\",\r\n            resizable: false,\r\n            modal: true,\r\n
+        \           autoOpen: false,\r\n            title:  'Session Expired'\r\n
+        \       });\r\n    });\r\n    var sessionTimeout = '10799000';\r\n    function
+        doTimeout()\r\n    {\r\n        $dialog.dialog('open');\r\n        return
+        false;\r\n    }\r\n    timer1 = window.setTimeout('doTimeout()',sessionTimeout);\r\n</script>\r\n
+        \       <div id=\"docf\">\r\n            <div id=\"hd\" role=\"banner\">\r\n\r\n
+        \               <img src=\"../../Images/CHRC/CHRC_Header.jpg\" alt=\"Central
+        Highlands Regional Council Banner\" style=\"height: auto; width:100%\" id=\"adminlogo\"
+        />\r\n\r\n                <div class=\"clear adminclear\"></div>\r\n                <div
+        id=\"mainline\">\r\n                    <div class=\"containerLeft adminbanner
+        splitterLeftMaster noOverflow\">\r\n                        \r\n                        <div
+        style=\"margin-top: 5px; padding: 3px; padding-left: 12px;\" id=\"adminpage\">\r\n
+        \                           \r\n                        </div>\r\n                    </div>\r\n
+        \                   <div class=\"containerRight adminbanner splitterRightMaster
+        noOverflow\">\r\n                        \r\n                    </div>\r\n
+        \               </div>\r\n                <div class=\"clear\"></div>\r\n
+        \           </div>\r\n            <div class=\"clear\"></div>\r\n            <div
+        id=\"bd\" role=\"main\">\r\n                <div id=\"main\">\r\n                    <div
+        class=\"containerLeft\">\r\n                        <div class=\"containerInner\">\r\n
+        \                           <div class=\"padded\">\r\n                                \r\n
+        \                           </div>\r\n                        </div>\r\n                    </div>\r\n
+        \                   <div class=\"containerRight\">\r\n                        <div
+        class=\"containerInner\">\r\n                            <div class=\"padded\">\r\n
+        \                               \r\n                                \r\n    <div
+        id=\"ctl00_ctMain_main\">\r\n        <p>\n    <strong>Disclaimer</strong>\n</p>\n<p>\n
+        \   This information:\n</p>\n<p>\n<ul>\n    <li>\n\t\tIs to assist customers
+        in tracking progress of the development\n\t\tapplications.\n    </li>\n</ul>\n</p>\n<p>\n<ul>\n
+        \   <li>\n\t\tDeals with key milestones in the development application process
+        - it is\n\t\tnot a detailed history.\n    </li>\n</ul>\n</p>\n<p>\n<ul>\n
+        \   <li>\n\t\tShould NOT be relied upon as accurate especially by those who
+        may be\n\t\tusing this as a basis to decide whether to purchase or finance
+        property -\n\t\tif you fall into that category you should obtain further written\n\t\tconfirmation
+        from Council.\n    </li>\n</ul>\n</p>\n<p>\n    Please note that some types
+        of documents (e.g. plans, drawings and\n    documents containing personal
+        information) may not be available through\n    Track, even if they form part
+        of a development application which is\n    otherwise available.\n</p>\n<p>\n
+        \   The information available on Track may be incomplete and should not be\n
+        \   relied upon as a search. No warranty is given in relation to the data\n
+        \   (including accuracy, reliability, completeness or suitability) and no\n
+        \   liability accepted (including without limitation, liability in negligence)\n
+        \   for any loss damage or costs (including consequential damage) relating
+        to\n    any use of the data. Customers should continue to perform their building\n
+        \   search online at centralhighlands.qld.gov.au, over the counter at one
+        of\n    our Customer Service Centres or by fax, post or email.\n</p>\n<p>\n
+        \   <strong>Copyright</strong>\n</p>\n<p>\n    Council (or other agencies)\n</p>\n<ul>\n
+        \   <li>\n        Owns copyright to material on this site.\n    </li>\n</ul>\n<p>\n<ul>\n
+        \   <li>\n\t\tGrants you a licence to reproduce the contents of this website
+        in your\n    web browser (and in any cache file produced by your web browser)
+        for the\n    sole purpose of viewing the content.\n    </li>\n</ul>\n</p>\n<p>\n
+        \   Central Highlands Regional Council reserves all other intellectual property\n
+        \   rights.\n</p>\n<p>\n    <strong>Information privacy</strong>\n</p>\n<p>\n
+        \   Track may record some information about each access to the website (for\n
+        \   example, the IP address of the computer from which Track is accessed,
+        the\n    date and time of access, and the pages, documents or information
+        accessed).\n    This information is used for statistical and site development
+        purposes.\n    Except for information specifically provided by users, Council
+        does not\n    collect any other personal information during use of Track.
+        Any personal\n    information specifically provided will not be disclosed
+        to third parties\n    except with the consent of the subject user, or where
+        required by law.\n</p>\n<p>\n    Data must not be used for direct marketing
+        or be used in breach of the\n    privacy laws.\n</p>\n<p>\n    Council takes
+        steps to maintain the currency and accuracy of the personal\n    information
+        it holds. If users require access to any personal information\n    about them
+        that may be held by Council, or if users have any other\n    questions about
+        information privacy, e-mail us at enquiries@chrc.qld.gov.au\n    or call 1300
+        242 686\n</p>\n<p>\n    <strong>Ownership</strong>\n</p>\n<p>\n    All matters
+        relating to this website are governed by the laws of the State\n    of Queensland,
+        Australia.\n</p>\n<p>\nBy accessing this information I request to do so under
+        Section 264 of the    <em>Planning Act</em> <em>2016 </em>and I understand
+        that Council is making\nthe information available under the provisions of
+        Section 264 of the    <em>Planning Act 2016</em>.\n</p>\n<p>\n    I understand
+        this disclaimer and agree with the terms and conditions.\n</p>\r\n        <br
+        />\r\n        <input type=\"submit\" name=\"ctl00$ctMain$BtnAgree\" value=\"I
+        Agree\" id=\"ctl00_ctMain_BtnAgree\" class=\"buttonText buttonAdd\" />\r\n
+        \       <input type=\"submit\" name=\"ctl00$ctMain$BtnDisagree\" value=\"I
+        Disagree\" id=\"ctl00_ctMain_BtnDisagree\" class=\"buttonText buttonDelete\"
+        />\r\n        \r\n    </div>\r\n\r\n                            </div>\r\n
+        \                       </div>\r\n                    </div>\r\n                </div>\r\n
+        \           </div>\r\n            \r\n\r\n\r\n            <div class=\"footer\">\r\n
+        \               <img src=\"../../Images/CHRC/CHRC_Footer.jpg\" alt=\"Central
+        Highlands Regional Council Footer\" style=\"height: auto; width:100%\" id=\"footerlogo\"
+        />\r\n            </div>\r\n\r\n        </div>\r\n        <script type=\"text/javascript\"
+        src=\"../../Common/Javascript/final.js\"></script>\r\n        <script type=\"text/javascript\"
+        src=\"../../Common/User/User.js\"></script>\r\n        <script type=\"text/javascript\">\r\n
+        \           $(document).ready(function () {\r\n                document.title
+        = document.title + ' - TechnologyOne';\r\n            });\r\n        </script>\r\n
+        \   </form>\r\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: post
+    uri: https://track.chrc.qld.gov.au/Common/Common/terms.aspx
+    body:
+      encoding: UTF-8
+      string: ctl00_rcss_TSSM=&ctl00_script_TSM=&__VIEWSTATE=%2FwEPDwUKMTQ2MzgzODU5OQ9kFgJmD2QWAgIDD2QWBAIEDxYCHgRUZXh0ZWQCCA9kFgICAQ9kFgQCAQ8WAh8ABfsbPHA%2BCiAgICA8c3Ryb25nPkRpc2NsYWltZXI8L3N0cm9uZz4KPC9wPgo8cD4KICAgIFRoaXMgaW5mb3JtYXRpb246CjwvcD4KPHA%2BCjx1bD4KICAgIDxsaT4KCQlJcyB0byBhc3Npc3QgY3VzdG9tZXJzIGluIHRyYWNraW5nIHByb2dyZXNzIG9mIHRoZSBkZXZlbG9wbWVudAoJCWFwcGxpY2F0aW9ucy4KICAgIDwvbGk%2BCjwvdWw%2BCjwvcD4KPHA%2BCjx1bD4KICAgIDxsaT4KCQlEZWFscyB3aXRoIGtleSBtaWxlc3RvbmVzIGluIHRoZSBkZXZlbG9wbWVudCBhcHBsaWNhdGlvbiBwcm9jZXNzIC0gaXQgaXMKCQlub3QgYSBkZXRhaWxlZCBoaXN0b3J5LgogICAgPC9saT4KPC91bD4KPC9wPgo8cD4KPHVsPgogICAgPGxpPgoJCVNob3VsZCBOT1QgYmUgcmVsaWVkIHVwb24gYXMgYWNjdXJhdGUgZXNwZWNpYWxseSBieSB0aG9zZSB3aG8gbWF5IGJlCgkJdXNpbmcgdGhpcyBhcyBhIGJhc2lzIHRvIGRlY2lkZSB3aGV0aGVyIHRvIHB1cmNoYXNlIG9yIGZpbmFuY2UgcHJvcGVydHkgLQoJCWlmIHlvdSBmYWxsIGludG8gdGhhdCBjYXRlZ29yeSB5b3Ugc2hvdWxkIG9idGFpbiBmdXJ0aGVyIHdyaXR0ZW4KCQljb25maXJtYXRpb24gZnJvbSBDb3VuY2lsLgogICAgPC9saT4KPC91bD4KPC9wPgo8cD4KICAgIFBsZWFzZSBub3RlIHRoYXQgc29tZSB0eXBlcyBvZiBkb2N1bWVudHMgKGUuZy4gcGxhbnMsIGRyYXdpbmdzIGFuZAogICAgZG9jdW1lbnRzIGNvbnRhaW5pbmcgcGVyc29uYWwgaW5mb3JtYXRpb24pIG1heSBub3QgYmUgYXZhaWxhYmxlIHRocm91Z2gKICAgIFRyYWNrLCBldmVuIGlmIHRoZXkgZm9ybSBwYXJ0IG9mIGEgZGV2ZWxvcG1lbnQgYXBwbGljYXRpb24gd2hpY2ggaXMKICAgIG90aGVyd2lzZSBhdmFpbGFibGUuCjwvcD4KPHA%2BCiAgICBUaGUgaW5mb3JtYXRpb24gYXZhaWxhYmxlIG9uIFRyYWNrIG1heSBiZSBpbmNvbXBsZXRlIGFuZCBzaG91bGQgbm90IGJlCiAgICByZWxpZWQgdXBvbiBhcyBhIHNlYXJjaC4gTm8gd2FycmFudHkgaXMgZ2l2ZW4gaW4gcmVsYXRpb24gdG8gdGhlIGRhdGEKICAgIChpbmNsdWRpbmcgYWNjdXJhY3ksIHJlbGlhYmlsaXR5LCBjb21wbGV0ZW5lc3Mgb3Igc3VpdGFiaWxpdHkpIGFuZCBubwogICAgbGlhYmlsaXR5IGFjY2VwdGVkIChpbmNsdWRpbmcgd2l0aG91dCBsaW1pdGF0aW9uLCBsaWFiaWxpdHkgaW4gbmVnbGlnZW5jZSkKICAgIGZvciBhbnkgbG9zcyBkYW1hZ2Ugb3IgY29zdHMgKGluY2x1ZGluZyBjb25zZXF1ZW50aWFsIGRhbWFnZSkgcmVsYXRpbmcgdG8KICAgIGFueSB1c2Ugb2YgdGhlIGRhdGEuIEN1c3RvbWVycyBzaG91bGQgY29udGludWUgdG8gcGVyZm9ybSB0aGVpciBidWlsZGluZwogICAgc2VhcmNoIG9ubGluZSBhdCBjZW50cmFsaGlnaGxhbmRzLnFsZC5nb3YuYXUsIG92ZXIgdGhlIGNvdW50ZXIgYXQgb25lIG9mCiAgICBvdXIgQ3VzdG9tZXIgU2VydmljZSBDZW50cmVzIG9yIGJ5IGZheCwgcG9zdCBvciBlbWFpbC4KPC9wPgo8cD4KICAgIDxzdHJvbmc%2BQ29weXJpZ2h0PC9zdHJvbmc%2BCjwvcD4KPHA%2BCiAgICBDb3VuY2lsIChvciBvdGhlciBhZ2VuY2llcykKPC9wPgo8dWw%2BCiAgICA8bGk%2BCiAgICAgICAgT3ducyBjb3B5cmlnaHQgdG8gbWF0ZXJpYWwgb24gdGhpcyBzaXRlLgogICAgPC9saT4KPC91bD4KPHA%2BCjx1bD4KICAgIDxsaT4KCQlHcmFudHMgeW91IGEgbGljZW5jZSB0byByZXByb2R1Y2UgdGhlIGNvbnRlbnRzIG9mIHRoaXMgd2Vic2l0ZSBpbiB5b3VyCiAgICB3ZWIgYnJvd3NlciAoYW5kIGluIGFueSBjYWNoZSBmaWxlIHByb2R1Y2VkIGJ5IHlvdXIgd2ViIGJyb3dzZXIpIGZvciB0aGUKICAgIHNvbGUgcHVycG9zZSBvZiB2aWV3aW5nIHRoZSBjb250ZW50LgogICAgPC9saT4KPC91bD4KPC9wPgo8cD4KICAgIENlbnRyYWwgSGlnaGxhbmRzIFJlZ2lvbmFsIENvdW5jaWwgcmVzZXJ2ZXMgYWxsIG90aGVyIGludGVsbGVjdHVhbCBwcm9wZXJ0eQogICAgcmlnaHRzLgo8L3A%2BCjxwPgogICAgPHN0cm9uZz5JbmZvcm1hdGlvbiBwcml2YWN5PC9zdHJvbmc%2BCjwvcD4KPHA%2BCiAgICBUcmFjayBtYXkgcmVjb3JkIHNvbWUgaW5mb3JtYXRpb24gYWJvdXQgZWFjaCBhY2Nlc3MgdG8gdGhlIHdlYnNpdGUgKGZvcgogICAgZXhhbXBsZSwgdGhlIElQIGFkZHJlc3Mgb2YgdGhlIGNvbXB1dGVyIGZyb20gd2hpY2ggVHJhY2sgaXMgYWNjZXNzZWQsIHRoZQogICAgZGF0ZSBhbmQgdGltZSBvZiBhY2Nlc3MsIGFuZCB0aGUgcGFnZXMsIGRvY3VtZW50cyBvciBpbmZvcm1hdGlvbiBhY2Nlc3NlZCkuCiAgICBUaGlzIGluZm9ybWF0aW9uIGlzIHVzZWQgZm9yIHN0YXRpc3RpY2FsIGFuZCBzaXRlIGRldmVsb3BtZW50IHB1cnBvc2VzLgogICAgRXhjZXB0IGZvciBpbmZvcm1hdGlvbiBzcGVjaWZpY2FsbHkgcHJvdmlkZWQgYnkgdXNlcnMsIENvdW5jaWwgZG9lcyBub3QKICAgIGNvbGxlY3QgYW55IG90aGVyIHBlcnNvbmFsIGluZm9ybWF0aW9uIGR1cmluZyB1c2Ugb2YgVHJhY2suIEFueSBwZXJzb25hbAogICAgaW5mb3JtYXRpb24gc3BlY2lmaWNhbGx5IHByb3ZpZGVkIHdpbGwgbm90IGJlIGRpc2Nsb3NlZCB0byB0aGlyZCBwYXJ0aWVzCiAgICBleGNlcHQgd2l0aCB0aGUgY29uc2VudCBvZiB0aGUgc3ViamVjdCB1c2VyLCBvciB3aGVyZSByZXF1aXJlZCBieSBsYXcuCjwvcD4KPHA%2BCiAgICBEYXRhIG11c3Qgbm90IGJlIHVzZWQgZm9yIGRpcmVjdCBtYXJrZXRpbmcgb3IgYmUgdXNlZCBpbiBicmVhY2ggb2YgdGhlCiAgICBwcml2YWN5IGxhd3MuCjwvcD4KPHA%2BCiAgICBDb3VuY2lsIHRha2VzIHN0ZXBzIHRvIG1haW50YWluIHRoZSBjdXJyZW5jeSBhbmQgYWNjdXJhY3kgb2YgdGhlIHBlcnNvbmFsCiAgICBpbmZvcm1hdGlvbiBpdCBob2xkcy4gSWYgdXNlcnMgcmVxdWlyZSBhY2Nlc3MgdG8gYW55IHBlcnNvbmFsIGluZm9ybWF0aW9uCiAgICBhYm91dCB0aGVtIHRoYXQgbWF5IGJlIGhlbGQgYnkgQ291bmNpbCwgb3IgaWYgdXNlcnMgaGF2ZSBhbnkgb3RoZXIKICAgIHF1ZXN0aW9ucyBhYm91dCBpbmZvcm1hdGlvbiBwcml2YWN5LCBlLW1haWwgdXMgYXQgZW5xdWlyaWVzQGNocmMucWxkLmdvdi5hdQogICAgb3IgY2FsbCAxMzAwIDI0MiA2ODYKPC9wPgo8cD4KICAgIDxzdHJvbmc%2BT3duZXJzaGlwPC9zdHJvbmc%2BCjwvcD4KPHA%2BCiAgICBBbGwgbWF0dGVycyByZWxhdGluZyB0byB0aGlzIHdlYnNpdGUgYXJlIGdvdmVybmVkIGJ5IHRoZSBsYXdzIG9mIHRoZSBTdGF0ZQogICAgb2YgUXVlZW5zbGFuZCwgQXVzdHJhbGlhLgo8L3A%2BCjxwPgpCeSBhY2Nlc3NpbmcgdGhpcyBpbmZvcm1hdGlvbiBJIHJlcXVlc3QgdG8gZG8gc28gdW5kZXIgU2VjdGlvbiAyNjQgb2YgdGhlICAgIDxlbT5QbGFubmluZyBBY3Q8L2VtPiA8ZW0%2BMjAxNiA8L2VtPmFuZCBJIHVuZGVyc3RhbmQgdGhhdCBDb3VuY2lsIGlzIG1ha2luZwp0aGUgaW5mb3JtYXRpb24gYXZhaWxhYmxlIHVuZGVyIHRoZSBwcm92aXNpb25zIG9mIFNlY3Rpb24gMjY0IG9mIHRoZSAgICA8ZW0%2BUGxhbm5pbmcgQWN0IDIwMTY8L2VtPi4KPC9wPgo8cD4KICAgIEkgdW5kZXJzdGFuZCB0aGlzIGRpc2NsYWltZXIgYW5kIGFncmVlIHdpdGggdGhlIHRlcm1zIGFuZCBjb25kaXRpb25zLgo8L3A%2BZAIJDxYCHwBlZGS8Qvi3Fu5eeoXbGQEjJ3s%2FbVLeSw%3D%3D&__VIEWSTATEGENERATOR=A8DC4E82&__EVENTVALIDATION=%2FwEdAAMI5JlnAFCWnix1140w3VsVRN3IHP978JyB8nnPGPiPCD9XFS9pW1AKGZILcM4HQymxVfgRD69eWBdYaYRwVeYSmpbY%2BA%3D%3D&ctl00%24ctMain%24BtnAgree=I+Agree
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=12tzyevszrmtvfioyfskzgnp
+      Host:
+      - track.chrc.qld.gov.au
+      Referer:
+      - https://track.chrc.qld.gov.au/Common/Common/terms.aspx
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '5198'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Encoding:
+      - gzip,gzip
+      Location:
+      - "/Pages/XC.Track/SearchApplication.aspx"
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Mon, 29 Jul 2019 04:28:42 GMT
+      Content-Length:
+      - '143'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAFWOQQrCMBBF94XeIfQAGeh6DIgHULALt9NkdKKpCekgentbu3L5H4/HR9EpORSm4FCjJnbH8c5ezZRfHBA2hrAZYw4f1zYo/Z9mNBskI5Wvuw5OdOMZLgc7VPIPODNVL/tSUvSkMT8tzeXdOeHKCOTsEu/XKPzqy1ovtc0XU3r/JJsAAAA=
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://track.chrc.qld.gov.au/Pages/XC.Track/SearchApplication.aspx?d=last28days&k=LodgementDate&o=xml&t=205,400,401,402,403,405
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=12tzyevszrmtvfioyfskzgnp
+      Host:
+      - track.chrc.qld.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/xml; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Mon, 29 Jul 2019 04:28:45 GMT
+      Content-Length:
+      - '16383'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\"?><NewDataSet>\r\n  <Application>\r\n    <ApplicationId>403.2019.00000016.001</ApplicationId>\r\n
+        \   <NatureOfApplication>Material Change of Use</NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>403</NatureOfApplicationType>\r\n    <AuthorityReferenceNumber>403.2019.00000016.001</AuthorityReferenceNumber>\r\n
+        \   <ReferenceNumber>MCU016.1-2019</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>16</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
+        \   <Status>Lodged                                  </Status>\r\n    <ApplicationDetails>MCU
+        - Dwelling House Within Flood hazard Overlay (Code) </ApplicationDetails>\r\n
+        \   <LodgementDate>2019-07-01T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0</EstimatedCost>\r\n
+        \   <AuthorityParty xml:space=\"preserve\">                                        </AuthorityParty>\r\n
+        \   <OfficerTitle>Council                                           </OfficerTitle>\r\n
+        \   <Officer>. Central Highlands Regional Council</Officer>\r\n    <DADays>-28</DADays>\r\n
+        \   <DivReferenceNumber>403201900000016001</DivReferenceNumber>\r\n    <ApplicationIdS>403.2019.00000016.001</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>185694</PropertyId>\r\n      <ParcelId>185694</ParcelId>\r\n
+        \     <ApplicationId>403.2019.00000016.001</ApplicationId>\r\n      <Line1>244
+        Chudleigh Drive</Line1>\r\n      <Line2>EMERALD QLD 4720</Line2>\r\n      <FullLegalDescription>Lot:
+        36 SP: 291961 EMT: E                                                                           </FullLegalDescription>\r\n
+        \     <ApplicationIdS>403.2019.00000016.001</ApplicationIdS>\r\n    </Address>\r\n
+        \   <Party>\r\n      <PartyId>356118</PartyId>\r\n      <ApplicationId>403.2019.00000016.001</ApplicationId>\r\n
+        \     <PartyRole>Applicant                          </PartyRole>\r\n      <FamilyName>Bell
+        \                                             </FamilyName>\r\n      <GivenName>Amanda
+        </GivenName>\r\n      <Initial>A    </Initial>\r\n      <FullName> Mrs A Bell</FullName>\r\n
+        \     <ApplicationIdS>403.2019.00000016.001</ApplicationIdS>\r\n    </Party>\r\n
+        \ <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>402.2019.00000278.001</ApplicationId>\r\n
+        \   <NatureOfApplication>Operational Works</NatureOfApplication>\r\n    <NatureOfApplicationType>402</NatureOfApplicationType>\r\n
+        \   <AuthorityReferenceNumber>402.2019.00000278.001</AuthorityReferenceNumber>\r\n
+        \   <ReferenceNumber>OW278.1-2019</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>278</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
+        \   <Status>Lodged                                  </Status>\r\n    <ApplicationDetails>(Code)
+        Operational Works </ApplicationDetails>\r\n    <LodgementDate>2019-07-10T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>40000</EstimatedCost>\r\n    <AuthorityParty xml:space=\"preserve\">
+        \                                       </AuthorityParty>\r\n    <OfficerTitle>Council
+        \                                          </OfficerTitle>\r\n    <Officer>.
+        Central Highlands Regional Council</Officer>\r\n    <DADays>-19</DADays>\r\n
+        \   <DivReferenceNumber>402201900000278001</DivReferenceNumber>\r\n    <ApplicationIdS>402.2019.00000278.001</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>184178</PropertyId>\r\n      <ParcelId>184178</ParcelId>\r\n
+        \     <ApplicationId>402.2019.00000278.001</ApplicationId>\r\n      <Line1>27
+        Wills Road</Line1>\r\n      <Line2>EMERALD QLD 4720</Line2>\r\n      <FullLegalDescription>Lot:
+        43 SP: 248547                                                                                  </FullLegalDescription>\r\n
+        \     <ApplicationIdS>402.2019.00000278.001</ApplicationIdS>\r\n    </Address>\r\n
+        \   <Party>\r\n      <PartyId>336452</PartyId>\r\n      <ApplicationId>402.2019.00000278.001</ApplicationId>\r\n
+        \     <PartyRole>Applicant                          </PartyRole>\r\n      <FamilyName>Simon
+        Contractors Pty Ltd                         </FamilyName>\r\n      <GivenName
+        xml:space=\"preserve\"> </GivenName>\r\n      <FullName> Simon Contractors
+        Pty Ltd</FullName>\r\n      <ApplicationIdS>402.2019.00000278.001</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>403.2013.00000040.003</ApplicationId>\r\n    <NatureOfApplication>Material
+        Change of Use</NatureOfApplication>\r\n    <NatureOfApplicationType>403</NatureOfApplicationType>\r\n
+        \   <AuthorityReferenceNumber>403.2013.00000040.003</AuthorityReferenceNumber>\r\n
+        \   <ReferenceNumber>MCU040.3-2013</ReferenceNumber>\r\n    <ReferenceNumberYear>2013</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>40</ReferenceNumberNumber>\r\n    <Amendment>3</Amendment>\r\n
+        \   <Status>Lodged                                  </Status>\r\n    <ApplicationDetails>Extension
+        of Currency Period - Material Change of Use (Impact) </ApplicationDetails>\r\n
+        \   <CreatedDate>2019-07-11T13:24:52+10:00</CreatedDate>\r\n    <LodgementDate>2019-07-11T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>0</EstimatedCost>\r\n    <AuthorityParty xml:space=\"preserve\">
+        \                                       </AuthorityParty>\r\n    <OfficerTitle>Coordinator
+        Development &amp; Planning                </OfficerTitle>\r\n    <Officer>Joseph
+        Kirkwood</Officer>\r\n    <DADays>-18</DADays>\r\n    <DivReferenceNumber>403201300000040003</DivReferenceNumber>\r\n
+        \   <ApplicationIdS>403.2013.00000040.003</ApplicationIdS>\r\n    <Address>\r\n
+        \     <PropertyId>7220</PropertyId>\r\n      <ParcelId>7220</ParcelId>\r\n
+        \     <ApplicationId>403.2013.00000040.003</ApplicationId>\r\n      <Line1>7
+        Akubra Drive</Line1>\r\n      <Line2>EMERALD QLD 4720</Line2>\r\n      <FullLegalDescription>Lot:
+        15 RP: 858638                                          </FullLegalDescription>\r\n
+        \     <ApplicationIdS>403.2013.00000040.003</ApplicationIdS>\r\n    </Address>\r\n
+        \   <Party>\r\n      <PartyId>17872</PartyId>\r\n      <ApplicationId>403.2013.00000040.003</ApplicationId>\r\n
+        \     <PartyRole>Applicant                          </PartyRole>\r\n      <FamilyName>Richardson
+        \                                       </FamilyName>\r\n      <GivenName>Frank
+        Joshua</GivenName>\r\n      <Initial>F J  </Initial>\r\n      <FullName> Mr
+        F J Richardson</FullName>\r\n      <ApplicationIdS>403.2013.00000040.003</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>17873</PartyId>\r\n      <ApplicationId>403.2013.00000040.003</ApplicationId>\r\n
+        \     <PartyRole>Applicant                          </PartyRole>\r\n      <FamilyName>Richardson
+        \                                       </FamilyName>\r\n      <GivenName>Michelle
+        Helen</GivenName>\r\n      <Initial>M H  </Initial>\r\n      <FullName> Mrs
+        M H Richardson</FullName>\r\n      <ApplicationIdS>403.2013.00000040.003</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>401.2019.00000012.002</ApplicationId>\r\n    <NatureOfApplication>Reconfiguring
+        a Lot</NatureOfApplication>\r\n    <NatureOfApplicationType>401</NatureOfApplicationType>\r\n
+        \   <AuthorityReferenceNumber>401.2019.00000012.002</AuthorityReferenceNumber>\r\n
+        \   <ReferenceNumber>RAL012.2-2019</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>12</ReferenceNumberNumber>\r\n    <Amendment>2</Amendment>\r\n
+        \   <Status>Lodged                                  </Status>\r\n    <ApplicationDetails>Survey
+        Plan Endorsement - Reconfiguration of a Lot (Code) </ApplicationDetails>\r\n
+        \   <CreatedDate>2019-07-16T13:04:34+10:00</CreatedDate>\r\n    <LodgementDate>2019-07-12T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>0</EstimatedCost>\r\n    <AuthorityParty xml:space=\"preserve\">
+        \                                       </AuthorityParty>\r\n    <OfficerTitle>Coordinator
+        Development &amp; Planning                </OfficerTitle>\r\n    <Officer>Joseph
+        Kirkwood</Officer>\r\n    <DADays>-17</DADays>\r\n    <DivReferenceNumber>401201900000012002</DivReferenceNumber>\r\n
+        \   <ApplicationIdS>401.2019.00000012.002</ApplicationIdS>\r\n    <Address>\r\n
+        \     <PropertyId>185613</PropertyId>\r\n      <ParcelId>185613</ParcelId>\r\n
+        \     <ApplicationId>401.2019.00000012.002</ApplicationId>\r\n      <Line1>409
+        Donohoe Road</Line1>\r\n      <Line2>EMERALD QLD 4720</Line2>\r\n      <FullLegalDescription>Lot:
+        51 SP: 276935                                          </FullLegalDescription>\r\n
+        \     <ApplicationIdS>401.2019.00000012.002</ApplicationIdS>\r\n    </Address>\r\n
+        \   <Address>\r\n      <PropertyId>185614</PropertyId>\r\n      <ParcelId>185614</ParcelId>\r\n
+        \     <ApplicationId>401.2019.00000012.002</ApplicationId>\r\n      <Line1>409
+        Donohoe Road</Line1>\r\n      <Line2>EMERALD QLD 4720</Line2>\r\n      <FullLegalDescription>Lot:
+        52 SP: 276935                                          </FullLegalDescription>\r\n
+        \     <ApplicationIdS>401.2019.00000012.002</ApplicationIdS>\r\n    </Address>\r\n
+        \   <Party>\r\n      <PartyId>324176</PartyId>\r\n      <ApplicationId>401.2019.00000012.002</ApplicationId>\r\n
+        \     <PartyRole>Applicant                          </PartyRole>\r\n      <FamilyName>TR
+        Baillie (Investments) Pty Ltd                  </FamilyName>\r\n      <GivenName
+        xml:space=\"preserve\"> </GivenName>\r\n      <FullName> TR Baillie (Investments)
+        Pty Ltd</FullName>\r\n      <ApplicationIdS>401.2019.00000012.002</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>401.2019.00000004.002</ApplicationId>\r\n    <NatureOfApplication>Reconfiguring
+        a Lot</NatureOfApplication>\r\n    <NatureOfApplicationType>401</NatureOfApplicationType>\r\n
+        \   <AuthorityReferenceNumber>401.2019.00000004.002</AuthorityReferenceNumber>\r\n
+        \   <ReferenceNumber>RAL004.2-2019</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>4</ReferenceNumberNumber>\r\n    <Amendment>2</Amendment>\r\n
+        \   <Status>Lodged                                  </Status>\r\n    <ApplicationDetails>Reconfiguration
+        of a Lot - Boundary Realignment (Code) </ApplicationDetails>\r\n    <CreatedDate>2019-07-23T07:37:45+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-07-17T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0</EstimatedCost>\r\n
+        \   <AuthorityParty xml:space=\"preserve\">                                        </AuthorityParty>\r\n
+        \   <OfficerTitle>Coordinator Development &amp; Planning                </OfficerTitle>\r\n
+        \   <Officer>Joseph Kirkwood</Officer>\r\n    <DADays>-12</DADays>\r\n    <DivReferenceNumber>401201900000004002</DivReferenceNumber>\r\n
+        \   <ApplicationIdS>401.2019.00000004.002</ApplicationIdS>\r\n    <Address>\r\n
+        \     <PropertyId>185257</PropertyId>\r\n      <ParcelId>185257</ParcelId>\r\n
+        \     <ApplicationId>401.2019.00000004.002</ApplicationId>\r\n      <Line1>2403
+        Blackwater-Cooroorah Road</Line1>\r\n      <Line2>BLACKWATER QLD 4717</Line2>\r\n
+        \     <FullLegalDescription>Lot: 9 SP: 260151                                           </FullLegalDescription>\r\n
+        \     <ApplicationIdS>401.2019.00000004.002</ApplicationIdS>\r\n    </Address>\r\n
+        \   <Address>\r\n      <PropertyId>185258</PropertyId>\r\n      <ParcelId>185258</ParcelId>\r\n
+        \     <ApplicationId>401.2019.00000004.002</ApplicationId>\r\n      <Line1>2403
+        Blackwater-Cooroorah Road</Line1>\r\n      <Line2>BLACKWATER QLD 4717</Line2>\r\n
+        \     <FullLegalDescription>Lot: 10 SP: 260151                                          </FullLegalDescription>\r\n
+        \     <ApplicationIdS>401.2019.00000004.002</ApplicationIdS>\r\n    </Address>\r\n
+        \   <Party>\r\n      <PartyId>2792</PartyId>\r\n      <ApplicationId>401.2019.00000004.002</ApplicationId>\r\n
+        \     <PartyRole>Applicant                          </PartyRole>\r\n      <FamilyName>Murray
+        &amp; Associates                               </FamilyName>\r\n      <GivenName
+        xml:space=\"preserve\"> </GivenName>\r\n      <FullName> Murray &amp; Associates</FullName>\r\n
+        \     <ApplicationIdS>401.2019.00000004.002</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PartyId>351228</PartyId>\r\n      <ApplicationId>401.2019.00000004.002</ApplicationId>\r\n
+        \     <PartyRole>Applicant                          </PartyRole>\r\n      <FamilyName>Blackwater
+        Quarries Pty Ltd                       </FamilyName>\r\n      <GivenName xml:space=\"preserve\">
+        </GivenName>\r\n      <FullName> Blackwater Quarries Pty Ltd</FullName>\r\n
+        \     <ApplicationIdS>401.2019.00000004.002</ApplicationIdS>\r\n    </Party>\r\n
+        \ <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>402.2019.00000280.001</ApplicationId>\r\n
+        \   <NatureOfApplication>Operational Works</NatureOfApplication>\r\n    <NatureOfApplicationType>402</NatureOfApplicationType>\r\n
+        \   <AuthorityReferenceNumber>402.2019.00000280.001</AuthorityReferenceNumber>\r\n
+        \   <ReferenceNumber>OW280.1-2019</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>280</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
+        \   <Status>Lodged                                  </Status>\r\n    <ApplicationDetails>Installation
+        of Advertising Device (Flush Wall Sign) Code </ApplicationDetails>\r\n    <LodgementDate>2019-07-18T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>0</EstimatedCost>\r\n    <AuthorityParty xml:space=\"preserve\">
+        \                                       </AuthorityParty>\r\n    <OfficerTitle>Council
+        \                                          </OfficerTitle>\r\n    <Officer>.
+        Central Highlands Regional Council</Officer>\r\n    <DADays>-11</DADays>\r\n
+        \   <DivReferenceNumber>402201900000280001</DivReferenceNumber>\r\n    <ApplicationIdS>402.2019.00000280.001</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>1052</PropertyId>\r\n      <ParcelId>1052</ParcelId>\r\n
+        \     <ApplicationId>402.2019.00000280.001</ApplicationId>\r\n      <Line1>
+        Opal Street</Line1>\r\n      <Line2>EMERALD QLD 4720</Line2>\r\n      <FullLegalDescription>Lot:
+        11 E: 2167                                                                                     </FullLegalDescription>\r\n
+        \     <ApplicationIdS>402.2019.00000280.001</ApplicationIdS>\r\n    </Address>\r\n
+        \   <Party>\r\n      <PartyId>334518</PartyId>\r\n      <ApplicationId>402.2019.00000280.001</ApplicationId>\r\n
+        \     <PartyRole>Applicant                          </PartyRole>\r\n      <FamilyName>Bobtrac
+        Swim School Pty Ltd                       </FamilyName>\r\n      <GivenName
+        xml:space=\"preserve\"> </GivenName>\r\n      <FullName> Bobtrac Swim School
+        Pty Ltd</FullName>\r\n      <ApplicationIdS>402.2019.00000280.001</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>401.2019.00000006.002</ApplicationId>\r\n    <NatureOfApplication>Reconfiguring
+        a Lot</NatureOfApplication>\r\n    <NatureOfApplicationType>401</NatureOfApplicationType>\r\n
+        \   <AuthorityReferenceNumber>401.2019.00000006.002</AuthorityReferenceNumber>\r\n
+        \   <ReferenceNumber>RAL006.2-2019</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>6</ReferenceNumberNumber>\r\n    <Amendment>2</Amendment>\r\n
+        \   <Status>Lodged                                  </Status>\r\n    <ApplicationDetails>Plan
+        Sealing - Reconfiguration of a Lot - Easement Access (Code) </ApplicationDetails>\r\n
+        \   <CreatedDate>2019-07-22T14:43:27+10:00</CreatedDate>\r\n    <LodgementDate>2019-07-18T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>0</EstimatedCost>\r\n    <AuthorityParty xml:space=\"preserve\">
+        \                                       </AuthorityParty>\r\n    <OfficerTitle>Coordinator
+        Development &amp; Planning                </OfficerTitle>\r\n    <Officer>Joseph
+        Kirkwood</Officer>\r\n    <DADays>-11</DADays>\r\n    <DivReferenceNumber>401201900000006002</DivReferenceNumber>\r\n
+        \   <ApplicationIdS>401.2019.00000006.002</ApplicationIdS>\r\n    <Address>\r\n
+        \     <PropertyId>185420</PropertyId>\r\n      <ParcelId>185420</ParcelId>\r\n
+        \     <ApplicationId>401.2019.00000006.002</ApplicationId>\r\n      <Line1>
+        Gap Lane</Line1>\r\n      <Line2>SPRINGSURE QLD 4722</Line2>\r\n      <FullLegalDescription>Lot:
+        2 SP: 255409                                           </FullLegalDescription>\r\n
+        \     <ApplicationIdS>401.2019.00000006.002</ApplicationIdS>\r\n    </Address>\r\n
+        \   <Party>\r\n      <PartyId>2792</PartyId>\r\n      <ApplicationId>401.2019.00000006.002</ApplicationId>\r\n
+        \     <PartyRole>Applicant                          </PartyRole>\r\n      <FamilyName>Murray
+        &amp; Associates                               </FamilyName>\r\n      <GivenName
+        xml:space=\"preserve\"> </GivenName>\r\n      <FullName> Murray &amp; Associates</FullName>\r\n
+        \     <ApplicationIdS>401.2019.00000006.002</ApplicationIdS>\r\n    </Party>\r\n
+        \ <NewDataSet /><NewDataSet /></Application>\r\n</NewDataSet>"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+recorded_with: VCR 5.0.0

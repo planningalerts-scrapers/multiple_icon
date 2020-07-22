@@ -1,0 +1,836 @@
+---
+- council_reference: BC/2019/38
+  description: |-
+    Building Certificate
+    Unauthorized or Illegal works
+  date_received: '2019-06-03'
+  address: 72 Allen Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586791
+- council_reference: BC/2019/39
+  description: Retrospective approval sought for unauthorised works being the construction
+    of a rear garden shed for storage only
+  date_received: '2019-06-06'
+  address: 27 Reserve Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586999
+- council_reference: BC/2019/40
+  description: Building Certifcate for sale of a property
+  date_received: '2019-06-06'
+  address: 15 Rosser Street ROZELLE NSW 2039
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587034
+- council_reference: BC/2019/41
+  description: Alterations and additons to the rear of existing dwelling, including
+    the demolition of the existing garage.
+  date_received: '2019-06-07'
+  address: 40 O'Neill Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587071
+- council_reference: CC/2019/155
+  description: Alterations and additions to existing rear garage to provide for an
+    attached studio, and associated works.
+  date_received: '2019-05-30'
+  address: 74 Flood Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586696
+- council_reference: CC/2019/159
+  description: Demolition of existing dwelling-house, Torrens title subdivision and
+    construction of two X two storey attached dwelling-houses located on each new
+    lot, and associated works, including retaining wall, fencing and on-site landscaping
+    works
+  date_received: '2019-06-04'
+  address: 3 Garnet Avenue LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586884
+- council_reference: CC/2019/160
+  description: First storey & attic addition to rear of existing dwelling
+  date_received: '2019-06-05'
+  address: 45 Crescent Street ROZELLE NSW 2039
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586910
+- council_reference: CC/2019/161
+  description: Proposed demolition of the front portion of the Telstra Balmain Exchange,
+    the construction of a new facade and associated internal and external works.
+  date_received: '2019-06-05'
+  address: Telephone Exchange 366C Darling Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586924
+- council_reference: CCMOD/2019/6
+  description: |-
+    The proposal is for a modified construction certificate based on the approved construction certificate dated 23/08/2017.
+    The modifications include internal layout changes to the back of house kitchen.
+  date_received: '2019-05-27'
+  address: 2-8 Weston Street BALMAIN EAST NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586520
+- council_reference: CCP/2019/146
+  description: |-
+    Constuction cert Private PCA
+    Alterations and Additions to the existing dwelling including a two-storey extension with garage to the northern side and new roof form to the rear.
+  date_received: '2019-05-27'
+  address: 18 John Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586524
+- council_reference: CCP/2019/147
+  description: CC - J180265  Alterations and Additions to the existing Residence,
+    including new single storey ground floor extension and a new first floor level
+    in roof and to rear of existing dwelling.
+  date_received: '2019-05-28'
+  address: 262 Nelson Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586566
+- council_reference: CCP/2019/148
+  description: MBC 2101 - Ground and first floor alterations and additions to existing
+    residence, and associated works, including new garage and terrace over at rear,
+    landscaping and tree removal.
+  date_received: '2019-05-28'
+  address: 368 Annandale Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586580
+- council_reference: CCP/2019/149
+  description: Part demolition, and alterations and additions to existing residence,  addition
+    of single storey studio at the rear of the site, and associated works.
+  date_received: '2019-05-29'
+  address: 29 Wells Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586594
+- council_reference: CCP/2019/150
+  description: |-
+    MBC2119
+    Alterations and additions to existing dwelling-house.
+  date_received: '2019-05-29'
+  address: 13 Datchett Street BALMAIN EAST NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586612
+- council_reference: CCP/2019/151
+  description: 19/0180-01 Five lot Torrens title subdivision and construction of five
+    new dwellings, and associated works, including on-site parking, and retaining
+    wall, fence and landscaping works.
+  date_received: '2019-05-29'
+  address: 37 Edna Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586617
+- council_reference: CCP/2019/152
+  description: |-
+    M/2018/1...CCP/2019/152
+    Modifications to development consent for partial demolition and alterations and additions to existing dwelling and boundary fencing. Modifications seek various alterations and additions to dwelling-house.
+  date_received: '2019-05-30'
+  address: 396 Annandale Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586667
+- council_reference: CCP/2019/153
+  description: NW19/4494/1 CCP/2019/153 Demolition of existing dwelling and construction
+    of new two storey dwelling with detached double garage accessed from Pritchard
+    Lane
+  date_received: '2019-05-30'
+  address: 48 Pritchard Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586673
+- council_reference: CCP/2019/154
+  description: CCP/2019/154 Ground floor alterations and additions to existing dwelling-house
+    and associated demolition.
+  date_received: '2019-05-30'
+  address: 48 Cameron Street BIRCHGROVE NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586677
+- council_reference: CCP/2019/156
+  description: |-
+    Construction Certificate (Private Certifier)
+    Demolition of existing garage and construction of a new garage and loft.
+  date_received: '2019-06-03'
+  address: 40 Brenan Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586784
+- council_reference: CCP/2019/157
+  description: First floor addition at rear of existing dwelling
+  date_received: '2019-06-03'
+  address: 5 Sardinia Place BIRCHGROVE NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586804
+- council_reference: CCP/2019/158
+  description: Proposed demolition of all existing structures and removal of trees;
+    proposed Torrens title subdvision in two 2 lots,  proposed additional vehicle
+    crossing to service new allotment.
+  date_received: '2019-06-03'
+  address: 97 Edith Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586806
+- council_reference: CCP/2019/162
+  description: |-
+    CC 190272
+
+    Building works to existing residence, including ground floor internal renovations, and a first floor addition.
+  date_received: '2019-06-05'
+  address: 7 Emily Street ROZELLE NSW 2039
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586941
+- council_reference: CCP/2019/163
+  description: Groud floor alterations & additions to rear of existing single storey
+    dwelling.
+  date_received: '2019-06-07'
+  address: 71 Hill Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587042
+- council_reference: CCP/2019/164
+  description: First floor roof garden proposed to be used as balcony with addition
+    of 300mm high glazing to top of approved balustrade.
+  date_received: '2019-06-07'
+  address: 34 Maida Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587044
+- council_reference: CCP/2019/165
+  description: |-
+    Ground and first floor alterations and additions to existing dwelling-house.
+    CCP/2019/165
+  date_received: '2019-06-07'
+  address: 239 Lilyfield Road LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587047
+- council_reference: CDC/2019/83
+  description: Change of use to a hair salon.
+  date_received: '2019-06-05'
+  address: Shop 1/687 Darling Street ROZELLE NSW 2039
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586903
+- council_reference: CDC/2019/84
+  description: Replacement of storm damaged front shop awning
+  date_received: '2019-06-05'
+  address: 209 Lilyfield Road LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586958
+- council_reference: CDCP/2019/79
+  description: CDC/2019/0071 Shop No. F2 - Refurbishment of Sushi Take-Away
+  date_received: '2019-05-30'
+  address: Leichhardt Marketplace 122-138 Flood Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586684
+- council_reference: CDCP/2019/80
+  description: Demolition of existing structures and construction of a three level
+    building comprised of two dwellings and one commercial unit including at grade
+    parking spaces.
+  date_received: '2019-06-03'
+  address: 33 Bruce Street ROZELLE NSW 2039
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586802
+- council_reference: CDCP/2019/82
+  description: Demolition of existing dwelling. Alterations and demolitian of existing
+    dwelling and including a fibreglass pool.
+  date_received: '2019-06-04'
+  address: 88 Carlisle Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586840
+- council_reference: COMSWM/2019/7
+  description: SWIMMING POOL COMPLIANCE APPLICATION
+  date_received: '2019-06-03'
+  address: 54 Starling Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586781
+- council_reference: D/2019/191
+  description: Removal of tree at rear of site.
+  date_received: '2019-05-27'
+  address: 1 Sardinia Place BIRCHGROVE NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586490
+- council_reference: D/2019/192
+  description: Demolition of existing dwelling-house and construction of a new three
+    storey dwelling-house and associated works, including new fencing, plus parking
+    to rear lane.
+  date_received: '2019-05-28'
+  address: 265 Nelson Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586584
+- council_reference: D/2019/194
+  description: Alterations and additions to existing dwelling-house.
+  date_received: '2019-05-29'
+  address: 25 Catherine Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586602
+- council_reference: D/2019/195
+  description: Removal of tree at rear of site.
+  date_received: '2019-05-29'
+  address: 2 Pashley Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586619
+- council_reference: D/2019/196
+  description: Alterations and additions to existing strata unit.
+  date_received: '2019-05-29'
+  address: 3/20 Francis Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586631
+- council_reference: D/2019/197
+  description: 3 lot Torrens Title subdivision in Stratum associated with Development
+    Consent DA/2015/390.
+  date_received: '2019-05-30'
+  address: 2 North Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586662
+- council_reference: D/2019/198
+  description: Removal of 10 trees at rear of site.
+  date_received: '2019-05-30'
+  address: 40 Wetherill Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586689
+- council_reference: D/2019/199
+  description: Alterations and additions to existing building to allow part use as
+    bed and breakfast accommodation.
+  date_received: '2019-05-30'
+  address: 88 Beattie Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586691
+- council_reference: D/2019/200
+  description: Removal of two trees to the Longview Street frontage of the site.
+  date_received: '2019-05-30'
+  address: 12 Longview Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586693
+- council_reference: D/2019/201
+  description: Installation of new toilets to the church hall area and new soft and
+    hard landscaping to the church forecourt in order to improve accessibility.
+  date_received: '2019-06-03'
+  address: Campbell Street Presbyterian Church 7A Campbell Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586775
+- council_reference: D/2019/202
+  description: Demolition of existing dwelling-house and construction of 2X2 storey
+    semi-detached dwellings with parking spaces and associated works, including  landscaping
+    and tree removal, fencing works, and Torrens title subdivision into 2 lots.
+  date_received: '2019-06-04'
+  address: 55 Church Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586887
+- council_reference: D/2019/203
+  description: Alterations and additions to an existing dwelling-house, including
+    new first floor addition, and associated works.
+  date_received: '2019-06-05'
+  address: 11 Lamb Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586898
+- council_reference: D/2019/204
+  description: Alterations and additions to existing dwelling.
+  date_received: '2019-06-05'
+  address: 46 Annesley Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586908
+- council_reference: D/2019/205
+  description: partial demolition of existing roof and construction of a first floor
+    addition w/ two bedrooms, shared bathroom and stair access.
+  date_received: '2019-06-05'
+  address: 189 Lilyfield Road LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586927
+- council_reference: D/2019/206
+  description: Alterations and additions to existing dwelling-house as part of a staged
+    development, and tree removal.
+  date_received: '2019-06-05'
+  address: 56A Pyrmont Bridge Road ANNANDALE NSW 2050
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586930
+- council_reference: D/2019/207
+  description: Demolition of the garage and rear of house. Erection of two-storey
+    addition. Erection of studio in the back.
+  date_received: '2019-06-05'
+  address: 92 Cecily Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586946
+- council_reference: D/2019/208
+  description: Alteration and addition
+  date_received: '2019-06-05'
+  address: 26 Charles Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586971
+- council_reference: D/2019/209
+  description: 1st floor addition to an existing freestand terrace. A new internal
+    stair and a 1.2 metre wide balcony.
+  date_received: '2019-06-05'
+  address: 125 View Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586973
+- council_reference: D/2019/210
+  description: |-
+    Internal reconfiguation
+    First floor addition
+    Landscaping to rear
+    Restoration of front facade
+  date_received: '2019-06-06'
+  address: 5 Lamb Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586986
+- council_reference: D/2019/211
+  description: Tree removal
+  date_received: '2019-06-06'
+  address: 30 High Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587004
+- council_reference: D/2019/212
+  description: |-
+    demo to part existing dwelling at rear and roof
+    demo of garage roof deck , slab and rear wall
+    ground floor alerations and adds
+    new swimming pool and surrounding deck
+  date_received: '2019-06-07'
+  address: 281 Lilyfield Road LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587038
+- council_reference: D/2019/214
+  description: Proposed sign installation at St Fiacre's Primary School
+  date_received: '2019-06-07'
+  address: St Fiacres Presbytery 98 Catherine Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587061
+- council_reference: D/2019/215
+  description: |-
+    Partial demo of existing single storey lean-to
+    Ground & first floor alterations and additions to the existing two storey dwelling
+    Associated bpundary fances & rear gate
+  date_received: '2019-06-07'
+  address: 21 Lamb Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587075
+- council_reference: HEC/2019/28
+  description: Heritage Exemption
+  date_received: '2019-05-31'
+  address: 1/12 Jacques Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586729
+- council_reference: M/2019/100
+  description: 'Modificatioon of Development Consent D/2017/66 seeking changes to
+    the Broderick Street frontage, including: demolish part of front fence; rearrangement
+    of gates and mail boxes; amendment to Condition 23(b); and landscaping changes.'
+  date_received: '2019-05-27'
+  address: 8 Broderick Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586513
+- council_reference: M/2019/101
+  description: Modification of Development Consent D/2016/208 seeking various modifications
+    to approved dwelling alterations and additions, plus to provide a new garage to
+    the rear.
+  date_received: '2019-05-27'
+  address: 5 Booth Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586514
+- council_reference: M/2019/102
+  description: Modification of Development Consent D/2016/709 seeking internal and
+    external alterations to the dwelling-house and carport, including to provide carlift
+    to carport and internal lift to dwelling-house, and associated works, including
+    new pool / spa, stair access, decking and landscaping works to rear of site.
+  date_received: '2019-05-29'
+  address: 8A William Street BALMAIN EAST NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586644
+- council_reference: M/2019/103
+  description: Modification of BA 87/941 seeking to delete amend and delete conditions
+    pertaining to required privacy mitigation measures to the first floor east facing
+    window.
+  date_received: '2019-06-03'
+  address: 2 Wharf Road BIRCHGROVE NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586788
+- council_reference: M/2019/104
+  description: Modification of Development Consent D/2017/386 seeking to alter the
+    roof to the first floor addition.
+  date_received: '2019-06-04'
+  address: 168 Trafalgar Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586858
+- council_reference: M/2019/106
+  description: 'Modification of Development Consent D/2015/373 seeking various changes
+    to approved development, including: reduction in size of rear deck; amendment
+    to external stairs; removal of masonry wall to northern elevation; removal of
+    proposed south facing windows with only one window now proposed; and internal
+    modifications.'
+  date_received: '2019-06-04'
+  address: 54 Rosser Street ROZELLE NSW 2039
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586878
+- council_reference: M/2019/108
+  description: |-
+    Modification of condition 6 under M/2017/220 (DA/419/1996),
+    to allow for the continuation of heavy vehicle movement and/or loading dock activities on Sunday or Public Holidays.
+  date_received: '2019-06-07'
+  address: Norton Plaza 55 Norton Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587059
+- council_reference: OC/2019/155
+  description: Demolition of existing structures, construction of two X two and three
+    storey dual occupancy, addition of parking to the rear of the site accessed via
+    Bradford Lane, and associated works, including tree removal and fencing works.
+  date_received: '2019-05-28'
+  address: 21 Darvall Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586549
+- council_reference: OC/2019/168
+  description: New first floor addition to existing dwelling
+  date_received: '2019-06-05'
+  address: 64 Evans Street ROZELLE NSW 2039
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586956
+- council_reference: OCP/2019/153
+  description: |-
+    Final OC - Occupation Certificate - Private Certifier
+    Alterations & additions to an existing dwelling including dormer window, first floor addition with balcony, elevated ground floor addition and lower ground floor addition, demolition of outhouse and new roller door access to lane to provide parking & retaining walls.
+  date_received: '2019-05-27'
+  address: 14 Harris Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586527
+- council_reference: OCP/2019/154
+  description: "Final OC - Occupation Certificate - Private Certifier\n\nPart demolition
+    and alterations and additions to existing dwelling, and associated works, including
+    demolition of rear garage and shed. \n\nNote: The proposal also involves partial
+    demolition/rectification works and removal of a tree at No. 23 O'Neill Street."
+  date_received: '2019-05-27'
+  address: 21 O'Neill Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586529
+- council_reference: OCP/2019/156
+  description: |-
+    INTERIM OCCUPATION CERTIFICATE - 5036
+    Alterations and additions to existing garage at rear of site, including first floor addition and associated external access.
+  date_received: '2019-05-28'
+  address: 133 Nelson Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586571
+- council_reference: OCP/2019/157
+  description: |-
+    Final OC - 138/18/01
+    Alterations and additions to dwelling including new first floor
+  date_received: '2019-05-28'
+  address: 6 Paling Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586575
+- council_reference: OCP/2019/158
+  description: |-
+    Final OC - CC17.07.2143/01
+    Alterations and additions to existing dwelling including addition to sub floor, internal changes, new side passageway, and relocate parking space
+  date_received: '2019-05-29'
+  address: 62 Llewellyn Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586598
+- council_reference: OCP/2019/159
+  description: |-
+    OCP/2019/159
+    Section 96 modification to approved alterations and additions to dwelling including amend first floor rear setback and changes to windows and doors
+  date_received: '2019-05-30'
+  address: 14 Susan Lane ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586679
+- council_reference: OCP/2019/160
+  description: |-
+    Final OC - OCP/2019/160
+    Demolition of the existing carport and construction of a new carport and alterations to fencing.
+  date_received: '2019-05-30'
+  address: 60 Springside Street ROZELLE NSW 2039
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586681
+- council_reference: OCP/2019/161
+  description: |-
+    CDCP/2016/120
+    Construction of two storey dwelling.
+  date_received: '2019-05-31'
+  address: 46A Denison Street ROZELLE NSW 2039
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586728
+- council_reference: OCP/2019/162
+  description: |-
+    OCP/2019/162
+    Harris Farm Market
+    NW18/3385
+    Fit out of existing retail tenancy for Solingen - CDC  NW19/4324
+  date_received: '2019-05-31'
+  address: Norton Plaza 55 Norton Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586737
+- council_reference: OCP/2019/163
+  description: Final OC - Alterations and additions to existing residence at No. 57
+    Curtis Road.
+  date_received: '2019-06-03'
+  address: Neighbourhood Scheme 53-57 Curtis Road BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586800
+- council_reference: OCP/2019/164
+  description: |-
+    Final OC - OCP/2019/164
+    Alterations to existing dwelling-house.
+  date_received: '2019-06-04'
+  address: 69A Taylor Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586850
+- council_reference: OCP/2019/165
+  description: Alterations to existing dwelling including two new windows and internal
+    changes.
+  date_received: '2019-06-04'
+  address: 14 Turner Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586854
+- council_reference: OCP/2019/166
+  description: |-
+    OC No:  CC11.06.1378/01
+
+    Basement, ground and first floor alterations and additions to existing dwelling
+  date_received: '2019-06-05'
+  address: 43 Grove Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586944
+- council_reference: OCP/2019/167
+  description: |-
+    OC No: 166/18/01
+    Part demolition and ground and first floor alterations and additions to existing residence, and associated works, including excavation, recladding of front facade of dwelling and retaining wall and fencing works.
+  date_received: '2019-06-05'
+  address: 28 High Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586947
+- council_reference: OCP/2019/169
+  description: "OC No: BIWL16496 \nAlterations and additions to the existing heritage-listed
+    dwelling, including rear extensions and new carport, front fence, storeroom and
+    swimming pool."
+  date_received: '2019-06-06'
+  address: 2 Wallace Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586995
+- council_reference: PCAP/2019/214
+  description: Alterations and Additions to the existing Residence, including new
+    single storey ground floor extension and a new first floor level in roof and to
+    rear of existing dwelling.
+  date_received: '2019-05-28'
+  address: 262 Nelson Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586568
+- council_reference: PCAP/2019/215
+  description: |-
+    PCA - Private
+
+    Second floor alterations and additions to existing dwelling-house.
+  date_received: '2019-05-29'
+  address: 266A Trafalgar Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586607
+- council_reference: PCAP/2019/216
+  description: "PCAP \n\nDemolish existing front fence/wall and install new painted
+    rendered brick fence/wall to match existing"
+  date_received: '2019-05-29'
+  address: Strata Scheme 10-14 John Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586628
+- council_reference: PCAP/2019/217
+  description: |-
+    Principal Certifying Authority (Private Certifier)
+
+    Alterations and Additions to the existing dwelling including a two-storey extension with garage to the northern side and new roof form to the rear.
+  date_received: '2019-05-29'
+  address: 18 John Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586630
+- council_reference: PCAP/2019/218
+  description: Additions and alterations to an existing terrace house.
+  date_received: '2019-05-29'
+  address: 107 Darling Street BALMAIN EAST NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586633
+- council_reference: PCAP/2019/219
+  description: Alterations and additions to existing dwelling-house.
+  date_received: '2019-05-29'
+  address: 13 Datchett Street BALMAIN EAST NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586636
+- council_reference: PCAP/2019/220
+  description: Five lot Torrens title subdivision and construction of five new dwellings,
+    and associated works, including on-site parking, and retaining wall, fence and
+    landscaping works.
+  date_received: '2019-05-29'
+  address: 37 Edna Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586639
+- council_reference: PCAP/2019/221
+  description: Alterations maintenance works to existing buildings 101, 103, 104 and
+    105, including access upgrades.
+  date_received: '2019-05-30'
+  address: Callan Park/Rozelle Hospital Glover Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586656
+- council_reference: PCAP/2019/222
+  description: CDC/2019/0071 Shop No. F2 - Refurbishment of Sushi Take-Away
+  date_received: '2019-05-30'
+  address: Leichhardt Marketplace 122-138 Flood Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586700
+- council_reference: PCAP/2019/223
+  description: Ground floor alterations and additions to existing dwelling-house and
+    associated demolition.
+  date_received: '2019-05-30'
+  address: 48 Cameron Street BIRCHGROVE NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586704
+- council_reference: PCAP/2019/224
+  description: Demolition of existing dwelling and construction of new two storey
+    dwelling with detached double garage accessed from Pritchard Lane
+  date_received: '2019-05-30'
+  address: 48 Pritchard Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586706
+- council_reference: PCAP/2019/225
+  description: Partial demolition and alterations and additions to existing dwelling
+    and boundary fencing and tree removal.
+  date_received: '2019-05-30'
+  address: 396 Annandale Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586709
+- council_reference: PCAP/2019/226
+  description: First floor addition at rear of existing dwelling
+  date_received: '2019-05-31'
+  address: 5 Sardinia Place BIRCHGROVE NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586742
+- council_reference: PCAP/2019/229
+  description: Demolition of existing garage and construction of a new garage and
+    loft.
+  date_received: '2019-06-05'
+  address: 40 Brenan Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586959
+- council_reference: PCAP/2019/230
+  description: Proposed demolition of all existing structures and removal of trees;
+    proposed Torrens title subdvision in two 2 lots,  proposed additional vehicle
+    crossing to service new allotment.
+  date_received: '2019-06-06'
+  address: 97 Edith Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587018
+- council_reference: PCAP/2019/231
+  description: Building works to existing residence, including ground floor internal
+    renovations, and a first floor addition.
+  date_received: '2019-06-07'
+  address: 7 Emily Street ROZELLE NSW 2039
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587068
+- council_reference: PCAP/2019/232
+  description: Ground and first floor alterations and additions to existing dwelling-house.
+  date_received: '2019-06-07'
+  address: 239 Lilyfield Road LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587083
+- council_reference: PCAP/2019/233
+  description: Groud floor alterations & additions to rear of existing single storey
+    dwelling.
+  date_received: '2019-06-07'
+  address: 71 Hill Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587085
+- council_reference: PREDA/2019/84
+  description: Construction and use of indoor children swim school with ancillary
+    parking, office, parents viewing area, change rooms, and amenities.
+  date_received: '2019-05-27'
+  address: 75 Victoria Road ROZELLE NSW 2039
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586492
+- council_reference: PREDA/2019/85
+  description: Minor alterations and additions to existing dwelling. New first floor
+    and attic roof adjustments
+  date_received: '2019-05-28'
+  address: 17 St Andrew Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586574
+- council_reference: PREDA/2019/86
+  description: |-
+    MINOR DEMOLITION
+    MINOR ALTERATIONS + ADDITIONS
+    REPAIRS + MAINTENANCE
+    LANDSCAPING
+  date_received: '2019-05-29'
+  address: 19 Prosper Street ROZELLE NSW 2039
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586592
+- council_reference: PREDA/2019/87
+  description: Alterations and additions to existing dwelling
+  date_received: '2019-05-29'
+  address: 21 Rowntree Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586625
+- council_reference: PREDA/2019/88
+  description: Internal alterations and ground floor addition at rear
+  date_received: '2019-05-30'
+  address: 200 Darling Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586701
+- council_reference: PREDA/2019/89
+  description: Alterations and additions to existing dwelling.
+  date_received: '2019-06-04'
+  address: 13 Ilka Street LILYFIELD NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586820
+- council_reference: PREDA/2019/90
+  description: |-
+    A new two level masonary, concrete and timber rear addition to an existing single level dwelling terrace house.
+    New work including living area, 2 bredrooms and bathroom
+  date_received: '2019-06-04'
+  address: 208 Nelson Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586861
+- council_reference: PREDA/2019/92
+  description: |-
+    Supplementary Pre-DA request - no meeting required, just advise.
+    Related to PREDA/2019/54
+  date_received: '2019-06-06'
+  address: 54 Annesley Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587022
+- council_reference: R/2019/51
+  description: Change of use from food and drink premises (Cake Shop) to food and
+    drink premises (Coffee Shop). Minor internal works under Exempt Development
+  date_received: '2019-06-04'
+  address: 296-298 Darling Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586831
+- council_reference: R/2019/52
+  description: Vegetable and flower display
+  date_received: '2019-06-04'
+  address: 47 Booth Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586882
+- council_reference: R/2019/53
+  description: Application for Outdoor Dining - 3 tables, 6 seats, Mon-Fri 6am-4pm
+  date_received: '2019-06-06'
+  address: 296-298 Darling Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586979
+- council_reference: S37P/2019/6
+  description: Strata Certificate
+  date_received: '2019-05-29'
+  address: 196 Young Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586622
+- council_reference: S37P/2019/7
+  description: 'Strata Certificat No:  202/2019'
+  date_received: '2019-06-06'
+  address: Dual Occupancy 33 Bruce Street ROZELLE NSW 2039
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586997
+- council_reference: T/2019/83
+  description: Removal of Eucalyptus Scoparia
+  date_received: '2019-05-31'
+  address: 2 McDonald Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586749
+- council_reference: T/2019/84
+  description: Tree removal in association with DA/2018/689
+  date_received: '2019-06-04'
+  address: Strata Scheme 10-14 John Street LEICHHARDT NSW 2040
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586845
+- council_reference: T/2019/85
+  description: Pruning of Jacaranda
+  date_received: '2019-06-04'
+  address: 9-11 Wisbeach Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586847
+- council_reference: T/2019/86
+  description: Removal of dead tree
+  date_received: '2019-06-05'
+  address: 17 Mullens Street BALMAIN NSW 2041
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586921
+- council_reference: T/2019/87
+  description: Tree Minor Works Application
+  date_received: '2019-06-06'
+  address: 244 Nelson Street ANNANDALE NSW 2038
+  date_scraped: '2019-05-15'
+  info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586982

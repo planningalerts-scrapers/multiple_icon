@@ -1,0 +1,1198 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://apply.hobartcity.com.au/Pages/XC.Track/SearchApplication.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - apply.hobartcity.com.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Location:
+      - "/Common/Common/terms.aspx"
+      Set-Cookie:
+      - ASP.NET_SessionId=hwk5o12r0vrxdpvnfqhuxuyd; path=/; HttpOnly
+      X-Ua-Compatible:
+      - IE=9,10,11
+      Date:
+      - Sun, 09 Jun 2019 14:38:05 GMT
+      Content-Length:
+      - '142'
+      Strict-Transport-Security:
+      - max-age=157680000
+    body:
+      encoding: UTF-8
+      string: "<html><head><title>Object moved</title></head><body>\r\n<h2>Object
+        moved to <a href=\"/Common/Common/terms.aspx\">here</a>.</h2>\r\n</body></html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://apply.hobartcity.com.au/Common/Common/terms.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=hwk5o12r0vrxdpvnfqhuxuyd
+      Host:
+      - apply.hobartcity.com.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Ua-Compatible:
+      - IE=9,10,11
+      Date:
+      - Sun, 09 Jun 2019 14:38:05 GMT
+      Cteonnt-Length:
+      - '22283'
+      Strict-Transport-Security:
+      - max-age=157680000
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '7590'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: post
+    uri: https://apply.hobartcity.com.au/Common/Common/terms.aspx
+    body:
+      encoding: UTF-8
+      string: ctl00_rcss_TSSM=&ctl00_script_TSM=&__VIEWSTATE=%2FwEPDwUKMTQ2MzgzODU5OQ9kFgJmD2QWAgIDD2QWBgICDw8WAh4HVmlzaWJsZWhkZAIJDxYCHgRUZXh0ZWQCDg9kFgICAQ9kFgQCAQ8WAh8BBYIoPGRpdiBzdHlsZT0icGFkZGluZzo1cHgiPgo8c3Ryb25nPlRlcm1zIGFuZCBDb25kaXRpb25zPC9zdHJvbmc%2BPGJyIC8%2BCllvdXIgdXNlIG9mIHRoZSBDaXR5IG9mIEhvYmFydCBlLVNlcnZpY2UgZm9yIGVucXVpcnkgYW5kIHN1Ym1pc3Npb24gb2YgYXBwbGljYXRpb25zIGlzIHN1YmplY3QgdG8gYW5kIGNvbmRpdGlvbmFsIHVwb24geW91ciBhY2NlcHRhbmNlIG9mIHRoZSBmb2xsb3dpbmcgVGVybXMgb2YgVXNlOiA8YnIgLz4KPGJyIC8%2BCjwvZGl2Pgo8ZGl2IGlkPSJUbkMiIHN0eWxlPSJoZWlnaHQ6IDM1MHB4OyBwYWRkaW5nOiA1cHg7IG92ZXJmbG93LXk6IHNjcm9sbDsiPgo8c3Ryb25nPkNvcHlyaWdodDwvc3Ryb25nPjxiciAvPgpZb3UgZGVjbGFyZSB5b3UgaGF2ZSBvYnRhaW5lZCBhbGwgY29weSBsaWNlbmNlcyBhbmQgcGVybWlzc2lvbiBmcm9tIHRoZSBjb3B5cmlnaHQgb3duZXIgZm9yIHRoZSBwdWJsaWNhdGlvbiwgY29tbXVuaWNhdGlvbiBhbmQgcmVwcm9kdWN0aW9uIG9mIHRoZSBhcHBsaWNhdGlvbiwgaW5mb3JtYXRpb24sIHJlcG9ydHMsIHBsYW5zIGFuZCBtYXRlcmlhbHMgcHJvdmlkZWQgd2l0aCBvciBhcyBwYXJ0IG9mIHRoZSBhcHBsaWNhdGlvbiBhbmQgZm9yIHRoZSBwdXJwb3NlcyBvZiBtYW5hZ2luZywgYXNzZXNzaW5nLCBhZHZpc2luZyBvbiBhbmQgZGV0ZXJtaW5pbmcgdGhlIGFwcGxpY2F0aW9uLjxiciAvPgpZb3UgYXV0aG9yaXNlIHRoZSBDb3VuY2lsIHRvOjxiciAvPgo8YnIgLz4KPGRpdiBzdHlsZT0ibWFyZ2luLWxlZnQ6IDIwcHg7Ij4KPGRpdiBzdHlsZT0iZmxvYXQ6IGxlZnQ7IGhlaWdodDogMi4yZW07IHdpZHRoOiAyMHB4OyI%2BJmJ1bGw7PC9kaXY%2BCjxkaXYgc3R5bGU9ImRpc3BsYXk6IGlubGluZTsiPk1ha2UgYXZhaWxhYmxlIHRoZSBhcHBsaWNhdGlvbiBhbmQgYW55IGFuZCBhbGwgaW5mb3JtYXRpb24sIHJlcG9ydHMsIHBsYW5zIGFuZCBtYXRlcmlhbHMgcHJvdmlkZWQgd2l0aCBvciBhcyBwYXJ0IG9mIHRoZSBhcHBsaWNhdGlvbiBpbiBlbGVjdHJvbmljIGZvcm0gb24gdGhlIENvdW5jaWwmcnNxdW87cyB3ZWJzaXRlIGFuZCBpbiBoYXJkIGNvcHkgYXQgdGhlIENvdW5jaWwmcnNxdW87cyBvZmZpY2U7PC9kaXY%2BCjwvZGl2Pgo8ZGl2IHN0eWxlPSJtYXJnaW4tbGVmdDogMjBweDsiPgo8ZGl2IHN0eWxlPSJmbG9hdDogbGVmdDsgaGVpZ2h0OiAyLjJlbTsgd2lkdGg6IDIwcHg7Ij4mYnVsbDs8L2Rpdj4KPGRpdiBzdHlsZT0iZGlzcGxheTogaW5saW5lOyI%2BTWFrZSBzdWNoIGNvcGllcyBvZiB0aGUgYXBwbGljYXRpb24gYW5kIGFueSBhbmQgYWxsIGluZm9ybWF0aW9uLCByZXBvcnRzLCBwbGFucyBhbmQgbWF0ZXJpYWxzIHByb3ZpZGVkIHdpdGggb3IgYXMgcGFydCBvZiB0aGUgYXBwbGljYXRpb24gd2hpY2ggYXJlLCBpbiB0aGUgQ291bmNpbCZyc3F1bztzIG9waW5pb24sIG5lY2Vzc2FyeSB0byBmYWNpbGl0YXRlIGEgY29uc2lkZXJhdGlvbiBvZiB0aGUgYXBwbGljYXRpb247IGFuZDwvZGl2Pgo8L2Rpdj4KPGRpdiBzdHlsZT0ibWFyZ2luLWxlZnQ6IDIwcHg7Ij4KPGRpdiBzdHlsZT0iZmxvYXQ6IGxlZnQ7IGhlaWdodDogMi4yZW07IHdpZHRoOiAyMHB4OyI%2BJmJ1bGw7PC9kaXY%2BCjxkaXYgc3R5bGU9ImRpc3BsYXk6IGlubGluZTsiPlB1Ymxpc2ggYW5kIG9yIHJlcHJvZHVjZSB0aGUgYXBwbGljYXRpb24gYW5kIGFueSBhbmQgYWxsIGluZm9ybWF0aW9uLCByZXBvcnRzLCBwbGFucyBhbmQgbWF0ZXJpYWxzIHByb3ZpZGVkIHdpdGggb3IgYXMgcGFydCBvZiB0aGUgYXBwbGljYXRpb24gaW4gQ291bmNpbCBhZ2VuZGFzLCBmb3IgcmVwcmVzZW50b3JzLCByZWZlcnJhbCBhZ2VuY2llcyBhbmQgb3RoZXIgcGVyc29ucyBpbnRlcmVzdGVkIGluIHRoZSBhcHBsaWNhdGlvbi4gPC9kaXY%2BCjwvZGl2Pgo8YnIgLz4KWW91IGluZGVtbmlmeSB0aGUgQ291bmNpbCBmb3IgYW55IGNsYWltIG9yIGFjdGlvbiB0YWtlbiBhZ2FpbnN0IHRoZSBDb3VuY2lsIGZvciBicmVhY2ggb2YgY29weXJpZ2h0IGluIHJlc3BlY3Qgb2YgdGhlIGFwcGxpY2F0aW9uIGFuZCBhbnkgYW5kIGFsbCBpbmZvcm1hdGlvbiwgcmVwb3J0LCBwbGFuIGFuZCBtYXRlcmlhbCBwcm92aWRlZCB3aXRoIG9yIGFzIHBhcnQgb2YgdGhlIGFwcGxpY2F0aW9uLjxiciAvPgo8YnIgLz4KPHN0cm9uZz5BY2N1cmFjeSBvZiBJbmZvcm1hdGlvbiA8L3N0cm9uZz48YnIgLz4KVGhlIGluZm9ybWF0aW9uIG9uIHRoaXMgc2l0ZSBpcyBwcm92aWRlZCBzb2xlbHkgb24gdGhlIGJhc2lzIHRoYXQgeW91IHdpbGwgYmUgcmVzcG9uc2libGUgZm9yIG1ha2luZyB5b3VyIG93biBhc3Nlc3NtZW50IG9mIHRoZSBjb250ZW50LiAgWW91IGFyZSByZXNwb25zaWJsZSBmb3IgdmVyaWZ5aW5nIGFsbCByZWxldmFudCBzdGF0ZW1lbnRzIGFuZCBpbmZvcm1hdGlvbiBhbmQgb2J0YWluaW5nIGluZGVwZW5kZW50IGFkdmljZSBiZWZvcmUgYWN0aW5nIG9uIGFueSBpbmZvcm1hdGlvbiBjb250YWluZWQgaW4gb3IgaW4gY29ubmVjdGlvbiB3aXRoIHRoaXMgc2l0ZS4gV2hpbHN0IGV2ZXJ5IGVmZm9ydCBoYXMgYmVlbiBtYWRlIHRvIGVuc3VyZSB0aGF0IHRoZSBpbmZvcm1hdGlvbiBpcyBhY2N1cmF0ZSwgdGhlIENvdW5jaWwgbWFrZXMgbm8gY2xhaW0gYXMgdG8gdGhlIGFjY3VyYWN5IG9mIGFueSBpbmZvcm1hdGlvbiBvbiB0aGlzIHNpdGUuIFlvdSBpbmRlbW5pZnkgdGhlIENvdW5jaWwsIGl0cyBlbXBsb3llZXMgYW5kIGFnZW50cyBmb3IgYW55IGxvc3Mgb3IgZGFtYWdlLCB3aGV0aGVyIGNhdXNlZCB0aHJvdWdoIG5lZ2xpZ2VuY2Ugb3Igb3RoZXJ3aXNlLCB3aGljaCBtYXkgYmUgaW5jdXJyZWQgZnJvbSB0aGUgdXNlIG9mLCBvciByZWxpYW5jZSBvbiBpbmZvcm1hdGlvbiBhdmFpbGFibGUgb24gdGhpcyBzaXRlLiBVc2Ugb2YgSW5mb3JtYXRpb24gVGhlIGluZm9ybWF0aW9uIG9uIHRoZSBzaXRlIG1heSBiZSB1c2VkIGZvciBzdWJtaXR0aW5nIGFuZCB0cmFja2luZyBhcHBsaWNhdGlvbnMgb25seSBhbmQgeW91IGFyZSBhdXRob3Jpc2VkIHRvIHVzZSB0aGUgaW5mb3JtYXRpb24gb2J0YWluZWQgb24gdGhpcyBzaXRlIGZvciBub24tY29tbWVyY2lhbCBwdXJwb3NlcyBvbmx5LiA8YnIgLz4KPGJyIC8%2BCjxzdHJvbmc%2BVXNlIG9mIEluZm9ybWF0aW9uPC9zdHJvbmc%2BPGJyIC8%2BClRoZSBpbmZvcm1hdGlvbiBvbiB0aGUgc2l0ZSBtYXkgYmUgdXNlZCBmb3Igc3VibWl0dGluZyBhbmQgdHJhY2tpbmcgYXBwbGljYXRpb25zIG9ubHkgYW5kIHlvdSBhcmUgYXV0aG9yaXNlZCB0byB1c2UgdGhlIGluZm9ybWF0aW9uIG9idGFpbmVkIG9uIHRoaXMgc2l0ZSBmb3Igbm9uLWNvbW1lcmNpYWwgcHVycG9zZXMgb25seS48YnIgLz4KPGJyIC8%2BCjxzdHJvbmc%2BUGVyc29uYWwgSW5mb3JtYXRpb24gUHJvdGVjdGlvbiBBY3QgMjAwNDwvc3Ryb25nPjxiciAvPgpUaGUgcGVyc29uYWwgaW5mb3JtYXRpb24gcmVxdWVzdGVkIGlzIHBlcnNvbmFsIGluZm9ybWF0aW9uIGZvciB0aGUgcHVycG9zZXMgb2YgdGhlIFBlcnNvbmFsIEluZm9ybWF0aW9uIFByb3RlY3Rpb24gQWN0IDIwMDQgKCZsZHF1bzt0aGUgQWN0JnJkcXVvOykgYW5kIHdpbGwgYmUgbWFuYWdlZCBpbiBhY2NvcmRhbmNlIHdpdGggdGhlIEFjdC4KVGhlIHBlcnNvbmFsIGluZm9ybWF0aW9uIGlzIGJlaW5nIGNvbGxlY3RlZCBieSB0aGUgQ2l0eSBvZiBIb2JhcnQgICgmbGRxdW87dGhlIENvdW5jaWwmcmRxdW87KSBmb3IgdGhlIHB1cnBvc2VzIG9mIG1hbmFnaW5nLCBhc3Nlc3NpbmcsIGFkdmlzaW5nIG9uIGFuZCBkZXRlcm1pbmluZyB0aGUgcmVsZXZhbnQgYXBwbGljYXRpb24gaW4gYWNjb3JkYW5jZSB3aXRoIHRoZSBMYW5kIFVzZSBQbGFubmluZyBhbmQgQXBwcm92YWxzIEFjdCAxOTkzIGFuZCBvdGhlciByZWxhdGVkIHB1cnBvc2VzLiAgVGhlIHBlcnNvbmFsIGluZm9ybWF0aW9uIG1heSBhbHNvIGJlIHVzZWQgZm9yIHRoZSBwdXJwb3NlIG9mIGRhdGEgY29sbGVjdGlvbi4gIDxiciAvPgpUaGUgaW50ZW5kZWQgcmVjaXBpZW50cyBvZiB0aGUgcGVyc29uYWwgaW5mb3JtYXRpb24gYXJlIENvdW5jaWwgb2ZmaWNlcnMsIGFnZW50cyBvZiB0aGUgQ291bmNpbCBhbmQvb3IgZGF0YSBzZXJ2aWNlIHByb3ZpZGVycyBhbmQgY29udHJhY3RvcnMgZW5nYWdlZCBieSB0aGUgQ291bmNpbCBmcm9tIHRpbWUgdG8gdGltZS48YnIgLz4KVGhlIGluZm9ybWF0aW9uIG1heSBhbHNvIGJlIG1hZGUgcHVibGljYWxseSBhdmFpbGFibGUgb24gdGhlIENvdW5jaWwmcnNxdW87cyB3ZWJzaXRlIGFuZCBhdmFpbGFibGUgZm9yIGFueSBwZXJzb24gdG8gaW5zcGVjdCBpbiBhY2NvcmRhbmNlIHdpdGggc2VjdGlvbiA1NyBvZiB0aGUgTGFuZCBVc2UgUGxhbm5pbmcgYW5kIEFwcHJvdmFscyBBY3QgMTk5My4KVGhlIHN1cHBseSBvZiB0aGlzIGluZm9ybWF0aW9uIGlzIHZvbHVudGFyeS4gIEhvd2V2ZXIsIGlmIHlvdSBjYW5ub3QgcHJvdmlkZSBvciBkbyBub3Qgd2lzaCB0byBwcm92aWRlIHRoZSBpbmZvcm1hdGlvbiBzb3VnaHQsIHRoZSBDb3VuY2lsIHdpbGwgYmUgdW5hYmxlIHRvIGFjY2VwdCBhbmQvb3IgcHJvY2VzcyB5b3VyIGFwcGxpY2F0aW9uLiAgPGJyIC8%2BCjxiciAvPgo8c3Ryb25nPk1vZGlmaWNhdGlvbiwgQW1lbmRtZW50IG9yIFZhcmlhdGlvbiB0byBUZXJtcyBvZiBVc2U8L3N0cm9uZz48YnIgLz4KVGhlIENvdW5jaWwgbWF5IG1vZGlmeSwgYW1lbmQgb3IgdmFyeSB0aGVzZSB0ZXJtcyBhbmQgY29uZGl0aW9ucyBhdCBhbnkgdGltZSBhdCB0aGUgQ291bmNpbCZyc3F1bztzIGFic29sdXRlIGRpc2NyZXRpb24gYnkgcG9zdGluZyB0aGUgbW9kaWZpY2F0aW9uLCBhbWVuZG1lbnQgb3IgdmFyaWF0aW9uIG9uIGl0cyB3ZWJzaXRlLgpUaGUgQ291bmNpbCBtYXksIGF0IGl0cyBhYnNvbHV0ZSBkaXNjcmV0aW9uLCBzdXNwZW5kLCByZXBsYWNlIG9yIHRlcm1pbmF0ZSB0aGlzIHNpdGUuIDxiciAvPgpZb3UgaW5kZW1uaWZ5IHRoZSBDb3VuY2lsIGZvciBhbnkgbG9zcyBvciBkYW1hZ2Ugd2hpY2ggbWF5IGJlIGluY3VycmVkIGZyb20gdGhlIG1vZGlmaWNhdGlvbiwgYW1lbmRtZW50LCB2YXJpYXRpb24sIHN1c3BlbnNpb24sIHJlcGxhY2VtZW50IG9mIHRlcm1pbmF0aW9uIG9mIHRoZSBzaXRlLjwvZGl2PmQCCQ8WAh8BZWRkf%2BUJYKbIKU4PptqyMtcrpmvqcjg%3D&__VIEWSTATEGENERATOR=A8DC4E82&__EVENTVALIDATION=%2FwEdAANW4qV0K8OXJcqspO1yaJ8IRN3IHP978JyB8nnPGPiPCD9XFS9pW1AKGZILcM4HQynkRi7vCVZxh3cHOVip9lLdZ8E4gA%3D%3D&ctl00%24ctMain%24BtnAgree=I+Agree
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=hwk5o12r0vrxdpvnfqhuxuyd
+      Host:
+      - apply.hobartcity.com.au
+      Referer:
+      - https://apply.hobartcity.com.au/Common/Common/terms.aspx
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '7260'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Encoding:
+      - gzip,gzip
+      Location:
+      - https://apply.hobartcity.com.au/Pages/XC.Home/Home.aspx
+      X-Ua-Compatible:
+      - IE=9,10,11
+      Date:
+      - Sun, 09 Jun 2019 14:38:06 GMT
+      Content-Length:
+      - '152'
+      Strict-Transport-Security:
+      - max-age=157680000
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAFWOsQ7CMAxE90r9h6gfYEsdkcnCwgYjq5saXNQoUWsQ+XsaOrGcdKcnvSO1OHtS4dGTTTaLvwxPCeZiestIuG+EOzGksfi2Ie3/MGfJETtd5H7s1CyvB0TOeS6gaeDFwmQFQorAL7zyQ1a8neCcomAN4DV/Oq+yCCF72Gx9teBPt7X6sW2+lq2YN6wAAAA=
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://apply.hobartcity.com.au/Pages/XC.Home/Home.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=hwk5o12r0vrxdpvnfqhuxuyd
+      Host:
+      - apply.hobartcity.com.au
+      Referer:
+      - https://apply.hobartcity.com.au/Common/Common/terms.aspx
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Ua-Compatible:
+      - IE=9,10,11
+      Date:
+      - Sun, 09 Jun 2019 14:38:06 GMT
+      Cteonnt-Length:
+      - '16719'
+      Strict-Transport-Security:
+      - max-age=157680000
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '5451'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://apply.hobartcity.com.au/Pages/XC.Track/SearchApplication.aspx?d=last14days&k=LodgementDate&o=xml&t=PLN
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=hwk5o12r0vrxdpvnfqhuxuyd
+      Host:
+      - apply.hobartcity.com.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/xml; charset=utf-8
+      X-Ua-Compatible:
+      - IE=9,10,11
+      Date:
+      - Sun, 09 Jun 2019 14:38:08 GMT
+      Content-Length:
+      - '80848'
+      Strict-Transport-Security:
+      - max-age=157680000
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\"?><NewDataSet>\r\n  <Application>\r\n    <ApplicationId>180066</ApplicationId>\r\n
+        \   <ApplicationType>Planning</ApplicationType>\r\n    <NatureOfApplication>PLN</NatureOfApplication>\r\n
+        \   <ReferenceNumber>PLN-19-336</ReferenceNumber>\r\n    <ReferenceNumberYear
+        />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>200000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-06-05T11:25:01.647+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-06-05T10:44:58.647+10:00</SubmittedDate>\r\n    <ApplicationDetails>Partial
+        Demolition and Alterations</ApplicationDetails>\r\n    <OfficerId>u1395</OfficerId>\r\n
+        \   <Officer>Michael McClenahan</Officer>\r\n    <aoOfficerId>1395</aoOfficerId>\r\n
+        \   <aoOfficer>Michael McClenahan</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>5</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92324</pkProject>\r\n
+        \   <ApplicationIdS>180066</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>180066</ApplicationId>\r\n
+        \     <fkApplicationId>180065</fkApplicationId>\r\n      <Line1>2 CHURCHILL
+        AVENUE</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>212890</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>212890</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79637</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>180066</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>173821</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-335</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>16000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-06-05T08:15:21.973+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-06-04T21:40:57.65+10:00</SubmittedDate>\r\n    <ApplicationDetails>Partial
+        Demolition and Alterations</ApplicationDetails>\r\n    <OfficerId>u2417</OfficerId>\r\n
+        \   <Officer>Mark O'Brien</Officer>\r\n    <aoOfficerId>2417</aoOfficerId>\r\n
+        \   <aoOfficer>Mark O'Brien</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>5</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92320</pkProject>\r\n
+        \   <ApplicationIdS>173821</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>173821</ApplicationId>\r\n
+        \     <fkApplicationId>173820</fkApplicationId>\r\n      <Line1>71 A NEW TOWN
+        ROAD</Line1>\r\n      <Line2>NEW TOWN TAS 7008</Line2>\r\n      <Postcode>
+        7008</Postcode>\r\n      <LocalityName>NEW TOWN</LocalityName>\r\n      <LocationId>130090</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>130090</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>75439</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>173821</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179942</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-334</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>300000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-06-04T14:58:46.147+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-06-04T14:43:28.053+10:00</SubmittedDate>\r\n    <ApplicationDetails>Partial
+        Demolition, Alterations, Signage and Change of Use to Storage</ApplicationDetails>\r\n
+        \   <OfficerId>u2533</OfficerId>\r\n    <Officer>Victoria Maxwell</Officer>\r\n
+        \   <aoOfficerId>2533</aoOfficerId>\r\n    <aoOfficer>Victoria Maxwell</aoOfficer>\r\n
+        \   <ContactId />\r\n    <Contact />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n
+        \   <DADays>6</DADays>\r\n    <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92304</pkProject>\r\n
+        \   <ApplicationIdS>179942</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179942</ApplicationId>\r\n
+        \     <fkApplicationId>179941</fkApplicationId>\r\n      <Line1>27  - 29   FEDERAL
+        STREET</Line1>\r\n      <Line2>NORTH HOBART TAS 7000</Line2>\r\n      <Postcode>
+        7000</Postcode>\r\n      <LocalityName>NORTH HOBART</LocalityName>\r\n      <LocationId>122335</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>122335</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79445</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179942</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179942</ApplicationId>\r\n      <fkApplicationId>179941</fkApplicationId>\r\n
+        \     <Line1>27  - 29   FEDERAL STREET</Line1>\r\n      <Line2>NORTH HOBART
+        TAS 7000</Line2>\r\n      <Postcode> 7000</Postcode>\r\n      <LocalityName>NORTH
+        HOBART</LocalityName>\r\n      <LocationId>122335</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>122335</PPRSPropertyId>\r\n      <pkApplicationLocation>79446</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179942</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179942</ApplicationId>\r\n
+        \     <fkApplicationId>179941</fkApplicationId>\r\n      <Line1>27  - 29   FEDERAL
+        STREET</Line1>\r\n      <Line2>NORTH HOBART TAS 7000</Line2>\r\n      <Postcode>
+        7000</Postcode>\r\n      <LocalityName>NORTH HOBART</LocalityName>\r\n      <LocationId>122335</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>122335</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79447</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179942</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179942</ApplicationId>\r\n      <fkApplicationId>179941</fkApplicationId>\r\n
+        \     <Line1>27  - 29   FEDERAL STREET</Line1>\r\n      <Line2>NORTH HOBART
+        TAS 7000</Line2>\r\n      <Postcode> 7000</Postcode>\r\n      <LocalityName>NORTH
+        HOBART</LocalityName>\r\n      <LocationId>122335</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>122335</PPRSPropertyId>\r\n      <pkApplicationLocation>79448</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179942</ApplicationIdS>\r\n
+        \   </Address>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>173401</ApplicationId>\r\n
+        \   <ApplicationType>Planning</ApplicationType>\r\n    <NatureOfApplication>PLN</NatureOfApplication>\r\n
+        \   <ReferenceNumber>PLN-19-333</ReferenceNumber>\r\n    <ReferenceNumberYear
+        />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>45000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-06-04T10:53:29.047+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-06-04T10:30:01.73+10:00</SubmittedDate>\r\n    <ApplicationDetails>Partial
+        Demolition, Alterations and Extension</ApplicationDetails>\r\n    <OfficerId>u73</OfficerId>\r\n
+        \   <Officer>Tristan Widdowson</Officer>\r\n    <aoOfficerId>73</aoOfficerId>\r\n
+        \   <aoOfficer>Tristan Widdowson</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>6</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92301</pkProject>\r\n
+        \   <ApplicationIdS>173401</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>173401</ApplicationId>\r\n
+        \     <fkApplicationId>173400</fkApplicationId>\r\n      <Line1>16   OBERON
+        COURT</Line1>\r\n      <Line2>DYNNYRNE TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>DYNNYRNE</LocalityName>\r\n      <LocationId>102050</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>102050</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>75269</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>173401</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179986</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-332</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>20000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-06-04T08:09:42.44+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-06-03T16:38:11+10:00</SubmittedDate>\r\n    <ApplicationDetails>Partial
+        Demolition, Alterations and Extension</ApplicationDetails>\r\n    <OfficerId>u63</OfficerId>\r\n
+        \   <Officer>Liz Wilson</Officer>\r\n    <aoOfficerId>63</aoOfficerId>\r\n
+        \   <aoOfficer>Liz Wilson</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>6</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92287</pkProject>\r\n
+        \   <ApplicationIdS>179986</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179986</ApplicationId>\r\n
+        \     <fkApplicationId>179985</fkApplicationId>\r\n      <Line1>91   LETITIA
+        STREET</Line1>\r\n      <Line2>NORTH HOBART TAS 7000</Line2>\r\n      <Postcode>
+        7000</Postcode>\r\n      <LocalityName>NORTH HOBART</LocalityName>\r\n      <LocationId>126810</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>126810</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79489</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179986</ApplicationIdS>\r\n    </Address>\r\n    <Event>\r\n
+        \     <ApplicationId>179986</ApplicationId>\r\n      <EventId>537841</EventId>\r\n
+        \     <ProjectId>92287</ProjectId>\r\n      <DateOpen>2019-06-11T00:00:00+10:00</DateOpen>\r\n
+        \     <DateClose>2019-06-25T00:00:00+10:00</DateClose>\r\n      <ControlType>5271</ControlType>\r\n
+        \     <Type>Event Started</Type>\r\n      <EventCode>10515</EventCode>\r\n
+        \     <Description>Public Notification</Description>\r\n      <TodaysDate>2019-06-10T00:38:08.233+10:00</TodaysDate>\r\n
+        \     <TableName>ApplicationNotification</TableName>\r\n      <ApplicationIdS>179986</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>179984</ApplicationId>\r\n
+        \   <ApplicationType>Planning</ApplicationType>\r\n    <NatureOfApplication>PLN</NatureOfApplication>\r\n
+        \   <ReferenceNumber>PLN-19-331</ReferenceNumber>\r\n    <ReferenceNumberYear
+        />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>3000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-06-04T08:07:25.33+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-06-03T16:55:21.757+10:00</SubmittedDate>\r\n    <ApplicationDetails>Outbuilding</ApplicationDetails>\r\n
+        \   <OfficerId>u2533</OfficerId>\r\n    <Officer>Victoria Maxwell</Officer>\r\n
+        \   <aoOfficerId>2533</aoOfficerId>\r\n    <aoOfficer>Victoria Maxwell</aoOfficer>\r\n
+        \   <ContactId />\r\n    <Contact />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n
+        \   <DADays>6</DADays>\r\n    <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92286</pkProject>\r\n
+        \   <ApplicationIdS>179984</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179984</ApplicationId>\r\n
+        \     <fkApplicationId>179983</fkApplicationId>\r\n      <Line1>132   NEW
+        TOWN ROAD</Line1>\r\n      <Line2>NEW TOWN TAS 7008</Line2>\r\n      <Postcode>
+        7008</Postcode>\r\n      <LocalityName>NEW TOWN</LocalityName>\r\n      <LocationId>130775</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>130775</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79488</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179984</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179280</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-330</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>60000.0000</EstimatedCost>\r\n
+        \   <StatusText>Allocated</StatusText>\r\n    <Status>3201</Status>\r\n    <Current
+        />\r\n    <LodgementDate>2019-06-03T16:41:28.31+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-06-03T16:27:53.393+10:00</SubmittedDate>\r\n    <ApplicationDetails>Signage</ApplicationDetails>\r\n
+        \   <OfficerId>u73</OfficerId>\r\n    <Officer>Tristan Widdowson</Officer>\r\n
+        \   <aoOfficerId>73</aoOfficerId>\r\n    <aoOfficer>Tristan Widdowson</aoOfficer>\r\n
+        \   <ContactId />\r\n    <Contact />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n
+        \   <DADays>7</DADays>\r\n    <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92283</pkProject>\r\n
+        \   <ApplicationIdS>179280</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179280</ApplicationId>\r\n
+        \     <fkApplicationId>179279</fkApplicationId>\r\n      <Line1>MELVILLE STREET</Line1>\r\n
+        \     <Line2>HOBART TAS 7000</Line2>\r\n      <Postcode> 7000</Postcode>\r\n
+        \     <LocalityName>HOBART</LocalityName>\r\n      <LocationId>200555</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>200555</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79509</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179280</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179280</ApplicationId>\r\n      <fkApplicationId>179279</fkApplicationId>\r\n
+        \     <Line1>ROAD RESERVE  ()</Line1>\r\n      <Line2 />\r\n      <Postcode
+        />\r\n      <LocalityName />\r\n      <LocationId>261355</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>261355</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79510</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179280</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179988</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-329</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>130000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-06-03T15:40:13.02+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-06-03T15:12:44.217+10:00</SubmittedDate>\r\n    <ApplicationDetails>Partial
+        Demolition and Alterations</ApplicationDetails>\r\n    <OfficerId>u1395</OfficerId>\r\n
+        \   <Officer>Michael McClenahan</Officer>\r\n    <aoOfficerId>1395</aoOfficerId>\r\n
+        \   <aoOfficer>Michael McClenahan</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>7</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92278</pkProject>\r\n
+        \   <ApplicationIdS>179988</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179988</ApplicationId>\r\n
+        \     <fkApplicationId>179987</fkApplicationId>\r\n      <Line1>92   GROSVENOR
+        STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>175565</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>175565</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79490</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179988</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179982</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-328</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>70000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-06-03T15:31:55.143+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-06-03T14:23:35.343+10:00</SubmittedDate>\r\n    <ApplicationDetails>Partial
+        Demolition, Outbuilding and Alterations to Car Parking</ApplicationDetails>\r\n
+        \   <OfficerId>u63</OfficerId>\r\n    <Officer>Liz Wilson</Officer>\r\n    <aoOfficerId>63</aoOfficerId>\r\n
+        \   <aoOfficer>Liz Wilson</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>7</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92277</pkProject>\r\n
+        \   <ApplicationIdS>179982</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179982</ApplicationId>\r\n
+        \     <fkApplicationId>179981</fkApplicationId>\r\n      <Line1>1   FISHER
+        LANE</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>218930</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>218930</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79487</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179982</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179930</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-327</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>0.0000</EstimatedCost>\r\n
+        \   <StatusText>Allocated</StatusText>\r\n    <Status>3201</Status>\r\n    <Current
+        />\r\n    <LodgementDate>2019-06-03T14:15:49.943+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-06-03T13:49:16.94+10:00</SubmittedDate>\r\n    <ApplicationDetails>Partial
+        Change of Use to Visitor Accommodation</ApplicationDetails>\r\n    <OfficerId>u530</OfficerId>\r\n
+        \   <Officer>Helen Ayers</Officer>\r\n    <aoOfficerId>530</aoOfficerId>\r\n
+        \   <aoOfficer>Helen Ayers</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>7</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92272</pkProject>\r\n
+        \   <ApplicationIdS>179930</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179930</ApplicationId>\r\n
+        \     <fkApplicationId>179929</fkApplicationId>\r\n      <Line1>59  - 61   YORK
+        STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>192705</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>192705</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79432</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179930</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179930</ApplicationId>\r\n      <fkApplicationId>179929</fkApplicationId>\r\n
+        \     <Line1>59  - 61   YORK STREET</Line1>\r\n      <Line2>SANDY BAY TAS
+        7005</Line2>\r\n      <Postcode> 7005</Postcode>\r\n      <LocalityName>SANDY
+        BAY</LocalityName>\r\n      <LocationId>192705</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>192705</PPRSPropertyId>\r\n      <pkApplicationLocation>79433</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179930</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179930</ApplicationId>\r\n
+        \     <fkApplicationId>179929</fkApplicationId>\r\n      <Line1>59  - 61   YORK
+        STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>192705</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>192705</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79434</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179930</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179738</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-326</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>2500.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-06-03T14:09:23.873+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-06-03T13:36:15.44+10:00</SubmittedDate>\r\n    <ApplicationDetails>Partial
+        Demolition and Alterations</ApplicationDetails>\r\n    <OfficerId>u66</OfficerId>\r\n
+        \   <Officer>Deanne Lang</Officer>\r\n    <aoOfficerId>66</aoOfficerId>\r\n
+        \   <aoOfficer>Deanne Lang</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>7</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92271</pkProject>\r\n
+        \   <ApplicationIdS>179738</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179738</ApplicationId>\r\n
+        \     <fkApplicationId>179737</fkApplicationId>\r\n      <Line1>321  - 323
+        \  ELIZABETH STREET</Line1>\r\n      <Line2>NORTH HOBART TAS 7000</Line2>\r\n
+        \     <Postcode> 7000</Postcode>\r\n      <LocalityName>NORTH HOBART</LocalityName>\r\n
+        \     <LocationId>197320</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>197320</PPRSPropertyId>\r\n      <pkApplicationLocation>79506</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179738</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179738</ApplicationId>\r\n
+        \     <fkApplicationId>179737</fkApplicationId>\r\n      <Line1>321  - 323
+        \  ELIZABETH STREET</Line1>\r\n      <Line2>NORTH HOBART TAS 7000</Line2>\r\n
+        \     <Postcode> 7000</Postcode>\r\n      <LocalityName>NORTH HOBART</LocalityName>\r\n
+        \     <LocationId>197320</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>197320</PPRSPropertyId>\r\n      <pkApplicationLocation>79507</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179738</ApplicationIdS>\r\n
+        \   </Address>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>179966</ApplicationId>\r\n
+        \   <ApplicationType>Planning</ApplicationType>\r\n    <NatureOfApplication>PLN</NatureOfApplication>\r\n
+        \   <ReferenceNumber>PLN-19-325</ReferenceNumber>\r\n    <ReferenceNumberYear
+        />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>175000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-06-03T13:06:36.833+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-06-03T12:50:09.677+10:00</SubmittedDate>\r\n    <ApplicationDetails>Partial
+        Demolition, Alterations and Extension</ApplicationDetails>\r\n    <OfficerId>u65</OfficerId>\r\n
+        \   <Officer>Cameron Sherriff</Officer>\r\n    <aoOfficerId>65</aoOfficerId>\r\n
+        \   <aoOfficer>Cameron Sherriff</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>7</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92267</pkProject>\r\n
+        \   <ApplicationIdS>179966</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179966</ApplicationId>\r\n
+        \     <fkApplicationId>179965</fkApplicationId>\r\n      <Line1>2   FRENCH
+        STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>174995</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>174995</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79467</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179966</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179502</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-324</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>7000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-06-03T10:41:20.54+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-06-03T10:39:09.503+10:00</SubmittedDate>\r\n    <ApplicationDetails>Alterations</ApplicationDetails>\r\n
+        \   <OfficerId>u1199</OfficerId>\r\n    <Officer>Adam Smee</Officer>\r\n    <aoOfficerId>1199</aoOfficerId>\r\n
+        \   <aoOfficer>Adam Smee</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>7</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92259</pkProject>\r\n
+        \   <ApplicationIdS>179502</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179502</ApplicationId>\r\n
+        \     <fkApplicationId>179501</fkApplicationId>\r\n      <Line1>3   ARGYLE
+        STREET</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n      <Postcode>
+        7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n      <LocationId>193715</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>193715</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79505</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179502</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179902</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-323</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>1500000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-06-03T08:43:24.177+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-31T14:43:21.93+10:00</SubmittedDate>\r\n    <ApplicationDetails>Change
+        of Use to Visitor Accommodation (Bed and Breakfast)</ApplicationDetails>\r\n
+        \   <OfficerId>u65</OfficerId>\r\n    <Officer>Cameron Sherriff</Officer>\r\n
+        \   <aoOfficerId>65</aoOfficerId>\r\n    <aoOfficer>Cameron Sherriff</aoOfficer>\r\n
+        \   <ContactId />\r\n    <Contact />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n
+        \   <DADays>7</DADays>\r\n    <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92253</pkProject>\r\n
+        \   <ApplicationIdS>179902</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179902</ApplicationId>\r\n
+        \     <fkApplicationId>179901</fkApplicationId>\r\n      <Line1>45   KELLY
+        STREET</Line1>\r\n      <Line2>BATTERY POINT TAS 7004</Line2>\r\n      <Postcode>
+        7004</Postcode>\r\n      <LocalityName>BATTERY POINT</LocalityName>\r\n      <LocationId>160505</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>160505</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79416</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179902</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179876</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-322</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>200000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-31T12:22:06.113+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-31T12:11:04.293+10:00</SubmittedDate>\r\n    <ApplicationDetails>Partial
+        Demolition and Alterations</ApplicationDetails>\r\n    <OfficerId>u2533</OfficerId>\r\n
+        \   <Officer>Victoria Maxwell</Officer>\r\n    <aoOfficerId>2533</aoOfficerId>\r\n
+        \   <aoOfficer>Victoria Maxwell</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>10</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92241</pkProject>\r\n
+        \   <ApplicationIdS>179876</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179876</ApplicationId>\r\n
+        \     <fkApplicationId>179875</fkApplicationId>\r\n      <Line1>79   PRINCES
+        STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>183845</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>183845</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79401</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179876</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179810</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-321</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>240000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-31T12:02:03.897+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-31T11:17:12.14+10:00</SubmittedDate>\r\n    <ApplicationDetails>Access
+        Road and Carparking</ApplicationDetails>\r\n    <OfficerId>u530</OfficerId>\r\n
+        \   <Officer>Helen Ayers</Officer>\r\n    <aoOfficerId>530</aoOfficerId>\r\n
+        \   <aoOfficer>Helen Ayers</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>10</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92239</pkProject>\r\n
+        \   <ApplicationIdS>179810</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179810</ApplicationId>\r\n
+        \     <fkApplicationId>179809</fkApplicationId>\r\n      <Line1>2 CHURCHILL
+        AVENUE</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>257055</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>257055</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79441</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179810</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179810</ApplicationId>\r\n      <fkApplicationId>179809</fkApplicationId>\r\n
+        \     <Line1>2 CHURCHILL AVENUE</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n
+        \     <Postcode> 7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n
+        \     <LocationId>257055</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>257055</PPRSPropertyId>\r\n      <pkApplicationLocation>79442</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179810</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179810</ApplicationId>\r\n
+        \     <fkApplicationId>179809</fkApplicationId>\r\n      <Line1>2 CHURCHILL
+        AVENUE</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>257055</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>257055</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79443</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179810</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179836</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-320</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>350000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-31T09:31:29.42+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-31T08:42:27.963+10:00</SubmittedDate>\r\n    <ApplicationDetails>Partial
+        Demolition, Alterations and Extension</ApplicationDetails>\r\n    <OfficerId>u1395</OfficerId>\r\n
+        \   <Officer>Michael McClenahan</Officer>\r\n    <aoOfficerId>1395</aoOfficerId>\r\n
+        \   <aoOfficer>Michael McClenahan</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>10</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92233</pkProject>\r\n
+        \   <ApplicationIdS>179836</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179836</ApplicationId>\r\n
+        \     <fkApplicationId>179835</fkApplicationId>\r\n      <Line1>49   MONTAGU
+        STREET</Line1>\r\n      <Line2>LENAH VALLEY TAS 7008</Line2>\r\n      <Postcode>
+        7008</Postcode>\r\n      <LocalityName>LENAH VALLEY</LocalityName>\r\n      <LocationId>128405</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>128405</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79375</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179836</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179370</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-319</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>9800000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-31T09:22:26.787+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-31T08:21:26.683+10:00</SubmittedDate>\r\n    <ApplicationDetails>Demolition,
+        New Building for 33 Multiple Dwellings and 21 Visitor Accommodation Units
+        including Carparking, and Associated Works</ApplicationDetails>\r\n    <OfficerId>u1199</OfficerId>\r\n
+        \   <Officer>Adam Smee</Officer>\r\n    <aoOfficerId>1199</aoOfficerId>\r\n
+        \   <aoOfficer>Adam Smee</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>10</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92232</pkProject>\r\n
+        \   <ApplicationIdS>179370</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179370</ApplicationId>\r\n
+        \     <fkApplicationId>179369</fkApplicationId>\r\n      <Line1>63 DAVEY STREET</Line1>\r\n
+        \     <Line2>HOBART TAS 7000</Line2>\r\n      <Postcode> 7000</Postcode>\r\n
+        \     <LocalityName>HOBART</LocalityName>\r\n      <LocationId>196695</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>196695</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79132</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179370</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179840</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-318</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>0.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-31T09:08:01.03+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-31T08:38:24.96+10:00</SubmittedDate>\r\n    <ApplicationDetails>Subdivision
+        (Boundary Adjustment)</ApplicationDetails>\r\n    <OfficerId>u71</OfficerId>\r\n
+        \   <Officer>Richard Bacon</Officer>\r\n    <aoOfficerId>71</aoOfficerId>\r\n
+        \   <aoOfficer>Richard Bacon</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>10</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92230</pkProject>\r\n
+        \   <ApplicationIdS>179840</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179840</ApplicationId>\r\n
+        \     <fkApplicationId>179839</fkApplicationId>\r\n      <Line1>49  - 51 MURRAY
+        STREET (CAT &amp; FIDDLE ARCADE)</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n
+        \     <Postcode> 7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n
+        \     <LocationId>258025</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>258025</PPRSPropertyId>\r\n      <pkApplicationLocation>79377</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179840</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179840</ApplicationId>\r\n
+        \     <fkApplicationId>179839</fkApplicationId>\r\n      <Line1>49  - 51 MURRAY
+        STREET (CAT &amp; FIDDLE ARCADE)</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n
+        \     <Postcode> 7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n
+        \     <LocationId>258025</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>258025</PPRSPropertyId>\r\n      <pkApplicationLocation>79378</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179840</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179840</ApplicationId>\r\n
+        \     <fkApplicationId>179839</fkApplicationId>\r\n      <Line1>49  - 51 MURRAY
+        STREET (CAT &amp; FIDDLE ARCADE)</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n
+        \     <Postcode> 7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n
+        \     <LocationId>258025</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>258025</PPRSPropertyId>\r\n      <pkApplicationLocation>79379</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179840</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179840</ApplicationId>\r\n
+        \     <fkApplicationId>179839</fkApplicationId>\r\n      <Line1>49  - 51 MURRAY
+        STREET (CAT &amp; FIDDLE ARCADE)</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n
+        \     <Postcode> 7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n
+        \     <LocationId>258025</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>258025</PPRSPropertyId>\r\n      <pkApplicationLocation>79380</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179840</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179840</ApplicationId>\r\n
+        \     <fkApplicationId>179839</fkApplicationId>\r\n      <Line1>49  - 51 MURRAY
+        STREET (CAT &amp; FIDDLE ARCADE)</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n
+        \     <Postcode> 7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n
+        \     <LocationId>258025</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>258025</PPRSPropertyId>\r\n      <pkApplicationLocation>79381</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179840</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179840</ApplicationId>\r\n
+        \     <fkApplicationId>179839</fkApplicationId>\r\n      <Line1>49  - 51 MURRAY
+        STREET (CAT &amp; FIDDLE ARCADE)</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n
+        \     <Postcode> 7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n
+        \     <LocationId>258025</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>258025</PPRSPropertyId>\r\n      <pkApplicationLocation>79382</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179840</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179840</ApplicationId>\r\n
+        \     <fkApplicationId>179839</fkApplicationId>\r\n      <Line1>55  - 59   MURRAY
+        STREET</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n      <Postcode>
+        7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n      <LocationId>201420</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>201420</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79450</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179840</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179840</ApplicationId>\r\n      <fkApplicationId>179839</fkApplicationId>\r\n
+        \     <Line1>55  - 59   MURRAY STREET</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n
+        \     <Postcode> 7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n
+        \     <LocationId>201420</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>201420</PPRSPropertyId>\r\n      <pkApplicationLocation>79451</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179840</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179840</ApplicationId>\r\n
+        \     <fkApplicationId>179839</fkApplicationId>\r\n      <Line1>55  - 59   MURRAY
+        STREET</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n      <Postcode>
+        7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n      <LocationId>201420</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>201420</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79452</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179840</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179840</ApplicationId>\r\n      <fkApplicationId>179839</fkApplicationId>\r\n
+        \     <Line1>55  - 59   MURRAY STREET</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n
+        \     <Postcode> 7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n
+        \     <LocationId>201420</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>201420</PPRSPropertyId>\r\n      <pkApplicationLocation>79453</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179840</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179840</ApplicationId>\r\n
+        \     <fkApplicationId>179839</fkApplicationId>\r\n      <Line1>55  - 59   MURRAY
+        STREET</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n      <Postcode>
+        7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n      <LocationId>201420</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>201420</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79454</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179840</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179840</ApplicationId>\r\n      <fkApplicationId>179839</fkApplicationId>\r\n
+        \     <Line1>55  - 59   MURRAY STREET</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n
+        \     <Postcode> 7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n
+        \     <LocationId>201420</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>201420</PPRSPropertyId>\r\n      <pkApplicationLocation>79455</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179840</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179840</ApplicationId>\r\n
+        \     <fkApplicationId>179839</fkApplicationId>\r\n      <Line1>55  - 59   MURRAY
+        STREET</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n      <Postcode>
+        7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n      <LocationId>201420</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>201420</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79456</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179840</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179840</ApplicationId>\r\n      <fkApplicationId>179839</fkApplicationId>\r\n
+        \     <Line1>55  - 59   MURRAY STREET</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n
+        \     <Postcode> 7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n
+        \     <LocationId>201420</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>201420</PPRSPropertyId>\r\n      <pkApplicationLocation>79457</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179840</ApplicationIdS>\r\n
+        \   </Address>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>179474</ApplicationId>\r\n
+        \   <ApplicationType>Planning</ApplicationType>\r\n    <NatureOfApplication>PLN</NatureOfApplication>\r\n
+        \   <ReferenceNumber>PLN-19-317</ReferenceNumber>\r\n    <ReferenceNumberYear
+        />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>900000.0000</EstimatedCost>\r\n
+        \   <StatusText>Further information requested</StatusText>\r\n    <Status>11728</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-30T14:48:56.933+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-30T13:19:53.017+10:00</SubmittedDate>\r\n    <ApplicationDetails>Dwelling</ApplicationDetails>\r\n
+        \   <OfficerId>u2417</OfficerId>\r\n    <Officer>Mark O'Brien</Officer>\r\n
+        \   <aoOfficerId>2417</aoOfficerId>\r\n    <aoOfficer>Mark O'Brien</aoOfficer>\r\n
+        \   <ContactId />\r\n    <Contact />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n
+        \   <DADays>11</DADays>\r\n    <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92224</pkProject>\r\n
+        \   <ApplicationIdS>179474</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179474</ApplicationId>\r\n
+        \     <fkApplicationId>179473</fkApplicationId>\r\n      <Line1>22 STEVENS
+        FARM DRIVE</Line1>\r\n      <Line2>WEST HOBART TAS 7000</Line2>\r\n      <Postcode>
+        7000</Postcode>\r\n      <LocalityName>WEST HOBART</LocalityName>\r\n      <LocationId>262515</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>262515</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79186</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179474</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179830</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-316</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>50000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-30T14:44:06.287+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-30T14:37:52.973+10:00</SubmittedDate>\r\n    <ApplicationDetails>Vegetation
+        Removal and Fencing</ApplicationDetails>\r\n    <OfficerId>u66</OfficerId>\r\n
+        \   <Officer>Deanne Lang</Officer>\r\n    <aoOfficerId>66</aoOfficerId>\r\n
+        \   <aoOfficer>Deanne Lang</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>11</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92223</pkProject>\r\n
+        \   <ApplicationIdS>179830</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179830</ApplicationId>\r\n
+        \     <fkApplicationId>179829</fkApplicationId>\r\n      <Line1>1   RED KNIGHTS
+        ROAD</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>185715</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>185715</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79372</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179830</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179560</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-315</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>290000.0000</EstimatedCost>\r\n
+        \   <StatusText>Further information requested</StatusText>\r\n    <Status>11728</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-30T14:26:35.157+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-30T14:19:51.823+10:00</SubmittedDate>\r\n    <ApplicationDetails>Dwelling</ApplicationDetails>\r\n
+        \   <OfficerId>u63</OfficerId>\r\n    <Officer>Liz Wilson</Officer>\r\n    <aoOfficerId>63</aoOfficerId>\r\n
+        \   <aoOfficer>Liz Wilson</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>11</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92221</pkProject>\r\n
+        \   <ApplicationIdS>179560</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179560</ApplicationId>\r\n
+        \     <fkApplicationId>179559</fkApplicationId>\r\n      <Line1>22 TABART
+        STREET (CT 175923/54)</Line1>\r\n      <Line2>NEW TOWN TAS 7008</Line2>\r\n
+        \     <Postcode> 7008</Postcode>\r\n      <LocalityName>NEW TOWN</LocalityName>\r\n
+        \     <LocationId>264970</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>264970</PPRSPropertyId>\r\n      <pkApplicationLocation>79469</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179560</ApplicationIdS>\r\n
+        \   </Address>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>179638</ApplicationId>\r\n
+        \   <ApplicationType>Planning</ApplicationType>\r\n    <NatureOfApplication>PLN</NatureOfApplication>\r\n
+        \   <ReferenceNumber>PLN-19-314</ReferenceNumber>\r\n    <ReferenceNumberYear
+        />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>10000000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-29T15:14:31.023+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-29T14:23:11.73+10:00</SubmittedDate>\r\n    <ApplicationDetails>20
+        Multiple Dwellings</ApplicationDetails>\r\n    <OfficerId>u71</OfficerId>\r\n
+        \   <Officer>Richard Bacon</Officer>\r\n    <aoOfficerId>71</aoOfficerId>\r\n
+        \   <aoOfficer>Richard Bacon</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>12</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92205</pkProject>\r\n
+        \   <ApplicationIdS>179638</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179638</ApplicationId>\r\n
+        \     <fkApplicationId>179637</fkApplicationId>\r\n      <Line1>26 EDITH AVENUE
+        (CT169834/40)</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>252605</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>252605</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79373</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179638</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179638</ApplicationId>\r\n      <fkApplicationId>179637</fkApplicationId>\r\n
+        \     <Line1>26 EDITH AVENUE (CT 169835/105)</Line1>\r\n      <Line2>SANDY
+        BAY TAS 7005</Line2>\r\n      <Postcode> 7005</Postcode>\r\n      <LocalityName>SANDY
+        BAY</LocalityName>\r\n      <LocationId>233795</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>233795</PPRSPropertyId>\r\n      <pkApplicationLocation>79479</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179638</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179638</ApplicationId>\r\n
+        \     <fkApplicationId>179637</fkApplicationId>\r\n      <Line1>26 EDITH AVENUE
+        (CT 175780/1)</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>251465</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>251465</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79480</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179638</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179638</ApplicationId>\r\n      <fkApplicationId>179637</fkApplicationId>\r\n
+        \     <Line1>26 EDITH AVENUE (CT 175780/1)</Line1>\r\n      <Line2>SANDY BAY
+        TAS 7005</Line2>\r\n      <Postcode> 7005</Postcode>\r\n      <LocalityName>SANDY
+        BAY</LocalityName>\r\n      <LocationId>251465</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>251465</PPRSPropertyId>\r\n      <pkApplicationLocation>79481</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179638</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179638</ApplicationId>\r\n
+        \     <fkApplicationId>179637</fkApplicationId>\r\n      <Line1>26 EDITH AVENUE
+        (CT 175780/1)</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>251465</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>251465</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79482</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179638</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179638</ApplicationId>\r\n      <fkApplicationId>179637</fkApplicationId>\r\n
+        \     <Line1>26 EDITH AVENUE (CT 175780/1)</Line1>\r\n      <Line2>SANDY BAY
+        TAS 7005</Line2>\r\n      <Postcode> 7005</Postcode>\r\n      <LocalityName>SANDY
+        BAY</LocalityName>\r\n      <LocationId>251465</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>251465</PPRSPropertyId>\r\n      <pkApplicationLocation>79483</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179638</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179638</ApplicationId>\r\n
+        \     <fkApplicationId>179637</fkApplicationId>\r\n      <Line1>26 EDITH AVENUE
+        (CT 175780/1)</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>251465</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>251465</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79484</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179638</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179638</ApplicationId>\r\n      <fkApplicationId>179637</fkApplicationId>\r\n
+        \     <Line1>26 EDITH AVENUE (CT 175780/1)</Line1>\r\n      <Line2>SANDY BAY
+        TAS 7005</Line2>\r\n      <Postcode> 7005</Postcode>\r\n      <LocalityName>SANDY
+        BAY</LocalityName>\r\n      <LocationId>251465</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>251465</PPRSPropertyId>\r\n      <pkApplicationLocation>79485</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179638</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179638</ApplicationId>\r\n
+        \     <fkApplicationId>179637</fkApplicationId>\r\n      <Line1>35 ENTERPRISE
+        ROAD</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>260450</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>260450</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79486</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179638</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179708</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-313</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>700000.0000</EstimatedCost>\r\n
+        \   <Decision>Withdrawn</Decision>\r\n    <StatusText>Assessment Project Status</StatusText>\r\n
+        \   <Status>3200</Status>\r\n    <Current />\r\n    <LodgementDate>2019-05-29T13:28:43.69+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-29T12:57:16.103+10:00</SubmittedDate>\r\n    <DeterminationDate>2019-06-05T11:39:00+10:00</DeterminationDate>\r\n
+        \   <DeterminationType>Withdrawn</DeterminationType>\r\n    <AuthorityParty>Applicant</AuthorityParty>\r\n
+        \   <ApplicationDetails>Partial Demolition, Alterations, Extension, Ancillary
+        Dwelling and Front Fencing</ApplicationDetails>\r\n    <OfficerId>u69</OfficerId>\r\n
+        \   <Officer>Michelle Foale</Officer>\r\n    <aoOfficerId>69</aoOfficerId>\r\n
+        \   <aoOfficer>Michelle Foale</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>7</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92201</pkProject>\r\n
+        \   <ApplicationIdS>179708</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>179708</ApplicationId>\r\n
+        \     <DeterminationDate>2019-06-05T11:39:00+10:00</DeterminationDate>\r\n
+        \     <DeterminationType>Withdrawn</DeterminationType>\r\n      <AuthorityParty>Applicant</AuthorityParty>\r\n
+        \     <Sequence>537608</Sequence>\r\n      <pkProject>92201</pkProject>\r\n
+        \     <ApplicationIdS>179708</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <ApplicationId>179708</ApplicationId>\r\n      <fkApplicationId>179707</fkApplicationId>\r\n
+        \     <Line1>140   NELSON ROAD</Line1>\r\n      <Line2>MOUNT NELSON TAS 7007</Line2>\r\n
+        \     <Postcode> 7007</Postcode>\r\n      <LocalityName>MOUNT NELSON</LocalityName>\r\n
+        \     <LocationId>180350</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>180350</PPRSPropertyId>\r\n      <pkApplicationLocation>79321</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179708</ApplicationIdS>\r\n
+        \   </Address>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>179436</ApplicationId>\r\n
+        \   <ApplicationType>Planning</ApplicationType>\r\n    <NatureOfApplication>PLN</NatureOfApplication>\r\n
+        \   <ReferenceNumber>PLN-19-312</ReferenceNumber>\r\n    <ReferenceNumberYear
+        />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>17000.0000</EstimatedCost>\r\n
+        \   <StatusText>Allocated</StatusText>\r\n    <Status>3201</Status>\r\n    <Current
+        />\r\n    <LodgementDate>2019-05-29T11:34:36.557+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-29T10:53:12.59+10:00</SubmittedDate>\r\n    <ApplicationDetails>Alterations
+        (Awnings)</ApplicationDetails>\r\n    <OfficerId>u2533</OfficerId>\r\n    <Officer>Victoria
+        Maxwell</Officer>\r\n    <aoOfficerId>2533</aoOfficerId>\r\n    <aoOfficer>Victoria
+        Maxwell</aoOfficer>\r\n    <ContactId />\r\n    <Contact />\r\n    <GroupId>PLN</GroupId>\r\n
+        \   <Group>Planning</Group>\r\n    <DADays>12</DADays>\r\n    <ClausesAssessed>-1</ClausesAssessed>\r\n
+        \   <ClausesTotal>-1</ClausesTotal>\r\n    <ApplicationCategory>0</ApplicationCategory>\r\n
+        \   <pkProject>92200</pkProject>\r\n    <ApplicationIdS>179436</ApplicationIdS>\r\n
+        \   <Address>\r\n      <ApplicationId>179436</ApplicationId>\r\n      <fkApplicationId>179435</fkApplicationId>\r\n
+        \     <Line1>120  - 122   MURRAY STREET</Line1>\r\n      <Line2>HOBART TAS
+        7000</Line2>\r\n      <Postcode> 7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n
+        \     <LocationId>201220</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>201220</PPRSPropertyId>\r\n      <pkApplicationLocation>79163</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179436</ApplicationIdS>\r\n
+        \   </Address>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>179266</ApplicationId>\r\n
+        \   <ApplicationType>Planning</ApplicationType>\r\n    <NatureOfApplication>PLN</NatureOfApplication>\r\n
+        \   <ReferenceNumber>PLN-19-311</ReferenceNumber>\r\n    <ReferenceNumberYear
+        />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>2000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-29T10:21:52.093+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-29T10:12:54.247+10:00</SubmittedDate>\r\n    <ApplicationDetails>Front
+        Fencing</ApplicationDetails>\r\n    <OfficerId>u1199</OfficerId>\r\n    <Officer>Adam
+        Smee</Officer>\r\n    <aoOfficerId>1199</aoOfficerId>\r\n    <aoOfficer>Adam
+        Smee</aoOfficer>\r\n    <ContactId />\r\n    <Contact />\r\n    <GroupId>PLN</GroupId>\r\n
+        \   <Group>Planning</Group>\r\n    <DADays>12</DADays>\r\n    <ClausesAssessed>-1</ClausesAssessed>\r\n
+        \   <ClausesTotal>-1</ClausesTotal>\r\n    <ApplicationCategory>0</ApplicationCategory>\r\n
+        \   <pkProject>92196</pkProject>\r\n    <ApplicationIdS>179266</ApplicationIdS>\r\n
+        \   <Address>\r\n      <ApplicationId>179266</ApplicationId>\r\n      <fkApplicationId>179265</fkApplicationId>\r\n
+        \     <Line1>1 / 22 A LORD STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n
+        \     <Postcode> 7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n
+        \     <LocationId>214210</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>214210</PPRSPropertyId>\r\n      <pkApplicationLocation>79074</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179266</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179266</ApplicationId>\r\n
+        \     <fkApplicationId>179265</fkApplicationId>\r\n      <Line1>2 / 22 A LORD
+        STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>214215</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>214215</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79075</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179266</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179266</ApplicationId>\r\n      <fkApplicationId>179265</fkApplicationId>\r\n
+        \     <Line1>3 / 22 A LORD STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n
+        \     <Postcode> 7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n
+        \     <LocationId>214220</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>214220</PPRSPropertyId>\r\n      <pkApplicationLocation>79076</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179266</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179266</ApplicationId>\r\n
+        \     <fkApplicationId>179265</fkApplicationId>\r\n      <Line1>3 / 22 A LORD
+        STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>214220</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>214220</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79077</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179266</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179266</ApplicationId>\r\n      <fkApplicationId>179265</fkApplicationId>\r\n
+        \     <Line1>4 / 22 A LORD STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n
+        \     <Postcode> 7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n
+        \     <LocationId>214225</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>214225</PPRSPropertyId>\r\n      <pkApplicationLocation>79078</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179266</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179266</ApplicationId>\r\n
+        \     <fkApplicationId>179265</fkApplicationId>\r\n      <Line1>5 / 22 A LORD
+        STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>214230</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>214230</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79079</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179266</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179266</ApplicationId>\r\n      <fkApplicationId>179265</fkApplicationId>\r\n
+        \     <Line1>5 / 22 A LORD STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n
+        \     <Postcode> 7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n
+        \     <LocationId>214230</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>214230</PPRSPropertyId>\r\n      <pkApplicationLocation>79080</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179266</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179266</ApplicationId>\r\n
+        \     <fkApplicationId>179265</fkApplicationId>\r\n      <Line1>6 / 22 A LORD
+        STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>214235</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>214235</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79081</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179266</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179558</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-310</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>60000.0000</EstimatedCost>\r\n
+        \   <StatusText>Further information requested</StatusText>\r\n    <Status>11728</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-28T09:45:15.64+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-28T09:39:32.627+10:00</SubmittedDate>\r\n    <ApplicationDetails>Ancillary
+        Dwelling &amp;amp; Tree Removal</ApplicationDetails>\r\n    <OfficerId>u63</OfficerId>\r\n
+        \   <Officer>Liz Wilson</Officer>\r\n    <aoOfficerId>63</aoOfficerId>\r\n
+        \   <aoOfficer>Liz Wilson</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>13</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92160</pkProject>\r\n
+        \   <ApplicationIdS>179558</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179558</ApplicationId>\r\n
+        \     <fkApplicationId>179557</fkApplicationId>\r\n      <Line1>435   NELSON
+        ROAD</Line1>\r\n      <Line2>MOUNT NELSON TAS 7007</Line2>\r\n      <Postcode>
+        7007</Postcode>\r\n      <LocalityName>MOUNT NELSON</LocalityName>\r\n      <LocationId>181720</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>181720</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79241</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179558</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179430</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-309</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>0.0000</EstimatedCost>\r\n
+        \   <StatusText>Further information requested</StatusText>\r\n    <Status>11728</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-28T08:06:48.607+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-27T16:09:18.047+10:00</SubmittedDate>\r\n    <ApplicationDetails>Change
+        of Use to Visitor Accommodation</ApplicationDetails>\r\n    <OfficerId>u1199</OfficerId>\r\n
+        \   <Officer>Adam Smee</Officer>\r\n    <aoOfficerId>1199</aoOfficerId>\r\n
+        \   <aoOfficer>Adam Smee</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>13</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92154</pkProject>\r\n
+        \   <ApplicationIdS>179430</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179430</ApplicationId>\r\n
+        \     <fkApplicationId>179429</fkApplicationId>\r\n      <Line1>78   LORD
+        STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>178020</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>178020</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79158</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179430</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179430</ApplicationId>\r\n      <fkApplicationId>179429</fkApplicationId>\r\n
+        \     <Line1>76   LORD STREET</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n
+        \     <Postcode> 7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n
+        \     <LocationId>178015</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>178015</PPRSPropertyId>\r\n      <pkApplicationLocation>79159</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179430</ApplicationIdS>\r\n
+        \   </Address>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>179228</ApplicationId>\r\n
+        \   <ApplicationType>Planning</ApplicationType>\r\n    <NatureOfApplication>PLN</NatureOfApplication>\r\n
+        \   <ReferenceNumber>PLN-19-308</ReferenceNumber>\r\n    <ReferenceNumberYear
+        />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>30000.0000</EstimatedCost>\r\n
+        \   <StatusText>Further information requested</StatusText>\r\n    <Status>11728</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-27T15:20:51.91+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-27T14:23:30.78+10:00</SubmittedDate>\r\n    <ApplicationDetails>Archaeological
+        Works</ApplicationDetails>\r\n    <OfficerId>u71</OfficerId>\r\n    <Officer>Richard
+        Bacon</Officer>\r\n    <aoOfficerId>71</aoOfficerId>\r\n    <aoOfficer>Richard
+        Bacon</aoOfficer>\r\n    <ContactId />\r\n    <Contact />\r\n    <GroupId>PLN</GroupId>\r\n
+        \   <Group>Planning</Group>\r\n    <DADays>14</DADays>\r\n    <ClausesAssessed>-1</ClausesAssessed>\r\n
+        \   <ClausesTotal>-1</ClausesTotal>\r\n    <ApplicationCategory>0</ApplicationCategory>\r\n
+        \   <pkProject>92141</pkProject>\r\n    <ApplicationIdS>179228</ApplicationIdS>\r\n
+        \   <Address>\r\n      <ApplicationId>179228</ApplicationId>\r\n      <fkApplicationId>179227</fkApplicationId>\r\n
+        \     <Line1>234   ELIZABETH STREET</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n
+        \     <Postcode> 7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n
+        \     <LocationId>197665</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>197665</PPRSPropertyId>\r\n      <pkApplicationLocation>79050</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179228</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <ApplicationId>179228</ApplicationId>\r\n
+        \     <fkApplicationId>179227</fkApplicationId>\r\n      <Line1>236  - 240
+        \  ELIZABETH STREET</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n      <Postcode>
+        7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n      <LocationId>197660</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>197660</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79051</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179228</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <ApplicationId>179228</ApplicationId>\r\n      <fkApplicationId>179227</fkApplicationId>\r\n
+        \     <Line1>242  - 250 ELIZABETH STREET</Line1>\r\n      <Line2>HOBART TAS
+        7000</Line2>\r\n      <Postcode> 7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n
+        \     <LocationId>197655</LocationId>\r\n      <fkLocation>0</fkLocation>\r\n
+        \     <PPRSPropertyId>197655</PPRSPropertyId>\r\n      <pkApplicationLocation>79052</pkApplicationLocation>\r\n
+        \     <pkeys>1</pkeys>\r\n      <ApplicationIdS>179228</ApplicationIdS>\r\n
+        \   </Address>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>179476</ApplicationId>\r\n
+        \   <ApplicationType>Planning</ApplicationType>\r\n    <NatureOfApplication>PLN</NatureOfApplication>\r\n
+        \   <ReferenceNumber>PLN-19-307</ReferenceNumber>\r\n    <ReferenceNumberYear
+        />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>0.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-27T13:11:40.19+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-27T12:49:59.237+10:00</SubmittedDate>\r\n    <ApplicationDetails>Carport
+        and Partial Change of Use to Visitor Accommodation</ApplicationDetails>\r\n
+        \   <OfficerId>u66</OfficerId>\r\n    <Officer>Deanne Lang</Officer>\r\n    <aoOfficerId>66</aoOfficerId>\r\n
+        \   <aoOfficer>Deanne Lang</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>14</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92131</pkProject>\r\n
+        \   <ApplicationIdS>179476</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179476</ApplicationId>\r\n
+        \     <fkApplicationId>179475</fkApplicationId>\r\n      <Line1>10 A BELLEVUE
+        PARADE</Line1>\r\n      <Line2>NEW TOWN TAS 7008</Line2>\r\n      <Postcode>
+        7008</Postcode>\r\n      <LocalityName>NEW TOWN</LocalityName>\r\n      <LocationId>116375</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>116375</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79187</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179476</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179454</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-306</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>550000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-27T12:37:32.49+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-27T11:51:17.19+10:00</SubmittedDate>\r\n    <ApplicationDetails>Partial
+        Demolition, Alterations and Extension</ApplicationDetails>\r\n    <OfficerId>u1395</OfficerId>\r\n
+        \   <Officer>Michael McClenahan</Officer>\r\n    <aoOfficerId>1395</aoOfficerId>\r\n
+        \   <aoOfficer>Michael McClenahan</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>14</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92129</pkProject>\r\n
+        \   <ApplicationIdS>179454</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179454</ApplicationId>\r\n
+        \     <fkApplicationId>179453</fkApplicationId>\r\n      <Line1>10   NEWLANDS
+        AVENUE</Line1>\r\n      <Line2>LENAH VALLEY TAS 7008</Line2>\r\n      <Postcode>
+        7008</Postcode>\r\n      <LocalityName>LENAH VALLEY</LocalityName>\r\n      <LocationId>129955</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>129955</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79174</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179454</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>177962</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-305</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>0.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-27T11:42:56.983+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-27T11:39:19.14+10:00</SubmittedDate>\r\n    <ApplicationDetails>Change
+        of Use to Visitor Accommodation</ApplicationDetails>\r\n    <OfficerId>u73</OfficerId>\r\n
+        \   <Officer>Tristan Widdowson</Officer>\r\n    <aoOfficerId>73</aoOfficerId>\r\n
+        \   <aoOfficer>Tristan Widdowson</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>14</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92127</pkProject>\r\n
+        \   <ApplicationIdS>177962</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>177962</ApplicationId>\r\n
+        \     <fkApplicationId>177961</fkApplicationId>\r\n      <Line1>5   EURELLA
+        AVENUE</Line1>\r\n      <Line2>SANDY BAY TAS 7005</Line2>\r\n      <Postcode>
+        7005</Postcode>\r\n      <LocalityName>SANDY BAY</LocalityName>\r\n      <LocationId>174430</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>174430</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>78241</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>177962</ApplicationIdS>\r\n    </Address>\r\n    <Event>\r\n
+        \     <ApplicationId>177962</ApplicationId>\r\n      <EventId>537575</EventId>\r\n
+        \     <ProjectId>92127</ProjectId>\r\n      <DateOpen>2019-06-07T00:00:00+10:00</DateOpen>\r\n
+        \     <DateClose>2019-06-22T00:00:00+10:00</DateClose>\r\n      <ControlType>5271</ControlType>\r\n
+        \     <Type>Event Started</Type>\r\n      <EventCode>10515</EventCode>\r\n
+        \     <Description>Public Notification</Description>\r\n      <TodaysDate>2019-06-10T00:38:08.233+10:00</TodaysDate>\r\n
+        \     <TableName>ApplicationNotification</TableName>\r\n      <ApplicationIdS>177962</ApplicationIdS>\r\n
+        \   </Event>\r\n    <Event>\r\n      <ApplicationId>177962</ApplicationId>\r\n
+        \     <EventId>537576</EventId>\r\n      <ProjectId>92127</ProjectId>\r\n
+        \     <DateOpen>2019-06-09T00:00:00+10:00</DateOpen>\r\n      <DateClose>2019-06-24T00:00:00+10:00</DateClose>\r\n
+        \     <ControlType>5271</ControlType>\r\n      <Type>Event Started</Type>\r\n
+        \     <EventCode>10515</EventCode>\r\n      <Description>Public Notification</Description>\r\n
+        \     <TodaysDate>2019-06-10T00:38:08.233+10:00</TodaysDate>\r\n      <TableName>ApplicationNotification</TableName>\r\n
+        \     <ApplicationIdS>177962</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179396</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-304</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>20000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-27T09:01:12.853+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-25T13:46:44.217+10:00</SubmittedDate>\r\n    <ApplicationDetails>Alterations
+        and Change of Use to Visitor Accommodation</ApplicationDetails>\r\n    <OfficerId>u65</OfficerId>\r\n
+        \   <Officer>Cameron Sherriff</Officer>\r\n    <aoOfficerId>65</aoOfficerId>\r\n
+        \   <aoOfficer>Cameron Sherriff</aoOfficer>\r\n    <ContactId />\r\n    <Contact
+        />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n    <DADays>14</DADays>\r\n
+        \   <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92111</pkProject>\r\n
+        \   <ApplicationIdS>179396</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179396</ApplicationId>\r\n
+        \     <fkApplicationId>179395</fkApplicationId>\r\n      <Line1>75   PATRICK
+        STREET</Line1>\r\n      <Line2>HOBART TAS 7000</Line2>\r\n      <Postcode>
+        7000</Postcode>\r\n      <LocalityName>HOBART</LocalityName>\r\n      <LocationId>201795</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>201795</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79147</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179396</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>179286</ApplicationId>\r\n    <ApplicationType>Planning</ApplicationType>\r\n
+        \   <NatureOfApplication>PLN</NatureOfApplication>\r\n    <ReferenceNumber>PLN-19-303</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear />\r\n    <ReferenceNumberNumber />\r\n    <EstimatedCost>309000.0000</EstimatedCost>\r\n
+        \   <StatusText>Assessment Project Status</StatusText>\r\n    <Status>3200</Status>\r\n
+        \   <Current />\r\n    <LodgementDate>2019-05-27T08:51:27.163+10:00</LodgementDate>\r\n
+        \   <SubmittedDate>2019-05-24T09:36:02.217+10:00</SubmittedDate>\r\n    <ApplicationDetails>Dwelling</ApplicationDetails>\r\n
+        \   <OfficerId>u530</OfficerId>\r\n    <Officer>Helen Ayers</Officer>\r\n
+        \   <aoOfficerId>530</aoOfficerId>\r\n    <aoOfficer>Helen Ayers</aoOfficer>\r\n
+        \   <ContactId />\r\n    <Contact />\r\n    <GroupId>PLN</GroupId>\r\n    <Group>Planning</Group>\r\n
+        \   <DADays>14</DADays>\r\n    <ClausesAssessed>-1</ClausesAssessed>\r\n    <ClausesTotal>-1</ClausesTotal>\r\n
+        \   <ApplicationCategory>0</ApplicationCategory>\r\n    <pkProject>92109</pkProject>\r\n
+        \   <ApplicationIdS>179286</ApplicationIdS>\r\n    <Address>\r\n      <ApplicationId>179286</ApplicationId>\r\n
+        \     <fkApplicationId>179285</fkApplicationId>\r\n      <Line1>2 NOBLE DRIVE</Line1>\r\n
+        \     <Line2>NEW TOWN TAS 7008</Line2>\r\n      <Postcode> 7008</Postcode>\r\n
+        \     <LocalityName>NEW TOWN</LocalityName>\r\n      <LocationId>264335</LocationId>\r\n
+        \     <fkLocation>0</fkLocation>\r\n      <PPRSPropertyId>264335</PPRSPropertyId>\r\n
+        \     <pkApplicationLocation>79093</pkApplicationLocation>\r\n      <pkeys>1</pkeys>\r\n
+        \     <ApplicationIdS>179286</ApplicationIdS>\r\n    </Address>\r\n  </Application>\r\n</NewDataSet>"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+recorded_with: VCR 5.0.0

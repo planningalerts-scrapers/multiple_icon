@@ -1,0 +1,62 @@
+---
+- council_reference: 010.2012.00000043.002
+  description: Subdivision
+  date_received: '2019-07-19'
+  address: Duck Creek Road, DUCK CREEK NSW 2469
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.kyogle.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2012.00000043.002
+- council_reference: 010.2015.00000042.002
+  description: Dwelling Houses
+  date_received: '2019-07-10'
+  address: 101 Homestead Road, KILGRA NSW 2474
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.kyogle.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2015.00000042.002
+- council_reference: 010.2016.00000067.002
+  description: Backpacker's Accommodation
+  date_received: '2019-07-26'
+  address: 968 Tabulam Road, JACKSONS FLAT NSW 2469
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.kyogle.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2016.00000067.002
+- council_reference: 010.2017.00000093.002
+  description: Subdivision
+  date_received: '2019-07-10'
+  address: 4 Warrazambil Street, KYOGLE NSW 2474
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.kyogle.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2017.00000093.002
+- council_reference: 010.2019.00000047.001
+  description: Subdivision Development consent is sought for the subdivisionof Lot
+    3 DP 6128 to create a primary production lot
+  date_received: '2019-07-05'
+  address: Needhams Road, TOOLOOM NSW 2475
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.kyogle.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000047.001
+- council_reference: 010.2019.00000048.001
+  description: Dwelling Houses Dwelling
+  date_received: '2019-07-09'
+  address: 106 Davis Road, GREEN PIGEON NSW 2474
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.kyogle.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000048.001
+- council_reference: 010.2019.00000049.001
+  description: Sheds Shed & Carport
+  date_received: '2019-07-09'
+  address: 1 Eagle Court, NEW PARK NSW 2474
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.kyogle.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000049.001
+- council_reference: 010.2019.00000050.001
+  description: Dwelling Houses and Sheds Dwelling and Shed
+  date_received: '2019-07-12'
+  address: 30 James Street, GENEVA NSW 2474
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.kyogle.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000050.001
+- council_reference: 010.2019.00000051.001
+  description: Dwelling Houses Dwelling
+  date_received: '2019-07-17'
+  address: 6159 Bruxner Highway, MUMMULGUM NSW 2469
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.kyogle.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000051.001
+- council_reference: 010.2019.00000052.001
+  description: Dwelling As Built Dwelling As Built
+  date_received: '2019-07-26'
+  address: 285 Ferndale Road, LYNCHS CREEK NSW 2474
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.kyogle.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000052.001

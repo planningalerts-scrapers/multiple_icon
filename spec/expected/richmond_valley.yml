@@ -1,0 +1,91 @@
+---
+- council_reference: DA2019/0231.01
+  description: Single Storey Dwelling
+  date_received: '2019-07-24'
+  address: 12 Pennefather Close, YORKLEA NSW 2470
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=52496
+- council_reference: DA2020/0001
+  description: '"As built" shed additions'
+  date_received: '2019-07-01'
+  address: 22 Heathwood Place, NORTH CASINO NSW 2470
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=51817
+- council_reference: DA2020/0002
+  description: Dwelling
+  date_received: '2019-07-03'
+  address: 4 A Camillot Close, SPRING GROVE NSW 2470
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=51942
+- council_reference: DA2020/0003
+  description: Change of use of garage area to create additional bedrooms
+  date_received: '2019-07-05'
+  address: 60 Flatley Place, NORTH CASINO NSW 2470
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=51975
+- council_reference: DA2020/0004
+  description: Dwelling
+  date_received: '2019-07-05'
+  address: 60 Currajong Street, EVANS HEAD NSW 2473
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=52011
+- council_reference: DA2020/0005
+  description: Shed
+  date_received: '2019-07-05'
+  address: 16 Tareeda Court, SPRING GROVE NSW 2470
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=52059
+- council_reference: DA2020/0006
+  description: Garage
+  date_received: '2019-07-10'
+  address: 110 West Street, CASINO NSW 2470
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=52079
+- council_reference: DA2020/0007
+  description: Single storey dwelling
+  date_received: '2019-07-11'
+  address: 63 Eucalypt Drive, SWAN BAY NSW 2471
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=52102
+- council_reference: DA2020/0008
+  description: Hardwood Deck and Insulated Patio
+  date_received: '2019-07-12'
+  address: 25 Riverview Street, EVANS HEAD NSW 2473
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=52124
+- council_reference: DA2020/0009
+  description: Shed
+  date_received: '2019-07-15'
+  address: 70 Richmond Street, CASINO NSW 2470
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=52170
+- council_reference: DA2020/0010
+  description: Shed
+  date_received: '2019-07-15'
+  address: 27 Fergusson Street, CASINO NSW 2470
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=52180
+- council_reference: DA2020/0011
+  description: Dwelling & Carport
+  date_received: '2019-07-24'
+  address: 8 A Ecles Street, CASINO NSW 2470
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=52473
+- council_reference: DA2020/0012
+  description: Carport
+  date_received: '2019-07-24'
+  address: 5 Woodside Grove, CASINO NSW 2470
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=52504
+- council_reference: DA2020/0013
+  description: Dual Occupancy
+  date_received: '2019-07-25'
+  address: 14 A Hickey Street, CASINO NSW 2470
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=52550
+- council_reference: DA2020/0014
+  description: Deck "As Built"
+  date_received: '2019-07-25'
+  address: 16 Sunderland Street, EVANS HEAD NSW 2473
+  date_scraped: '2019-05-15'
+  info_url: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=52552

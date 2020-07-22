@@ -1,0 +1,1538 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://icon.gtcc.nsw.gov.au/eplanning/Pages/XC.Track/SearchApplication.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - icon.gtcc.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Location:
+      - "/eplanning/Common/Common/Terms.aspx"
+      Set-Cookie:
+      - ASP.NET_SessionId=2hslls2addnygpqbgk1s3vhz; path=/; HttpOnly
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Sun, 09 Jun 2019 08:05:41 GMT
+      Content-Length:
+      - '152'
+    body:
+      encoding: UTF-8
+      string: "<html><head><title>Object moved</title></head><body>\r\n<h2>Object
+        moved to <a href=\"/eplanning/Common/Common/Terms.aspx\">here</a>.</h2>\r\n</body></html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: http://icon.gtcc.nsw.gov.au/eplanning/Common/Common/Terms.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=2hslls2addnygpqbgk1s3vhz
+      Host:
+      - icon.gtcc.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Sun, 09 Jun 2019 08:05:43 GMT
+      Content-Length:
+      - '24002'
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\"
+        >\r\n<head id=\"ctl00_Head1\"><title>\r\n\tTerms and Conditions\r\n</title><meta
+        http-equiv=\"Expires\" content=\"0\" /><meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" /><meta http-equiv=\"Pragma\" content=\"no-cache\" /><link
+        href=\"../../favicon.ico\" type=\"image/x-icon\" rel=\"icon\" /><link href=\"../../favicon.ico\"
+        type=\"image/x-icon\" rel=\"shortcut icon\" /><link href=\"../../HttpCombiner.ashx?s=IconCss&amp;t=text/css&amp;v=1.54\"
+        type=\"text/css\" rel=\"Stylesheet\" media=\"all\" />\r\n\t<base target=\"_top\"
+        />\r\n\t\r\n\t<!-- Conditional Queries to load the Formatted Lists CSS files
+        -->  \r\n    <!--[if lt IE 8]>\r\n        <link type=\"text/css\" href=\"../../App_Themes/Icon/IE7.css\"
+        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if gt IE 7]>\r\n\t
+        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
+        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if !IE]><!-->\r\n\t
+        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
+        rel=\"Stylesheet\" />\r\n    <!--<![endif]-->\r\n\t\r\n\t<link href=\"../../App_Themes/Default/Default.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Default/Plan%20Editor.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Default/Remote.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Default/User.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Default/zUser.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"/eplanning/Telerik.Web.UI.WebResource.axd?compress=1&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Web.UI%2c+Version%3d2013.3.1114.40%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen%3a8d3dfe81-f887-4a80-ad14-8e882b52e5e6%3a53e1db5a%3bTelerik.Web.UI.Skins%2c+Version%3d2013.3.1114.40%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen%3ab4b6f2ef-e084-406b-ab93-e85df8d3c504%3a40a387cd\"
+        type=\"text/css\" rel=\"stylesheet\" /></head>\r\n<body>\r\n    <form method=\"post\"
+        action=\"Terms.aspx\" id=\"aspnetForm\" role=\"form\" autocomplete=\"off\">\r\n<input
+        type=\"hidden\" name=\"ctl00_rcss_TSSM\" id=\"ctl00_rcss_TSSM\" value=\"\"
+        />\r\n<input type=\"hidden\" name=\"ctl00_script_TSM\" id=\"ctl00_script_TSM\"
+        value=\"\" />\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\"
+        value=\"/wEPDwUKMTQ2MzgzODU5OQ9kFgJmD2QWAgIDD2QWCAIHD2QWBAIIDxYCHgRUZXh0BRVEYXRhYmFzZTogTmV4dXMwMzFfdjlkAgoPFgIfAAUUVmVyc2lvbjogOS4wLjI4Ljg4MDBkAgsPDxYCHgdWaXNpYmxlaGRkAhkPFgIfAGVkAh8PZBYCAgEPZBYEAgEPFgIfAAXwGCAgICAgICAgPGRpdiBzdHlsZT0iaGVpZ2h0OjU1MHB4OyB3aWR0aDo5OSU7IG92ZXJmbG93OmF1dG87IGJvcmRlcjpzb2xpZCAxcHggI0JCQjsgcGFkZGluZzozcHg7Ij4NCgkJCTxoMz5BcHBsaWNhdGlvbiBUcmFja2luZyAtIFRlcm1zIGFuZCBDb25kaXRpb25zPC9oMz4NCgkJCTxiciAvPg0KCQkJPGg0PkFib3V0IEFwcGxpY2F0aW9uIFRyYWNraW5nPC9oND4NCgkJCTxsaT5UaGUgaW5mb3JtYXRpb24gcHJvdmlkZWQgb24gdGhpcyBzaXRlIGlzIG1hZGUgYXZhaWxhYmxlIGJ5IE1pZENvYXN0IENvdW5jaWwgYXMgYSBjb21tdW5pdHkgYW5kIGN1c3RvbWVyIHNlcnZpY2UuIFRoZSBpbmZvcm1hdGlvbiBpcyBub3QgcHJvdmlkZWQgaW4gcmVhbCB0aW1lLiBEYXRhIGFuZCBhcHBsaWNhdGlvbiBzdGF0dXMgbWF5IHJlZmxlY3QgdGhhdCBvZiB0aGUgcHJldmlvdXMgd29ya2luZyBkYXkuPC9saT4NCgkJCTxiciAvPg0KCQkJPGxpPkFwcGxpY2F0aW9uIGRhdGEgaXMgcHJvdmlkZWQgZm9yIGFwcGxpY2F0aW9ucyByZWNlaXZlZCBiZXR3ZWVuIDEgTWFyY2ggMjAwNyBhbmQgMzAgSnVuZSAyMDE1LiBEb2N1bWVudHMgYXJlIGF2YWlsYWJsZSBvbmx5IGZvciBhcHBsaWNhdGlvbnMgcmVjZWl2ZWQgYWZ0ZXIgMSBKdWx5IDIwMTUuPC9saT4NCgkJCTxiciAvPg0KCQkJPGxpPklmIHlvdSBhY2Nlc3MgdGhpcyB3ZWIgc2l0ZSB5b3Ugd2lsbCBiZSB0YWtlbiB0byBoYXZlIGFncmVlZCB0byB0aGUgZm9sbG93aW5nIHRlcm1zIGFuZCBjb25kaXRpb25zOjwvbGk+DQoJCQk8YnIgLz4NCgkJCTxoND5Db3B5cmlnaHQ8L2g0Pg0KCQkJPHA+UGxhbnMsIGRyYXdpbmdzIGFuZCBvdGhlciBkb2N1bWVudHMgdGhhdCBjYW4gYmUgdmlld2VkIG9uIHRoaXMgd2Vic2l0ZSBhcmUgcHJvdGVjdGVkIGJ5IHRoZSBjb3B5cmlnaHQgbGF3cyBvZiBBdXN0cmFsaWEgYW5kIG90aGVyIGNvdW50cmllcyB0aHJvdWdoIGludGVybmF0aW9uYWwgdHJlYXRpZXMuIFlvdSBtdXN0IG9idGFpbiB0aGUgcGVybWlzc2lvbiBvZiB0aGUgY29weXJpZ2h0IG93bmVyIGlmIHlvdSB3aXNoIHRvIGNvcHksIHJlcHJvZHVjZSwgcHJpbnQsIHB1Ymxpc2gsIGNvbW11bmljYXRlIG9yIGFkYXB0IGFueSBwYXJ0IG9mIGEgY29weXJpZ2h0IGRvY3VtZW50LiBZb3UgYXJlIG5vdCBlbnRpdGxlZCB0byBjb3B5LCByZXByb2R1Y2UsIHByaW50LCBwdWJsaXNoLCBjb21tdW5pY2F0ZSBvciBhZGFwdCB0aGUgcGxhbnMsIGRyYXdpbmdzIGFuZCBvdGhlciBkb2N1bWVudHMgYXNzb2NpYXRlZCB3aXRoIGRldmVsb3BtZW50IGFwcGxpY2F0aW9ucyBtYWRlIGF2YWlsYWJsZSBvbiB0aGlzIHdlYnNpdGUgaW4gYSB3YXkgdGhhdCBicmVhY2hlcyB0aGUgY29weXJpZ2h0LjwvcD4NCgkJCTxiciAvPg0KCQkJPGg0PkxpY2VuY2U8L2g0Pg0KCQkJPHA+TWlkQ29hc3QgQ291bmNpbCBncmFudHMgeW91IGEgbm9uLWV4Y2x1c2l2ZSBsaWNlbmNlIHRvIHByb2R1Y2UgdGhlIGNvbnRlbnRzIG9mIHRoaXMgd2Vic2l0ZSBpbiB5b3VyIHdlYiBicm93c2VyIChhbmQgaW4gYW55IGNhY2hlIGZpbGVzIHByb2R1Y2VkIGJ5IHlvdXIgd2ViIGJyb3dzZXIpIGZvciB0aGUgc29sZSBwdXJwb3NlIG9mIHZpZXdpbmcgdGhlIGNvbnRlbnQuIE1pZENvYXN0IENvdW5jaWwgcmVzZXJ2ZXMgYWxsIG90aGVyIHJpZ2h0cy48L3A+DQoJCQk8YnIgLz4NCgkJCTxoND5Qcml2YWN5PC9oND4NCgkJCTxwPlRoZSBpbmZvcm1hdGlvbiBhbmQgZG9jdW1lbnRzIGRpc3BsYXllZCB2aWEgdGhlIG9ubGluZSBhcHBsaWNhdGlvbiB0cmFja2luZyBzeXN0ZW0gYXJlIG9wZW4gYWNjZXNzIGluZm9ybWF0aW9uIHRoYXQgd2UgYXJlIHJlcXVpcmVkIHRvIG1ha2UgcHVibGljbHkgYXZhaWxhYmxlIHVuZGVyIHNlY3Rpb25zIDYgYW5kIDE4IG9mIHRoZSBHb3Zlcm5tZW50IEluZm9ybWF0aW9uIChQdWJsaWMgQWNjZXNzKSBBY3QgMjAwOSAoR0lQQSBBY3QpIGFuZCBTY2hlZHVsZSAxIG9mIHRoZSBHb3Zlcm5tZW50IEluZm9ybWF0aW9uIChQdWJsaWMgQWNjZXNzKSBSZWd1bGF0aW9uIDIwMDkgKEdJUEEgUmVndWxhdGlvbikuPC9wPg0KCQkJPGJyIC8+DQoJCQk8aDQ+TGlhYmlsaXR5PC9oND4NCgkJCTxwPlRvIHRoZSBtYXhpbXVtIGV4dGVudCBwZXJtaXR0ZWQgYnkgbGF3LCBNaWRDb2FzdCBDb3VuY2lsIGV4Y2x1ZGVzIGFsbCBsaWFiaWxpdHkgdG8geW91IGZvciBsb3NzIG9yIGRhbWFnZSBvZiBhbnkga2luZCAoaG93ZXZlciBjYXVzZWQsIGluY2x1ZGluZyBieSBuZWdsaWdlbmNlKSBhcmlzaW5nIGZyb20gb3IgcmVsYXRpbmcgaW4gYW55IHdheSB0byB0aGUgY29udGVudHMgb2YgdGhpcyB3ZWJzaXRlIGFuZC9vciB5b3VyIHVzZSBvZiBpdC48L3A+DQoJCQk8YnIgLz4NCgkJCTxoND5BYm91dCB0aGUgSW5mb3JtYXRpb248L2g0Pg0KCQkJPHA+VGhlIGRvY3VtZW50cyBwcm92aWRlZCBvbiB0aGlzIGFwcGxpY2F0aW9uIHRyYWNraW5nIHN5c3RlbSBhcmUgcHJvdmlkZWQgZm9yIGluZm9ybWF0aW9uIHB1cnBvc2VzIGFuZCBhcmUgaW50ZW5kZWQgYXMgYSBndWlkZSBvbmx5LiBUaGUgcGxhbnMsIGRyYXdpbmdzLCBvdGhlciBkb2N1bWVudHMgYW5kIGluZm9ybWF0aW9uIGFzc29jaWF0ZWQgd2l0aCB0aGUgZGV2ZWxvcG1lbnQgYXBwbGljYXRpb25zIG1heSBub3QgYmUgYSBjb21wbGV0ZSBoaXN0b3J5IGFuZCBtYXkgbm90IGJlIHVwLXRvLWRhdGUgb3IgYWNjdXJhdGUuIFRoZSBpbmZvcm1hdGlvbiBjYW5ub3QgYmUgdGFrZW4gdG8gaW5mbHVlbmNlIG9yIGd1YXJhbnRlZSB0aGUgcHJvY2Vzc2luZyB0aW1lIG9yIG91dGNvbWUgb2YgYW55IG90aGVyIGRldmVsb3BtZW50IGFwcGxpY2F0aW9uLjwvcD4NCgkJCTxiciAvPg0KCQkJPGxpPk1pZENvYXN0IENvdW5jaWwgZG9lcyBub3QgYWNjZXB0IGFueSByZXNwb25zaWJpbGl0eSBvciBsaWFiaWxpdHkgZm9yIHJlbGlhbmNlIG9uIHRoZSBpbmZvcm1hdGlvbiBpbiB0aGUgZG9jdW1lbnRzLiBJZiB5b3Ugd2lzaCB0byBjb25maXJtIGluZm9ybWF0aW9uIGluIGRldGFpbCBwbGVhc2UgY29udGFjdCB1cyBieSBlbWFpbCBhdCA8YT5jb3VuY2lsQG1pZGNvYXN0Lm5zdy5nb3YuYXU8L2E+LjwvbGk+DQoJCQk8YnIgLz4NCgkJCTxwPjxiPkkgaGF2ZSByZWFkIGFuZCB1bmRlcnN0b29kIHRoZSBwcm92aXNpb25zIHNldCBvdXQgYWJvdmU8L2I+PC9wPg0KICAgICAgICA8L2Rpdj5kAgkPFgIfAGVkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYEBRpjdGwwMCRtZW51JGhlbHAkRmx5b3V0SGVscAUTY3RsMDAkbWVudSRjb3B5JGZseQUOY3RsMDAkY29weSRmbHkFGmN0bDAwJGN0TWFpbiRjaGtBZ3JlZSRjaGsxP3q2N0MJBPWcG8q2sWq2B3r/Rt8=\"
+        />\r\n\r\n\r\n<script src=\"/eplanning/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl00_script_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen%3afa6755fd-da1a-49d3-9eb4-1e473e780ecd%3aea597d4b%3bTelerik.Web.UI%2c+Version%3d2013.3.1114.40%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen%3a8d3dfe81-f887-4a80-ad14-8e882b52e5e6%3a16e4e7cd%3a874f8ea2%3af7645509%3a24ee1bba%3af46195d3%3a19620875%3acda80b3\"
+        type=\"text/javascript\"></script>\r\n<input type=\"hidden\" name=\"__EVENTVALIDATION\"
+        id=\"__EVENTVALIDATION\" value=\"/wEdAAW/73yKI5irrqu900D+f6RVUhCUsBdObNP5V9gW++wB1znAYaULCYMjI6aM/PeyL1pE3cgc/3vwnIHyec8Y+I8IP1cVL2lbUAoZkgtwzgdDKRxQZ0KrcNSgTncuAe9gJdkHYMxz\"
+        />\r\n        \r\n        <script type=\"text/javascript\" src=\"../../HttpCombiner.ashx?s=IconJs&t=text/javascript\"></script>\r\n
+        \       <div id=\"ctl00_throbber_throbber\" class=\"globalThrobber\">\r\n
+        \   <img class=\"throbber\" src=\"../../Common/Common/Image.aspx?rid=spinner-large.gif\"
+        alt=\"Loading...\" />\r\n</div>\r\n\r\n<script type=\"text/javascript\">\r\n
+        \   $(document).ready(function(){        \r\n        $('.globalThrobber')\r\n
+        \           .ajaxStart(function() {\r\n                if ($('.throbber:visible').length
+        == 0) {\r\n                    $(this).show();\r\n                }\r\n            })
+        \ \r\n            .ajaxStop(function() {\r\n                $(this).hide();\r\n
+        \           })\r\n        ;\r\n    });\r\n</script>\r\n        \r\n\r\n<script
+        type=\"text/javascript\">\r\n    /*This script is designed to alert the user
+        when session timout is reached and redirect to home page*/\r\n    var timer1;\r\n
+        \   window.clearTimeout(timer1);\r\n    var $dialog;\r\n    $(document).ready(function()\r\n
+        \   {\r\n        $dialog = $('<div></div>').html('Your session has expired,
+        you will now be redirected to the home page.').dialog(\r\n        {\r\n            buttons:\r\n
+        \           {   \r\n                'Ok': function()\r\n                {\r\n
+        \                   $(this).dialog('close');\r\n                    window.location
+        = 'http://icon.gtcc.nsw.gov.au/eplanning/Pages/XC.Track/SearchApplication.aspx';\r\n
+        \               }\r\n            },\r\n            show: \"fade\",\r\n            hide:
+        \"fade\",\r\n            resizable: false,\r\n            modal: true,\r\n
+        \           autoOpen: false,\r\n            title:  'Session Expired'\r\n
+        \       });\r\n    });\r\n    var sessionTimeout = '10799000';\r\n    function
+        doTimeout()\r\n    {\r\n        $dialog.dialog('open');\r\n        return
+        false;\r\n    }\r\n    timer1 = window.setTimeout('doTimeout()',sessionTimeout);\r\n</script>\r\n
+        <div id=\"docf\">\r\n            <div id=\"hd\">\r\n                <div id=\"navwrap\">
+        \ \r\n                    <!--Get parent menu item to display-->\r\n<!--Build
+        HTML of Menu-->\r\n<div id=\"nav\" class=\"floatLeft adminnav menushell\">\r\n
+        \ <a id=\"m7002\" class=\"megaMenuLink\">Home</a>\r\n  <a id=\"m7003\" class=\"megaMenuLink\">Admin</a>\r\n
+        \ <a id=\"m10022\" class=\"megaMenuLink\">Track</a>\r\n  <a id=\"m10026\"
+        class=\"megaMenuLink\">Report</a> </div>\r\n<div>\r\n  <!--Build HTML of Menu
+        Items-->\r\n  <div id=\"mm7002\" class=\"megamenu\">\r\n    <div id=\"c7006\"
+        class=\"megaMenuColumn column\">\r\n      <h3>Home</h3>\r\n      <ul>\r\n
+        \       <li>\r\n          <a href=\"../../default.aspx\" target=\"\" class=\"megaMenuItemLink\">Home</a>\r\n
+        \       </li>\r\n        <li>\r\n          <a href=\"www.gtcc.nsw.gov.au\"
+        target=\"\" class=\"megaMenuItemLink\">Greater Taree Home</a>\r\n        </li>\r\n
+        \       <li>\r\n          <a href=\"../../pages/administration/identity.aspx\"
+        target=\"\" class=\"megaMenuItemLink\">Version Information</a>\r\n        </li>\r\n
+        \     </ul> </div> </div>\r\n  <div id=\"mm7003\" class=\"megamenu\">\r\n
+        \   <div id=\"c7012\" class=\"megaMenuColumn column\">\r\n      <h3>Administration</h3>\r\n
+        \     <ul /> </div>\r\n    <div id=\"c7013\" class=\"megaMenuColumn column\">\r\n
+        \     <h3>Database</h3>\r\n      <ul /> </div>\r\n    <div id=\"c7014\" class=\"megaMenuColumn
+        column\">\r\n      <h3>Security</h3>\r\n      <ul /> </div>\r\n    <div id=\"c7036\"
+        class=\"megaMenuColumn column\">\r\n      <h3>Reference</h3>\r\n      <ul
+        /> </div>\r\n    <div id=\"c7037\" class=\"megaMenuColumn column\">\r\n      <h3>Data
+        Warehouse</h3>\r\n      <ul /> </div> </div>\r\n  <div id=\"mm10022\" class=\"megamenu\">\r\n
+        \   <div id=\"c10029\" class=\"megaMenuColumn column\">\r\n      <h3>Track</h3>\r\n
+        \     <ul>\r\n        <li>\r\n          <a href=\"../../pages/XC.Track/SearchProperty.aspx\"
+        target=\"\" class=\"megaMenuItemLink\">Find a Property</a>\r\n        </li>\r\n
+        \       <li>\r\n          <a href=\"../../pages/XC.Track/SearchApplication.aspx\"
+        target=\"\" class=\"megaMenuItemLink\">Find an Application</a>\r\n        </li>\r\n
+        \     </ul> </div> </div>\r\n  <div id=\"mm10026\" class=\"megamenu\">\r\n
+        \   <div id=\"c10027\" class=\"megaMenuColumn column\">\r\n      <h3>Planning</h3>\r\n
+        \     <ul /> </div>\r\n    <div id=\"c10031\" class=\"megaMenuColumn column\">\r\n
+        \     <h3>Finance</h3>\r\n      <ul /> </div>\r\n    <div id=\"c10036\" class=\"megaMenuColumn
+        column\">\r\n      <h3>Records</h3>\r\n      <ul /> </div> </div>\r\n</div>\r\n<!--Build
+        Javascript for Menu-->\r\n<script type=\"text/javascript\">\r\n\r\n      $(document).ready(function()
+        {\r\n      hideEmptyMegaMenus();\r\n      addCurrentClickEvents();\r\n      addCurrent();\r\n
+        \     });\r\n\r\n      \r\n        jkmegamenu.definemenu('m7002','mm7002','click');\r\n
+        \     \r\n        jkmegamenu.definemenu('m7003','mm7003','click');\r\n      \r\n
+        \       jkmegamenu.definemenu('m10022','mm10022','click');\r\n      \r\n        jkmegamenu.definemenu('m10026','mm10026','click');\r\n
+        \     \r\n\r\n      //Hide menu items with no links\r\n      function hideEmptyMegaMenus()\r\n
+        \     {\r\n      $('.megaMenuColumn').each(function(){\r\n      if ($('#'
+        + this.id + ' li').length == 0)\r\n      {\r\n      $('#' + this.id).hide();\r\n
+        \     }\r\n      });\r\n      $('.megaMenuLink').each(function(){\r\n      if
+        ($('#m' + this.id + ' div').filter(function() {return $(this).css('display')
+        != 'none';}).length == 0)\r\n      {\r\n      $('#' + this.id).hide();\r\n
+        \     }\r\n      });\r\n      jkmegamenu.render($);\r\n      }\r\n\r\n      //Set
+        class to show green bar above current mega menu\r\n      function addCurrent()\r\n
+        \     {\r\n      $('.megaMenuLink').removeClass('current');\r\n      if ($.cookie('barMenuCurrentItem')!=null)\r\n
+        \     {\r\n      $('#' + $.cookie('barMenuCurrentItem')).addClass('current');\r\n
+        \     }\r\n      else\r\n      {\r\n      $('.megaMenuLink').first().addClass('current');\r\n
+        \     }\r\n      }\r\n      //Add click events that save current item to cookie\r\n
+        \     function addCurrentClickEvents()\r\n      {\r\n      $('.megaMenuLink').click(function(event)\r\n
+        \     {\r\n      $.cookie('barMenuItemLastClicked',event.target.id,{expires:28,path:'/'});\r\n
+        \     });\r\n      $('.megaMenuItemLink').click(function(event)\r\n      {\r\n
+        \     $.cookie('barMenuCurrentItem',$.cookie('barMenuItemLastClicked'),{expires:28,path:'/'});\r\n
+        \     });\r\n      }\r\n    </script>\r\n\r\n<input type=\"submit\" name=\"ctl00$menu$LoginSucess\"
+        value=\"\" id=\"ctl00_menu_LoginSucess\" style=\"display:none;\" />\r\n\r\n<div
+        class=\"SettingDiv popupPanel\">\r\n    <div id=\"ctl00_menu_help_pnlHelp\"
+        class=\"Help\">\r\n\t&nbsp;<a id=\"ctl00_menu_help_hlk1\" title=\"Printer-friendly
+        page\" href=\"http://icon.gtcc.nsw.gov.au/eplanning/Common/Common/Terms.aspx?p=y\"
+        target=\"_blank\"><img src=\"../../Common/Common/Image.aspx?rid=printer.png\"
+        border=\"0\" alt=\"Print this page\"/></a>&nbsp;<a id=\"ctl00_menu_help_hlk2\"
+        title=\"Email a link to this page\" href=\"mailto:&amp;subject=ICON%20Software%20Solutions&amp;body=http://icon.gtcc.nsw.gov.au/eplanning/Common/Common/Terms.aspx\"><img
+        src=\"../../Common/Common/Image.aspx?rid=email.png\" border=\"0\" alt=\"Email
+        this page\"/></a>&nbsp; <img src=\"../../Common/Common/Image.aspx?rid=font.png\"
+        alt=\"Reset Font Size\" title=\"Reset Font Size\" class=\"resetFont\" style=\"cursor:pointer;\"
+        /> <img src=\"../../Common/Common/Image.aspx?rid=font_add.png\" alt=\"Increase
+        Font Size\" title=\"Increase Font Size\" class=\"increaseFont\" style=\"cursor:pointer;\"
+        /> <img src=\"../../Common/Common/Image.aspx?rid=font_delete.png\" alt=\"Decrease
+        Font Size\" title=\"Decrease Font Size\" class=\"decreaseFont\" style=\"cursor:pointer;\"
+        /> \r\n</div>\r\n    <br /><br /><br />\r\n    Copyright &copy; 2007-2010
+        ICON Software Solutions<br />\r\n    Database: Nexus031_v9 | Version: 9.0.28.8800\r\n</div>\r\n\r\n<script
+        type=\"text/javascript\">\r\n    $(document).ready(function(){\r\n        $('[id*=\"hlkLogin\"]').click(function()
+        {popupLogin($('[id*=\"LoginSucess\"]'),$('[id*=\"hlkLogin\"]'), 'right top',
+        'right bottom');});\r\n    });\r\n</script>\r\n                    <div id=\"nav\"
+        class=\"floatRight adminnav\">  \r\n                        <!-- <a id=\"ctl00_hlkLogin\">Login</a>\r\n
+        \                       \r\n                        <a id=\"ctl00_hlkOptions\">Settings</a>
+        -->\r\n                    </div>  \r\n                </div>\r\n                <div
+        class=\"clear\"></div> \r\n                <div id=\"logoline\">\r\n                    <div
+        class=\"containerLeft adminbanner\">\r\n                        <a href=\"../../default.aspx\"
+        style=\"margin-left:10px;\">\r\n                            <img src=\"../../Images/logo.jpeg\"
+        alt=\"Logo\" style=\"height:40px;\" id=\"adminlogo\" />\r\n                        </a>\r\n
+        \                   </div>\r\n                    <div class=\"containerRight
+        adminbanner\">\r\n                        <div class=\"floatRight ackn admindb\"
+        style=\"margin:3px; text-align:right;\">\r\n                            <!--
+        Copyright &copy; 2007-2010 ICON Software Solutions<br />\r\n                             |
+        \ -->\r\n                        </div>\r\n                        \r\n                    </div>\r\n
+        \               </div>\r\n                <div class=\"clear adminclear\"></div>
+        \r\n                <div id=\"mainline\">\r\n                    <div class=\"containerLeft
+        adminbanner\" style=\"overflow:hidden;\">\r\n                        \r\n
+        \                       <div style=\"margin-top:5px; padding:3px;\" id=\"adminpage\">\r\n
+        \                           \r\n                        </div>\r\n                    </div>\r\n
+        \                   <div class=\"containerRight adminbanner\">\r\n                        \r\n
+        \                   </div>\r\n                </div>\r\n                <div
+        class=\"clear\"></div> \r\n            </div>\r\n            <div class=\"clear\"></div>
+        \r\n            <div id=\"bd\">\r\n                <div id=\"main\">\r\n                    <div
+        class=\"containerLeft\">\r\n                        <div class=\"padded\">\r\n
+        \                           \r\n                        </div>\r\n                    </div>\r\n
+        \                   <div class=\"containerRight\">\r\n                        <div
+        class=\"padded\">\r\n                            \r\n    <div id=\"ctl00_ctMain_main\">\r\n
+        \               <div style=\"height:550px; width:99%; overflow:auto; border:solid
+        1px #BBB; padding:3px;\">\r\n\t\t\t<h3>Application Tracking - Terms and Conditions</h3>\r\n\t\t\t<br
+        />\r\n\t\t\t<h4>About Application Tracking</h4>\r\n\t\t\t<li>The information
+        provided on this site is made available by MidCoast Council as a community
+        and customer service. The information is not provided in real time. Data and
+        application status may reflect that of the previous working day.</li>\r\n\t\t\t<br
+        />\r\n\t\t\t<li>Application data is provided for applications received between
+        1 March 2007 and 30 June 2015. Documents are available only for applications
+        received after 1 July 2015.</li>\r\n\t\t\t<br />\r\n\t\t\t<li>If you access
+        this web site you will be taken to have agreed to the following terms and
+        conditions:</li>\r\n\t\t\t<br />\r\n\t\t\t<h4>Copyright</h4>\r\n\t\t\t<p>Plans,
+        drawings and other documents that can be viewed on this website are protected
+        by the copyright laws of Australia and other countries through international
+        treaties. You must obtain the permission of the copyright owner if you wish
+        to copy, reproduce, print, publish, communicate or adapt any part of a copyright
+        document. You are not entitled to copy, reproduce, print, publish, communicate
+        or adapt the plans, drawings and other documents associated with development
+        applications made available on this website in a way that breaches the copyright.</p>\r\n\t\t\t<br
+        />\r\n\t\t\t<h4>Licence</h4>\r\n\t\t\t<p>MidCoast Council grants you a non-exclusive
+        licence to produce the contents of this website in your web browser (and in
+        any cache files produced by your web browser) for the sole purpose of viewing
+        the content. MidCoast Council reserves all other rights.</p>\r\n\t\t\t<br
+        />\r\n\t\t\t<h4>Privacy</h4>\r\n\t\t\t<p>The information and documents displayed
+        via the online application tracking system are open access information that
+        we are required to make publicly available under sections 6 and 18 of the
+        Government Information (Public Access) Act 2009 (GIPA Act) and Schedule 1
+        of the Government Information (Public Access) Regulation 2009 (GIPA Regulation).</p>\r\n\t\t\t<br
+        />\r\n\t\t\t<h4>Liability</h4>\r\n\t\t\t<p>To the maximum extent permitted
+        by law, MidCoast Council excludes all liability to you for loss or damage
+        of any kind (however caused, including by negligence) arising from or relating
+        in any way to the contents of this website and/or your use of it.</p>\r\n\t\t\t<br
+        />\r\n\t\t\t<h4>About the Information</h4>\r\n\t\t\t<p>The documents provided
+        on this application tracking system are provided for information purposes
+        and are intended as a guide only. The plans, drawings, other documents and
+        information associated with the development applications may not be a complete
+        history and may not be up-to-date or accurate. The information cannot be taken
+        to influence or guarantee the processing time or outcome of any other development
+        application.</p>\r\n\t\t\t<br />\r\n\t\t\t<li>MidCoast Council does not accept
+        any responsibility or liability for reliance on the information in the documents.
+        If you wish to confirm information in detail please contact us by email at
+        <a>council@midcoast.nsw.gov.au</a>.</li>\r\n\t\t\t<br />\r\n\t\t\t<p><b>I
+        have read and understood the provisions set out above</b></p>\r\n        </div>\r\n
+        \       <span id=\"ctl00_ctMain_chkAgree\"><br/><input id=\"ctl00_ctMain_chkAgree_chk1\"
+        type=\"checkbox\" name=\"ctl00$ctMain$chkAgree$chk1\" /> I agree to the above
+        terms and conditions<span></span></span><br />\r\n        <input type=\"submit\"
+        name=\"ctl00$ctMain$BtnAgree\" value=\"I Agree\" id=\"ctl00_ctMain_BtnAgree\"
+        class=\"buttonText buttonAdd\" />\r\n        <input type=\"submit\" name=\"ctl00$ctMain$BtnDisagree\"
+        value=\"I Disagree\" id=\"ctl00_ctMain_BtnDisagree\" class=\"buttonText buttonDelete\"
+        />\r\n        \r\n    </div>\r\n\r\n                            \r\n                        </div>\r\n
+        \                   </div>\r\n                </div>\r\n            </div>\r\n\r\n
+        \           <div class=\"footer\">\r\n                <div style=\"text-align:
+        center; padding-top:20px;color:#ffffff;\">\r\n                    <p>\r\n
+        \                       <a class=\"afoot\" href=\"../../Pages/XC.Home/Home.aspx\">Home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r\n
+        \                       <a class=\"afoot\" href=\"../../Pages/Home/About.aspx\">About
+        us</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r\n                        <a
+        class=\"afoot\" href=\"http://www.iconsoftware.com.au\">ICON Software</a>\r\n
+        \                   </p>\r\n                    <p>\r\n                        <a
+        class=\"afoot\" href=\"http://showcase.iconsoftware.com.au\">Showcase</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r\n
+        \                       <a class=\"afoot\" href=\"http://support.iconsoftware.com.au\">Support</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r\n
+        \                       <a class=\"afoot\" href=\"http://api.iconsoftware.com.au\">API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r\n
+        \                       <a class=\"afoot\" href=\"../../Pages/Security/Login.aspx\">Log
+        in</a>\r\n                    </p>\r\n                </div>\r\n                <div
+        style=\"color:#ffffff;text-align: center; margin-top:20px;\">\r\n                    <p>This
+        page has been produced by ICON Software Solutions.</p>\r\n                    <p>Questions
+        or comments concerning the contents of the site can be directed by email to
+        <a class=\"afoot\" href=\"mailto:info@iconsoftware.com.au\">info@iconsoftware.com.au</a></p>\r\n
+        \               </div>\r\n            </div>\r\n        </div>\r\n        <script
+        type=\"text/javascript\" src=\"../../Common/Javascript/final.js\"></script>\r\n
+        \       <script type=\"text/javascript\" src=\"../../Common/User/User.js\"></script>
+        \r\n        <script type=\"text/javascript\">\r\n            $(document).ready(function
+        () {\r\n                document.title = document.title + ' - ICON Software';\r\n
+        \           });\r\n        </script>\r\n    \r\n\r\n<script type=\"text/javascript\">\r\n//<![CDATA[\r\n;(function()
+        {\r\n                        function loadHandler() {\r\n                            var
+        hf = $get('ctl00_rcss_TSSM');\r\n                            if (!hf._RSSM_init)
+        { hf._RSSM_init = true; hf.value = ''; }\r\n                            hf.value
+        += ';Telerik.Web.UI, Version=2013.3.1114.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4:en:8d3dfe81-f887-4a80-ad14-8e882b52e5e6:53e1db5a;Telerik.Web.UI.Skins,
+        Version=2013.3.1114.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4:en:b4b6f2ef-e084-406b-ab93-e85df8d3c504:40a387cd';\r\n
+        \                           Sys.Application.remove_load(loadHandler);\r\n
+        \                       };\r\n                        Sys.Application.add_load(loadHandler);\r\n
+        \                   })();//]]>\r\n</script>\r\n</form>\r\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: post
+    uri: http://icon.gtcc.nsw.gov.au/eplanning/Common/Common/Terms.aspx
+    body:
+      encoding: UTF-8
+      string: ctl00_rcss_TSSM=&ctl00_script_TSM=&__VIEWSTATE=%2FwEPDwUKMTQ2MzgzODU5OQ9kFgJmD2QWAgIDD2QWCAIHD2QWBAIIDxYCHgRUZXh0BRVEYXRhYmFzZTogTmV4dXMwMzFfdjlkAgoPFgIfAAUUVmVyc2lvbjogOS4wLjI4Ljg4MDBkAgsPDxYCHgdWaXNpYmxlaGRkAhkPFgIfAGVkAh8PZBYCAgEPZBYEAgEPFgIfAAXwGCAgICAgICAgPGRpdiBzdHlsZT0iaGVpZ2h0OjU1MHB4OyB3aWR0aDo5OSU7IG92ZXJmbG93OmF1dG87IGJvcmRlcjpzb2xpZCAxcHggI0JCQjsgcGFkZGluZzozcHg7Ij4NCgkJCTxoMz5BcHBsaWNhdGlvbiBUcmFja2luZyAtIFRlcm1zIGFuZCBDb25kaXRpb25zPC9oMz4NCgkJCTxiciAvPg0KCQkJPGg0PkFib3V0IEFwcGxpY2F0aW9uIFRyYWNraW5nPC9oND4NCgkJCTxsaT5UaGUgaW5mb3JtYXRpb24gcHJvdmlkZWQgb24gdGhpcyBzaXRlIGlzIG1hZGUgYXZhaWxhYmxlIGJ5IE1pZENvYXN0IENvdW5jaWwgYXMgYSBjb21tdW5pdHkgYW5kIGN1c3RvbWVyIHNlcnZpY2UuIFRoZSBpbmZvcm1hdGlvbiBpcyBub3QgcHJvdmlkZWQgaW4gcmVhbCB0aW1lLiBEYXRhIGFuZCBhcHBsaWNhdGlvbiBzdGF0dXMgbWF5IHJlZmxlY3QgdGhhdCBvZiB0aGUgcHJldmlvdXMgd29ya2luZyBkYXkuPC9saT4NCgkJCTxiciAvPg0KCQkJPGxpPkFwcGxpY2F0aW9uIGRhdGEgaXMgcHJvdmlkZWQgZm9yIGFwcGxpY2F0aW9ucyByZWNlaXZlZCBiZXR3ZWVuIDEgTWFyY2ggMjAwNyBhbmQgMzAgSnVuZSAyMDE1LiBEb2N1bWVudHMgYXJlIGF2YWlsYWJsZSBvbmx5IGZvciBhcHBsaWNhdGlvbnMgcmVjZWl2ZWQgYWZ0ZXIgMSBKdWx5IDIwMTUuPC9saT4NCgkJCTxiciAvPg0KCQkJPGxpPklmIHlvdSBhY2Nlc3MgdGhpcyB3ZWIgc2l0ZSB5b3Ugd2lsbCBiZSB0YWtlbiB0byBoYXZlIGFncmVlZCB0byB0aGUgZm9sbG93aW5nIHRlcm1zIGFuZCBjb25kaXRpb25zOjwvbGk%2BDQoJCQk8YnIgLz4NCgkJCTxoND5Db3B5cmlnaHQ8L2g0Pg0KCQkJPHA%2BUGxhbnMsIGRyYXdpbmdzIGFuZCBvdGhlciBkb2N1bWVudHMgdGhhdCBjYW4gYmUgdmlld2VkIG9uIHRoaXMgd2Vic2l0ZSBhcmUgcHJvdGVjdGVkIGJ5IHRoZSBjb3B5cmlnaHQgbGF3cyBvZiBBdXN0cmFsaWEgYW5kIG90aGVyIGNvdW50cmllcyB0aHJvdWdoIGludGVybmF0aW9uYWwgdHJlYXRpZXMuIFlvdSBtdXN0IG9idGFpbiB0aGUgcGVybWlzc2lvbiBvZiB0aGUgY29weXJpZ2h0IG93bmVyIGlmIHlvdSB3aXNoIHRvIGNvcHksIHJlcHJvZHVjZSwgcHJpbnQsIHB1Ymxpc2gsIGNvbW11bmljYXRlIG9yIGFkYXB0IGFueSBwYXJ0IG9mIGEgY29weXJpZ2h0IGRvY3VtZW50LiBZb3UgYXJlIG5vdCBlbnRpdGxlZCB0byBjb3B5LCByZXByb2R1Y2UsIHByaW50LCBwdWJsaXNoLCBjb21tdW5pY2F0ZSBvciBhZGFwdCB0aGUgcGxhbnMsIGRyYXdpbmdzIGFuZCBvdGhlciBkb2N1bWVudHMgYXNzb2NpYXRlZCB3aXRoIGRldmVsb3BtZW50IGFwcGxpY2F0aW9ucyBtYWRlIGF2YWlsYWJsZSBvbiB0aGlzIHdlYnNpdGUgaW4gYSB3YXkgdGhhdCBicmVhY2hlcyB0aGUgY29weXJpZ2h0LjwvcD4NCgkJCTxiciAvPg0KCQkJPGg0PkxpY2VuY2U8L2g0Pg0KCQkJPHA%2BTWlkQ29hc3QgQ291bmNpbCBncmFudHMgeW91IGEgbm9uLWV4Y2x1c2l2ZSBsaWNlbmNlIHRvIHByb2R1Y2UgdGhlIGNvbnRlbnRzIG9mIHRoaXMgd2Vic2l0ZSBpbiB5b3VyIHdlYiBicm93c2VyIChhbmQgaW4gYW55IGNhY2hlIGZpbGVzIHByb2R1Y2VkIGJ5IHlvdXIgd2ViIGJyb3dzZXIpIGZvciB0aGUgc29sZSBwdXJwb3NlIG9mIHZpZXdpbmcgdGhlIGNvbnRlbnQuIE1pZENvYXN0IENvdW5jaWwgcmVzZXJ2ZXMgYWxsIG90aGVyIHJpZ2h0cy48L3A%2BDQoJCQk8YnIgLz4NCgkJCTxoND5Qcml2YWN5PC9oND4NCgkJCTxwPlRoZSBpbmZvcm1hdGlvbiBhbmQgZG9jdW1lbnRzIGRpc3BsYXllZCB2aWEgdGhlIG9ubGluZSBhcHBsaWNhdGlvbiB0cmFja2luZyBzeXN0ZW0gYXJlIG9wZW4gYWNjZXNzIGluZm9ybWF0aW9uIHRoYXQgd2UgYXJlIHJlcXVpcmVkIHRvIG1ha2UgcHVibGljbHkgYXZhaWxhYmxlIHVuZGVyIHNlY3Rpb25zIDYgYW5kIDE4IG9mIHRoZSBHb3Zlcm5tZW50IEluZm9ybWF0aW9uIChQdWJsaWMgQWNjZXNzKSBBY3QgMjAwOSAoR0lQQSBBY3QpIGFuZCBTY2hlZHVsZSAxIG9mIHRoZSBHb3Zlcm5tZW50IEluZm9ybWF0aW9uIChQdWJsaWMgQWNjZXNzKSBSZWd1bGF0aW9uIDIwMDkgKEdJUEEgUmVndWxhdGlvbikuPC9wPg0KCQkJPGJyIC8%2BDQoJCQk8aDQ%2BTGlhYmlsaXR5PC9oND4NCgkJCTxwPlRvIHRoZSBtYXhpbXVtIGV4dGVudCBwZXJtaXR0ZWQgYnkgbGF3LCBNaWRDb2FzdCBDb3VuY2lsIGV4Y2x1ZGVzIGFsbCBsaWFiaWxpdHkgdG8geW91IGZvciBsb3NzIG9yIGRhbWFnZSBvZiBhbnkga2luZCAoaG93ZXZlciBjYXVzZWQsIGluY2x1ZGluZyBieSBuZWdsaWdlbmNlKSBhcmlzaW5nIGZyb20gb3IgcmVsYXRpbmcgaW4gYW55IHdheSB0byB0aGUgY29udGVudHMgb2YgdGhpcyB3ZWJzaXRlIGFuZC9vciB5b3VyIHVzZSBvZiBpdC48L3A%2BDQoJCQk8YnIgLz4NCgkJCTxoND5BYm91dCB0aGUgSW5mb3JtYXRpb248L2g0Pg0KCQkJPHA%2BVGhlIGRvY3VtZW50cyBwcm92aWRlZCBvbiB0aGlzIGFwcGxpY2F0aW9uIHRyYWNraW5nIHN5c3RlbSBhcmUgcHJvdmlkZWQgZm9yIGluZm9ybWF0aW9uIHB1cnBvc2VzIGFuZCBhcmUgaW50ZW5kZWQgYXMgYSBndWlkZSBvbmx5LiBUaGUgcGxhbnMsIGRyYXdpbmdzLCBvdGhlciBkb2N1bWVudHMgYW5kIGluZm9ybWF0aW9uIGFzc29jaWF0ZWQgd2l0aCB0aGUgZGV2ZWxvcG1lbnQgYXBwbGljYXRpb25zIG1heSBub3QgYmUgYSBjb21wbGV0ZSBoaXN0b3J5IGFuZCBtYXkgbm90IGJlIHVwLXRvLWRhdGUgb3IgYWNjdXJhdGUuIFRoZSBpbmZvcm1hdGlvbiBjYW5ub3QgYmUgdGFrZW4gdG8gaW5mbHVlbmNlIG9yIGd1YXJhbnRlZSB0aGUgcHJvY2Vzc2luZyB0aW1lIG9yIG91dGNvbWUgb2YgYW55IG90aGVyIGRldmVsb3BtZW50IGFwcGxpY2F0aW9uLjwvcD4NCgkJCTxiciAvPg0KCQkJPGxpPk1pZENvYXN0IENvdW5jaWwgZG9lcyBub3QgYWNjZXB0IGFueSByZXNwb25zaWJpbGl0eSBvciBsaWFiaWxpdHkgZm9yIHJlbGlhbmNlIG9uIHRoZSBpbmZvcm1hdGlvbiBpbiB0aGUgZG9jdW1lbnRzLiBJZiB5b3Ugd2lzaCB0byBjb25maXJtIGluZm9ybWF0aW9uIGluIGRldGFpbCBwbGVhc2UgY29udGFjdCB1cyBieSBlbWFpbCBhdCA8YT5jb3VuY2lsQG1pZGNvYXN0Lm5zdy5nb3YuYXU8L2E%2BLjwvbGk%2BDQoJCQk8YnIgLz4NCgkJCTxwPjxiPkkgaGF2ZSByZWFkIGFuZCB1bmRlcnN0b29kIHRoZSBwcm92aXNpb25zIHNldCBvdXQgYWJvdmU8L2I%2BPC9wPg0KICAgICAgICA8L2Rpdj5kAgkPFgIfAGVkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYEBRpjdGwwMCRtZW51JGhlbHAkRmx5b3V0SGVscAUTY3RsMDAkbWVudSRjb3B5JGZseQUOY3RsMDAkY29weSRmbHkFGmN0bDAwJGN0TWFpbiRjaGtBZ3JlZSRjaGsxP3q2N0MJBPWcG8q2sWq2B3r%2FRt8%3D&__EVENTVALIDATION=%2FwEdAAW%2F73yKI5irrqu900D%2Bf6RVUhCUsBdObNP5V9gW%2B%2BwB1znAYaULCYMjI6aM%2FPeyL1pE3cgc%2F3vwnIHyec8Y%2BI8IP1cVL2lbUAoZkgtwzgdDKRxQZ0KrcNSgTncuAe9gJdkHYMxz&ctl00%24ctMain%24BtnAgree=I+Agree
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=2hslls2addnygpqbgk1s3vhz
+      Host:
+      - icon.gtcc.nsw.gov.au
+      Referer:
+      - http://icon.gtcc.nsw.gov.au/eplanning/Common/Common/Terms.aspx
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '4944'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Encoding:
+      - gzip
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Sun, 09 Jun 2019 08:05:44 GMT
+      Content-Length:
+      - '8070'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: http://icon.gtcc.nsw.gov.au/eplanning/Pages/XC.Track/SearchApplication.aspx?d=last14days&k=LodgementDate&o=xml&t=290
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=2hslls2addnygpqbgk1s3vhz
+      Host:
+      - icon.gtcc.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/xml; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Sun, 09 Jun 2019 08:05:44 GMT
+      Content-Length:
+      - '97940'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\"?><NewDataSet>\r\n  <Application>\r\n    <ApplicationId>327084</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>634</NatureOfApplicationType>\r\n    <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n
+        \   <ReferenceNumber>279/2019/DA/A</ReferenceNumber>\r\n    <Status>Notification</Status>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>279</ReferenceNumberNumber>\r\n
+        \   <Amendment>A</Amendment>\r\n    <ApplicationDetails>Alterations and Additions
+        and Use of Unauthorised Work</ApplicationDetails>\r\n    <CreatedDate>2019-05-28T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-28T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Adam Dean                                         </Officer>\r\n
+        \   <DADays>12</DADays>\r\n    <ApplicationIdS>327084</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>13020</PropertyId>\r\n      <ApplicationId>327084</ApplicationId>\r\n
+        \     <Line1>25 Pacific Drive</Line1>\r\n      <Line2>Crowdy Head NSW 2427
+        \                                             </Line2>\r\n      <FullLegalDescription>Lot
+        4 Sec 1 DP 758310</FullLegalDescription>\r\n      <ApplicationIdS>327084</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52779048</PartyId>\r\n      <ApplicationId>327084</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>SMITH</FamilyName>\r\n      <GivenName>KIM
+        HOWARD</GivenName>\r\n      <Initial>KH   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Kim Howard Smith</FullName>\r\n      <Line1>18/14 Hosking
+        St\rBALMAIN EAST  NSW  2041</Line1>\r\n      <ApplicationIdS>327084</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327084</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327084</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52779048</PartyId>\r\n      <ApplicationId>327084</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>SMITH</FamilyName>\r\n      <GivenName>KIM
+        HOWARD</GivenName>\r\n      <Initial>KH   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Kim Howard Smith</FullName>\r\n      <Line1>18/14 Hosking
+        St\rBALMAIN EAST  NSW  2041</Line1>\r\n      <ApplicationIdS>327084</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52831696</PartyId>\r\n      <ApplicationId>327084</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>DEAN</FamilyName>\r\n      <GivenName>ADAM
+        </GivenName>\r\n      <Initial>A    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Adam Dean</FullName>\r\n      <Line1>C/- MidCoast Council\r2
+        Pulteney St\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327084</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327068</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>301/2019/DA/A</ReferenceNumber>\r\n
+        \   <Status>Approved</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>301</ReferenceNumberNumber>\r\n    <Amendment>A</Amendment>\r\n
+        \   <ApplicationDetails>Single Storey Dwelling</ApplicationDetails>\r\n    <CreatedDate>2019-05-28T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-28T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Craig McWilliams                                  </Officer>\r\n
+        \   <DADays>12</DADays>\r\n    <ApplicationIdS>327068</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>430527</PropertyId>\r\n      <ApplicationId>327068</ApplicationId>\r\n
+        \     <Line1>80 Albatross Way</Line1>\r\n      <Line2>Old Bar NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 212 DP 1219661</FullLegalDescription>\r\n
+        \     <ApplicationIdS>327068</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>52846510</PartyId>\r\n      <ApplicationId>327068</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>TIM CROSS BUILDING &amp;
+        DESIGN</FamilyName>\r\n      <GivenName xml:space=\"preserve\"> </GivenName>\r\n
+        \     <NameType>C</NameType>\r\n      <FullName>Tim Cross Building &amp; Design</FullName>\r\n
+        \     <Line1>340 Half Chain Rd\rKOORAINGHAT  NSW  2430</Line1>\r\n      <ApplicationIdS>327068</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327068</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327068</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52858727</PartyId>\r\n      <ApplicationId>327068</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>THOMPSON</FamilyName>\r\n
+        \     <GivenName>MATTHEW LAWRENCE</GivenName>\r\n      <Initial>ML   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Matthew Lawrence Thompson</FullName>\r\n
+        \     <Line1>14 Rosier Pl\rOLD BAR  NSW  2430</Line1>\r\n      <ApplicationIdS>327068</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52858728</PartyId>\r\n      <ApplicationId>327068</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>THOMPSON</FamilyName>\r\n
+        \     <GivenName>SALLY JEAN</GivenName>\r\n      <Initial>SJ   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Sally Jean Thompson</FullName>\r\n
+        \     <Line1>14 Rosier Pl\rOLD BAR  NSW  2430</Line1>\r\n      <ApplicationIdS>327068</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52849637</PartyId>\r\n      <ApplicationId>327068</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MACWILLIAMS</FamilyName>\r\n
+        \     <GivenName>CRAIG </GivenName>\r\n      <Initial>C    </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Craig McWilliams</FullName>\r\n
+        \     <Line1>C/- MidCoast Council\r2 Pulteney St\rTAREE  NSW  2430</Line1>\r\n
+        \     <ApplicationIdS>327068</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>327079</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>634</NatureOfApplicationType>\r\n    <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n
+        \   <ReferenceNumber>497/2019/DA</ReferenceNumber>\r\n    <Status>Preliminary
+        Assessment</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>497</ReferenceNumberNumber>\r\n    <ApplicationDetails>Subdivision
+        - 3 Lot (Staged)</ApplicationDetails>\r\n    <CreatedDate>2019-05-28T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-28T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Dean Fisher                                       </Officer>\r\n
+        \   <DADays>12</DADays>\r\n    <ApplicationIdS>327079</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>22182</PropertyId>\r\n      <ApplicationId>327079</ApplicationId>\r\n
+        \     <Line1>44 Peveril Street</Line1>\r\n      <Line2>Tinonee NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 9 Sec 20 DP 758979</FullLegalDescription>\r\n
+        \     <ApplicationIdS>327079</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <PropertyId>22182</PropertyId>\r\n      <ApplicationId>327079</ApplicationId>\r\n
+        \     <Line1>13 Claxton Street</Line1>\r\n      <Line2>Tinonee NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 9 Sec 20 DP 758979</FullLegalDescription>\r\n
+        \     <ApplicationIdS>327079</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <PropertyId>22182</PropertyId>\r\n      <ApplicationId>327079</ApplicationId>\r\n
+        \     <Line1>11 Claxton Street</Line1>\r\n      <Line2>Tinonee NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 9 Sec 20 DP 758979</FullLegalDescription>\r\n
+        \     <ApplicationIdS>327079</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>52805828</PartyId>\r\n      <ApplicationId>327079</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>CALCO SURVEYORS PTY LTD</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Calco Surveyors Pty Ltd</FullName>\r\n      <Line1>PO Box
+        194\rGLOUCESTER  NSW  2422</Line1>\r\n      <ApplicationIdS>327079</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327079</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327079</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52844449</PartyId>\r\n      <ApplicationId>327079</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>CRICK</FamilyName>\r\n      <GivenName>JANE
+        ELIZABETH</GivenName>\r\n      <Initial>JE   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Jane Elizabeth Crick</FullName>\r\n      <Line1>90 Minimbah
+        Bay Rd\rMINIMBAH  NSW  2312</Line1>\r\n      <ApplicationIdS>327079</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52844448</PartyId>\r\n      <ApplicationId>327079</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>CRICK</FamilyName>\r\n      <GivenName>WILLIAM
+        TODD</GivenName>\r\n      <Initial>WT   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>William Todd Crick</FullName>\r\n      <Line1>90 Minimbah
+        Bay Rd\rMINIMBAH  NSW  2312</Line1>\r\n      <ApplicationIdS>327079</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52858385</PartyId>\r\n      <ApplicationId>327079</ApplicationId>\r\n
+        \     <PartyRole>Team Leader                                       </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>FISHER</FamilyName>\r\n
+        \     <GivenName>DEAN </GivenName>\r\n      <Initial>D    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Dean Fisher</FullName>\r\n      <Line1>C/- MidCoast Council\r2
+        Pulteney St\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327079</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327082</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>498/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Preliminary Assessment</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>498</ReferenceNumberNumber>\r\n    <ApplicationDetails>Demolition
+        of Existing Dwelling and Construction of Two Storey Dwelling\r</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-28T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-28T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>0.000000</EstimatedCost>\r\n    <Officer>Luke Vandermeer
+        \                                  </Officer>\r\n    <DADays>12</DADays>\r\n
+        \   <ApplicationIdS>327082</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>12591</PropertyId>\r\n
+        \     <ApplicationId>327082</ApplicationId>\r\n      <Line1>330 Cowans Lane</Line1>\r\n
+        \     <Line2>Oxley Island NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 4 DP 569425</FullLegalDescription>\r\n      <ApplicationIdS>327082</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52835571</PartyId>\r\n      <ApplicationId>327082</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MATTWILL INVESTMENTS PTY
+        LTD</FamilyName>\r\n      <GivenName xml:space=\"preserve\"> </GivenName>\r\n
+        \     <NameType>C</NameType>\r\n      <FullName>Mattwill Investments Pty Ltd</FullName>\r\n
+        \     <Line1>PO Box 6606\rROUSE HILL  NSW  2155</Line1>\r\n      <ApplicationIdS>327082</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327082</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327082</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52859179</PartyId>\r\n      <ApplicationId>327082</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>VANDERMEER</FamilyName>\r\n
+        \     <GivenName>LUKE </GivenName>\r\n      <Initial>L    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Luke Vandermeer</FullName>\r\n      <Line1>C/- MidCoast Council\rPO
+        Box 482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327082</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327092</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>499/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Preliminary Assessment</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>499</ReferenceNumberNumber>\r\n    <ApplicationDetails>Ecotourist
+        Facilty</ApplicationDetails>\r\n    <CreatedDate>2019-05-28T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-28T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Arnna Fotheringham                                </Officer>\r\n
+        \   <DADays>12</DADays>\r\n    <ApplicationIdS>327092</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>6786</PropertyId>\r\n      <ApplicationId>327092</ApplicationId>\r\n
+        \     <Line1>551 Crowdy Head Road</Line1>\r\n      <Line2>Crowdy Head NSW
+        2427                                              </Line2>\r\n      <FullLegalDescription>Lot
+        22 DP 628968</FullLegalDescription>\r\n      <ApplicationIdS>327092</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52778424</PartyId>\r\n      <ApplicationId>327092</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>SIMMONS</FamilyName>\r\n
+        \     <GivenName>RICKI MARK</GivenName>\r\n      <Initial>RM   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Ricki Mark Simmons</FullName>\r\n
+        \     <Line1>PO Box 123\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327092</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327092</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327092</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52778424</PartyId>\r\n      <ApplicationId>327092</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>SIMMONS</FamilyName>\r\n
+        \     <GivenName>RICKI MARK</GivenName>\r\n      <Initial>RM   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Ricki Mark Simmons</FullName>\r\n
+        \     <Line1>PO Box 123\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327092</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52823891</PartyId>\r\n      <ApplicationId>327092</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>FOTHERINGHAM</FamilyName>\r\n
+        \     <GivenName>ARNNA </GivenName>\r\n      <Initial>A    </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Arnna Fotheringham</FullName>\r\n
+        \     <Line1>C/- MidCoast Council\r2 Pulteney St\rTAREE  NSW  2430</Line1>\r\n
+        \     <ApplicationIdS>327092</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>327095</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>634</NatureOfApplicationType>\r\n    <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n
+        \   <ReferenceNumber>500/2019/DA</ReferenceNumber>\r\n    <Status>Preliminary
+        Assessment</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>500</ReferenceNumberNumber>\r\n    <ApplicationDetails>Dwelling,
+        Garage &amp; Shed</ApplicationDetails>\r\n    <CreatedDate>2019-05-28T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-28T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Luke Vandermeer                                   </Officer>\r\n
+        \   <DADays>12</DADays>\r\n    <ApplicationIdS>327095</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>13217</PropertyId>\r\n      <ApplicationId>327095</ApplicationId>\r\n
+        \     <Line1>0 The Dell</Line1>\r\n      <Line2>Diamond Beach NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 8 DP 793672</FullLegalDescription>\r\n      <ApplicationIdS>327095</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>13217</PropertyId>\r\n
+        \     <ApplicationId>327095</ApplicationId>\r\n      <Line1>19 Panorama Drive</Line1>\r\n
+        \     <Line2>Diamond Beach NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 8 DP 793672</FullLegalDescription>\r\n      <ApplicationIdS>327095</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52849178</PartyId>\r\n      <ApplicationId>327095</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>HARRIS</FamilyName>\r\n
+        \     <GivenName>BERNADETTE MAREE</GivenName>\r\n      <Initial>BM   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Bernadette Maree Harris</FullName>\r\n
+        \     <Line1>PO Box 199\rHALLIDAYS POINT  NSW  2430</Line1>\r\n      <ApplicationIdS>327095</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52849177</PartyId>\r\n      <ApplicationId>327095</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>HARRIS</FamilyName>\r\n
+        \     <GivenName>MARK ROBERT</GivenName>\r\n      <Initial>MR   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Mark Robert Harris</FullName>\r\n
+        \     <Line1>PO Box 199\rHALLIDAYS POINT  NSW  2430</Line1>\r\n      <ApplicationIdS>327095</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327095</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327095</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52849178</PartyId>\r\n      <ApplicationId>327095</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>HARRIS</FamilyName>\r\n
+        \     <GivenName>BERNADETTE MAREE</GivenName>\r\n      <Initial>BM   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Bernadette Maree Harris</FullName>\r\n
+        \     <Line1>PO Box 199\rHALLIDAYS POINT  NSW  2430</Line1>\r\n      <ApplicationIdS>327095</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52849177</PartyId>\r\n      <ApplicationId>327095</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>HARRIS</FamilyName>\r\n
+        \     <GivenName>MARK ROBERT</GivenName>\r\n      <Initial>MR   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Mark Robert Harris</FullName>\r\n
+        \     <Line1>PO Box 199\rHALLIDAYS POINT  NSW  2430</Line1>\r\n      <ApplicationIdS>327095</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52859179</PartyId>\r\n      <ApplicationId>327095</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>VANDERMEER</FamilyName>\r\n
+        \     <GivenName>LUKE </GivenName>\r\n      <Initial>L    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Luke Vandermeer</FullName>\r\n      <Line1>C/- MidCoast Council\rPO
+        Box 482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327095</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327104</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>501/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Notification</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>501</ReferenceNumberNumber>\r\n    <ApplicationDetails>Carport</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-29T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-29T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>0.000000</EstimatedCost>\r\n    <Officer>Adam Dean                                         </Officer>\r\n
+        \   <DADays>11</DADays>\r\n    <ApplicationIdS>327104</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>32393</PropertyId>\r\n      <ApplicationId>327104</ApplicationId>\r\n
+        \     <Line1>42 Oxley Street</Line1>\r\n      <Line2>Harrington NSW 2427                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 5 DP 1074588</FullLegalDescription>\r\n      <ApplicationIdS>327104</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52814127</PartyId>\r\n      <ApplicationId>327104</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>ELY</FamilyName>\r\n      <GivenName>HEATHER
+        RHONDA</GivenName>\r\n      <Initial>HR   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Heather Rhonda Ely</FullName>\r\n      <Line1>42 Oxley St\rHARRINGTON
+        \ NSW  2427</Line1>\r\n      <ApplicationIdS>327104</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PartyId>52814126</PartyId>\r\n      <ApplicationId>327104</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>ELY</FamilyName>\r\n      <GivenName>PETER
+        ROBERT</GivenName>\r\n      <Initial>PRA  </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Peter Robert Anthony Ely</FullName>\r\n      <Line1>42 Oxley
+        St\rHARRINGTON  NSW  2427</Line1>\r\n      <ApplicationIdS>327104</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327104</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327104</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52814127</PartyId>\r\n      <ApplicationId>327104</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>ELY</FamilyName>\r\n      <GivenName>HEATHER
+        RHONDA</GivenName>\r\n      <Initial>HR   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Heather Rhonda Ely</FullName>\r\n      <Line1>42 Oxley St\rHARRINGTON
+        \ NSW  2427</Line1>\r\n      <ApplicationIdS>327104</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PartyId>52814126</PartyId>\r\n      <ApplicationId>327104</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>ELY</FamilyName>\r\n      <GivenName>PETER
+        ROBERT</GivenName>\r\n      <Initial>PRA  </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Peter Robert Anthony Ely</FullName>\r\n      <Line1>42 Oxley
+        St\rHARRINGTON  NSW  2427</Line1>\r\n      <ApplicationIdS>327104</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52831696</PartyId>\r\n      <ApplicationId>327104</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>DEAN</FamilyName>\r\n      <GivenName>ADAM
+        </GivenName>\r\n      <Initial>A    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Adam Dean</FullName>\r\n      <Line1>C/- MidCoast Council\r2
+        Pulteney St\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327104</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327158</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>502/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Preliminary Assessment</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>502</ReferenceNumberNumber>\r\n    <ApplicationDetails>Single
+        storey Dwelling</ApplicationDetails>\r\n    <CreatedDate>2019-05-30T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-30T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Luke Vandermeer                                   </Officer>\r\n
+        \   <DADays>10</DADays>\r\n    <ApplicationIdS>327158</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>431839</PropertyId>\r\n      <ApplicationId>327158</ApplicationId>\r\n
+        \     <Line1>39 Woodlands Drive</Line1>\r\n      <Line2>Hallidays Point NSW
+        2430                                              </Line2>\r\n      <FullLegalDescription>Lot
+        51 DP 1245115</FullLegalDescription>\r\n      <ApplicationIdS>327158</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52805418</PartyId>\r\n      <ApplicationId>327158</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>NEWCASTLE QUALITY CONSTRUCTIONS
+        PTY LTD</FamilyName>\r\n      <GivenName xml:space=\"preserve\"> </GivenName>\r\n
+        \     <NameType>C</NameType>\r\n      <FullName>Newcastle Quality Constructions
+        Pty Ltd</FullName>\r\n      <Line1>PO Box 340\rEAST MAITLAND  NSW  2323</Line1>\r\n
+        \     <ApplicationIdS>327158</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <PartyId>52767748</PartyId>\r\n      <ApplicationId>327158</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327158</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52857487</PartyId>\r\n      <ApplicationId>327158</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>JONES</FamilyName>\r\n      <GivenName>CLIFFORD
+        GEORGE</GivenName>\r\n      <Initial>CG   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Clifford George Jones</FullName>\r\n      <Line1>PO Box 519\rWENTWORTHVILLE
+        \ NSW  2145</Line1>\r\n      <ApplicationIdS>327158</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PartyId>52857488</PartyId>\r\n      <ApplicationId>327158</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>JONES</FamilyName>\r\n      <GivenName>JANET
+        SUSAN</GivenName>\r\n      <Initial>JS   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Janet Susan Jones</FullName>\r\n      <Line1>PO Box 519\rWENTWORTHVILLE
+        \ NSW  2145</Line1>\r\n      <ApplicationIdS>327158</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PartyId>52859179</PartyId>\r\n      <ApplicationId>327158</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>VANDERMEER</FamilyName>\r\n
+        \     <GivenName>LUKE </GivenName>\r\n      <Initial>L    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Luke Vandermeer</FullName>\r\n      <Line1>C/- MidCoast Council\rPO
+        Box 482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327158</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327185</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>503/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Preliminary Assessment</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>503</ReferenceNumberNumber>\r\n    <ApplicationDetails>Attached
+        Garage and Walkway</ApplicationDetails>\r\n    <CreatedDate>2019-05-31T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-31T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Lewis McDonald                                    </Officer>\r\n
+        \   <DADays>9</DADays>\r\n    <ApplicationIdS>327185</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>19390</PropertyId>\r\n      <ApplicationId>327185</ApplicationId>\r\n
+        \     <Line1>91 Cusacks Lane</Line1>\r\n      <Line2>Dyers Crossing NSW 2429
+        \                                             </Line2>\r\n      <FullLegalDescription>Lot
+        104 DP 753217</FullLegalDescription>\r\n      <ApplicationIdS>327185</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52852495</PartyId>\r\n      <ApplicationId>327185</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>BOWEN</FamilyName>\r\n      <GivenName>BEVERLEY
+        JOY</GivenName>\r\n      <Initial>BJ   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Beverley Joy Bowen</FullName>\r\n      <Line1>8 Christian
+        Crs\rFORSTER  NSW  2428</Line1>\r\n      <ApplicationIdS>327185</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327185</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327185</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52852495</PartyId>\r\n      <ApplicationId>327185</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>BOWEN</FamilyName>\r\n      <GivenName>BEVERLEY
+        JOY</GivenName>\r\n      <Initial>BJ   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Beverley Joy Bowen</FullName>\r\n      <Line1>8 Christian
+        Crs\rFORSTER  NSW  2428</Line1>\r\n      <ApplicationIdS>327185</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52850684</PartyId>\r\n      <ApplicationId>327185</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MACDONALD</FamilyName>\r\n
+        \     <GivenName>LEWIS </GivenName>\r\n      <Initial>L    </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Lewis McDonald</FullName>\r\n
+        \     <Line1>C/- MidCoast Council\r2 Pulteney St\rTAREE  NSW  2430</Line1>\r\n
+        \     <ApplicationIdS>327185</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>327196</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>634</NatureOfApplicationType>\r\n    <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n
+        \   <ReferenceNumber>504/2019/DA</ReferenceNumber>\r\n    <Status>Preliminary
+        Assessment</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>504</ReferenceNumberNumber>\r\n    <ApplicationDetails>Single
+        Storey Dwelling, Garage and Pool</ApplicationDetails>\r\n    <CreatedDate>2019-05-31T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-31T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Luke Vandermeer                                   </Officer>\r\n
+        \   <DADays>9</DADays>\r\n    <ApplicationIdS>327196</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>430977</PropertyId>\r\n      <ApplicationId>327196</ApplicationId>\r\n
+        \     <Line1>9 Noosa Crescent</Line1>\r\n      <Line2>Red Head NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 1016 DP 1228138</FullLegalDescription>\r\n
+        \     <ApplicationIdS>327196</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>52860464</PartyId>\r\n      <ApplicationId>327196</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>WEIGERNICK</FamilyName>\r\n
+        \     <GivenName>JOE </GivenName>\r\n      <Initial>J    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Joe Weigernick</FullName>\r\n      <Line1>PO Box 283\rSAWTELL
+        \ NSW  2452</Line1>\r\n      <ApplicationIdS>327196</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327196</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327196</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52850251</PartyId>\r\n      <ApplicationId>327196</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MILLER</FamilyName>\r\n
+        \     <GivenName>CATHERINE ELIZABETH</GivenName>\r\n      <Initial>CE   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Catherine Elizabeth Miller</FullName>\r\n
+        \     <Line1>328 Plomer Rd\rNORTH SHORE  NSW  2444</Line1>\r\n      <ApplicationIdS>327196</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52859179</PartyId>\r\n      <ApplicationId>327196</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>VANDERMEER</FamilyName>\r\n
+        \     <GivenName>LUKE </GivenName>\r\n      <Initial>L    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Luke Vandermeer</FullName>\r\n      <Line1>C/- MidCoast Council\rPO
+        Box 482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327196</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327212</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>505/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Preliminary Assessment</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>505</ReferenceNumberNumber>\r\n    <ApplicationDetails>Commercial
+        Alterations</ApplicationDetails>\r\n    <CreatedDate>2019-05-31T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-31T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <OfficerTitle>Development Services                              </OfficerTitle>\r\n
+        \   <Officer>Dean Fisher                                       </Officer>\r\n
+        \   <DADays>9</DADays>\r\n    <ApplicationIdS>327212</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>12239</PropertyId>\r\n      <ApplicationId>327212</ApplicationId>\r\n
+        \     <Line1>31 Old Bar Road</Line1>\r\n      <Line2>Old Bar NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 21 DP 524266</FullLegalDescription>\r\n      <ApplicationIdS>327212</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52811400</PartyId>\r\n      <ApplicationId>327212</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>TAO YE</FamilyName>\r\n
+        \     <GivenName>ZHAN </GivenName>\r\n      <Initial>Z    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Zhan Tao Ye</FullName>\r\n      <Line1>942 Old Bar Rd\rOLD
+        BAR  NSW  2430</Line1>\r\n      <ApplicationIdS>327212</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327212</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327212</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52773560</PartyId>\r\n      <ApplicationId>327212</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>BARRETT</FamilyName>\r\n
+        \     <GivenName>VASILIA </GivenName>\r\n      <Initial>V    </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Vasilia Barrett</FullName>\r\n
+        \     <Line1>543 The Entrance Rd\rERINA HEIGHTS  NSW  2260</Line1>\r\n      <ApplicationIdS>327212</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52858385</PartyId>\r\n      <ApplicationId>327212</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>FISHER</FamilyName>\r\n
+        \     <GivenName>DEAN </GivenName>\r\n      <Initial>D    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Dean Fisher</FullName>\r\n      <Line1>C/- MidCoast Council\r2
+        Pulteney St\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327212</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327221</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>506/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Preliminary Assessment</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>506</ReferenceNumberNumber>\r\n    <ApplicationDetails>Two
+        storey Dwelling</ApplicationDetails>\r\n    <CreatedDate>2019-05-31T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-31T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Luke Vandermeer                                   </Officer>\r\n
+        \   <DADays>9</DADays>\r\n    <ApplicationIdS>327221</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>432381</PropertyId>\r\n      <ApplicationId>327221</ApplicationId>\r\n
+        \     <Line1>64 Red Head Road</Line1>\r\n      <Line2>Red Head NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 526 DP 1247347</FullLegalDescription>\r\n
+        \     <ApplicationIdS>327221</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>52860464</PartyId>\r\n      <ApplicationId>327221</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>WEIGERNICK</FamilyName>\r\n
+        \     <GivenName>JOE </GivenName>\r\n      <Initial>J    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Joe Weigernick</FullName>\r\n      <Line1>PO Box 283\rSAWTELL
+        \ NSW  2452</Line1>\r\n      <ApplicationIdS>327221</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327221</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327221</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52775022</PartyId>\r\n      <ApplicationId>327221</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>PEARSALL</FamilyName>\r\n
+        \     <GivenName>ANNETTE VERA</GivenName>\r\n      <Initial>AV   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Annette Vera Pearsall</FullName>\r\n
+        \     <Line1>9A Coromont Drv\rRED HEAD  NSW  2430</Line1>\r\n      <ApplicationIdS>327221</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52775021</PartyId>\r\n      <ApplicationId>327221</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>PEARSALL</FamilyName>\r\n
+        \     <GivenName>JAMES ROBERT</GivenName>\r\n      <Initial>JR   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>James Robert Pearsall</FullName>\r\n
+        \     <Line1>9A Coromont Drv\rRED HEAD  NSW  2430</Line1>\r\n      <ApplicationIdS>327221</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52859179</PartyId>\r\n      <ApplicationId>327221</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>VANDERMEER</FamilyName>\r\n
+        \     <GivenName>LUKE </GivenName>\r\n      <Initial>L    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Luke Vandermeer</FullName>\r\n      <Line1>C/- MidCoast Council\rPO
+        Box 482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327221</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327248</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>507/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Notification</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>507</ReferenceNumberNumber>\r\n    <ApplicationDetails>Storage
+        Shed &amp; Awnings (Use Only)</ApplicationDetails>\r\n    <CreatedDate>2019-06-03T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-03T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Adam Dean                                         </Officer>\r\n
+        \   <DADays>6</DADays>\r\n    <ApplicationIdS>327248</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>2209</PropertyId>\r\n      <ApplicationId>327248</ApplicationId>\r\n
+        \     <Line1>6 Bungay Road</Line1>\r\n      <Line2>Wingham NSW 2429                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 5 DP 37974</FullLegalDescription>\r\n      <ApplicationIdS>327248</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52844259</PartyId>\r\n      <ApplicationId>327248</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MACCARTHY</FamilyName>\r\n
+        \     <GivenName>WENDY MARIA</GivenName>\r\n      <Initial>WM   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Wendy Maria McCarthy</FullName>\r\n
+        \     <Line1>6 Bungay Rd\rWINGHAM  NSW  2429</Line1>\r\n      <ApplicationIdS>327248</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327248</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327248</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52844259</PartyId>\r\n      <ApplicationId>327248</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MACCARTHY</FamilyName>\r\n
+        \     <GivenName>WENDY MARIA</GivenName>\r\n      <Initial>WM   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Wendy Maria McCarthy</FullName>\r\n
+        \     <Line1>6 Bungay Rd\rWINGHAM  NSW  2429</Line1>\r\n      <ApplicationIdS>327248</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52831696</PartyId>\r\n      <ApplicationId>327248</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>DEAN</FamilyName>\r\n      <GivenName>ADAM
+        </GivenName>\r\n      <Initial>A    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Adam Dean</FullName>\r\n      <Line1>C/- MidCoast Council\r2
+        Pulteney St\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327248</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327282</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>508/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Allocation</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>508</ReferenceNumberNumber>\r\n    <ApplicationDetails>Boundary
+        Adjustment</ApplicationDetails>\r\n    <CreatedDate>2019-06-04T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-04T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <DADays>5</DADays>\r\n    <ApplicationIdS>327282</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>14826</PropertyId>\r\n      <ApplicationId>327282</ApplicationId>\r\n
+        \     <Line1>6 Ruby Drive</Line1>\r\n      <Line2>Taree NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 45 DP 804902</FullLegalDescription>\r\n      <ApplicationIdS>327282</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>31540</PropertyId>\r\n
+        \     <ApplicationId>327282</ApplicationId>\r\n      <Line1>5 Clare Place</Line1>\r\n
+        \     <Line2>Taree NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 106 DP 1056818</FullLegalDescription>\r\n
+        \     <ApplicationIdS>327282</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>52829638</PartyId>\r\n      <ApplicationId>327282</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MACGLASHAN &amp; CRISP PTY
+        LTD</FamilyName>\r\n      <GivenName xml:space=\"preserve\"> </GivenName>\r\n
+        \     <NameType>C</NameType>\r\n      <FullName>McGlashan &amp; Crisp Pty
+        Ltd</FullName>\r\n      <Line1>admin@mcglashancrisp.com.au</Line1>\r\n      <ApplicationIdS>327282</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327282</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327282</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52795913</PartyId>\r\n      <ApplicationId>327282</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>RIMMER</FamilyName>\r\n
+        \     <GivenName>ANNETTE KAY</GivenName>\r\n      <Initial>AK   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Annette Kay Rimmer</FullName>\r\n
+        \     <Line1>6 Ruby Drv\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327282</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52795912</PartyId>\r\n      <ApplicationId>327282</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>RIMMER</FamilyName>\r\n
+        \     <GivenName>ANTHONY HAROLD</GivenName>\r\n      <Initial>AH   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Anthony Harold Rimmer</FullName>\r\n
+        \     <Line1>6 Ruby Drv\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327282</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327313</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>336/2019/DA/A</ReferenceNumber>\r\n
+        \   <Status>Preliminary Assessment</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>336</ReferenceNumberNumber>\r\n    <Amendment>A</Amendment>\r\n
+        \   <ApplicationDetails>Single Storey Dwelling</ApplicationDetails>\r\n    <CreatedDate>2019-06-05T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-05T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Luke Vandermeer                                   </Officer>\r\n
+        \   <DADays>4</DADays>\r\n    <ApplicationIdS>327313</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>432172</PropertyId>\r\n      <ApplicationId>327313</ApplicationId>\r\n
+        \     <Line1>236 Khatabundah Road</Line1>\r\n      <Line2>Wingham NSW 2429
+        \                                             </Line2>\r\n      <FullLegalDescription>Lot
+        2 DP 1249610</FullLegalDescription>\r\n      <ApplicationIdS>327313</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52829638</PartyId>\r\n      <ApplicationId>327313</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MACGLASHAN &amp; CRISP PTY
+        LTD</FamilyName>\r\n      <GivenName xml:space=\"preserve\"> </GivenName>\r\n
+        \     <NameType>C</NameType>\r\n      <FullName>McGlashan &amp; Crisp Pty
+        Ltd</FullName>\r\n      <Line1>admin@mcglashancrisp.com.au</Line1>\r\n      <ApplicationIdS>327313</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327313</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327313</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52784036</PartyId>\r\n      <ApplicationId>327313</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>RAND</FamilyName>\r\n      <GivenName>ASA
+        JOHN</GivenName>\r\n      <Initial>AJ   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Asa John Rand</FullName>\r\n      <Line1>1012 Wherrol Flat
+        Rd\rWHERROL FLAT  NSW  2429</Line1>\r\n      <ApplicationIdS>327313</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52784037</PartyId>\r\n      <ApplicationId>327313</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>RYDER</FamilyName>\r\n      <GivenName>KAREN
+        SUZANNE</GivenName>\r\n      <Initial>KS   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Karen Suzanne Ryder</FullName>\r\n      <Line1>1012 Wherrol
+        Flat Rd\rWHERROL FLAT  NSW  2429</Line1>\r\n      <ApplicationIdS>327313</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52859179</PartyId>\r\n      <ApplicationId>327313</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>VANDERMEER</FamilyName>\r\n
+        \     <GivenName>LUKE </GivenName>\r\n      <Initial>L    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Luke Vandermeer</FullName>\r\n      <Line1>C/- MidCoast Council\rPO
+        Box 482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327313</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327318</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>340/2019/DA/A</ReferenceNumber>\r\n
+        \   <Status>Allocation</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>340</ReferenceNumberNumber>\r\n    <Amendment>A</Amendment>\r\n
+        \   <ApplicationDetails>Subdivision - 3 Lot (Boundary Adjustment)</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-05T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-05T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>0.000000</EstimatedCost>\r\n    <DADays>4</DADays>\r\n
+        \   <ApplicationIdS>327318</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>9623</PropertyId>\r\n
+        \     <ApplicationId>327318</ApplicationId>\r\n      <Line1>155 Middlebrook
+        Road</Line1>\r\n      <Line2>Marlee NSW 2429                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 6 DP 626217</FullLegalDescription>\r\n      <ApplicationIdS>327318</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>23266</PropertyId>\r\n
+        \     <ApplicationId>327318</ApplicationId>\r\n      <Line1>36 Robinson Road</Line1>\r\n
+        \     <Line2>Marlee NSW 2429                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 1 DP 335432</FullLegalDescription>\r\n      <ApplicationIdS>327318</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>428768</PropertyId>\r\n
+        \     <ApplicationId>327318</ApplicationId>\r\n      <Line1>61 Robinson Road</Line1>\r\n
+        \     <Line2>Marlee NSW 2429                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 210 DP 1187021</FullLegalDescription>\r\n
+        \     <ApplicationIdS>327318</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>52805828</PartyId>\r\n      <ApplicationId>327318</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>CALCO SURVEYORS PTY LTD</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Calco Surveyors Pty Ltd</FullName>\r\n      <Line1>PO Box
+        194\rGLOUCESTER  NSW  2422</Line1>\r\n      <ApplicationIdS>327318</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327318</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327318</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52784181</PartyId>\r\n      <ApplicationId>327318</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GRANT</FamilyName>\r\n      <GivenName>FRANCES
+        </GivenName>\r\n      <Initial>F    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Frances Grant</FullName>\r\n      <Line1>155 Middlebrook Rd\rMARLEE
+        \ NSW  2429</Line1>\r\n      <ApplicationIdS>327318</ApplicationIdS>\r\n    </Party>\r\n
+        \ <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>327309</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>634</NatureOfApplicationType>\r\n    <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n
+        \   <ReferenceNumber>509/2019/DA</ReferenceNumber>\r\n    <Status>Preliminary
+        Assessment</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>509</ReferenceNumberNumber>\r\n    <ApplicationDetails>Residential
+        Alterations and Additions \r</ApplicationDetails>\r\n    <CreatedDate>2019-06-05T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-05T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Craig McWilliams                                  </Officer>\r\n
+        \   <DADays>4</DADays>\r\n    <ApplicationIdS>327309</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>33049</PropertyId>\r\n      <ApplicationId>327309</ApplicationId>\r\n
+        \     <Line1>15 Huntress Street</Line1>\r\n      <Line2>Harrington NSW 2427
+        \                                             </Line2>\r\n      <FullLegalDescription>Lot
+        568 DP 1082760</FullLegalDescription>\r\n      <ApplicationIdS>327309</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52848283</PartyId>\r\n      <ApplicationId>327309</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>GRIFFITHS</FamilyName>\r\n
+        \     <GivenName>BARRY JOSEPH</GivenName>\r\n      <Initial>BJ   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Barry Joseph Griffiths</FullName>\r\n
+        \     <Line1>15 Huntress St\rHARRINGTON  NSW  2427</Line1>\r\n      <ApplicationIdS>327309</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52848371</PartyId>\r\n      <ApplicationId>327309</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GRIFFITHS</FamilyName>\r\n
+        \     <GivenName>CHRISTINE ALICE</GivenName>\r\n      <Initial>CA   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Christine Alice Griffiths</FullName>\r\n
+        \     <Line1>15 Huntress St\rHARRINGTON  NSW  2427</Line1>\r\n      <ApplicationIdS>327309</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327309</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327309</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52848283</PartyId>\r\n      <ApplicationId>327309</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>GRIFFITHS</FamilyName>\r\n
+        \     <GivenName>BARRY JOSEPH</GivenName>\r\n      <Initial>BJ   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Barry Joseph Griffiths</FullName>\r\n
+        \     <Line1>15 Huntress St\rHARRINGTON  NSW  2427</Line1>\r\n      <ApplicationIdS>327309</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52848371</PartyId>\r\n      <ApplicationId>327309</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GRIFFITHS</FamilyName>\r\n
+        \     <GivenName>CHRISTINE ALICE</GivenName>\r\n      <Initial>CA   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Christine Alice Griffiths</FullName>\r\n
+        \     <Line1>15 Huntress St\rHARRINGTON  NSW  2427</Line1>\r\n      <ApplicationIdS>327309</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52849637</PartyId>\r\n      <ApplicationId>327309</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MACWILLIAMS</FamilyName>\r\n
+        \     <GivenName>CRAIG </GivenName>\r\n      <Initial>C    </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Craig McWilliams</FullName>\r\n
+        \     <Line1>C/- MidCoast Council\r2 Pulteney St\rTAREE  NSW  2430</Line1>\r\n
+        \     <ApplicationIdS>327309</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>327325</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>634</NatureOfApplicationType>\r\n    <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n
+        \   <ReferenceNumber>510/2019/DA</ReferenceNumber>\r\n    <Status>Preliminary
+        Assessment</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>510</ReferenceNumberNumber>\r\n    <ApplicationDetails>Single
+        Storey Dwelling</ApplicationDetails>\r\n    <CreatedDate>2019-06-05T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-05T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Adam Dean                                         </Officer>\r\n
+        \   <DADays>4</DADays>\r\n    <ApplicationIdS>327325</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>8887</PropertyId>\r\n      <ApplicationId>327325</ApplicationId>\r\n
+        \     <Line1>229 Kolodong Road</Line1>\r\n      <Line2>Taree NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 22 DP 628803</FullLegalDescription>\r\n      <ApplicationIdS>327325</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>8887</PropertyId>\r\n
+        \     <ApplicationId>327325</ApplicationId>\r\n      <Line1>65 Tarrumbi Way</Line1>\r\n
+        \     <Line2>Taree NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 22 DP 628803</FullLegalDescription>\r\n      <ApplicationIdS>327325</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52857998</PartyId>\r\n      <ApplicationId>327325</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>POPE</FamilyName>\r\n      <GivenName>JOCELYN
+        LOUVAIN</GivenName>\r\n      <Initial>JL   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Jocelyn Louvain Pope</FullName>\r\n      <Line1>438 Markwell
+        Rd\rBULAHDELAH  NSW  2423</Line1>\r\n      <ApplicationIdS>327325</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52857999</PartyId>\r\n      <ApplicationId>327325</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>WOOD</FamilyName>\r\n      <GivenName>MALCOLM
+        JOHN</GivenName>\r\n      <Initial>MJ   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Malcolm John Wood</FullName>\r\n      <Line1>438 Markwell
+        Rd\rBULAHDELAH  NSW  2423</Line1>\r\n      <ApplicationIdS>327325</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327325</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327325</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52857998</PartyId>\r\n      <ApplicationId>327325</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>POPE</FamilyName>\r\n      <GivenName>JOCELYN
+        LOUVAIN</GivenName>\r\n      <Initial>JL   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Jocelyn Louvain Pope</FullName>\r\n      <Line1>438 Markwell
+        Rd\rBULAHDELAH  NSW  2423</Line1>\r\n      <ApplicationIdS>327325</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52857999</PartyId>\r\n      <ApplicationId>327325</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>WOOD</FamilyName>\r\n      <GivenName>MALCOLM
+        JOHN</GivenName>\r\n      <Initial>MJ   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Malcolm John Wood</FullName>\r\n      <Line1>438 Markwell
+        Rd\rBULAHDELAH  NSW  2423</Line1>\r\n      <ApplicationIdS>327325</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52831696</PartyId>\r\n      <ApplicationId>327325</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>DEAN</FamilyName>\r\n      <GivenName>ADAM
+        </GivenName>\r\n      <Initial>A    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Adam Dean</FullName>\r\n      <Line1>C/- MidCoast Council\r2
+        Pulteney St\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327325</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327330</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>511/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Preliminary Assessment</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>511</ReferenceNumberNumber>\r\n    <ApplicationDetails>Residential
+        Alterations and Additions</ApplicationDetails>\r\n    <CreatedDate>2019-06-05T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-05T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Lewis McDonald                                    </Officer>\r\n
+        \   <DADays>4</DADays>\r\n    <ApplicationIdS>327330</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>14997</PropertyId>\r\n      <ApplicationId>327330</ApplicationId>\r\n
+        \     <Line1>8 Sapphire Parade</Line1>\r\n      <Line2>Diamond Beach NSW 2430
+        \                                             </Line2>\r\n      <FullLegalDescription>Lot
+        114 DP 219979</FullLegalDescription>\r\n      <ApplicationIdS>327330</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52815180</PartyId>\r\n      <ApplicationId>327330</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>MARSHALL</FamilyName>\r\n
+        \     <GivenName>KYLIE LOUISE</GivenName>\r\n      <Initial>KL   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Kylie Louise Marshall</FullName>\r\n
+        \     <Line1>17 Rosebank Ave\rDURAL  NSW  2158</Line1>\r\n      <ApplicationIdS>327330</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52815179</PartyId>\r\n      <ApplicationId>327330</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>WRIGHT</FamilyName>\r\n
+        \     <GivenName>CHRISTOPHER IAN</GivenName>\r\n      <Initial>CI   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Christopher Ian Wright</FullName>\r\n
+        \     <Line1>17 Rosebank Ave\rDURAL  NSW  2158</Line1>\r\n      <ApplicationIdS>327330</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327330</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327330</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52815180</PartyId>\r\n      <ApplicationId>327330</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>MARSHALL</FamilyName>\r\n
+        \     <GivenName>KYLIE LOUISE</GivenName>\r\n      <Initial>KL   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Kylie Louise Marshall</FullName>\r\n
+        \     <Line1>17 Rosebank Ave\rDURAL  NSW  2158</Line1>\r\n      <ApplicationIdS>327330</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52815179</PartyId>\r\n      <ApplicationId>327330</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>WRIGHT</FamilyName>\r\n
+        \     <GivenName>CHRISTOPHER IAN</GivenName>\r\n      <Initial>CI   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Christopher Ian Wright</FullName>\r\n
+        \     <Line1>17 Rosebank Ave\rDURAL  NSW  2158</Line1>\r\n      <ApplicationIdS>327330</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52850684</PartyId>\r\n      <ApplicationId>327330</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MACDONALD</FamilyName>\r\n
+        \     <GivenName>LEWIS </GivenName>\r\n      <Initial>L    </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Lewis McDonald</FullName>\r\n
+        \     <Line1>C/- MidCoast Council\r2 Pulteney St\rTAREE  NSW  2430</Line1>\r\n
+        \     <ApplicationIdS>327330</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>327346</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>634</NatureOfApplicationType>\r\n    <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n
+        \   <ReferenceNumber>512/2019/DA</ReferenceNumber>\r\n    <Status>Preliminary
+        Assessment</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>512</ReferenceNumberNumber>\r\n    <ApplicationDetails>Front
+        and Side Fence and Inground Swimming Pool</ApplicationDetails>\r\n    <CreatedDate>2019-06-05T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-05T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <Officer>Lewis McDonald                                    </Officer>\r\n
+        \   <DADays>4</DADays>\r\n    <ApplicationIdS>327346</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>4495</PropertyId>\r\n      <ApplicationId>327346</ApplicationId>\r\n
+        \     <Line1>17 Smith Street</Line1>\r\n      <Line2>Old Bar NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 10 DP 111518</FullLegalDescription>\r\n      <ApplicationIdS>327346</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>4495</PropertyId>\r\n
+        \     <ApplicationId>327346</ApplicationId>\r\n      <Line1>20 David Street</Line1>\r\n
+        \     <Line2>Old Bar NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 10 DP 111518</FullLegalDescription>\r\n      <ApplicationIdS>327346</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52837522</PartyId>\r\n      <ApplicationId>327346</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>BURNS</FamilyName>\r\n      <GivenName>TYLER
+        </GivenName>\r\n      <Initial>T    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Tyler Burns</FullName>\r\n      <Line1>17 Smith St\rOLD BAR
+        \ NSW  2430</Line1>\r\n      <ApplicationIdS>327346</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327346</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327346</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52837523</PartyId>\r\n      <ApplicationId>327346</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>BURNS</FamilyName>\r\n      <GivenName>JODIE
+        LEE</GivenName>\r\n      <Initial>JL   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Jodie Lee Burns</FullName>\r\n      <Line1>17 Smith St\rOLD
+        BAR  NSW  2430</Line1>\r\n      <ApplicationIdS>327346</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52837522</PartyId>\r\n      <ApplicationId>327346</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>BURNS</FamilyName>\r\n      <GivenName>TYLER
+        </GivenName>\r\n      <Initial>T    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Tyler Burns</FullName>\r\n      <Line1>17 Smith St\rOLD BAR
+        \ NSW  2430</Line1>\r\n      <ApplicationIdS>327346</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PartyId>52850684</PartyId>\r\n      <ApplicationId>327346</ApplicationId>\r\n
+        \     <PartyRole>Responsible Officer                               </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MACDONALD</FamilyName>\r\n
+        \     <GivenName>LEWIS </GivenName>\r\n      <Initial>L    </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Lewis McDonald</FullName>\r\n
+        \     <Line1>C/- MidCoast Council\r2 Pulteney St\rTAREE  NSW  2430</Line1>\r\n
+        \     <ApplicationIdS>327346</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>327348</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>634</NatureOfApplicationType>\r\n    <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n
+        \   <ReferenceNumber>513/2019/DA</ReferenceNumber>\r\n    <Status>Notification</Status>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>513</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>Single Storey Dwelling and Secondary Dwelling</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-05T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-05T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>0.000000</EstimatedCost>\r\n    <DADays>4</DADays>\r\n
+        \   <ApplicationIdS>327348</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>432213</PropertyId>\r\n
+        \     <ApplicationId>327348</ApplicationId>\r\n      <Line1>7 Maita Way</Line1>\r\n
+        \     <Line2>Old Bar NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 207 DP 1250963</FullLegalDescription>\r\n
+        \     <ApplicationIdS>327348</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>52826851</PartyId>\r\n      <ApplicationId>327348</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>KENNEWELL</FamilyName>\r\n
+        \     <GivenName>JONATHON RICHARD</GivenName>\r\n      <Initial>JR   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Jonathon Richard Kennewell</FullName>\r\n
+        \     <Line1>17 Shantull Drv\rWALLABI POINT  NSW  2430</Line1>\r\n      <ApplicationIdS>327348</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327348</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327348</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52826851</PartyId>\r\n      <ApplicationId>327348</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>KENNEWELL</FamilyName>\r\n
+        \     <GivenName>JONATHON RICHARD</GivenName>\r\n      <Initial>JR   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Jonathon Richard Kennewell</FullName>\r\n
+        \     <Line1>17 Shantull Drv\rWALLABI POINT  NSW  2430</Line1>\r\n      <ApplicationIdS>327348</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327352</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>514/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Allocation</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>514</ReferenceNumberNumber>\r\n    <ApplicationDetails>Boundary
+        Adjustment x 2 Lot</ApplicationDetails>\r\n    <CreatedDate>2019-06-05T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-05T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <DADays>4</DADays>\r\n    <ApplicationIdS>327352</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>30475</PropertyId>\r\n      <ApplicationId>327352</ApplicationId>\r\n
+        \     <Line1>1777 Lansdowne Road</Line1>\r\n      <Line2>Langley Vale NSW
+        2426                                              </Line2>\r\n      <FullLegalDescription>Lot
+        1 DP 1042684</FullLegalDescription>\r\n      <ApplicationIdS>327352</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52829638</PartyId>\r\n      <ApplicationId>327352</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MACGLASHAN &amp; CRISP PTY
+        LTD</FamilyName>\r\n      <GivenName xml:space=\"preserve\"> </GivenName>\r\n
+        \     <NameType>C</NameType>\r\n      <FullName>McGlashan &amp; Crisp Pty
+        Ltd</FullName>\r\n      <Line1>admin@mcglashancrisp.com.au</Line1>\r\n      <ApplicationIdS>327352</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327352</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327352</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52782964</PartyId>\r\n      <ApplicationId>327352</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>HATHERLY</FamilyName>\r\n
+        \     <GivenName>JENNIFER KAY</GivenName>\r\n      <Initial>JK   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Jennifer Kay Hatherly</FullName>\r\n
+        \     <Line1>PO Box 658\rWAHROONGA  NSW  2076</Line1>\r\n      <ApplicationIdS>327352</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327366</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>515/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Allocation</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>515</ReferenceNumberNumber>\r\n    <ApplicationDetails>Use
+        of Existing Shed as Home Office</ApplicationDetails>\r\n    <CreatedDate>2019-06-05T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-05T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <DADays>4</DADays>\r\n    <ApplicationIdS>327366</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>30534</PropertyId>\r\n      <ApplicationId>327366</ApplicationId>\r\n
+        \     <Line1>209 Diamond Beach Road</Line1>\r\n      <Line2>Diamond Beach
+        NSW 2430                                              </Line2>\r\n      <FullLegalDescription>Lot
+        72 DP 1045379</FullLegalDescription>\r\n      <ApplicationIdS>327366</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52766032</PartyId>\r\n      <ApplicationId>327366</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>DENTON</FamilyName>\r\n
+        \     <GivenName>DIANNE ELIZABETH</GivenName>\r\n      <Initial>DE   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Dianne Elizabeth Denton</FullName>\r\n
+        \     <Line1>209 Diamond Beach Rd\rDIAMOND BEACH  NSW  2430</Line1>\r\n      <ApplicationIdS>327366</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327366</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327366</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52766032</PartyId>\r\n      <ApplicationId>327366</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>DENTON</FamilyName>\r\n
+        \     <GivenName>DIANNE ELIZABETH</GivenName>\r\n      <Initial>DE   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Dianne Elizabeth Denton</FullName>\r\n
+        \     <Line1>209 Diamond Beach Rd\rDIAMOND BEACH  NSW  2430</Line1>\r\n      <ApplicationIdS>327366</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327369</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>516/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Allocation</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>516</ReferenceNumberNumber>\r\n    <ApplicationDetails>Commercial
+        Alterations and Additions</ApplicationDetails>\r\n    <CreatedDate>2019-06-05T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-05T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <DADays>4</DADays>\r\n    <ApplicationIdS>327369</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>425900</PropertyId>\r\n      <ApplicationId>327369</ApplicationId>\r\n
+        \     <Line1>171 Manning River Drive</Line1>\r\n      <Line2>Glenthorne NSW
+        2430                                              </Line2>\r\n      <FullLegalDescription>Lot
+        1 DP 1143208</FullLegalDescription>\r\n      <ApplicationIdS>327369</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52844797</PartyId>\r\n      <ApplicationId>327369</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MACDONALDS AUSTRALIA PTY
+        LTD</FamilyName>\r\n      <GivenName xml:space=\"preserve\"> </GivenName>\r\n
+        \     <NameType>C</NameType>\r\n      <FullName>McDonald's Australia Pty Ltd</FullName>\r\n
+        \     <Line1>C/- KDC Pty Ltd\rPO Box 70\rTHE JUNCTION  NSW  2291</Line1>\r\n
+        \     <ApplicationIdS>327369</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <PartyId>52767748</PartyId>\r\n      <ApplicationId>327369</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327369</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52852477</PartyId>\r\n      <ApplicationId>327369</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>CALTEX PETROLEUM PTY LTD</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Caltex Petroleum Pty Ltd</FullName>\r\n      <Line1>Level
+        24 2 Market St\rSYDNEY  NSW  2000</Line1>\r\n      <ApplicationIdS>327369</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327405</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>517/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Notification</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>517</ReferenceNumberNumber>\r\n    <ApplicationDetails>Secondary
+        Dwelling\r</ApplicationDetails>\r\n    <CreatedDate>2019-06-06T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-06T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <DADays>3</DADays>\r\n    <ApplicationIdS>327405</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>425336</PropertyId>\r\n      <ApplicationId>327405</ApplicationId>\r\n
+        \     <Line1>59 Oakview Drive</Line1>\r\n      <Line2>Hallidays Point NSW
+        2430                                              </Line2>\r\n      <FullLegalDescription>Lot
+        21 DP 1126931</FullLegalDescription>\r\n      <ApplicationIdS>327405</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52768864</PartyId>\r\n      <ApplicationId>327405</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>GRAY</FamilyName>\r\n      <GivenName>CHERYL
+        LEE</GivenName>\r\n      <Initial>CL   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Cheryl Lee Gray</FullName>\r\n      <Line1>26 Twilight Cl\rRED
+        HEAD  NSW  2430</Line1>\r\n      <ApplicationIdS>327405</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52768863</PartyId>\r\n      <ApplicationId>327405</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GRAY</FamilyName>\r\n      <GivenName>IAN
+        MATTHEW</GivenName>\r\n      <Initial>IM   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Ian Matthew Gray</FullName>\r\n      <Line1>26 Twilight Cl\rRED
+        HEAD  NSW  2430</Line1>\r\n      <ApplicationIdS>327405</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327405</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327405</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52768864</PartyId>\r\n      <ApplicationId>327405</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>GRAY</FamilyName>\r\n      <GivenName>CHERYL
+        LEE</GivenName>\r\n      <Initial>CL   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Cheryl Lee Gray</FullName>\r\n      <Line1>26 Twilight Cl\rRED
+        HEAD  NSW  2430</Line1>\r\n      <ApplicationIdS>327405</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52768863</PartyId>\r\n      <ApplicationId>327405</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GRAY</FamilyName>\r\n      <GivenName>IAN
+        MATTHEW</GivenName>\r\n      <Initial>IM   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Ian Matthew Gray</FullName>\r\n      <Line1>26 Twilight Cl\rRED
+        HEAD  NSW  2430</Line1>\r\n      <ApplicationIdS>327405</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327410</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>518/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Allocation</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>518</ReferenceNumberNumber>\r\n    <ApplicationDetails>Boundary
+        Adjustment</ApplicationDetails>\r\n    <CreatedDate>2019-06-06T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-06T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <DADays>3</DADays>\r\n    <ApplicationIdS>327410</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>9022</PropertyId>\r\n      <ApplicationId>327410</ApplicationId>\r\n
+        \     <Line1>236 Kings Creek Road</Line1>\r\n      <Line2>Krambach NSW 2429
+        \                                             </Line2>\r\n      <FullLegalDescription>Lot
+        14 DP 716272</FullLegalDescription>\r\n      <ApplicationIdS>327410</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>432204</PropertyId>\r\n
+        \     <ApplicationId>327410</ApplicationId>\r\n      <Line1>0 Kings Creek
+        Road</Line1>\r\n      <Line2>Krambach NSW 2429                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 21 DP 1251511</FullLegalDescription>\r\n      <ApplicationIdS>327410</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52782458</PartyId>\r\n      <ApplicationId>327410</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MEAD</FamilyName>\r\n      <GivenName>GARY
+        ANDERSON</GivenName>\r\n      <Initial>GA   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Gary Anderson Mead</FullName>\r\n      <Line1>236 Kings Creek
+        Rd\rKRAMBACH  NSW  2429</Line1>\r\n      <ApplicationIdS>327410</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327410</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327410</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52782457</PartyId>\r\n      <ApplicationId>327410</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MEAD</FamilyName>\r\n      <GivenName>DIANNE
+        JENNIFER</GivenName>\r\n      <Initial>DJ   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Dianne Jennifer Mead</FullName>\r\n      <Line1>236 Kings
+        Creek Rd\rKRAMBACH  NSW  2429</Line1>\r\n      <ApplicationIdS>327410</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52782458</PartyId>\r\n      <ApplicationId>327410</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>MEAD</FamilyName>\r\n      <GivenName>GARY
+        ANDERSON</GivenName>\r\n      <Initial>GA   </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Gary Anderson Mead</FullName>\r\n      <Line1>236 Kings Creek
+        Rd\rKRAMBACH  NSW  2429</Line1>\r\n      <ApplicationIdS>327410</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327438</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>634</NatureOfApplicationType>\r\n
+        \   <NatureOfApplicationTypeX>DA</NatureOfApplicationTypeX>\r\n    <ReferenceNumber>519/2019/DA</ReferenceNumber>\r\n
+        \   <Status>Allocation</Status>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>519</ReferenceNumberNumber>\r\n    <ApplicationDetails>Single
+        Storey Dwelling</ApplicationDetails>\r\n    <CreatedDate>2019-06-06T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-06T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0.000000</EstimatedCost>\r\n
+        \   <DADays>3</DADays>\r\n    <ApplicationIdS>327438</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>33277</PropertyId>\r\n      <ApplicationId>327438</ApplicationId>\r\n
+        \     <Line1>12 Butea Drive</Line1>\r\n      <Line2>Taree NSW 2430                                              </Line2>\r\n
+        \     <FullLegalDescription>Lot 63 DP 1250699</FullLegalDescription>\r\n      <ApplicationIdS>327438</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>52852165</PartyId>\r\n      <ApplicationId>327438</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>HIBBARDS PTY LTD</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Hibbards Pty Ltd</FullName>\r\n      <Line1>PO Box 1072\rCOFFS
+        HARBOUR  NSW  2450</Line1>\r\n      <ApplicationIdS>327438</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52767748</PartyId>\r\n      <ApplicationId>327438</ApplicationId>\r\n
+        \     <PartyRole>Municipality                                      </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GREATER TAREE CITY COUNCIL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Greater Taree City Council</FullName>\r\n      <Line1>PO Box
+        482\rTAREE  NSW  2430</Line1>\r\n      <ApplicationIdS>327438</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>52788353</PartyId>\r\n      <ApplicationId>327438</ApplicationId>\r\n
+        \     <PartyRole>Owner                                             </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>DOOLEENA PTY LTD</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Dooleena Pty Ltd</FullName>\r\n      <Line1>PO Box 1020\rTAREE
+        \ NSW  2430</Line1>\r\n      <ApplicationIdS>327438</ApplicationIdS>\r\n    </Party>\r\n
+        \ <NewDataSet /><NewDataSet /></Application>\r\n</NewDataSet>"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+recorded_with: VCR 5.0.0

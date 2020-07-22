@@ -1,0 +1,602 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - datracker.richmondvalley.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Location:
+      - "/Common/Common/terms.aspx"
+      Set-Cookie:
+      - ASP.NET_SessionId=c25mzhj2nmk3gtvthlxpoyrh; path=/; HttpOnly
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Mon, 29 Jul 2019 04:30:54 GMT
+      Content-Length:
+      - '142'
+    body:
+      encoding: UTF-8
+      string: "<html><head><title>Object moved</title></head><body>\r\n<h2>Object
+        moved to <a href=\"/Common/Common/terms.aspx\">here</a>.</h2>\r\n</body></html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: http://datracker.richmondvalley.nsw.gov.au/Common/Common/terms.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=c25mzhj2nmk3gtvthlxpoyrh
+      Host:
+      - datracker.richmondvalley.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Mon, 29 Jul 2019 04:30:54 GMT
+      Content-Length:
+      - '11818'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        DQoNCjwhRE9DVFlQRSBodG1sIFBVQkxJQyAiLS8vVzNDLy9EVEQgWEhUTUwgMS4wIFRyYW5zaXRpb25hbC8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9UUi94aHRtbDEvRFREL3hodG1sMS10cmFuc2l0aW9uYWwuZHRkIj4NCjxodG1sIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIj4NCjxoZWFkIGlkPSJjdGwwMF9IZWFkMSI+PHRpdGxlPg0KCVRlcm1zIGFuZCBDb25kaXRpb25zDQo8L3RpdGxlPg0KICAgIDwhLS0tLT4NCiAgICA8bWV0YSBodHRwLWVxdWl2PSJFeHBpcmVzIiBjb250ZW50PSIwIiAvPjxtZXRhIGh0dHAtZXF1aXY9IkNhY2hlLUNvbnRyb2wiIGNvbnRlbnQ9Im5vLWNhY2hlIiAvPjxtZXRhIGh0dHAtZXF1aXY9IlByYWdtYSIgY29udGVudD0ibm8tY2FjaGUiIC8+PGxpbmsgaHJlZj0iLi4vLi4vSHR0cENvbWJpbmVyLmFzaHg/cz1JY29uQ3NzJmFtcDt0PXRleHQvY3NzIiB0eXBlPSJ0ZXh0L2NzcyIgcmVsPSJTdHlsZXNoZWV0IiBtZWRpYT0iYWxsIiAvPg0KICAgIDxiYXNlIHRhcmdldD0iX3RvcCIgLz4NCg0KICAgIDwhLS0gQ29uZGl0aW9uYWwgUXVlcmllcyB0byBsb2FkIHRoZSBGb3JtYXR0ZWQgTGlzdHMgQ1NTIGZpbGVzIC0tPg0KICAgIDwhLS1baWYgbHQgSUUgOF0+DQogICAgICAgIDxsaW5rIHR5cGU9InRleHQvY3NzIiBocmVmPSIuLi8uLi9BcHBfVGhlbWVzL0ljb24vSUU3LmNzcyIgcmVsPSJTdHlsZXNoZWV0IiAvPg0KICAgIDwhW2VuZGlmXS0tPg0KDQogICAgPCEtLVtpZiBndCBJRSA3XT4NCgkgICAgPGxpbmsgdHlwZT0idGV4dC9jc3MiIGhyZWY9Ii4uLy4uL0FwcF9UaGVtZXMvSWNvbi9Gb3JtYXR0ZWRMaXN0cy5jc3MiIHJlbD0iU3R5bGVzaGVldCIgLz4NCiAgICA8IVtlbmRpZl0tLT4NCg0KICAgIDwhLS1baWYgIUlFXT48IS0tPg0KICAgIDxsaW5rIHR5cGU9InRleHQvY3NzIiBocmVmPSIuLi8uLi9BcHBfVGhlbWVzL0ljb24vRm9ybWF0dGVkTGlzdHMuY3NzIiByZWw9IlN0eWxlc2hlZXQiIC8+DQogICAgPCEtLTwhW2VuZGlmXS0tPg0KDQogICAgPHN0eWxlIHR5cGU9J3RleHQvY3NzJz48L3N0eWxlPjxtZXRhIGh0dHAtZXF1aXY9IlgtVUEtQ29tcGF0aWJsZSIgY29udGVudD0iSUU9ZWRnZSxjaHJvbWU9MSIgLz48bGluayBocmVmPSIuLi8uLi9BcHBfVGhlbWVzL1JpY2htb25kVmFsbGV5L1VzZXIuY3NzIiB0eXBlPSJ0ZXh0L2NzcyIgcmVsPSJzdHlsZXNoZWV0IiAvPjwvaGVhZD4NCjxib2R5Pg0KICAgIDxmb3JtIG1ldGhvZD0icG9zdCIgYWN0aW9uPSIuL3Rlcm1zLmFzcHgiIGlkPSJhc3BuZXRGb3JtIiByb2xlPSJmb3JtIiBhdXRvY29tcGxldGU9Im9mZiI+DQo8aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJjdGwwMF9yY3NzX1RTU00iIGlkPSJjdGwwMF9yY3NzX1RTU00iIHZhbHVlPSIiIC8+DQo8aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJjdGwwMF9zY3JpcHRfVFNNIiBpZD0iY3RsMDBfc2NyaXB0X1RTTSIgdmFsdWU9IiIgLz4NCjxpbnB1dCB0eXBlPSJoaWRkZW4iIG5hbWU9Il9fVklFV1NUQVRFIiBpZD0iX19WSUVXU1RBVEUiIHZhbHVlPSIvd0VQRHdVS01UUTJNemd6T0RVNU9ROWtGZ0ptRDJRV0JBSUJEMlFXQWdJQ0R4WUNIZ1JVWlhoMFpXUUNBdzlrRmdJQ0NROWtGZ0lDQVE5a0ZnUUNBUThXQWg4QUJjd0dQR2d4UGxSbGNtMXpJR0Z1WkNCRGIyNWthWFJwYjI1ekxqd3ZhREUrQ2p4d1BpWnVZbk53T3p3dmNENEtQSEErVkdobElHbHVabTl5YldGMGFXOXVJSEJ5YjNacFpHVmtJRzl1SUhSb2FYTWdkMlZpSUhOcGRHVWdhWE1nZEc4Z1lYTnphWE4wSUhSeVlXTnJhVzVuSUhSb1pTQndjbTluY21WemN5QnZaaUJFWlhabGJHOXdiV1Z1ZENCQmNIQnNhV05oZEdsdmJuTXVJRWwwSUhKbGNISmxjMlZ1ZEhNZ2RHaGxJR3RsZVNCdGFXeGxjM1J2Ym1WeklHbHVJSFJvWlNCd2NtOWpaWE56TENCaWRYUWdZbmtnYm04Z2JXVmhibk1nYzJodmRXeGtJR0psSUdOdmJuTnBaR1Z5WldRZ1lTQmpiMjF3YkdWMFpTQmhibVFnWkdWMFlXbHNaV1FnYUdsemRHOXllUzQ4TDNBK0NqeGljaUF2UGdwUVpYSnpiMjV6SUhkcGMyaHBibWNnZEc4Z1kyOXVabWx5YlNCcGJtWnZjbTFoZEdsdmJpQnBiaUJrWlhSaGFXd2djMmh2ZFd4a0lHTnZiblJoWTNRZ1EyOTFibU5wYkNCMmFXRWdaV2wwYUdWeUlHVXRiV0ZwYkNBOFlTQm9jbVZtUFNKdFlXbHNkRzg2WTI5MWJtTnBiRUJ5YVdOb2JXOXVaSFpoYkd4bGVTNXVjM2N1WjI5MkxtRjFQM04xWW1wbFkzUTlSRUVsTWpCVWNtRmphMlZ5SlRJd1JXNXhkV2x5ZVNJZ1pHRjBZUzFqYjIxd2IyNWxiblE5SW14cGJtc2lJR1JoZEdFdGMyOTFjbU5sUFNKcGJteHBibVZNYVc1cklpQmtZWFJoTFhSNWNHVTlJbWx1ZEdWeWJtRnNUR2x1YXlJZ1pHRjBZUzF2Y21ScGJtRnNQU0l4TWlJK1kyOTFibU5wYkVCeWFXTm9iVzl1WkhaaGJHeGxlUzV1YzNjdVoyOTJMbUYxUEM5aFBpd2diM0lnWW5rZ2RHVnNaWEJvYjI1cGJtY2dRMjkxYm1OcGJDQnZiaUFvTURJcE5qWTJNQ0F3TXpBd0lHUjFjbWx1WnlCaWRYTnBibVZ6Y3lCb2IzVnljeTRLUEhBZ1BrbHVJSFZ6YVc1bklIUm9hWE1nZDJWaWMybDBaU0I1YjNVZ1lXZHlaV1VnZEc4Z1lXTmpaWEIwSUdGdVpDQmlaU0JpYjNWdVpDQmllU0IwYUdVZ1BHRWdhSEpsWmowaWFIUjBjRG92TDNkM2R5NXlhV05vYlc5dVpIWmhiR3hsZVM1dWMzY3VaMjkyTG1GMUwzQmhaMlV2VFdsell5OUVhWE5qYkdGcGJXVnlMeUkrUkdselkyeGhhVzFsY2p3dllUNGdiMllnZEdobElGSnBZMmh0YjI1a0lGWmhiR3hsZVNCRGIzVnVZMmxzSUhkbFluTnBkR1V1UEM5d1BtUUNDUThXQWg4QVpXUVlBUVVlWDE5RGIyNTBjbTlzYzFKbGNYVnBjbVZRYjNOMFFtRmphMHRsZVY5ZkZnRUZHbU4wYkRBd0pHTjBUV0ZwYmlSamFHdEJaM0psWlNSamFHc3hZS0prOUVBcG1OT09mUkdwaGhidTlDYlFxNU09IiAvPg0KDQoNCjxzY3JpcHQgc3JjPSIvVGVsZXJpay5XZWIuVUkuV2ViUmVzb3VyY2UuYXhkP19UU01fSGlkZGVuRmllbGRfPWN0bDAwX3NjcmlwdF9UU00mYW1wO2NvbXByZXNzPTEmYW1wO19UU01fQ29tYmluZWRTY3JpcHRzXz0lM2IlM2JTeXN0ZW0uV2ViLkV4dGVuc2lvbnMlMmMrVmVyc2lvbiUzZDQuMC4wLjAlMmMrQ3VsdHVyZSUzZG5ldXRyYWwlMmMrUHVibGljS2V5VG9rZW4lM2QzMWJmMzg1NmFkMzY0ZTM1JTNhZW4lM2FiNzU4NTI1NC00OTVlLTQzMTEtOTU0NS0xZjkxMDI0N2FjYTUlM2FlYTU5N2Q0YiIgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij48L3NjcmlwdD4NCjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4NCi8vPCFbQ0RBVEFbDQppZiAodHlwZW9mKFN5cykgPT09ICd1bmRlZmluZWQnKSB0aHJvdyBuZXcgRXJyb3IoJ0FTUC5ORVQgQWpheCBjbGllbnQtc2lkZSBmcmFtZXdvcmsgZmFpbGVkIHRvIGxvYWQuJyk7DQovL11dPg0KPC9zY3JpcHQ+DQoNCjxpbnB1dCB0eXBlPSJoaWRkZW4iIG5hbWU9Il9fVklFV1NUQVRFR0VORVJBVE9SIiBpZD0iX19WSUVXU1RBVEVHRU5FUkFUT1IiIHZhbHVlPSJBOERDNEU4MiIgLz4NCjxpbnB1dCB0eXBlPSJoaWRkZW4iIG5hbWU9Il9fRVZFTlRWQUxJREFUSU9OIiBpZD0iX19FVkVOVFZBTElEQVRJT04iIHZhbHVlPSIvd0VkQUFUTUlmblU5M3NLSWFvaVJ0SHhuazJET2NCaHBRc0pneU1qcG96ODk3SXZXa1RkeUJ6L2UvQ2NnZko1enhqNGp3Zy9WeFV2YVZ0UUNobVNDM0RPQjBNcGhDWUdpdml6OGxSaGtmSWNGRzZVMkVVMkpsTT0iIC8+DQogICAgICAgIA0KICAgICAgICA8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSIuLi8uLi9IdHRwQ29tYmluZXIuYXNoeD9zPUljb25KcyZ0PXRleHQvamF2YXNjcmlwdCI+PC9zY3JpcHQ+DQogICAgICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4NCiAgICAgICAgICAgIGpHcm93bFBvc2l0aW9uID0gInRvcC1yaWdodCI7DQogICAgICAgIDwvc2NyaXB0Pg0KICAgICAgICA8ZGl2IGlkPSJjdGwwMF90aHJvYmJlcl90aHJvYmJlciIgY2xhc3M9Imdsb2JhbFRocm9iYmVyIj4NCiAgICA8aW1nIGNsYXNzPSJ0aHJvYmJlciIgc3JjPSIuLi8uLi9Db21tb24vQ29tbW9uL0ltYWdlLmFzcHg/cmlkPXRocm9iYmVyLmdpZiIgYWx0PSJMb2FkaW5nLi4uIiAvPg0KPC9kaXY+DQoNCjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4NCiAgICAkKGRvY3VtZW50KS5yZWFkeShmdW5jdGlvbigpeyAgICAgICAgDQogICAgICAgICQoJy5nbG9iYWxUaHJvYmJlcicpDQogICAgICAgICAgICAuYWpheFN0YXJ0KGZ1bmN0aW9uKCkgew0KICAgICAgICAgICAgICAgIGlmICgkKCcudGhyb2JiZXI6dmlzaWJsZScpLmxlbmd0aCA9PSAwKSB7DQogICAgICAgICAgICAgICAgICAgICQodGhpcykuc2hvdygpOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0pICANCiAgICAgICAgICAgIC5hamF4U3RvcChmdW5jdGlvbigpIHsNCiAgICAgICAgICAgICAgICAkKHRoaXMpLmhpZGUoKTsNCiAgICAgICAgICAgIH0pDQogICAgICAgIDsNCiAgICB9KTsNCjwvc2NyaXB0Pg0KICAgICAgICANCg0KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KICAgIC8qVGhpcyBzY3JpcHQgaXMgZGVzaWduZWQgdG8gYWxlcnQgdGhlIHVzZXIgd2hlbiBzZXNzaW9uIHRpbW91dCBpcyByZWFjaGVkIGFuZCByZWRpcmVjdCB0byBob21lIHBhZ2UqLw0KICAgIHZhciB0aW1lcjE7DQogICAgd2luZG93LmNsZWFyVGltZW91dCh0aW1lcjEpOw0KICAgIHZhciAkZGlhbG9nOw0KICAgICQoZG9jdW1lbnQpLnJlYWR5KGZ1bmN0aW9uKCkNCiAgICB7DQogICAgICAgICRkaWFsb2cgPSAkKCc8ZGl2PjwvZGl2PicpLmh0bWwoJ1lvdXIgc2Vzc2lvbiBoYXMgZXhwaXJlZCwgeW91IHdpbGwgbm93IGJlIHJlZGlyZWN0ZWQgdG8gdGhlIGhvbWUgcGFnZS4nKS5kaWFsb2coDQogICAgICAgIHsNCiAgICAgICAgICAgIGJ1dHRvbnM6DQogICAgICAgICAgICB7ICAgDQogICAgICAgICAgICAgICAgJ09rJzogZnVuY3Rpb24oKQ0KICAgICAgICAgICAgICAgIHsNCiAgICAgICAgICAgICAgICAgICAgJCh0aGlzKS5kaWFsb2coJ2Nsb3NlJyk7DQogICAgICAgICAgICAgICAgICAgIHdpbmRvdy5sb2NhdGlvbiA9ICdodHRwOi8vZGF0cmFja2VyLnJpY2htb25kdmFsbGV5Lm5zdy5nb3YuYXUvUGFnZXMvWEMuSG9tZS9Ib21lLmFzcHgnOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0sDQogICAgICAgICAgICBzaG93OiAiZmFkZSIsDQogICAgICAgICAgICBoaWRlOiAiZmFkZSIsDQogICAgICAgICAgICByZXNpemFibGU6IGZhbHNlLA0KICAgICAgICAgICAgbW9kYWw6IHRydWUsDQogICAgICAgICAgICBhdXRvT3BlbjogZmFsc2UsDQogICAgICAgICAgICB0aXRsZTogICdTZXNzaW9uIEV4cGlyZWQnDQogICAgICAgIH0pOw0KICAgIH0pOw0KICAgIHZhciBzZXNzaW9uVGltZW91dCA9ICcxMDc5OTAwMCc7DQogICAgZnVuY3Rpb24gZG9UaW1lb3V0KCkNCiAgICB7DQogICAgICAgICRkaWFsb2cuZGlhbG9nKCdvcGVuJyk7DQogICAgICAgIHJldHVybiBmYWxzZTsNCiAgICB9DQogICAgdGltZXIxID0gd2luZG93LnNldFRpbWVvdXQoJ2RvVGltZW91dCgpJyxzZXNzaW9uVGltZW91dCk7DQo8L3NjcmlwdD4NCiAgICAgICAgPGRpdiBpZD0iZG9jZiI+DQogICAgICAgICAgICA8ZGl2IGlkPSJzaXRld3JhcCI+DQogICAgICAgICAgICAgICAgPCEtLUhpZGRlbiBkZWZhdWx0IEhkLS0+DQogICAgICAgICAgICAgICAgPGRpdiBpZD0iaGQiIHN0eWxlPSJkaXNwbGF5OiBub25lOyI+DQogICAgICAgICAgICAgICAgICAgIDxkaXYgaWQ9Im5hdndyYXAiIHN0eWxlPSJkaXNwbGF5OiBub25lOyI+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGlkPSJuYXYiIGNsYXNzPSJmbG9hdFJpZ2h0IGFkbWlubmF2Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iY2xlYXIiPjwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICA8ZGl2IGlkPSJsb2dvbGluZSIgc3R5bGU9ImRpc3BsYXk6IG5vbmU7Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNvbnRhaW5lckxlZnQgYWRtaW5iYW5uZXIiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJjb250YWluZXJSaWdodCBhZG1pbmJhbm5lciI+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNsZWFyIGFkbWluY2xlYXIiPjwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICA8ZGl2IGlkPSJtYWlubGluZSIgc3R5bGU9ImRpc3BsYXk6IG5vbmU7Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNvbnRhaW5lckxlZnQgYWRtaW5iYW5uZXIiIHN0eWxlPSJvdmVyZmxvdzogaGlkZGVuOyI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT0ibWFyZ2luLXRvcDogNXB4OyBwYWRkaW5nOiAzcHg7IiBpZD0iYWRtaW5wYWdlIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iY29udGFpbmVyUmlnaHQgYWRtaW5iYW5uZXIiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJjbGVhciI+PC9kaXY+DQogICAgICAgICAgICAgICAgPC9kaXY+DQoNCiAgICAgICAgICAgICAgICA8ZGl2IGlkPSJoZDIiPg0KICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSJodHRwOi8vcmljaG1vbmR2YWxsZXkubnN3Lmdvdi5hdSI+DQogICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz0iLi4vLi4vQ29tbW9uL1NpdGVJbWFnZXMvUmljaG1vbmRWYWxsZXkvcnZjX2xvZ28ucG5nIiBhbHQ9IlJpY2htb25kIFZhbGxleSBDb3VuY2lsIiB3aWR0aD0iMjk4IiBoZWlnaHQ9IjkwIiAvPg0KICAgICAgICAgICAgICAgICAgICA8L2E+DQogICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgPGRpdiBpZD0ibmF2aWdhdGlvbiI+DQogICAgICAgICAgICAgICAgICAgIDwhLS1HZXQgcGFyZW50IG1lbnUgaXRlbSB0byBkaXNwbGF5LS0+DQo8IS0tQnVpbGQgSFRNTCBvZiBNZW51LS0+DQo8dWw+DQogIDxsaSBjbGFzcz0ibmF2X2NvdW5jaWwiPg0KICAgIDxhIGhyZWY9Imh0dHBzOi8vcmljaG1vbmR2YWxsZXkubnN3Lmdvdi5hdS9jb3VuY2lsIiB0YXJnZXQ9Il9ibGFuayI+Q291bmNpbDwvYT4NCiAgPC9saT4NCiAgPGxpIGNsYXNzPSJuYXZfY29tbXVuaXR5Ij4NCiAgICA8YSBocmVmPSJodHRwczovL3JpY2htb25kdmFsbGV5Lm5zdy5nb3YuYXUvY29tbXVuaXR5LXNlcnZpY2VzIiB0YXJnZXQ9Il9ibGFuayI+Q29tbXVuaXR5PC9hPg0KICA8L2xpPg0KICA8bGkgY2xhc3M9Im5hdl9wbGFubmluZyBhbmQgZGV2ZWxvcG1lbnQiPg0KICAgIDxhIGhyZWY9Imh0dHBzOi8vcmljaG1vbmR2YWxsZXkubnN3Lmdvdi5hdS9idWlsZGluZy1hbmQtcGxhbm5pbmctc2VydmljZXMiIHRhcmdldD0iX2JsYW5rIj5QbGFubmluZyBhbmQgRGV2ZWxvcG1lbnQ8L2E+DQogIDwvbGk+DQogIDxsaSBjbGFzcz0ibmF2X3NlcnZpY2VzIj4NCiAgICA8YSBocmVmPSJodHRwczovL3JpY2htb25kdmFsbGV5Lm5zdy5nb3YuYXUvc2VydmljZXMiIHRhcmdldD0iX2JsYW5rIj5TZXJ2aWNlczwvYT4NCiAgPC9saT4NCiAgPGxpIGNsYXNzPSJuYXZfc2lnbmF0dXJlIHByb2plY3RzIj4NCiAgICA8YSBocmVmPSJodHRwczovL3JpY2htb25kdmFsbGV5Lm5zdy5nb3YuYXUvc2lnbmF0dXJlLXByb2plY3RzIiB0YXJnZXQ9Il9ibGFuayI+U2lnbmF0dXJlIFByb2plY3RzPC9hPg0KICA8L2xpPg0KICA8bGkgY2xhc3M9Im5hdl9idXNpbmVzcyI+DQogICAgPGEgaHJlZj0iaHR0cHM6Ly9yaWNobW9uZHZhbGxleS5uc3cuZ292LmF1L2J1c2luZXNzIiB0YXJnZXQ9Il9ibGFuayI+QnVzaW5lc3M8L2E+DQogIDwvbGk+DQogIDxsaSBjbGFzcz0ibmF2X2NvbnRhY3QiPg0KICAgIDxhIGhyZWY9Imh0dHBzOi8vcmljaG1vbmR2YWxsZXkubnN3Lmdvdi5hdS9jb250YWN0IiB0YXJnZXQ9Il9ibGFuayI+Q29udGFjdDwvYT4NCiAgPC9saT4NCjwvdWw+DQoNCiAgICAgICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iY2xlYXIiPjwvZGl2Pg0KICAgICAgICAgICAgICAgIDxkaXYgaWQ9ImJkIiByb2xlPSJtYWluIj4NCiAgICAgICAgICAgICAgICAgICAgPGRpdiBpZD0ibWFpbiI+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJjb250YWluZXJMZWZ0IFJpY2htb25kVmFsbGV5TGVmdCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iY29udGFpbmVySW5uZXIiIHN0eWxlPSJvdmVyZmxvdy14OiBoaWRkZW47Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0icGFkZGVkIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iY29udGFpbmVyUmlnaHQgUmljaG1vbmRWYWxsZXlSaWdodCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iY29udGFpbmVySW5uZXIiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJwYWRkZWQiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAgICA8ZGl2IGlkPSJjdGwwMF9jdE1haW5fbWFpbiI+DQogICAgICAgIDxoMT5UZXJtcyBhbmQgQ29uZGl0aW9ucy48L2gxPgo8cD4mbmJzcDs8L3A+CjxwPlRoZSBpbmZvcm1hdGlvbiBwcm92aWRlZCBvbiB0aGlzIHdlYiBzaXRlIGlzIHRvIGFzc2lzdCB0cmFja2luZyB0aGUgcHJvZ3Jlc3Mgb2YgRGV2ZWxvcG1lbnQgQXBwbGljYXRpb25zLiBJdCByZXByZXNlbnRzIHRoZSBrZXkgbWlsZXN0b25lcyBpbiB0aGUgcHJvY2VzcywgYnV0IGJ5IG5vIG1lYW5zIHNob3VsZCBiZSBjb25zaWRlcmVkIGEgY29tcGxldGUgYW5kIGRldGFpbGVkIGhpc3RvcnkuPC9wPgo8YnIgLz4KUGVyc29ucyB3aXNoaW5nIHRvIGNvbmZpcm0gaW5mb3JtYXRpb24gaW4gZGV0YWlsIHNob3VsZCBjb250YWN0IENvdW5jaWwgdmlhIGVpdGhlciBlLW1haWwgPGEgaHJlZj0ibWFpbHRvOmNvdW5jaWxAcmljaG1vbmR2YWxsZXkubnN3Lmdvdi5hdT9zdWJqZWN0PURBJTIwVHJhY2tlciUyMEVucXVpcnkiIGRhdGEtY29tcG9uZW50PSJsaW5rIiBkYXRhLXNvdXJjZT0iaW5saW5lTGluayIgZGF0YS10eXBlPSJpbnRlcm5hbExpbmsiIGRhdGEtb3JkaW5hbD0iMTIiPmNvdW5jaWxAcmljaG1vbmR2YWxsZXkubnN3Lmdvdi5hdTwvYT4sIG9yIGJ5IHRlbGVwaG9uaW5nIENvdW5jaWwgb24gKDAyKTY2NjAgMDMwMCBkdXJpbmcgYnVzaW5lc3MgaG91cnMuCjxwID5JbiB1c2luZyB0aGlzIHdlYnNpdGUgeW91IGFncmVlIHRvIGFjY2VwdCBhbmQgYmUgYm91bmQgYnkgdGhlIDxhIGhyZWY9Imh0dHA6Ly93d3cucmljaG1vbmR2YWxsZXkubnN3Lmdvdi5hdS9wYWdlL01pc2MvRGlzY2xhaW1lci8iPkRpc2NsYWltZXI8L2E+IG9mIHRoZSBSaWNobW9uZCBWYWxsZXkgQ291bmNpbCB3ZWJzaXRlLjwvcD4NCiAgICAgICAgPHNwYW4gaWQ9ImN0bDAwX2N0TWFpbl9jaGtBZ3JlZSI+PGJyLz48aW5wdXQgaWQ9ImN0bDAwX2N0TWFpbl9jaGtBZ3JlZV9jaGsxIiB0eXBlPSJjaGVja2JveCIgbmFtZT0iY3RsMDAkY3RNYWluJGNoa0FncmVlJGNoazEiIC8+IEkgYWdyZWUgdG8gdGhlIGFib3ZlIHRlcm1zIGFuZCBjb25kaXRpb25zPHNwYW4+PC9zcGFuPjwvc3Bhbj48YnIgLz4NCiAgICAgICAgPGlucHV0IHR5cGU9InN1Ym1pdCIgbmFtZT0iY3RsMDAkY3RNYWluJEJ0bkFncmVlIiB2YWx1ZT0iQ29udGludWUiIGlkPSJjdGwwMF9jdE1haW5fQnRuQWdyZWUiIGNsYXNzPSJidXR0b25UZXh0IGJ1dHRvbkFkZCIgLz4NCiAgICAgICAgPGlucHV0IHR5cGU9InN1Ym1pdCIgbmFtZT0iY3RsMDAkY3RNYWluJEJ0bkRpc2FncmVlIiB2YWx1ZT0iQ2FuY2VsIiBpZD0iY3RsMDBfY3RNYWluX0J0bkRpc2FncmVlIiBjbGFzcz0iYnV0dG9uVGV4dCBidXR0b25EZWxldGUiIC8+DQogICAgICAgIA0KICAgIDwvZGl2Pg0KDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICA8ZGl2IGlkPSJNYXN0ZXJGb290ZXIiPg0KICAgICAgICAgICAgICAgIDxkaXYgaWQ9ImZvb3Rlci1jb3B5Ij4mY29weTsgMjAxOSBSaWNobW9uZCBWYWxsZXkgQ291bmNpbCAmbmJzcDsmbmJzcDsmbmJzcDt8Jm5ic3A7PC9kaXY+DQogICAgICAgICAgICAgICAgPHVsIGlkPSJuYXYtZm9vdGVyIj4NCiAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGNsYXNzPSJhZm9vdCIgaHJlZj0iaHR0cHM6Ly9yaWNobW9uZHZhbGxleS5uc3cuZ292LmF1L2Rpc2NsYWltZXIiPkRpc2NsYWltZXI8L2E+PC9saT4NCiAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGNsYXNzPSJhZm9vdCIgaHJlZj0iaHR0cHM6Ly9yaWNobW9uZHZhbGxleS5uc3cuZ292LmF1L3ByaXZhY3ktcG9saWN5Ij5Qcml2YWN5IFBvbGljeTwvYT48L2xpPg0KCQkJCQk8bGk+PGEgY2xhc3M9ImFmb290IiBocmVmPSJodHRwczovL3JpY2htb25kdmFsbGV5Lm5zdy5nb3YuYXUvY29udGFjdCI+Q29udGFjdCBVczwvYT48L2xpPg0KICAgICAgICAgICAgICAgIDwvdWw+DQogICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgPC9kaXY+DQoNCiAgICAgICAgPCEtLUNvcHlyaWdodCDDgsKpIDIwMTUgUmljaG1vbmQgVmFsbGV5IENvdW5jaWwuLS0+DQoNCiAgICAgICAgPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iLi4vLi4vQ29tbW9uL1VzZXIvVXNlci5qcyI+PC9zY3JpcHQ+DQoJCTxzY3JpcHQ+DQogIChmdW5jdGlvbihpLHMsbyxnLHIsYSxtKXtpWydHb29nbGVBbmFseXRpY3NPYmplY3QnXT1yO2lbcl09aVtyXXx8ZnVuY3Rpb24oKXsNCiAgKGlbcl0ucT1pW3JdLnF8fFtdKS5wdXNoKGFyZ3VtZW50cyl9LGlbcl0ubD0xKm5ldyBEYXRlKCk7YT1zLmNyZWF0ZUVsZW1lbnQobyksDQogIG09cy5nZXRFbGVtZW50c0J5VGFnTmFtZShvKVswXTthLmFzeW5jPTE7YS5zcmM9ZzttLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGEsbSkNCiAgfSkod2luZG93LGRvY3VtZW50LCdzY3JpcHQnLCdodHRwczovL3d3dy5nb29nbGUtYW5hbHl0aWNzLmNvbS9hbmFseXRpY3MuanMnLCdnYScpOw0KDQogIGdhKCdjcmVhdGUnLCAnVUEtODMzNjkzMTEtMScsICdhdXRvJyk7DQogIGdhKCdzZW5kJywgJ3BhZ2V2aWV3Jyk7DQoNCjwvc2NyaXB0Pg0KICAgIDwvZm9ybT4NCjwvYm9keT4NCjwvaHRtbD4NCg==
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=last28days&k=LodgementDate&o=xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=c25mzhj2nmk3gtvthlxpoyrh
+      Host:
+      - datracker.richmondvalley.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/xml; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Mon, 29 Jul 2019 04:30:55 GMT
+      Content-Length:
+      - '40701'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\"?><NewDataSet>\r\n  <Application>\r\n    <ApplicationId>51817</ApplicationId>\r\n
+        \   <ApplicationType>Development Application</ApplicationType>\r\n    <NatureOfApplicationType>ResidA&amp;A</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Residential Alterations and Additions</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2020/0001</ReferenceNumber>\r\n    <ReferenceNumberYear>2020</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>1</ReferenceNumberNumber>\r\n    <EstimatedCost>4000.000000</EstimatedCost>\r\n
+        \   <StatusText>In Progress</StatusText>\r\n    <Status>InProgress</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-07-01T09:27:23+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty
+        />\r\n    <ApplicationDetails>\"As built\" shed additions</ApplicationDetails>\r\n
+        \   <OfficerId>ANDREWC</OfficerId>\r\n    <Officer>Andrew Clark</Officer>\r\n
+        \   <SubmissionStart>2019-07-04T00:00:00+10:00</SubmissionStart>\r\n    <SubmissionEnd>2019-07-18T00:00:00+10:00</SubmissionEnd>\r\n
+        \   <DADays>28</DADays>\r\n    <ApplicationIdS>51817</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>51817</ApplicationId>\r\n      <DeterminationType>In
+        Progress</DeterminationType>\r\n      <AuthorityParty />\r\n      <ApplicationIdS>51817</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>131030</PropertyId>\r\n
+        \     <ApplicationId>51817</ApplicationId>\r\n      <AssessmentId>342092400</AssessmentId>\r\n
+        \     <ParcelId>1002171</ParcelId>\r\n      <Status>C</Status>\r\n      <StreetNumber1>22</StreetNumber1>\r\n
+        \     <StreetName>Heathwood Place</StreetName>\r\n      <StreetType />\r\n
+        \     <LocalityName>NORTH CASINO</LocalityName>\r\n      <Postcode>2470</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Ward>2025001807</Ward>\r\n      <Line1>22 Heathwood Place</Line1>\r\n
+        \     <Line2>NORTH CASINO NSW 2470</Line2>\r\n      <FullLegalDescription>Lot
+        4 DP 1132283</FullLegalDescription>\r\n      <Area>1.000000</Area>\r\n      <AreaUnits>Ha</AreaUnits>\r\n
+        \     <ApplicationIdS>51817</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <ApplicationId>51817</ApplicationId>\r\n      <PartyId>4468</PartyId>\r\n
+        \     <PersonId>4468</PersonId>\r\n      <PropertyId>51817</PropertyId>\r\n
+        \     <FamilyName>Conlan</FamilyName>\r\n      <GivenName>Heath Clifford</GivenName>\r\n
+        \     <Gender>M</Gender>\r\n      <Title>Mr</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Mr Heath Clifford Conlan</FullName>\r\n      <EmailAddress>heathconlan@yahoo.com.au,
+        conlanbros@yahoo.com</EmailAddress>\r\n      <TelephoneNumber>6622 5411</TelephoneNumber>\r\n
+        \     <MobileNumber>0438 537 120</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>51817</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>51942</ApplicationId>\r\n
+        \   <ApplicationType>Development Application</ApplicationType>\r\n    <NatureOfApplicationType>ResiSingle</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Residential Single Dwelling</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2020/0002</ReferenceNumber>\r\n    <ReferenceNumberYear>2020</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>2</ReferenceNumberNumber>\r\n    <EstimatedCost>369000.000000</EstimatedCost>\r\n
+        \   <StatusText>In Progress</StatusText>\r\n    <Status>InProgress</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-07-03T15:39:17+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty
+        />\r\n    <ApplicationDetails>Dwelling</ApplicationDetails>\r\n    <OfficerId>ANDREWC</OfficerId>\r\n
+        \   <Officer>Andrew Clark</Officer>\r\n    <SubmissionStart>2019-07-09T00:00:00+10:00</SubmissionStart>\r\n
+        \   <SubmissionEnd>2019-07-23T00:00:00+10:00</SubmissionEnd>\r\n    <DADays>26</DADays>\r\n
+        \   <ApplicationIdS>51942</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>51942</ApplicationId>\r\n
+        \     <DeterminationType>In Progress</DeterminationType>\r\n      <AuthorityParty
+        />\r\n      <ApplicationIdS>51942</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>171790</PropertyId>\r\n      <ApplicationId>51942</ApplicationId>\r\n
+        \     <ParcelId>1006740</ParcelId>\r\n      <Status>C</Status>\r\n      <StreetNumber1>4</StreetNumber1>\r\n
+        \     <StreetSuffix>A</StreetSuffix>\r\n      <StreetName>Camillot Close</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>SPRING GROVE</LocalityName>\r\n
+        \     <Postcode>2470</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Line1>4 A Camillot Close</Line1>\r\n
+        \     <Line2>SPRING GROVE NSW 2470</Line2>\r\n      <FullLegalDescription>Lot
+        1022 DP 1219354</FullLegalDescription>\r\n      <Area>1.276000</Area>\r\n
+        \     <AreaUnits>Ha</AreaUnits>\r\n      <ApplicationIdS>51942</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>51942</ApplicationId>\r\n
+        \     <PartyId>3137</PartyId>\r\n      <PersonId>3137</PersonId>\r\n      <PropertyId>51942</PropertyId>\r\n
+        \     <FamilyName>Harley</FamilyName>\r\n      <GivenName>Brett Anthony</GivenName>\r\n
+        \     <Gender>M</Gender>\r\n      <Title>Mr</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Mr Brett Anthony Harley</FullName>\r\n      <EmailAddress
+        />\r\n      <TelephoneNumber />\r\n      <MobileNumber />\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>51942</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>52059</ApplicationId>\r\n
+        \   <ApplicationType>Development Application</ApplicationType>\r\n    <NatureOfApplicationType>ResidA&amp;A</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Residential Alterations and Additions</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2020/0005</ReferenceNumber>\r\n    <ReferenceNumberYear>2020</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>5</ReferenceNumberNumber>\r\n    <EstimatedCost>41482.000000</EstimatedCost>\r\n
+        \   <StatusText>Approved</StatusText>\r\n    <Status>#APPROVED</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-07-05T09:35:58+10:00</LodgementDate>\r\n
+        \   <DeterminationDate>2019-07-24T15:42:26.323+10:00</DeterminationDate>\r\n
+        \   <DeterminationType>Approved</DeterminationType>\r\n    <AuthorityParty
+        />\r\n    <ApplicationDetails>Shed</ApplicationDetails>\r\n    <OfficerId>NICKA</OfficerId>\r\n
+        \   <Officer>Nick Armstrong</Officer>\r\n    <SubmissionStart>2019-07-12T00:00:00+10:00</SubmissionStart>\r\n
+        \   <SubmissionEnd>2019-07-26T00:00:00+10:00</SubmissionEnd>\r\n    <GroupId>Approved</GroupId>\r\n
+        \   <DADays>24</DADays>\r\n    <ApplicationIdS>52059</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>52059</ApplicationId>\r\n      <DeterminationDate>2019-07-24T15:36:34.613+10:00</DeterminationDate>\r\n
+        \     <DeterminationType>Approved</DeterminationType>\r\n      <AuthorityParty
+        />\r\n      <ApplicationIdS>52059</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>131280</PropertyId>\r\n      <ApplicationId>52059</ApplicationId>\r\n
+        \     <AssessmentId>342859303</AssessmentId>\r\n      <ParcelId>1002208</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>16</StreetNumber1>\r\n      <StreetName>Tareeda
+        Court</StreetName>\r\n      <StreetType />\r\n      <LocalityName>SPRING GROVE</LocalityName>\r\n
+        \     <Postcode>2470</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Ward>332433705</Ward>\r\n
+        \     <Line1>16 Tareeda Court</Line1>\r\n      <Line2>SPRING GROVE NSW 2470</Line2>\r\n
+        \     <FullLegalDescription>Lot 117 DP 1133540</FullLegalDescription>\r\n
+        \     <Area>1.030000</Area>\r\n      <AreaUnits>Ha</AreaUnits>\r\n      <ApplicationIdS>52059</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>52059</ApplicationId>\r\n
+        \     <PartyId>4891</PartyId>\r\n      <PersonId>4891</PersonId>\r\n      <PropertyId>52059</PropertyId>\r\n
+        \     <FamilyName>Morton</FamilyName>\r\n      <GivenName>Casey Mathew</GivenName>\r\n
+        \     <Title>Mr</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n      <FullName>Mr
+        Casey Mathew Morton</FullName>\r\n      <EmailAddress />\r\n      <TelephoneNumber
+        />\r\n      <MobileNumber>0419 216 794</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>52059</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>52059</ApplicationId>\r\n      <PartyId>4892</PartyId>\r\n
+        \     <PersonId>4892</PersonId>\r\n      <PropertyId>52059</PropertyId>\r\n
+        \     <FamilyName>Morton</FamilyName>\r\n      <GivenName>Kelly Elizabeth</GivenName>\r\n
+        \     <Title>Mrs</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n      <FullName>Mrs
+        Kelly Elizabeth Morton</FullName>\r\n      <EmailAddress />\r\n      <TelephoneNumber
+        />\r\n      <MobileNumber>0419 216 794</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>52059</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>51975</ApplicationId>\r\n
+        \   <ApplicationType>Development Application</ApplicationType>\r\n    <NatureOfApplicationType>ResidA&amp;A</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Residential Alterations and Additions</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2020/0003</ReferenceNumber>\r\n    <ReferenceNumberYear>2020</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>3</ReferenceNumberNumber>\r\n    <EstimatedCost>18000.000000</EstimatedCost>\r\n
+        \   <StatusText>Approved</StatusText>\r\n    <Status>#APPROVED</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-07-05T11:29:30+10:00</LodgementDate>\r\n
+        \   <DeterminationDate>2019-07-26T16:06:06+10:00</DeterminationDate>\r\n    <DeterminationType>Approved</DeterminationType>\r\n
+        \   <AuthorityParty />\r\n    <ApplicationDetails>Change of use of garage
+        area to create additional bedrooms</ApplicationDetails>\r\n    <OfficerId>NICKA</OfficerId>\r\n
+        \   <Officer>Nick Armstrong</Officer>\r\n    <SubmissionStart>2019-07-11T00:00:00+10:00</SubmissionStart>\r\n
+        \   <SubmissionEnd>2019-07-25T00:00:00+10:00</SubmissionEnd>\r\n    <GroupId>Approved</GroupId>\r\n
+        \   <DADays>24</DADays>\r\n    <ApplicationIdS>51975</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>51975</ApplicationId>\r\n      <DeterminationDate>2019-07-26T14:00:31.45+10:00</DeterminationDate>\r\n
+        \     <DeterminationType>Approved</DeterminationType>\r\n      <AuthorityParty
+        />\r\n      <ApplicationIdS>51975</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>133935</PropertyId>\r\n      <ApplicationId>51975</ApplicationId>\r\n
+        \     <AssessmentId>356958108</AssessmentId>\r\n      <ParcelId>1002758</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>60</StreetNumber1>\r\n      <StreetName>Flatley
+        Place</StreetName>\r\n      <StreetType />\r\n      <LocalityName>NORTH CASINO</LocalityName>\r\n
+        \     <Postcode>2470</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Ward>342093606</Ward>\r\n
+        \     <Line1>60 Flatley Place</Line1>\r\n      <Line2>NORTH CASINO NSW 2470</Line2>\r\n
+        \     <FullLegalDescription>Lot 162 DP 1162270</FullLegalDescription>\r\n
+        \     <Area>41.430000</Area>\r\n      <AreaUnits>Ha</AreaUnits>\r\n      <Dimensions>irregular</Dimensions>\r\n
+        \     <ApplicationIdS>51975</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <ApplicationId>51975</ApplicationId>\r\n      <PartyId>58105</PartyId>\r\n
+        \     <PersonId>58105</PersonId>\r\n      <PropertyId>51975</PropertyId>\r\n
+        \     <FamilyName>Gooley</FamilyName>\r\n      <GivenName>Benjamin Johnson</GivenName>\r\n
+        \     <Title>Mr</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n      <FullName>Mr
+        Benjamin Johnson Gooley</FullName>\r\n      <EmailAddress>sales@benair.net.au</EmailAddress>\r\n
+        \     <MobileNumber>0429 883 246</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>51975</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>52011</ApplicationId>\r\n
+        \   <ApplicationType>Development Application</ApplicationType>\r\n    <NatureOfApplicationType>ResiSingle</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Residential Single Dwelling</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2020/0004</ReferenceNumber>\r\n    <ReferenceNumberYear>2020</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>4</ReferenceNumberNumber>\r\n    <EstimatedCost>318010.910000</EstimatedCost>\r\n
+        \   <StatusText>In Progress</StatusText>\r\n    <Status>InProgress</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-07-05T12:11:33+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty
+        />\r\n    <ApplicationDetails>Dwelling</ApplicationDetails>\r\n    <OfficerId>MEGANY</OfficerId>\r\n
+        \   <Officer>Megan Yates</Officer>\r\n    <SubmissionStart>2019-07-17T00:00:00+10:00</SubmissionStart>\r\n
+        \   <SubmissionEnd>2019-08-18T00:00:00+10:00</SubmissionEnd>\r\n    <DADays>24</DADays>\r\n
+        \   <ApplicationIdS>52011</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>52011</ApplicationId>\r\n
+        \     <DeterminationType>In Progress</DeterminationType>\r\n      <AuthorityParty
+        />\r\n      <ApplicationIdS>52011</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>176660</PropertyId>\r\n      <ApplicationId>52011</ApplicationId>\r\n
+        \     <ParcelId>1011100</ParcelId>\r\n      <Status>C</Status>\r\n      <StreetNumber1>60</StreetNumber1>\r\n
+        \     <StreetName>Currajong Street</StreetName>\r\n      <StreetType />\r\n
+        \     <LocalityName>EVANS HEAD</LocalityName>\r\n      <Postcode>2473</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Line1>60 Currajong Street</Line1>\r\n      <Line2>EVANS HEAD NSW 2473</Line2>\r\n
+        \     <FullLegalDescription>Lot 10 DP 1248978</FullLegalDescription>\r\n      <Area>720.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>52011</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>52011</ApplicationId>\r\n
+        \     <PartyId>4544</PartyId>\r\n      <PersonId>4544</PersonId>\r\n      <PropertyId>52011</PropertyId>\r\n
+        \     <FamilyName>Metricon Homes QLD Pty Ltd</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Metricon Homes QLD Pty Ltd</FullName>\r\n      <EmailAddress
+        />\r\n      <TelephoneNumber />\r\n      <MobileNumber />\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>52011</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>52079</ApplicationId>\r\n
+        \   <ApplicationType>Development Application</ApplicationType>\r\n    <NatureOfApplicationType>ResidA&amp;A</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Residential Alterations and Additions</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2020/0006</ReferenceNumber>\r\n    <ReferenceNumberYear>2020</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>6</ReferenceNumberNumber>\r\n    <EstimatedCost>19600.000000</EstimatedCost>\r\n
+        \   <StatusText>Approved</StatusText>\r\n    <Status>#APPROVED</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-07-10T11:28:59+10:00</LodgementDate>\r\n
+        \   <DeterminationDate>2019-07-29T13:57:48.05+10:00</DeterminationDate>\r\n
+        \   <DeterminationType>Approved</DeterminationType>\r\n    <AuthorityParty
+        />\r\n    <ApplicationDetails>Garage</ApplicationDetails>\r\n    <OfficerId>NICKA</OfficerId>\r\n
+        \   <Officer>Nick Armstrong</Officer>\r\n    <SubmissionStart>2019-07-15T00:00:00+10:00</SubmissionStart>\r\n
+        \   <SubmissionEnd>2019-07-29T00:00:00+10:00</SubmissionEnd>\r\n    <GroupId>Approved</GroupId>\r\n
+        \   <DADays>19</DADays>\r\n    <ApplicationIdS>52079</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>52079</ApplicationId>\r\n      <DeterminationDate>2019-07-29T13:47:22.923+10:00</DeterminationDate>\r\n
+        \     <DeterminationType>Approved</DeterminationType>\r\n      <AuthorityParty
+        />\r\n      <ApplicationIdS>52079</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>120420</PropertyId>\r\n      <ApplicationId>52079</ApplicationId>\r\n
+        \     <AssessmentId>2799000001</AssessmentId>\r\n      <ParcelId>4137</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>110</StreetNumber1>\r\n      <StreetName>West
+        Street</StreetName>\r\n      <StreetType />\r\n      <LocalityName>CASINO</LocalityName>\r\n
+        \     <Postcode>2470</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Line1>110 West Street</Line1>\r\n
+        \     <Line2>CASINO NSW 2470</Line2>\r\n      <FullLegalDescription>Lot 1
+        DP 984887</FullLegalDescription>\r\n      <Area>764.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n
+        \     <Dimensions>25.145 x 25.145 x 30.335 x 30.435 x</Dimensions>\r\n      <ApplicationIdS>52079</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>52079</ApplicationId>\r\n
+        \     <PartyId>8351</PartyId>\r\n      <PersonId>8351</PersonId>\r\n      <PropertyId>52079</PropertyId>\r\n
+        \     <FamilyName>Hodgkinson</FamilyName>\r\n      <GivenName>Pamela Evelyn</GivenName>\r\n
+        \     <Gender>F</Gender>\r\n      <Title>Mrs</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Mrs Pamela Evelyn Hodgkinson</FullName>\r\n      <EmailAddress>ronandpamhodgkin@yahoo.com.au</EmailAddress>\r\n
+        \     <Private>N</Private>\r\n      <ApplicationIdS>52079</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <ApplicationId>52079</ApplicationId>\r\n
+        \     <PartyId>8352</PartyId>\r\n      <PersonId>8352</PersonId>\r\n      <PropertyId>52079</PropertyId>\r\n
+        \     <FamilyName>Hodgkinson</FamilyName>\r\n      <GivenName>Ronald James</GivenName>\r\n
+        \     <Gender>M</Gender>\r\n      <Title>Mr</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Mr Ronald James Hodgkinson</FullName>\r\n      <EmailAddress>ronandpamhodgkin@yahoo.com.au</EmailAddress>\r\n
+        \     <Private>N</Private>\r\n      <ApplicationIdS>52079</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>52102</ApplicationId>\r\n    <ApplicationType>Development
+        Application</ApplicationType>\r\n    <NatureOfApplicationType>ResiSingle</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Residential Single Dwelling</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2020/0007</ReferenceNumber>\r\n    <ReferenceNumberYear>2020</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>7</ReferenceNumberNumber>\r\n    <EstimatedCost>207000.000000</EstimatedCost>\r\n
+        \   <StatusText>In Progress</StatusText>\r\n    <Status>InProgress</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-07-11T14:32:36+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty
+        />\r\n    <ApplicationDetails>Single storey dwelling</ApplicationDetails>\r\n
+        \   <OfficerId>NICKA</OfficerId>\r\n    <Officer>Nick Armstrong</Officer>\r\n
+        \   <SubmissionStart>2019-07-17T00:00:00+10:00</SubmissionStart>\r\n    <SubmissionEnd>2019-07-31T00:00:00+10:00</SubmissionEnd>\r\n
+        \   <GroupId>Approved</GroupId>\r\n    <DADays>18</DADays>\r\n    <ApplicationIdS>52102</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>52102</ApplicationId>\r\n      <DeterminationDate>2019-07-29T14:10:27.593+10:00</DeterminationDate>\r\n
+        \     <DeterminationType>In Progress</DeterminationType>\r\n      <AuthorityParty
+        />\r\n      <ApplicationIdS>52102</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>176020</PropertyId>\r\n      <ApplicationId>52102</ApplicationId>\r\n
+        \     <ParcelId>1009920</ParcelId>\r\n      <Status>C</Status>\r\n      <StreetNumber1>63</StreetNumber1>\r\n
+        \     <StreetName>Eucalypt Drive</StreetName>\r\n      <StreetType />\r\n
+        \     <LocalityName>SWAN BAY</LocalityName>\r\n      <Postcode>2471</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Line1>63 Eucalypt Drive</Line1>\r\n      <Line2>SWAN BAY NSW 2471</Line2>\r\n
+        \     <FullLegalDescription>Lot 9 DP 1243863</FullLegalDescription>\r\n      <Area>1.494000</Area>\r\n
+        \     <AreaUnits>Ha</AreaUnits>\r\n      <ApplicationIdS>52102</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>52102</ApplicationId>\r\n
+        \     <PartyId>58461</PartyId>\r\n      <PersonId>58461</PersonId>\r\n      <PropertyId>52102</PropertyId>\r\n
+        \     <FamilyName>GJ Gardner Homes Clarence Valley</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>GJ Gardner Homes Clarence Valley</FullName>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>52102</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>52124</ApplicationId>\r\n
+        \   <ApplicationType>Development Application</ApplicationType>\r\n    <NatureOfApplicationType>ResidA&amp;A</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Residential Alterations and Additions</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2020/0008</ReferenceNumber>\r\n    <ReferenceNumberYear>2020</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>8</ReferenceNumberNumber>\r\n    <EstimatedCost>65360.000000</EstimatedCost>\r\n
+        \   <StatusText>In Progress</StatusText>\r\n    <Status>InProgress</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-07-12T17:04:13+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty
+        />\r\n    <ApplicationDetails>Hardwood Deck and Insulated Patio</ApplicationDetails>\r\n
+        \   <OfficerId>NICKA</OfficerId>\r\n    <Officer>Nick Armstrong</Officer>\r\n
+        \   <SubmissionStart>2019-07-18T00:00:00+10:00</SubmissionStart>\r\n    <SubmissionEnd>2019-08-01T00:00:00+10:00</SubmissionEnd>\r\n
+        \   <DADays>17</DADays>\r\n    <ApplicationIdS>52124</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>52124</ApplicationId>\r\n      <DeterminationType>In
+        Progress</DeterminationType>\r\n      <AuthorityParty />\r\n      <ApplicationIdS>52124</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>146390</PropertyId>\r\n
+        \     <ApplicationId>52124</ApplicationId>\r\n      <AssessmentId>6100000006</AssessmentId>\r\n
+        \     <ParcelId>23392</ParcelId>\r\n      <Status>C</Status>\r\n      <StreetNumber1>25</StreetNumber1>\r\n
+        \     <StreetName>Riverview Street</StreetName>\r\n      <StreetType />\r\n
+        \     <LocalityName>EVANS HEAD</LocalityName>\r\n      <Postcode>2473</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Ward>1118210002</Ward>\r\n      <Line1>25 Riverview Street</Line1>\r\n
+        \     <Line2>EVANS HEAD NSW 2473</Line2>\r\n      <FullLegalDescription>Lot
+        6 DP 258447</FullLegalDescription>\r\n      <Area>896.500000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n
+        \     <Dimensions>17.865 x 15.24 x 52.79 x 53.115 x</Dimensions>\r\n      <ApplicationIdS>52124</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>52124</ApplicationId>\r\n
+        \     <PartyId>64211</PartyId>\r\n      <PersonId>64211</PersonId>\r\n      <PropertyId>52124</PropertyId>\r\n
+        \     <FamilyName>Apollo Patios &amp; Decks Northern Rivers</FamilyName>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FullName>Apollo Patios &amp;
+        Decks Northern Rivers</FullName>\r\n      <EmailAddress>admin@apollonorthernrivers.com.au</EmailAddress>\r\n
+        \     <MobileNumber>0409 376 787</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>52124</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>52170</ApplicationId>\r\n
+        \   <ApplicationType>Development Application</ApplicationType>\r\n    <NatureOfApplicationType>ResidA&amp;A</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Residential Alterations and Additions</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2020/0009</ReferenceNumber>\r\n    <ReferenceNumberYear>2020</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>9</ReferenceNumberNumber>\r\n    <EstimatedCost>19750.000000</EstimatedCost>\r\n
+        \   <StatusText>In Progress</StatusText>\r\n    <Status>InProgress</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-07-15T13:17:01+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty
+        />\r\n    <ApplicationDetails>Shed</ApplicationDetails>\r\n    <OfficerId>ANDREWC</OfficerId>\r\n
+        \   <Officer>Andrew Clark</Officer>\r\n    <SubmissionStart>2019-07-18T00:00:00+10:00</SubmissionStart>\r\n
+        \   <SubmissionEnd>2019-08-01T00:00:00+10:00</SubmissionEnd>\r\n    <DADays>14</DADays>\r\n
+        \   <ApplicationIdS>52170</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>52170</ApplicationId>\r\n
+        \     <DeterminationType>In Progress</DeterminationType>\r\n      <AuthorityParty
+        />\r\n      <ApplicationIdS>52170</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>115795</PropertyId>\r\n      <ApplicationId>52170</ApplicationId>\r\n
+        \     <AssessmentId>2376000002</AssessmentId>\r\n      <ParcelId>3385</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>70</StreetNumber1>\r\n      <StreetName>Richmond
+        Street</StreetName>\r\n      <StreetType />\r\n      <LocalityName>CASINO</LocalityName>\r\n
+        \     <Postcode>2470</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Line1>70 Richmond Street</Line1>\r\n
+        \     <Line2>CASINO NSW 2470</Line2>\r\n      <FullLegalDescription>Lot 1
+        DP 945917</FullLegalDescription>\r\n      <Area>1073.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n
+        \     <Dimensions>20.12 x 20.12 x 53.34</Dimensions>\r\n      <ApplicationIdS>52170</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>52170</ApplicationId>\r\n
+        \     <PartyId>64453</PartyId>\r\n      <PersonId>64453</PersonId>\r\n      <PropertyId>52170</PropertyId>\r\n
+        \     <FamilyName>Condon</FamilyName>\r\n      <GivenName>Raymond Clive</GivenName>\r\n
+        \     <Gender>M</Gender>\r\n      <Title>Mr</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Mr Raymond Clive Condon</FullName>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>52170</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>52180</ApplicationId>\r\n
+        \   <ApplicationType>Development Application</ApplicationType>\r\n    <NatureOfApplicationType>ResidA&amp;A</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Residential Alterations and Additions</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2020/0010</ReferenceNumber>\r\n    <ReferenceNumberYear>2020</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>10</ReferenceNumberNumber>\r\n    <EstimatedCost>17465.000000</EstimatedCost>\r\n
+        \   <StatusText>In Progress</StatusText>\r\n    <Status>InProgress</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-07-15T14:33:00+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty
+        />\r\n    <ApplicationDetails>Shed</ApplicationDetails>\r\n    <OfficerId>NICKA</OfficerId>\r\n
+        \   <Officer>Nick Armstrong</Officer>\r\n    <SubmissionStart>2019-07-18T00:00:00+10:00</SubmissionStart>\r\n
+        \   <SubmissionEnd>2019-08-01T00:00:00+10:00</SubmissionEnd>\r\n    <DADays>14</DADays>\r\n
+        \   <ApplicationIdS>52180</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>52180</ApplicationId>\r\n
+        \     <DeterminationType>In Progress</DeterminationType>\r\n      <AuthorityParty
+        />\r\n      <ApplicationIdS>52180</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>104935</PropertyId>\r\n      <ApplicationId>52180</ApplicationId>\r\n
+        \     <AssessmentId>1167000007</AssessmentId>\r\n      <ParcelId>1660</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>27</StreetNumber1>\r\n      <StreetName>Fergusson
+        Street</StreetName>\r\n      <StreetType />\r\n      <LocalityName>CASINO</LocalityName>\r\n
+        \     <Postcode>2470</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Line1>27 Fergusson Street</Line1>\r\n
+        \     <Line2>CASINO NSW 2470</Line2>\r\n      <FullLegalDescription>Lot 4
+        DP 366639</FullLegalDescription>\r\n      <Area>1012.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n
+        \     <Dimensions>20.12 x 20.12 x 50.29</Dimensions>\r\n      <ApplicationIdS>52180</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>52180</ApplicationId>\r\n
+        \     <PartyId>390</PartyId>\r\n      <PersonId>390</PersonId>\r\n      <PropertyId>52180</PropertyId>\r\n
+        \     <FamilyName>Carter</FamilyName>\r\n      <GivenName>Ian James</GivenName>\r\n
+        \     <Gender>U</Gender>\r\n      <Title>Mr</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Mr Ian James Carter</FullName>\r\n      <EmailAddress />\r\n
+        \     <TelephoneNumber />\r\n      <MobileNumber />\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>52180</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>52473</ApplicationId>\r\n
+        \   <ApplicationType>Development Application</ApplicationType>\r\n    <NatureOfApplicationType>ResiSingle</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Residential Single Dwelling</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2020/0011</ReferenceNumber>\r\n    <ReferenceNumberYear>2020</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>11</ReferenceNumberNumber>\r\n    <EstimatedCost>173885.000000</EstimatedCost>\r\n
+        \   <StatusText>In Progress</StatusText>\r\n    <Status>InProgress</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-07-24T08:48:27+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty
+        />\r\n    <ApplicationDetails>Dwelling &amp; Carport</ApplicationDetails>\r\n
+        \   <OfficerId>NICKA</OfficerId>\r\n    <Officer>Nick Armstrong</Officer>\r\n
+        \   <SubmissionStart>2019-07-29T00:00:00+10:00</SubmissionStart>\r\n    <SubmissionEnd>2019-08-12T00:00:00+10:00</SubmissionEnd>\r\n
+        \   <DADays>5</DADays>\r\n    <ApplicationIdS>52473</ApplicationIdS>\r\n    <Determination>\r\n
+        \     <ApplicationId>52473</ApplicationId>\r\n      <DeterminationType>In
+        Progress</DeterminationType>\r\n      <AuthorityParty />\r\n      <ApplicationIdS>52473</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>176920</PropertyId>\r\n
+        \     <ApplicationId>52473</ApplicationId>\r\n      <ParcelId>1011470</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>8</StreetNumber1>\r\n      <StreetSuffix>A</StreetSuffix>\r\n
+        \     <StreetName>Ecles Street</StreetName>\r\n      <StreetType />\r\n      <LocalityName>CASINO</LocalityName>\r\n
+        \     <Postcode>2470</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Line1>8 A Ecles Street</Line1>\r\n
+        \     <Line2>CASINO NSW 2470</Line2>\r\n      <FullLegalDescription>Lot 2
+        DP 1250924</FullLegalDescription>\r\n      <Area>607.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n
+        \     <Dimensions>20.12 X 30.18</Dimensions>\r\n      <ApplicationIdS>52473</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>52473</ApplicationId>\r\n
+        \     <PartyId>2412</PartyId>\r\n      <PersonId>2412</PersonId>\r\n      <PropertyId>52473</PropertyId>\r\n
+        \     <FamilyName>Reeves Building</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Reeves Building</FullName>\r\n      <EmailAddress>treeves39@bigpond.com</EmailAddress>\r\n
+        \     <TelephoneNumber />\r\n      <MobileNumber>0428 665 836</MobileNumber>\r\n
+        \     <Private>N</Private>\r\n      <ApplicationIdS>52473</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>52496</ApplicationId>\r\n    <ApplicationType>Development
+        Application</ApplicationType>\r\n    <NatureOfApplicationType>Mods</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Modification Application</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2019/0231.01</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>231</ReferenceNumberNumber>\r\n    <StatusText>In
+        Progress</StatusText>\r\n    <Status>InProgress</Status>\r\n    <Current>C</Current>\r\n
+        \   <LodgementDate>2019-07-24T14:23:12+10:00</LodgementDate>\r\n    <DeterminationType>In
+        Progress</DeterminationType>\r\n    <AuthorityParty />\r\n    <ApplicationDetails>Single
+        Storey Dwelling</ApplicationDetails>\r\n    <OfficerId>ANDREWC</OfficerId>\r\n
+        \   <Officer>Andrew Clark</Officer>\r\n    <SubmissionStart>2019-07-30T00:00:00+10:00</SubmissionStart>\r\n
+        \   <SubmissionEnd>2019-08-13T00:00:00+10:00</SubmissionEnd>\r\n    <DADays>5</DADays>\r\n
+        \   <ApplicationIdS>52496</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>52496</ApplicationId>\r\n
+        \     <DeterminationType>In Progress</DeterminationType>\r\n      <AuthorityParty
+        />\r\n      <ApplicationIdS>52496</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>129635</PropertyId>\r\n      <ApplicationId>52496</ApplicationId>\r\n
+        \     <AssessmentId>334520301</AssessmentId>\r\n      <ParcelId>1001903</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>12</StreetNumber1>\r\n      <StreetName>Pennefather
+        Close</StreetName>\r\n      <StreetType />\r\n      <LocalityName>YORKLEA</LocalityName>\r\n
+        \     <Postcode>2470</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Ward>326545704</Ward>\r\n
+        \     <Line1>12 Pennefather Close</Line1>\r\n      <Line2>YORKLEA NSW 2470</Line2>\r\n
+        \     <FullLegalDescription>Lot 8 DP 1118254</FullLegalDescription>\r\n      <Area>2.483000</Area>\r\n
+        \     <AreaUnits>Ha</AreaUnits>\r\n      <Dimensions>88.64 x 79.12 x 286.44
+        x irreg</Dimensions>\r\n      <ApplicationIdS>52496</ApplicationIdS>\r\n    </Address>\r\n
+        \   <Party>\r\n      <ApplicationId>52496</ApplicationId>\r\n      <PartyId>62645</PartyId>\r\n
+        \     <PersonId>62645</PersonId>\r\n      <PropertyId>52496</PropertyId>\r\n
+        \     <FamilyName>Dixonbuild Pty Ltd</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Dixonbuild Pty Ltd</FullName>\r\n      <TelephoneNumber>07
+        3274 0781</TelephoneNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>52496</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>52504</ApplicationId>\r\n    <ApplicationType>Development
+        Application</ApplicationType>\r\n    <NatureOfApplicationType>ResidA&amp;A</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Residential Alterations and Additions</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2020/0012</ReferenceNumber>\r\n    <ReferenceNumberYear>2020</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>12</ReferenceNumberNumber>\r\n    <EstimatedCost>12000.000000</EstimatedCost>\r\n
+        \   <StatusText>In Progress</StatusText>\r\n    <Status>InProgress</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-07-24T14:44:09+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty
+        />\r\n    <ApplicationDetails>Carport</ApplicationDetails>\r\n    <OfficerId>NICKA</OfficerId>\r\n
+        \   <Officer>Nick Armstrong</Officer>\r\n    <SubmissionStart>2019-07-29T00:00:00+10:00</SubmissionStart>\r\n
+        \   <SubmissionEnd>2019-08-12T00:00:00+10:00</SubmissionEnd>\r\n    <DADays>5</DADays>\r\n
+        \   <ApplicationIdS>52504</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>52504</ApplicationId>\r\n
+        \     <DeterminationType>In Progress</DeterminationType>\r\n      <AuthorityParty
+        />\r\n      <ApplicationIdS>52504</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>123150</PropertyId>\r\n      <ApplicationId>52504</ApplicationId>\r\n
+        \     <AssessmentId>2976805008</AssessmentId>\r\n      <ParcelId>4328</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>5</StreetNumber1>\r\n      <StreetName>Woodside
+        Grove</StreetName>\r\n      <StreetType />\r\n      <LocalityName>CASINO</LocalityName>\r\n
+        \     <Postcode>2470</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Line1>5 Woodside Grove</Line1>\r\n
+        \     <Line2>CASINO NSW 2470</Line2>\r\n      <FullLegalDescription>Lot 58
+        DP 263435</FullLegalDescription>\r\n      <Area>1563.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n
+        \     <Dimensions>14.01 x 30.73 x 48.81 x 65.31 x</Dimensions>\r\n      <ApplicationIdS>52504</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>52504</ApplicationId>\r\n
+        \     <PartyId>59355</PartyId>\r\n      <PersonId>59355</PersonId>\r\n      <PropertyId>52504</PropertyId>\r\n
+        \     <FamilyName>AGS Commercial Pty Ltd</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>AGS Commercial Pty Ltd</FullName>\r\n      <EmailAddress>sales@agscommercial.net.au</EmailAddress>\r\n
+        \     <TelephoneNumber>6622 3745</TelephoneNumber>\r\n      <MobileNumber>0423
+        310 344</MobileNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>52504</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>52552</ApplicationId>\r\n    <ApplicationType>Development
+        Application</ApplicationType>\r\n    <NatureOfApplicationType>ResidA&amp;A</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Residential Alterations and Additions</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2020/0014</ReferenceNumber>\r\n    <ReferenceNumberYear>2020</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>14</ReferenceNumberNumber>\r\n    <EstimatedCost>7000.000000</EstimatedCost>\r\n
+        \   <StatusText>In Progress</StatusText>\r\n    <Status>InProgress</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-07-25T13:14:04+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty
+        />\r\n    <ApplicationDetails>Deck \"As Built\"</ApplicationDetails>\r\n    <DADays>4</DADays>\r\n
+        \   <ApplicationIdS>52552</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>52552</ApplicationId>\r\n
+        \     <DeterminationType>In Progress</DeterminationType>\r\n      <AuthorityParty
+        />\r\n      <ApplicationIdS>52552</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>146695</PropertyId>\r\n      <ApplicationId>52552</ApplicationId>\r\n
+        \     <AssessmentId>6183000006</AssessmentId>\r\n      <ParcelId>23125</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>16</StreetNumber1>\r\n      <StreetName>Sunderland
+        Street</StreetName>\r\n      <StreetType />\r\n      <LocalityName>EVANS HEAD</LocalityName>\r\n
+        \     <Postcode>2473</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Ward>1119410007</Ward>\r\n
+        \     <Line1>16 Sunderland Street</Line1>\r\n      <Line2>EVANS HEAD NSW 2473</Line2>\r\n
+        \     <FullLegalDescription>Lot 12 DP 801155</FullLegalDescription>\r\n      <Area>950.600000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <Dimensions>25.0 x 24.6 x 39.3 x
+        38.9 x</Dimensions>\r\n      <ApplicationIdS>52552</ApplicationIdS>\r\n    </Address>\r\n
+        \   <Party>\r\n      <ApplicationId>52552</ApplicationId>\r\n      <PartyId>64536</PartyId>\r\n
+        \     <PersonId>64536</PersonId>\r\n      <PropertyId>52552</PropertyId>\r\n
+        \     <FamilyName>Killey</FamilyName>\r\n      <GivenName>Deborah</GivenName>\r\n
+        \     <Gender>F</Gender>\r\n      <Title>Mrs</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Mrs Deborah Killey</FullName>\r\n      <MobileNumber>0421
+        199 982</MobileNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>52552</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>52550</ApplicationId>\r\n    <ApplicationType>Development
+        Application</ApplicationType>\r\n    <NatureOfApplicationType>ResiSecOcc</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Residential - New Second Occupancy</NatureOfApplication>\r\n
+        \   <ReferenceNumber>DA2020/0013</ReferenceNumber>\r\n    <ReferenceNumberYear>2020</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>13</ReferenceNumberNumber>\r\n    <EstimatedCost>354009.000000</EstimatedCost>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-07-25T15:01:32+10:00</LodgementDate>\r\n
+        \   <AuthorityParty />\r\n    <ApplicationDetails>Dual Occupancy</ApplicationDetails>\r\n
+        \   <DADays>4</DADays>\r\n    <ApplicationIdS>52550</ApplicationIdS>\r\n    <Determination>\r\n
+        \     <ApplicationId>52550</ApplicationId>\r\n      <AuthorityParty />\r\n
+        \     <ApplicationIdS>52550</ApplicationIdS>\r\n    </Determination>\r\n    <Address>\r\n
+        \     <PropertyId>178070</PropertyId>\r\n      <ApplicationId>52550</ApplicationId>\r\n
+        \     <ParcelId>1011750</ParcelId>\r\n      <Status>C</Status>\r\n      <StreetNumber1>14</StreetNumber1>\r\n
+        \     <StreetSuffix>A</StreetSuffix>\r\n      <StreetName>Hickey Street</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>CASINO</LocalityName>\r\n      <Postcode>2470</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Line1>14 A Hickey Street</Line1>\r\n      <Line2>CASINO NSW 2470</Line2>\r\n
+        \     <FullLegalDescription>Lot 2 DP 1235771</FullLegalDescription>\r\n      <Area>1219.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>52550</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>52550</ApplicationId>\r\n
+        \     <PartyId>62645</PartyId>\r\n      <PersonId>62645</PersonId>\r\n      <PropertyId>52550</PropertyId>\r\n
+        \     <FamilyName>Dixonbuild Pty Ltd</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Dixonbuild Pty Ltd</FullName>\r\n      <TelephoneNumber>07
+        3274 0781</TelephoneNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>52550</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n</NewDataSet>"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+recorded_with: VCR 5.0.0

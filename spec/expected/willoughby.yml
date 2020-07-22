@@ -1,0 +1,750 @@
+---
+- council_reference: BC-2020/42
+  description: Building Certificate - Unauthorised works - detached dual occupancy
+    dwellings (2)
+  date_received: '2020-06-16'
+  address: 23 Kareela Road CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501228
+- council_reference: BC-2020/43
+  description: Single Residential - Additions - dwelling additions and swimming pool
+    - DA-2010/689
+  date_received: '2020-06-19'
+  address: 20 Dargan Street NAREMBURN NSW 2065.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501365
+- council_reference: BC-2020/44
+  description: Carport alterations
+  date_received: '2020-06-22'
+  address: 31 Fourth Avenue WILLOUGHBY EAST NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501420
+- council_reference: BC-2020/45
+  description: Fence above 1.8m at the rear of the premises.
+  date_received: '2020-06-23'
+  address: 7 Mitchell Street NAREMBURN NSW 2065.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501455
+- council_reference: BC-2020/46
+  description: Unauthorised works - Whole Building
+  date_received: '2020-06-24'
+  address: 60 Cliff Avenue NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501477
+- council_reference: BC-2020/47
+  description: Internal Dwelling alterations
+  date_received: '2020-06-24'
+  address: 1 Stafford Road ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501478
+- council_reference: BC-2020/48
+  description: Additions.
+  date_received: '2020-06-29'
+  address: 35 Clanwilliam Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501613
+- council_reference: BC-2020/49
+  description: Block one door & window and take down the partition wall
+  date_received: '2020-06-30'
+  address: 31 Neerim Road CASTLE COVE NSW 2069.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501621
+- council_reference: CC-2004/185/A
+  description: Change carport tiles to colourbond roof and delete masonry fence
+  date_received: '2020-07-01'
+  address: 249 High Street NORTH WILLOUGHBY NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501697
+- council_reference: CC-2011/372/A
+  description: deletion of carport and garage and construction of 2 additional external
+    windows.
+  date_received: '2020-07-07'
+  address: 7 Lucknow Street WILLOUGHBY NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501830
+- council_reference: CC-2019/146/A
+  description: S4.55 CC Amendment - Relocation of carport and swimming pool, removal
+    of cabana, alterations to internal layout and alfresco area, roof and skylights
+    and associated works.
+  date_received: '2020-06-19'
+  address: 53 Stafford Road ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501526
+- council_reference: CC-2020/145
+  description: Shop 64 - Occuption and fitout of beauty salon with remedial massage
+    for use in conjunction with existing hair dressing salon.
+  date_received: '2020-06-15'
+  address: 64/47 Neridah Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501204
+- council_reference: CC-2020/146
+  description: New carport to existing dwelling and associated works.
+  date_received: '2020-06-15'
+  address: 37 Northcote Street NAREMBURN NSW 2065.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501207
+- council_reference: CC-2020/147
+  description: Balcony enclosure.
+  date_received: '2020-06-18'
+  address: 7 Tulloh Street WILLOUGHBY NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501330
+- council_reference: CC-2020/150
+  description: |-
+    Repair & replacement of existing pool coping,
+    paving, rear yard decking, pool fencing & including associated works
+  date_received: '2020-06-11'
+  address: 17 Lincoln Avenue CASTLECRAG NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501340
+- council_reference: CC-2020/151
+  description: An extension to a first floor balcony from 18 sq mts to 30 sq meters
+  date_received: '2020-06-19'
+  address: 290C Eastern Valley Way MIDDLE COVE NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501361
+- council_reference: CC-2020/152
+  description: Excavation of exposed rock strata outside of existing dwelling.
+  date_received: '2020-06-15'
+  address: 19 Sugarloaf Crescent CASTLECRAG NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501378
+- council_reference: CC-2020/154
+  description: Decking and associated Landscaping only
+  date_received: '2020-06-22'
+  address: 25 Beresford Avenue CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501443
+- council_reference: CC-2020/157
+  description: New dwelling, swimming pool and associated works
+  date_received: '2020-06-17'
+  address: 304 Edinburgh Road CASTLECRAG NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501597
+- council_reference: CC-2020/159
+  description: |-
+    Alterations and additions to existing dwelling, including first floor addition, new tandem garage and conversion of existing garage to studio and associated works
+    STAGE 1 - New tandem garage and conversion of existing garage to studio only
+  date_received: '2020-06-17'
+  address: 139 Ashley Street ROSEVILLE NSW 2069.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501630
+- council_reference: CC-2020/163
+  description: Alterations and additions to existing dwelling including first floor
+    addition, construction of new garage and associated works.
+  date_received: '2020-07-06'
+  address: 25 Olga Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501773
+- council_reference: CC-2020/164
+  description: Construction of a new carport.
+  date_received: '2020-07-07'
+  address: 20 Lucknow Street WILLOUGHBY NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501832
+- council_reference: CC-2020/165
+  description: Alterations and additions to existing dwelling, including new rainwater
+    tank and associated stormwater works.
+  date_received: '2020-07-07'
+  address: 36 Greville Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501844
+- council_reference: CC-2020/166
+  description: Alterations and additions to dwelling, garage, fencing, landscaping,
+    external works and associated works.
+  date_received: '2020-07-07'
+  address: 13 Central Street NAREMBURN NSW 2065.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501846
+- council_reference: CC-2020/167
+  description: Alterations to cooling tower and associated works. Including construction
+    of external enclosure at roof level.
+  date_received: '2020-07-08'
+  address: 9 Help Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501882
+- council_reference: CC-2020/168
+  description: Alteration & addition to dwelling including replacement carport off
+    the rear lane
+  date_received: '2020-07-09'
+  address: 11 Oxley Street NAREMBURN NSW 2065.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501903
+- council_reference: CC-2020/46/A
+  description: Modification to approved alterations and additions to an existing building
+    to construct a 12 room boarding house, accommodation for a manager and associated
+    works.
+  date_received: '2020-07-01'
+  address: 517 Pacific Highway ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501669
+- council_reference: CC-2020/49/A
+  description: Alterations and additions to existing building and associated works
+  date_received: '2020-07-09'
+  address: 10B Church Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501913
+- council_reference: CD-2020/141/A
+  description: Proposed Internal fitout to existing retail tenancy - This certificates
+    relates to INTERNAL PARTITIONS.
+  date_received: '2020-07-07'
+  address: 391 Victoria Avenue CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501822
+- council_reference: CD-2020/147
+  description: Intrnal alterations to the exiting unit
+  date_received: '2020-06-15'
+  address: 18/3 Barton Road ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501411
+- council_reference: CD-2020/150
+  description: CDC-3066 - Alterations and additions to existing dwelling and associated
+    works.
+  date_received: '2020-06-25'
+  address: 142 Deepwater Road CASTLE COVE NSW 2069.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501539
+- council_reference: CD-2020/156
+  description: Construction of two storey dwelling.
+  date_received: '2020-07-03'
+  address: 2 De Villiers Avenue CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501739
+- council_reference: CD-2020/157
+  description: shop 435/6B - Pet Town  - Fitout of existing tenancy
+  date_received: '2020-07-06'
+  address: 1 Anderson Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501785
+- council_reference: CD-2020/158
+  description: Unit 44 - Interior fit out works of an existing business tenancy trading
+    as a massage premises.
+  date_received: '2020-07-06'
+  address: 44/47 Neridah Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501795
+- council_reference: CD-2020/159
+  description: Proposed change of use for Shop 4 as beauty therapy salon.  Elite Body
+    Contouring, Shop 4, 66-70 Archer Street.
+  date_received: '2020-07-07'
+  address: 66-70 Archer Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501848
+- council_reference: CD-2020/160
+  description: Rear terrace with covered pergola.
+  date_received: '2020-07-07'
+  address: 137 Eastern Valley Way CASTLECRAG NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501864
+- council_reference: CD-2020/161
+  description: Demolition of a house & garage.
+  date_received: '2020-07-08'
+  address: 79 Sunnyside Crescent CASTLECRAG NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501879
+- council_reference: CD-2020/163
+  description: Level 3, Offices 303, 304, 305, 306 at 407 Pacific Hway - Internal
+    fitout of existing offices.
+  date_received: '2020-07-09'
+  address: 407 Pacific Highway ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501901
+- council_reference: CD-2020/164
+  description: Solar Energy System (Roof Mounted)
+  date_received: '2020-07-09'
+  address: 1 McLachlan Avenue ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501904
+- council_reference: DA-2010/332/B
+  description: |-
+    DA condition no. 24 - Swimming Pool - high level overflow is outstanding.
+    Requesting condition not be required.
+  date_received: '2020-07-08'
+  address: 6 Clafton Avenue NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501892
+- council_reference: DA-2014/191/C
+  description: Modify original proposal to include demolition and construction of
+    existing north eastern boundary wall.
+  date_received: '2020-07-06'
+  address: 517 Pacific Highway ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501790
+- council_reference: DA-2014/578/C
+  description: Modify original consent to amend conditions relating to landscaping
+    and retain existing ingress and egress.
+  date_received: '2020-06-16'
+  address: 1 Frederick Street ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501224
+- council_reference: DA-2016/451/A
+  description: Modification to extend stairs, lift, pool landscape area and internal
+    layout changes.
+  date_received: '2020-06-22'
+  address: 300 Edinburgh Road CASTLECRAG NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501412
+- council_reference: DA-2016/83/C
+  description: Modify Condition 19, reduce trench drain width and depth.
+  date_received: '2020-06-15'
+  address: 18 Alleyne Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501177
+- council_reference: DA-2017/147/A
+  description: S4.55 - Extension of roof over deck and enlarge kitchen window.
+  date_received: '2020-06-26'
+  address: 11 Cramer Crescent CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501558
+- council_reference: DA-2017/414/A
+  description: Modify existing consent by altering roof form, facade, finish floor
+    level, windows, doors and associated works.
+  date_received: '2020-06-19'
+  address: 189 Sailors Bay Road NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501353
+- council_reference: DA-2017/506/B
+  description: Amend conditions relating to the rainwater tanks and change to mortar
+    colour.
+  date_received: '2020-06-26'
+  address: 23 Rhodes Avenue NAREMBURN NSW 2065.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501568
+- council_reference: DA-2018/105/A
+  description: Modify original proposal to include changes to internal layout and
+    windows, delete approved swimming pool, addition of concrete path and steps and
+    associated works.
+  date_received: '2020-06-15'
+  address: 46 Nicholson Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501184
+- council_reference: DA-2018/154/A
+  description: Proprosed internal modifications to the approved house, garage and
+    workshop as well as changes to the external finishes.
+  date_received: '2020-07-07'
+  address: 17 Rose Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501812
+- council_reference: DA-2018/170/B
+  description: Modify proposed stormwater management system.
+  date_received: '2020-06-15'
+  address: 76 Macquarie Street ROSEVILLE NSW 2069.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501208
+- council_reference: DA-2018/388/A
+  description: Amendment to the front landscaping and drainage and rear landscaping
+    and pool pump location, and to change carport to storeroom, repair existing porch
+    and garage roof, and internal modifications to first floor wall and en-suite,
+    and associated works.
+  date_received: '2020-06-30'
+  address: 27 Muttama Road ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501646
+- council_reference: DA-2018/402/A
+  description: Modify original application to include addition of retaining walls,
+    skylight, glazing and internal changes and modified landscape design.
+  date_received: '2020-06-18'
+  address: 32 Neridah Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501301
+- council_reference: DA-2018/419/A
+  description: S4.55 - Alterations to pool size and roof changes.
+  date_received: '2020-06-24'
+  address: 66 Centennial Avenue CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501522
+- council_reference: DA-2018/434/A
+  description: To change the approved terracotta tile roof to the house to a grey
+    slate type roof tile.
+  date_received: '2020-07-09'
+  address: 32 The Parapet CASTLECRAG NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501900
+- council_reference: DA-2019/126/A
+  description: Removal of proposed balcony and dining addition, relocation of proposed
+    pergola and doors, amendments to first floor windows and associated works.
+  date_received: '2020-06-12'
+  address: 9 Edward Street WILLOUGHBY NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501149
+- council_reference: DA-2019/328/A
+  description: Typographic error, consent to lapse has the wrong date needs to be
+    amended.
+  date_received: '2020-06-23'
+  address: 1 Headland Road CASTLE COVE NSW 2069.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501433
+- council_reference: DA-2019/372/A
+  description: Delete Condition 7 regarding eaves height and amend Condition 4 to
+    allow colour bond for the rear section.
+  date_received: '2020-06-30'
+  address: 17 Central Street NAREMBURN NSW 2065.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501651
+- council_reference: DA-2019/380/A
+  description: Modified cost of works and S7.12 contribution.
+  date_received: '2020-06-15'
+  address: 33 Cobar Street WILLOUGHBY NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501215
+- council_reference: DA-2019/47/A
+  description: New ramp and lift access, relocation of stairs, garage widened, extension
+    of living area, internal changes and window changes.
+  date_received: '2020-06-24'
+  address: 55 Neerim Road CASTLE COVE NSW 2069.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501519
+- council_reference: DA-2019/73/A
+  description: Modify existing consent by deleting conditions 7 and 76, and modifying
+    condition 8 in respect of stormwater management.
+  date_received: '2020-06-12'
+  address: 19 Marana Road NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501165
+- council_reference: DA-2019/79/A
+  description: Modification to original consent including facade modification, basement
+    & internal reconfiguration, increased footprint and gross floor area and changes
+    to Conditions 13, 29, 70 and 82A.
+  date_received: '2020-06-12'
+  address: 2 Broadcast Way ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501169
+- council_reference: DA-2020/138
+  description: Alterations & additions to existing dual occupancy to convert it to
+    single dwelling house and construction of a new detached dwelling house with swimming
+    pool to create detached dual occupancy, garage, landscaping and associated works.
+  date_received: '2020-06-11'
+  address: 22 Kameruka Road NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501098
+- council_reference: DA-2020/139
+  description: Replace existing front retaining wall and balustrade, car space to
+    driveway and associated works.
+  date_received: '2020-06-11'
+  address: 15 Colwell Crescent CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501101
+- council_reference: DA-2020/141
+  description: Installation of internal and external signage, painting of building
+    facade and associated works.
+  date_received: '2020-06-11'
+  address: 22 Lambs Road ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501120
+- council_reference: DA-2020/142
+  description: Alterations and rear additions to dwelling, extend garage and roof,
+    new carport, retaining wall and associated works.
+  date_received: '2020-06-12'
+  address: 63 Cliff Avenue NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501131
+- council_reference: DA-2020/143
+  description: FITOUT OF BUILDING FOR BEAUTY SALON AND REMEDIAL MASSAGE USES IN CONJUNCTION
+    WITH EXISTING HAIRDRESSING SALON.
+  date_received: '2020-06-15'
+  address: 64/47 Neridah Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501202
+- council_reference: DA-2020/145
+  description: Inground swimming pool.
+  date_received: '2020-06-16'
+  address: 6 Willandra Street LANE COVE NORTH NSW 2066.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501246
+- council_reference: DA-2020/146
+  description: Addition of new photovoltaic solar panels on northern side of the roof
+    & new air conditioning condensers located along the western side boundary of the
+    property.
+  date_received: '2020-06-17'
+  address: 53 Ashley Street ROSEVILLE NSW 2069.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501266
+- council_reference: DA-2020/147
+  description: Alterations and additions to dwelling, including extension to existing
+    garage and associated works.
+  date_received: '2020-06-18'
+  address: 3 Coolawin Road NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501299
+- council_reference: DA-2020/148
+  description: Alterations and additions to existing dwelling and associated works.
+  date_received: '2020-06-18'
+  address: 19 Second Avenue WILLOUGHBY EAST NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501325
+- council_reference: DA-2020/149
+  description: Timber deck, retaining walls, pool fence, landscaping and associated
+    works.
+  date_received: '2020-06-19'
+  address: 264 Boundary Street CASTLE COVE NSW 2069.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501342
+- council_reference: DA-2020/151
+  description: Alterations & additions to balcony, external stairs and associated
+    works.
+  date_received: '2020-06-19'
+  address: 290C Eastern Valley Way MIDDLE COVE NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501358
+- council_reference: DA-2020/153
+  description: Covered awning over Balcony
+  date_received: '2020-06-24'
+  address: 52-54 Eastern Valley Way NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501517
+- council_reference: DA-2020/154
+  description: Additions and alterations to dwelling, new deck and associated works.
+  date_received: '2020-06-25'
+  address: 3 Kyogle Road NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501529
+- council_reference: DA-2020/155
+  description: Alterations and additions to dwelling. Replace existing carport with
+    single car garage and associated works.
+  date_received: '2020-06-29'
+  address: 16 Violet Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501604
+- council_reference: DA-2020/156
+  description: Alterations and additions to existing dwelling with carport (Dwelling
+    No 50), boundary adjustment and construction of a new dwelling and associated
+    structures (Dwelling No 52).
+  date_received: '2020-06-30'
+  address: 50 Stafford Road ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501649
+- council_reference: DA-2020/157
+  description: Swimming pool, paving area and associated works.
+  date_received: '2020-07-01'
+  address: 60 Minnamurra Road NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501677
+- council_reference: DA-2020/158
+  description: Extended trading hours and installation of new Exhaust system intake/output
+    vent.
+  date_received: '2020-07-01'
+  address: 154-156 Sailors Bay Road NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501680
+- council_reference: DA-2020/159
+  description: Installation of communication devices on existing communications tower.
+  date_received: '2020-07-02'
+  address: 196 Hampden Road ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501732
+- council_reference: DA-2020/160
+  description: Replace existing windows and doors, balustrades, balcony tiles, new
+    waterproof membrane and associated works.
+  date_received: '2020-07-06'
+  address: 98 The Bulwark CASTLECRAG NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501782
+- council_reference: DA-2020/161
+  description: Alterations and additions to existing dwelling including ground floor
+    rear extension, first floor additions and associated works.
+  date_received: '2020-07-09'
+  address: 14 Wollombi Road NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501911
+- council_reference: DA-2020/61/A
+  description: S4.55 - Alterations to approved rumpus room including changes to window
+    configurations to street elevation and floor levels.
+  date_received: '2020-07-03'
+  address: 52 Minnamurra Road NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501756
+- council_reference: TVPA-2020/174/A
+  description: Review of Refusal of Removal of 1 paper bark tree.
+  date_received: '2020-07-03'
+  address: 4/2 Palmer Street ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501769
+- council_reference: TVPA-2020/203
+  description: Request to remove 1 tree and prune 2 others
+  date_received: '2020-06-11'
+  address: 12 Pearl Avenue CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501107
+- council_reference: TVPA-2020/204
+  description: Application to remove one (1) tree.
+  date_received: '2020-06-11'
+  address: 345 Edinburgh Road CASTLECRAG NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501122
+- council_reference: TVPA-2020/205
+  description: Request to trim/remove 1 tree.
+  date_received: '2020-06-11'
+  address: 106 Northcote Street NAREMBURN NSW 2065.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501128
+- council_reference: TVPA-2020/206
+  description: Request to remove 3 trees.
+  date_received: '2020-06-12'
+  address: 29 Godfrey Road ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501143
+- council_reference: TVPA-2020/207
+  description: Removal of 1 x tree in the front yard on the right hand side next to
+    the driveway.
+  date_received: '2020-06-12'
+  address: 2 Clafton Avenue NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501154
+- council_reference: TVPA-2020/208
+  description: Prune 3 Lilly Pilly Trees.
+  date_received: '2020-06-15'
+  address: 33 Market Street NAREMBURN NSW 2065.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501187
+- council_reference: TVPA-2020/209
+  description: Request to remove two (2) trees.
+  date_received: '2020-06-15'
+  address: 3A Cheyne Walk CASTLECRAG NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501191
+- council_reference: TVPA-2020/210
+  description: Removal of 1 x tree from the left hand back corner of the property.
+  date_received: '2020-06-16'
+  address: 66 Dalrymple Avenue CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501249
+- council_reference: TVPA-2020/211
+  description: request to remove three bangalow palms from rear yard
+  date_received: '2020-06-16'
+  address: 17 Robert Street WILLOUGHBY EAST NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501253
+- council_reference: TVPA-2020/212
+  description: Request to prune 2x trees from both side boundaries of property.
+  date_received: '2020-06-17'
+  address: 19 Muttama Road ARTARMON NSW 2064.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501276
+- council_reference: TVPA-2020/213
+  description: Removal of Fiddlewood tree from the property
+  date_received: '2020-06-18'
+  address: 3 Dalrymple Avenue LANE COVE NORTH NSW 2066.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501294
+- council_reference: TVPA-2020/214
+  description: Request to remove 1 Tree.
+  date_received: '2020-06-18'
+  address: 31 Barcoo Street ROSEVILLE NSW 2069.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501307
+- council_reference: TVPA-2020/215
+  description: Application to remove one (1) tree.
+  date_received: '2020-06-22'
+  address: 38 Anglo Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501402
+- council_reference: TVPA-2020/216
+  description: Request to remove two trees from front yard on Archer St boundary
+  date_received: '2020-06-23'
+  address: 1 Tulip Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501445
+- council_reference: TVPA-2020/217
+  description: request to prune 1 macadamia and one jacaranda in rear yard
+  date_received: '2020-06-23'
+  address: 40 Mooney Street LANE COVE NORTH NSW 2066.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501448
+- council_reference: TVPA-2020/218
+  description: Application to remove/prune two (2) trees.
+  date_received: '2020-06-23'
+  address: 290 Edinburgh Road CASTLECRAG NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501450
+- council_reference: TVPA-2020/219
+  description: Application to remove/prune one (1) tree.
+  date_received: '2020-06-23'
+  address: 292 Edinburgh Road CASTLECRAG NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501451
+- council_reference: TVPA-2020/220
+  description: Removal of 3 trees from rear of 20 Bellevue Street Chatswood.
+  date_received: '2020-06-23'
+  address: 20 Bellevue Street CHATSWOOD WEST NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501459
+- council_reference: TVPA-2020/221
+  description: Removal of 1 tree at the rear of the property.
+  date_received: '2020-06-23'
+  address: 49 Park Avenue CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501461
+- council_reference: TVPA-2020/222
+  description: Removal of 1 tree next to the driveway at the property
+  date_received: '2020-06-24'
+  address: 21 Chaleyer Street NORTH WILLOUGHBY NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501488
+- council_reference: TVPA-2020/223
+  description: Application to remove one (1) tree.
+  date_received: '2020-06-24'
+  address: 1 Dellwood Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501491
+- council_reference: TVPA-2020/224
+  description: Prune 1 x Confer in the front left hand side of the property.
+  date_received: '2020-06-25'
+  address: 118 Sailors Bay Road NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501535
+- council_reference: TVPA-2020/225
+  description: Application to remove one (1) tree.
+  date_received: '2020-06-25'
+  address: 31 De Villiers Avenue CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501546
+- council_reference: TVPA-2020/226
+  description: Application to remove one (1) tree.
+  date_received: '2020-06-26'
+  address: 14 Ivy Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501561
+- council_reference: TVPA-2020/227
+  description: Removal of 1 Tree from the front of the property
+  date_received: '2020-06-29'
+  address: 10 First Avenue WILLOUGHBY EAST NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501601
+- council_reference: TVPA-2020/228
+  description: "Request to Prune 2 Trees.  \nApplication form unclear rang applicant
+    - She wanted T1 & T2 Pruned and T3 not assessed as it is on boundary and she did
+    not want to get neighbours signature on form."
+  date_received: '2020-06-29'
+  address: 3 Marana Road NORTHBRIDGE NSW 2063.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501612
+- council_reference: TVPA-2020/229
+  description: Request to remove 1 tree.
+  date_received: '2020-06-30'
+  address: 25 Grafton Avenue NAREMBURN NSW 2065.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501622
+- council_reference: TVPA-2020/230
+  description: Request to remove 2 trees
+  date_received: '2020-07-06'
+  address: 38 Laurel Street WILLOUGHBY NSW 2068.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501786
+- council_reference: TVPA-2020/231
+  description: Removal of 1 tree.
+  date_received: '2020-07-07'
+  address: 68 Nicholson Street CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501861
+- council_reference: TVPA-2020/232
+  description: Request to Remove 1 trees
+  date_received: '2020-07-08'
+  address: 16 King Edward Street ROSEVILLE NSW 2069.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501873
+- council_reference: TVPA-2020/233
+  description: Request to Remove 3 Trees
+  date_received: '2020-07-08'
+  address: 6 Blue Gum Avenue CHATSWOOD NSW 2067.
+  date_scraped: '2019-05-15'
+  info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=501883

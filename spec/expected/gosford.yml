@@ -1,0 +1,661 @@
+---
+- council_reference: 004.2020.00101001.001
+  description: On-Site Sewage Mgt System
+  date_received: '2020-01-09'
+  address: 434 The Scenic Road, MACMASTERS BEACH NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=004.2020.00101001.001
+- council_reference: 004.2020.00101002.001
+  description: On-Site Sewage Mgt System
+  date_received: '2020-01-17'
+  address: 45 Serpentine Road, ERINA HEIGHTS NSW 2260
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=004.2020.00101002.001
+- council_reference: 004.2020.00101003.001
+  description: On-Site Sewage Mgt System
+  date_received: '2020-01-21'
+  address: 1 / 283 Oak Road, MATCHAM NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=004.2020.00101003.001
+- council_reference: 010.2020.00057816.001
+  description: Internal Modifications & Addition to Front of Existing Dwelling
+  date_received: '2020-01-08'
+  address: 67 Kalakau Avenue, FORRESTERS BEACH NSW 2260
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2020.00057816.001
+- council_reference: 010.2020.00057817.001
+  description: Tenancy Fitout of Shop- Toymate AXA06A
+  date_received: '2020-01-08'
+  address: 620 - 658 Terrigal Drive, ERINA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2020.00057817.001
+- council_reference: 010.2020.00057821.001
+  description: In-ground Pool
+  date_received: '2020-01-08'
+  address: 3 Sandra Place, TERRIGAL NSW 2260
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2020.00057821.001
+- council_reference: 010.2020.00057823.001
+  description: Concrete Swimming Pool
+  date_received: '2020-01-09'
+  address: 42 Osborne Avenue, UMINA BEACH NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2020.00057823.001
+- council_reference: 010.2020.00057824.001
+  description: Dwelling Addition
+  date_received: '2020-01-09'
+  address: 12 Monica Street, KINCUMBER NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2020.00057824.001
+- council_reference: 010.2020.00057842.001
+  description: In-ground Pool & Retaining Walls
+  date_received: '2020-01-15'
+  address: 5 Mikes Place, LISAROW NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2020.00057842.001
+- council_reference: 010.2020.00057844.001
+  description: Single Storey Dwelling
+  date_received: '2020-01-15'
+  address: 50 Australia Avenue, UMINA BEACH NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2020.00057844.001
+- council_reference: 010.2020.00057853.001
+  description: Internal Alterations & Minor Additions to Existing ResidentialDwelling
+  date_received: '2020-01-20'
+  address: 70 A Wagstaffe Avenue, WAGSTAFFE NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2020.00057853.001
+- council_reference: 010.2020.00057854.001
+  description: External Works Associated to the Recladding of Erina Fair Ice Arena
+  date_received: '2020-01-20'
+  address: 620 - 658 Terrigal Drive, ERINA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2020.00057854.001
+- council_reference: 010.2020.00057855.001
+  description: Demolition of Existing Dwelling
+  date_received: '2020-01-20'
+  address: 23 Boongala Avenue, EMPIRE BAY NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2020.00057855.001
+- council_reference: 010.2020.00057856.001
+  description: Internal Alterations & Additions
+  date_received: '2020-01-20'
+  address: 36 Giselle Avenue, WYOMING NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2020.00057856.001
+- council_reference: 010.2020.00057857.001
+  description: Swimming Pool
+  date_received: '2020-01-20'
+  address: 21 Barooga Road, WAMBERAL NSW 2260
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2020.00057857.001
+- council_reference: 011.2001.00012834.011
+  description: Section 4.55 Amendment - Amend Condition 14 to Extend Operating Hours
+  date_received: '2020-01-14'
+  address: 2 Kangoo Road, KARIONG NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2001.00012834.011
+- council_reference: 011.2006.00030409.003
+  description: Section 4.55 Amendment - Minor Extension Accommodate Additional Internal
+    Retail & Warehousing Space.  Modify Condition1.2 to Existing Car Parking, Plant
+    Upgrades & 1 New Display Sign Box
+  date_received: '2020-01-10'
+  address: 59 Brisbane Water Drive, POINT CLARE NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2006.00030409.003
+- council_reference: 011.2014.00046201.003
+  description: Section 4.55 Amendment - Correct to Condition 2.9
+  date_received: '2020-01-20'
+  address: 11 Calool Street, BENSVILLE NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2014.00046201.003
+- council_reference: 011.2015.00049031.003
+  description: Section 4.55 - Amended Plans
+  date_received: '2020-01-13'
+  address: 2 Kibble Street, GOSFORD NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2015.00049031.003
+- council_reference: 011.2016.00049179.004
+  description: Section 4.55 Amendments to Basement, Terrace, Driveway Easement & Revised
+    Carpark Layout & Entry
+  date_received: '2020-01-21'
+  address: 65 Donnison Street West, GOSFORD NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2016.00049179.004
+- council_reference: 011.2017.00051904.003
+  description: Section 4.55 Amendment - Reduction of 1 Unit to 3 Units and Relocation
+    of Carparking and Amendments to Plans.
+  date_received: '2020-01-16'
+  address: 352 Ocean View Road, ETTALONG BEACH NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2017.00051904.003
+- council_reference: 011.2017.00053400.002
+  description: Section 4.55 - Enclose Decks off Lounge-room and New Bed-room to Conve
+    rt to Sunroom and Relocate Laundry Under Stairs
+  date_received: '2020-01-16'
+  address: 58 Berrys Head Road, WYOMING NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2017.00053400.002
+- council_reference: 011.2017.00053474.002
+  description: Section 4.55 Amendment - Additions and Alterations to Existing Ground
+    Floor Only
+  date_received: '2020-01-08'
+  address: 7 Elinya Lane, DAVISTOWN NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2017.00053474.002
+- council_reference: 011.2018.00055663.002
+  description: Section 4.55 Amendment - Modify Carport
+  date_received: '2020-01-21'
+  address: 190 Scenic Highway, TERRIGAL NSW 2260
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2018.00055663.002
+- council_reference: 011.2019.00056223.002
+  description: Section 4.55 - Add Retaining Wall Rear Level 3 and Extension of Rear
+    D eck and Extend Garage Concrete Slab for Watertank and Extend Ensuite & Stairway
+    Under Roofline
+  date_received: '2020-01-17'
+  address: 258 Glenrock Parade, TASCOTT NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056223.002
+- council_reference: 011.2019.00056613.002
+  description: Section 4.55 Amendment - Relocate Pool to Waterfront Terrace & Include
+    Pool in Stage 1
+  date_received: '2020-01-21'
+  address: 15 Caroline Street, EAST GOSFORD NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056613.002
+- council_reference: 011.2019.00056728.002
+  description: Section 4.55 Amendment - Floor Levels Changed from R.L 18.6 to R.L.18.
+    5
+  date_received: '2020-01-16'
+  address: 27 Warilda Street, SARATOGA NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056728.002
+- council_reference: 011.2019.00057021.002
+  description: Section 4.55 Deletion of Condition 6.7
+  date_received: '2020-01-10'
+  address: 91 - 105 The Scenic Road, KILLCARE HEIGHTS NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00057021.002
+- council_reference: 011.2019.00057514.002
+  description: Section 4.55 - Increase Size of Driveway Section 4.55 Amendment Awning
+  date_received: '2020-01-17'
+  address: 5 / 91 A Narara Creek Road, NARARA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00057514.002
+- council_reference: 011.2019.00057546.002
+  description: Section 4.55 Amendment - Delete Condition 2.5
+  date_received: '2020-01-16'
+  address: 17 Kintay Lane, NARARA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00057546.002
+- council_reference: 011.2019.00057698.001
+  description: INTEGRATED Staged Development - Residential Land Lease Community (Caravan
+    Park) Comprising 202 Sites, Community Facilities, Infrastructure & Landscaping.
+    Demolition of Existing Structures to Facilitate Development
+  date_received: '2020-01-14'
+  address: 255 Avoca Drive, KINCUMBER NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00057698.001
+- council_reference: 011.2020.00057815.001
+  description: New Secondary Dwelling & Front Fence
+  date_received: '2020-01-08'
+  address: 191 Brisbane Water Drive, POINT CLARE NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057815.001
+- council_reference: 011.2020.00057818.001
+  description: Secondary Dwelling and Dwelling Addition and Demolition Residential
+  date_received: '2020-01-08'
+  address: 9 Forest Road, UMINA BEACH NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057818.001
+- council_reference: 011.2020.00057819.001
+  description: Demolition of Existing Single Storey dwelling & Construction of Multi-
+    Dwelling Development Consisting of 3 Units
+  date_received: '2020-01-08'
+  address: 30 King Street, UMINA BEACH NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057819.001
+- council_reference: 011.2020.00057820.001
+  description: Carport & Sail (Dual Occupancy)
+  date_received: '2020-01-08'
+  address: 2 / 24 Palm Street, ETTALONG BEACH NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057820.001
+- council_reference: 011.2020.00057822.001
+  description: Shed
+  date_received: '2020-01-08'
+  address: 61 Kincumber Crescent, DAVISTOWN NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057822.001
+- council_reference: 011.2020.00057825.001
+  description: New Two Storey Dwelling
+  date_received: '2020-01-10'
+  address: 23 Boongala Avenue, EMPIRE BAY NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057825.001
+- council_reference: 011.2020.00057826.001
+  description: New Dwelling House
+  date_received: '2020-01-10'
+  address: 27 Gugandi Road, NARARA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057826.001
+- council_reference: 011.2020.00057827.001
+  description: Dwelling House (New)
+  date_received: '2020-01-10'
+  address: 38 Cassinia Close, LISAROW NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057827.001
+- council_reference: 011.2020.00057828.001
+  description: INTEGRATED Subdivision 1 Lot into 2 Lots
+  date_received: '2020-01-13'
+  address: 15 Wallarah Street, LISAROW NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057828.001
+- council_reference: 011.2020.00057829.001
+  description: Use As Car Wash
+  date_received: '2020-01-13'
+  address: 36 - 38 Blackwall Road, WOY WOY NSW 2256
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057829.001
+- council_reference: 011.2020.00057830.001
+  description: Replacement Awning, Time Keepers Box & Grounds Upgrades
+  date_received: '2020-01-13'
+  address: 3 Beaufort Road, TERRIGAL NSW 2260
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057830.001
+- council_reference: 011.2020.00057831.001
+  description: Alterations & Additions to Existing Dwelling
+  date_received: '2020-01-14'
+  address: 52 Fountains Road, NARARA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057831.001
+- council_reference: 011.2020.00057832.001
+  description: Alterations & Additions to Existing Dwelling
+  date_received: '2020-01-14'
+  address: 66 Tramway Road, NORTH AVOCA NSW 2260
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057832.001
+- council_reference: 011.2020.00057833.001
+  description: New Dwelling & Retaining Walls
+  date_received: '2020-01-14'
+  address: 7 Lawson Place, NARARA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057833.001
+- council_reference: 011.2020.00057834.001
+  description: Dwelling Alterations & Additions
+  date_received: '2020-01-14'
+  address: 62 Fountains Road, NARARA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057834.001
+- council_reference: 011.2020.00057835.001
+  description: New Steel Framed Shed
+  date_received: '2020-01-14'
+  address: 57 A Tuggerah Street, LISAROW NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057835.001
+- council_reference: 011.2020.00057836.001
+  description: Ground Floor Addition with First Floor Balcony and Fly Roof Above
+  date_received: '2020-01-14'
+  address: 51 Grove Road, WAMBERAL NSW 2260
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057836.001
+- council_reference: 011.2020.00057837.001
+  description: Proposed Entry, Garage, First Floor Addition, Decks and Alfresco Roof
+  date_received: '2020-01-14'
+  address: 79 Cape Three Points Road, AVOCA BEACH NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057837.001
+- council_reference: 011.2020.00057838.001
+  description: Concrete Swimming Pool & Deck
+  date_received: '2020-01-14'
+  address: 36 Treeview Place, SARATOGA NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057838.001
+- council_reference: 011.2020.00057839.001
+  description: Alterations & Additions, New Driveway &  Boundary Fence
+  date_received: '2020-01-15'
+  address: 9 Arakoon Street, KINCUMBER NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057839.001
+- council_reference: 011.2020.00057840.001
+  description: Proposed Alterations & Additions
+  date_received: '2020-01-15'
+  address: 2 Hawke Head Drive, HARDYS BAY NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057840.001
+- council_reference: 011.2020.00057841.001
+  description: Pergola Over Exisiting Deck
+  date_received: '2020-01-15'
+  address: 2 Rowena Road, NARARA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057841.001
+- council_reference: 011.2020.00057843.001
+  description: Dwelling House (New)
+  date_received: '2020-01-15'
+  address: 2 Bushells Road, PEATS RIDGE NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057843.001
+- council_reference: 011.2020.00057845.001
+  description: Concrete Driveway & Parking Area
+  date_received: '2020-01-16'
+  address: 40 Fishermans Parade, DALEYS POINT NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057845.001
+- council_reference: 011.2020.00057846.001
+  description: Carport & Deck Addition
+  date_received: '2020-01-16'
+  address: 38 Lake Road, BLACKWALL NSW 2256
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057846.001
+- council_reference: 011.2020.00057847.001
+  description: Concrete Swimming Pool
+  date_received: '2020-01-16'
+  address: 60 A Erina Valley Road, ERINA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057847.001
+- council_reference: 011.2020.00057848.001
+  description: Demolition of Existing Dwelling and Construction of New Dwelling
+  date_received: '2020-01-17'
+  address: 330 The Round Drive, AVOCA BEACH NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057848.001
+- council_reference: 011.2020.00057849.001
+  description: Proposed Light Weight Timber Framed Cladded Single Storey Residence
+    On Bearers And Joists With A Metal Skillion Roof
+  date_received: '2020-01-17'
+  address: 42 Gugandi Road, NARARA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057849.001
+- council_reference: 011.2020.00057850.001
+  description: Swimming Pool & Associated Safety Barriers
+  date_received: '2020-01-17'
+  address: 40 Palm Street, ETTALONG BEACH NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057850.001
+- council_reference: 011.2020.00057851.001
+  description: Deck & Retaining Wall
+  date_received: '2020-01-20'
+  address: 132 Hastings Road, TERRIGAL NSW 2260
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057851.001
+- council_reference: 011.2020.00057852.001
+  description: Alterations & Additions to Dwelling House
+  date_received: '2020-01-20'
+  address: 32 Wattle Street, EAST GOSFORD NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057852.001
+- council_reference: 011.2020.00057858.001
+  description: Alterations & Additions to Existing Dwelling includingNew Carport &
+    Swimming Pool
+  date_received: '2020-01-20'
+  address: 1 Benjamin Place, SARATOGA NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057858.001
+- council_reference: 011.2020.00057859.001
+  description: Installation of a new telecommunications tower - 25 metre high monopole
+    with headframe
+  date_received: '2020-01-21'
+  address: 103 Victoria Street, EAST GOSFORD NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2020.00057859.001
+- council_reference: 012.2013.00043808.002
+  description: Carport
+  date_received: '2020-01-15'
+  address: 29 Stewart Street, KILLCARE HEIGHTS NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2013.00043808.002
+- council_reference: 012.2015.00047342.002
+  description: Invalid Document
+  date_received: '2020-01-08'
+  address: 203 Phegans Bay Road, PHEGANS BAY NSW 2256
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2015.00047342.002
+- council_reference: 012.2015.00047372.002
+  description: Additions & Internal Alterations to Existing Private Hospital -
+  date_received: '2020-01-08'
+  address: 9 Burrabil Avenue, NORTH GOSFORD NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2015.00047372.002
+- council_reference: 012.2015.00047411.001
+  description: Dwelling Alterations & Additions
+  date_received: '2020-01-20'
+  address: 32 Kalakau Avenue, FORRESTERS BEACH NSW 2260
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2015.00047411.001
+- council_reference: 012.2017.00052922.004
+  description: Amendment - Add Pool Equipment Enclosure
+  date_received: '2020-01-09'
+  address: 32 Beachview Esplanade, MACMASTERS BEACH NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2017.00052922.004
+- council_reference: 012.2017.00053361.002
+  description: Multi-Unit Industrial Building -Stage 2-7 Unit (19-25)
+  date_received: '2020-01-14'
+  address: 222 Wisemans Ferry Road, SOMERSBY NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2017.00053361.002
+- council_reference: 012.2017.00053361.003
+  description: Stage 3-Multi Unit Industrial Building (Units9-18)
+  date_received: '2020-01-21'
+  address: 222 Wisemans Ferry Road, SOMERSBY NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2017.00053361.003
+- council_reference: 012.2018.00053784.001
+  description: Stage 1-Civil & Ground Works for a New Multi- Level Nursing Home
+  date_received: '2020-01-09'
+  address: 45 Hillview Street, WOY WOY NSW 2256
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2018.00053784.001
+- council_reference: 012.2018.00054798.002
+  description: Site Works for Installation of Manufactured Home
+  date_received: '2020-01-20'
+  address: 18 Moore Street, WEST GOSFORD NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2018.00054798.002
+- council_reference: 012.2018.00054952.004
+  description: Alterations to Community Wellness Centre- Performance Solution(Access)
+  date_received: '2020-01-13'
+  address: 91 Pozieres Avenue, UMINA BEACH NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2018.00054952.004
+- council_reference: 012.2018.00055054.001
+  description: Alterations & Additions to Existing Dwelling
+  date_received: '2020-01-14'
+  address: 2 Karani Avenue, AVOCA BEACH NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2018.00055054.001
+- council_reference: 012.2018.00055598.001
+  description: Alterations & Additions to a Dwelling
+  date_received: '2020-01-09'
+  address: 10 Chico Street, COPACABANA NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2018.00055598.001
+- council_reference: 012.2019.00055882.002
+  description: New Construction of Garage and Pergola
+  date_received: '2020-01-16'
+  address: 41 Bay Street, PATONGA NSW 2256
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00055882.002
+- council_reference: 012.2019.00055944.001
+  description: Addition of Garage, Entry,Laundry & Bedroom WIR Ensuite,Kitchen,Living
+  date_received: '2020-01-09'
+  address: 67 Rickard Road, EMPIRE BAY NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00055944.001
+- council_reference: 012.2019.00056113.002
+  description: Modification- Increase Floor Area/Window Change (Excludes Framwork)
+  date_received: '2020-01-09'
+  address: 26 Picnic Parade, ETTALONG BEACH NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00056113.002
+- council_reference: 012.2019.00056379.001
+  description: Alterations & Additions to Existing Dwelling
+  date_received: '2020-01-14'
+  address: 5 Paraka Close, UMINA BEACH NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00056379.001
+- council_reference: 012.2019.00056454.001
+  description: New Two Storey Dwelling & Secondary Dwelling
+  date_received: '2020-01-14'
+  address: 53 Gugandi Road, NARARA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00056454.001
+- council_reference: 012.2019.00056457.001
+  description: INTEGRATED Extention of Existing School Building
+  date_received: '2020-01-21'
+  address: 2 - 30 Narara Creek Road, NARARA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00056457.001
+- council_reference: 012.2019.00056734.001
+  description: Carport & Deck
+  date_received: '2020-01-14'
+  address: 39 Circulo Drive, COPACABANA NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00056734.001
+- council_reference: 012.2019.00057028.001
+  description: Deck & Roof Extension
+  date_received: '2020-01-09'
+  address: 19 Hillcrest Road, EMPIRE BAY NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00057028.001
+- council_reference: 012.2019.00057201.001
+  description: Shed & Attached Carport
+  date_received: '2020-01-08'
+  address: 51 State Highway 26, CALGA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00057201.001
+- council_reference: 012.2019.00057254.001
+  description: Alterations & Additions to Existing Dwelling, Carport & Retaining Wall
+  date_received: '2020-01-09'
+  address: 11 A Tudibaring Parade, MACMASTERS BEACH NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00057254.001
+- council_reference: 012.2019.00057265.001
+  description: Dwelling Addition & Carport
+  date_received: '2020-01-14'
+  address: 4 Somerset Close, WAMBERAL NSW 2260
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00057265.001
+- council_reference: 012.2019.00057280.001
+  description: Swimming Pool In-ground &  Deck
+  date_received: '2020-01-09'
+  address: 5 Mimosa Avenue, SARATOGA NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00057280.001
+- council_reference: 012.2019.00057341.001
+  description: Dwelling
+  date_received: '2020-01-15'
+  address: 111 Chamberlain Road, WYOMING NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00057341.001
+- council_reference: 012.2019.00057353.001
+  description: Replacement & Reconfiguration of Existing Sea Wall
+  date_received: '2020-01-14'
+  address: 5 Mainsail Avenue, ST HUBERTS ISLAND NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00057353.001
+- council_reference: 012.2019.00057386.001
+  description: New Construction of Swimming Pool
+  date_received: '2020-01-08'
+  address: 143 Heath Road, PRETTY BEACH NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00057386.001
+- council_reference: 012.2019.00057392.001
+  description: Community Garden Storage Building
+  date_received: '2020-01-17'
+  address: 87 Moana Street, WOY WOY NSW 2256
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00057392.001
+- council_reference: 012.2019.00057409.001
+  description: Conversion of Existing Storage Shed to Secondary Dwelling
+  date_received: '2020-01-15'
+  address: 7 Elimatta Road, KINCUMBER NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00057409.001
+- council_reference: 012.2019.00057419.001
+  description: Covered Deck Addition
+  date_received: '2020-01-14'
+  address: 26 Summit Road, TERRIGAL NSW 2260
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00057419.001
+- council_reference: 012.2019.00057631.001
+  description: Repair of Collapsed Existing Retaining Wall & Install Decking
+  date_received: '2020-01-20'
+  address: 2 Benjamin Place, SARATOGA NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00057631.001
+- council_reference: 012.2019.00057651.001
+  description: New Swimming Pool
+  date_received: '2020-01-15'
+  address: 141 Avoca Drive, KINCUMBER NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00057651.001
+- council_reference: 012.2019.00057704.001
+  description: Concrete In-Ground Swimming Pool
+  date_received: '2020-01-14'
+  address: 25 Vicary Road, TERRIGAL NSW 2260
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00057704.001
+- council_reference: 012.2020.00057843.001
+  description: Dwelling House (New)
+  date_received: '2020-01-15'
+  address: 2 Bushells Road, PEATS RIDGE NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2020.00057843.001
+- council_reference: 012.2020.00057852.001
+  description: Dwelling Addition
+  date_received: '2020-01-20'
+  address: 32 Wattle Street, EAST GOSFORD NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2020.00057852.001
+- council_reference: 024.2020.00011776.001
+  description: Removal of 1 x Eucalyptus saligna (bluegum) tree located at the rear
+    of the property.
+  date_received: '2020-01-09'
+  address: 13 Rumbalara Place, SPRINGFIELD NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=024.2020.00011776.001
+- council_reference: 024.2020.00011778.001
+  description: '1 x Angophora costata ( smooth - barked apple located at the rear
+    right side of the boundary. 3 x Corymbia maculata (spotted gums) located at the
+    rear middle of the property.Approval to: Remove 1 x Eucalyptus species located
+    at the rear left corner of the property.'
+  date_received: '2020-01-10'
+  address: 11 Kulara Avenue, WEST GOSFORD NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=024.2020.00011778.001
+- council_reference: 024.2020.00011779.001
+  description: Removal of 1x Eucalyptus saligna (blue gum) tree located at the rear
+    of the property.
+  date_received: '2020-01-11'
+  address: 143 A Carrington Street, NARARA NSW 2250
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=024.2020.00011779.001
+- council_reference: 024.2020.00011780.001
+  description: Removal of 1 x Syncarpia glomulifera (turpentine) tree located at the
+    front of the property.
+  date_received: '2020-01-13'
+  address: 43 Beachcomber Parade, NORTH AVOCA NSW 2260
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=024.2020.00011780.001
+- council_reference: 024.2020.00011781.001
+  description: Removal of 1 x Liquidamber styraciflua ( sweet gum) tree located at
+    the front of the property.
+  date_received: '2020-01-14'
+  address: 76 Gwendolen Avenue, UMINA BEACH NSW 2257
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=024.2020.00011781.001
+- council_reference: 024.2020.00011782.001
+  description: Removal of 1 x Jacaranda mimosifolia tree located at the left side
+    of property and 1 x Morus nigra (mulberry) tree located at the rear of the property.
+  date_received: '2020-01-15'
+  address: 40 Steyne Road, SARATOGA NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=024.2020.00011782.001
+- council_reference: 024.2020.00011783.001
+  description: Removal of 2 x Eucalyptus species located at the front of the property.
+  date_received: '2020-01-16'
+  address: 15 Warren Avenue, AVOCA BEACH NSW 2251
+  date_scraped: '2019-05-15'
+  info_url: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=024.2020.00011783.001

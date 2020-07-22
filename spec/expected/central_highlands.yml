@@ -1,0 +1,43 @@
+---
+- council_reference: MCU016.1-2019
+  description: MCU - Dwelling House Within Flood hazard Overlay (Code)
+  date_received: '2019-07-01'
+  address: 244 Chudleigh Drive, EMERALD QLD 4720
+  date_scraped: '2019-05-15'
+  info_url: https://track.chrc.qld.gov.au/Pages/XC.Track/SearchApplication.aspx?id=403.2019.00000016.001
+- council_reference: MCU040.3-2013
+  description: Extension of Currency Period - Material Change of Use (Impact)
+  date_received: '2019-07-11'
+  address: 7 Akubra Drive, EMERALD QLD 4720
+  date_scraped: '2019-05-15'
+  info_url: https://track.chrc.qld.gov.au/Pages/XC.Track/SearchApplication.aspx?id=403.2013.00000040.003
+- council_reference: OW278.1-2019
+  description: "(Code) Operational Works"
+  date_received: '2019-07-10'
+  address: 27 Wills Road, EMERALD QLD 4720
+  date_scraped: '2019-05-15'
+  info_url: https://track.chrc.qld.gov.au/Pages/XC.Track/SearchApplication.aspx?id=402.2019.00000278.001
+- council_reference: OW280.1-2019
+  description: Installation of Advertising Device (Flush Wall Sign) Code
+  date_received: '2019-07-18'
+  address: Opal Street, EMERALD QLD 4720
+  date_scraped: '2019-05-15'
+  info_url: https://track.chrc.qld.gov.au/Pages/XC.Track/SearchApplication.aspx?id=402.2019.00000280.001
+- council_reference: RAL004.2-2019
+  description: Reconfiguration of a Lot - Boundary Realignment (Code)
+  date_received: '2019-07-17'
+  address: 2403 Blackwater-Cooroorah Road, BLACKWATER QLD 4717
+  date_scraped: '2019-05-15'
+  info_url: https://track.chrc.qld.gov.au/Pages/XC.Track/SearchApplication.aspx?id=401.2019.00000004.002
+- council_reference: RAL006.2-2019
+  description: Plan Sealing - Reconfiguration of a Lot - Easement Access (Code)
+  date_received: '2019-07-18'
+  address: Gap Lane, SPRINGSURE QLD 4722
+  date_scraped: '2019-05-15'
+  info_url: https://track.chrc.qld.gov.au/Pages/XC.Track/SearchApplication.aspx?id=401.2019.00000006.002
+- council_reference: RAL012.2-2019
+  description: Survey Plan Endorsement - Reconfiguration of a Lot (Code)
+  date_received: '2019-07-12'
+  address: 409 Donohoe Road, EMERALD QLD 4720
+  date_scraped: '2019-05-15'
+  info_url: https://track.chrc.qld.gov.au/Pages/XC.Track/SearchApplication.aspx?id=401.2019.00000012.002

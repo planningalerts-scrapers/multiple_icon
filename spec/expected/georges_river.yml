@@ -1,0 +1,263 @@
+---
+- council_reference: CC2020/0226
+  description: Construction Certificate Council Issued
+  date_received: '2020-07-01'
+  address: 102 Moons Avenue, LUGARNO NSW 2210
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213098
+- council_reference: CC2020/0229
+  description: Demolition and construction of dual occupancy with swimming pool for each dwelling
+  date_received: '2020-07-01'
+  address: 17 Rosebery Street, PENSHURST NSW 2222
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213242
+- council_reference: CC2020/0230
+  description: Demolition of existing structures and construction of new light industrial
+    building with parking
+  date_received: '2020-07-01'
+  address: 24 Barry Avenue, MORTDALE NSW 2223
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213358
+- council_reference: CC2020/0231
+  description: Proposed two-storey dual occupancy each with an in-ground pool and
+    front fences plus demolition of all existing structures on the site - Land & Environment
+    Court Approved - see Darc Design & Architecture Pty Ltd v Georges River Council
+    [2020] NSWLEC 1177
+  date_received: '2020-07-01'
+  address: 60 Jellicoe Street, HURSTVILLE GROVE NSW 2220
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213359
+- council_reference: CC2020/0232
+  description: Replacement and additional signage tot the HSBC Bank
+  date_received: '2020-07-03'
+  address: 208 Forest Road, HURSTVILLE NSW 2220
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213478
+- council_reference: CC2020/0233
+  description: Construction Certificate 4 additional units + additional parking -
+    KogDA - (DA283/2016) - Replica application for Development Contributions Charge
+    – former Kogarah Consent
+  date_received: '2020-07-06'
+  address: 365 Rocky Point Road, SANS SOUCI NSW 2219
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213638
+- council_reference: CC2020/0234
+  description: Modified CC
+  date_received: '2020-07-06'
+  address: 66 Mulga Road, OATLEY NSW 2223
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213644
+- council_reference: CC2020/0235
+  description: Construction Certificate - Modification involves various internal and
+    external design changes including changes to windows and internal layout changes.
+  date_received: '2020-07-07'
+  address: 39 The Promenade, SANS SOUCI NSW 2219
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213700
+- council_reference: CC2020/0236
+  description: Use of premise as a Medical Centre and associated works
+  date_received: '2020-07-08'
+  address: 321 Belmore Road, RIVERWOOD NSW 2210
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213783
+- council_reference: CC2020/0237
+  description: Construction of an in-ground swimming pool and associated paving and
+    boundary fencing
+  date_received: '2020-07-08'
+  address: 20 Kinsel Avenue, KINGSGROVE NSW 2208
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213787
+- council_reference: CDC2020/0199
+  description: Commercial - Retail - Office - Shop 20a refurbishment of Central Grounds
+  date_received: '2020-07-03'
+  address: 225H Forest Road, HURSTVILLE NSW 2220
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213488
+- council_reference: CDC2020/0200
+  description: CDC Strata Subdivision
+  date_received: '2020-07-03'
+  address: 365 Rocky Point Road, SANS SOUCI NSW 2219
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213508
+- council_reference: CDC2020/0201
+  description: Strata Certificate
+  date_received: '2020-07-03'
+  address: 365 Rocky Point Road, SANS SOUCI NSW 2219
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213510
+- council_reference: CDC2020/0202
+  description: Alterations to Yogurt Shop - Shop 11A, 225h Forest Road Hurstville
+  date_received: '2020-07-03'
+  address: 225H Forest Road, HURSTVILLE NSW 2220
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213527
+- council_reference: CDC2020/0203
+  description: Subdivision Only
+  date_received: '2020-07-06'
+  address: 42 Lawrence Street, PEAKHURST NSW 2210
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213606
+- council_reference: CDC2020/0204
+  description: Modified to remove pool and include studio
+  date_received: '2020-07-06'
+  address: 77 Seaforth Avenue, OATLEY NSW 2223
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213623
+- council_reference: CDC2020/0205
+  description: Removal of existing shed and construction of a secondary dwelling -
+    CDC2020-0380
+  date_received: '2020-07-06'
+  address: 14 Larkhill Avenue, RIVERWOOD NSW 2210
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213635
+- council_reference: CDC2020/0206
+  description: Residential - New Second Occupancy
+  date_received: '2020-07-07'
+  address: 16 Larkhill Avenue, RIVERWOOD NSW 2210
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213673
+- council_reference: CDC2020/0207
+  description: Demolition of a house and outbuilding
+  date_received: '2020-07-07'
+  address: 3 Kinsel Avenue, KINGSGROVE NSW 2208
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213683
+- council_reference: CDC2020/0208
+  description: Addition of ensuite including a window
+  date_received: '2020-07-07'
+  address: 25 Bunyala Street, CARSS PARK NSW 2221
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213702
+- council_reference: CDC2020/0209
+  description: Amended CDC - Change of use and fitout of beauty salon - 20200329
+  date_received: '2020-07-07'
+  address: 1/235 Rocky Point Road, RAMSGATE NSW 2217
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213729
+- council_reference: DA2020/0263
+  description: Alterations and additions, and use of existing outbuilding as a secondary
+    dwelling
+  date_received: '2020-07-01'
+  address: 14 Seymour Street, HURSTVILLE GROVE NSW 2220
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213253
+- council_reference: DA2020/0264
+  description: Part demolition, alterations and additions to a dwelling house (heritage
+    item under Hurstville LEP 2012), construction of a secondary dwelling.
+  date_received: '2020-07-01'
+  address: 43 Cronulla Street, CARLTON NSW 2218
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213272
+- council_reference: DA2020/0266
+  description: Demolition Of Existing Structure, New two Storey Dual Occupancy with
+    Basement Parking, inground pools and associated works.
+  date_received: '2020-07-02'
+  address: 14 Duggan Crescent, CONNELLS POINT NSW 2221
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213418
+- council_reference: DA2020/0267
+  description: Part demolition, alterations and additions to a dwelling house
+  date_received: '2020-07-06'
+  address: 48 Lloyd Street, OATLEY NSW 2223
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213502
+- council_reference: DA2020/0268
+  description: Development Application for demolition, construction of a dwelling
+    house, cabana, in-ground swimming pool and front fence.
+  date_received: '2020-07-07'
+  address: 66 Arcadia Street, PENSHURST NSW 2222
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213583
+- council_reference: DA2020/0269
+  description: Demolition, construction of a dual occupancy, in-ground swimming pools,
+    outbuildings and front fence.
+  date_received: '2020-07-07'
+  address: 7 Boronia Parade, LUGARNO NSW 2210
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213645
+- council_reference: DA2020/0270
+  description: Demolition and construction of a dwelling house with outbuilding
+  date_received: '2020-07-06'
+  address: 72 Wright Street, HURSTVILLE NSW 2220
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213646
+- council_reference: DA2020/0271
+  description: Demolition of existing structures and new proposal of attached dual
+    occupancy
+  date_received: '2020-07-07'
+  address: 940 Forest Road, LUGARNO NSW 2210
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213743
+- council_reference: MOD2020/0122
+  description: Modification to the mixed use development approved under DA2016/0218.
+    The modifications include amendment to the parking layout and unit mix in Buildings
+    F1 and X2.
+  date_received: '2020-07-02'
+  address: 93 Forest Road, HURSTVILLE NSW 2220
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213238
+- council_reference: MOD2020/0123
+  description: 'Modification of Consent No: DA2017/0579 for demolition of existing
+    structures and construction of two storey attached dual occupancy with swimming
+    pool'
+  date_received: '2020-07-06'
+  address: 5A Algernon Street, OATLEY NSW 2223
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213256
+- council_reference: MOD2020/0124
+  description: 'Modification of Consent No: DA2019/0402 for Alterations and additions
+    to a service station.  Modifications include construction of an additional vehicle
+    crossing and deletion of various conditions regarding food premises.'
+  date_received: '2020-07-01'
+  address: 1044 Forest Road, LUGARNO NSW 2210
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213257
+- council_reference: MOD2020/0125
+  description: 'Modification of Consent No: DA2018/0178 for a residential flat building.  The
+    modification proposes to amend the roof and 10th level design to incorporate revised
+    plant design, wind and acoustic measures.'
+  date_received: '2020-07-03'
+  address: 24 Stanley Street, KOGARAH NSW 2217
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213368
+- council_reference: MOD2020/0126
+  description: 'Modification of Consent No: DA2019/0624 for change of use from residential
+    to educational establishment, demolition of existing dwellings in 2 stages, site
+    works and landscaping. The modifications relate to removal of an additional tree
+    and retention of the existing tennis court structure.'
+  date_received: '2020-07-02'
+  address: 8 Tarrilli Street, BEVERLY HILLS NSW 2209
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213417
+- council_reference: MOD2020/0127
+  description: 'Modification of Consent No: DA2019/0513 for Demolition, construction
+    of dwelling house with inground swimming pool.  The modifications include relocation
+    of position on swimming pool, new cabana to pool area, changes to roof profile,
+    various changes to external windows, increase in first floor ceiling heights and
+    internal changes.'
+  date_received: '2020-07-03'
+  address: 21 Seymour Street, HURSTVILLE GROVE NSW 2220
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213509
+- council_reference: MOD2020/0128
+  description: 'Modification of Consent No: DA2017/34 for additions and alterations
+    to existing dwelling. The Modifications seek to stage the approved works into
+    Stage 1 and Stage 2, with design modifications to the approved built form to facilitate
+    this staging.'
+  date_received: '2020-07-03'
+  address: 24 Benwerrin Avenue, CARSS PARK NSW 2221
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213533
+- council_reference: MOD2020/0129
+  description: S4.55(1) Minor Modification- Amend condition 7b and 7c
+  date_received: '2020-07-08'
+  address: 40 Simmons Road, KINGSGROVE NSW 2208
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213834
+- council_reference: MOD2020/0130
+  description: Modification of DA2017/0568 - Internal and external modifications to
+    multi storey dwelling house with swimming pool
+  date_received: '2020-07-08'
+  address: 13 Woodlands Avenue, LUGARNO NSW 2210
+  date_scraped: '2019-05-15'
+  info_url: https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=213838

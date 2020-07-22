@@ -1,0 +1,881 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://etrack.kyogle.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - etrack.kyogle.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Location:
+      - "/Common/Common/terms.aspx"
+      Set-Cookie:
+      - ASP.NET_SessionId=iji1sxg5h3maucj4z2y4upts; path=/; HttpOnly
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Mon, 29 Jul 2019 04:58:12 GMT
+      Content-Length:
+      - '142'
+    body:
+      encoding: UTF-8
+      string: "<html><head><title>Object moved</title></head><body>\r\n<h2>Object
+        moved to <a href=\"/Common/Common/terms.aspx\">here</a>.</h2>\r\n</body></html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://etrack.kyogle.nsw.gov.au/Common/Common/terms.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=iji1sxg5h3maucj4z2y4upts
+      Host:
+      - etrack.kyogle.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Encoding:
+      - gzip
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Mon, 29 Jul 2019 04:58:12 GMT
+      Content-Length:
+      - '9435'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: post
+    uri: https://etrack.kyogle.nsw.gov.au/Common/Common/terms.aspx
+    body:
+      encoding: UTF-8
+      string: ctl00_rcss_TSSM=&ctl00_script_TSM=&__VIEWSTATE=%2FwEPDwUKMTQ2MzgzODU5OQ9kFgJmD2QWAgIDD2QWBAIEDxYCHgRUZXh0ZWQCCA9kFgICAQ9kFgQCAQ8WAh8ABZ80PHAgc3R5bGU9Im1hcmdpbjogMGNtIDBjbSAwcHQ7Ij48c3Ryb25nPjxzcGFuIHN0eWxlPSJjb2xvcjogYmxhY2s7Ij4KIFRlcm1zIGFuZCBDb25kaXRpb25zIDwvc3Bhbj48L3N0cm9uZz48L3A%2BCiA8ZGl2IHN0eWxlPSJoZWlnaHQ6IDM1MHB4OyBvdmVyZmxvdzogYXV0bzsiPgogPHAgc3R5bGU9Im1hcmdpbjogMGNtIDBjbSAwcHQ7Ij48c3Ryb25nPjxzcGFuIHN0eWxlPSJjb2xvcjogIzRmNjIyODsiPkdlbmVyYWwgQ29uZGl0aW9ucyBvZiBVc2U8L3NwYW4%2BPC9zdHJvbmc%2BPC9wPgogPHAgc3R5bGU9Im1hcmdpbjogMGNtIDBjbSAwcHQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IGJsYWNrOyI%2BQWNjZXNzaW5nIHRoaXMgd2ViIHNpdGUgaW1wbGllcyB0aGF0IHlvdSBoYXZlIGFncmVlZCB0byB0aGUgZm9sbG93aW5nIDogPC9zcGFuPjwvcD4KIDxwIHN0eWxlPSJtYXJnaW46IDBjbSAwY20gMHB0OyI%2BPHNwYW4%2BJm5ic3A7PC9zcGFuPjwvcD4KIDxwIHN0eWxlPSJtYXJnaW46IDBjbSAwY20gMHB0OyI%2BPHNwYW4gc3R5bGU9ImNvbG9yOiBibGFjazsiPlRoZSBjb250ZW50cyBvZiB0aGlzIHdlYnNpdGUgKHdoaWNoIGluY2x1ZGVzIGRvd25sb2FkYWJsZSBtYXRlcmlhbCkgYXJlIHN1YmplY3QgdG8gY29weXJpZ2h0IGFuZCBhcmUgcHJvdGVjdGVkIGJ5IGxhd3Mgb2YgQXVzdHJhbGlhIGFuZCBvdGhlciBjb3VudHJpZXMgdGhyb3VnaCBpbnRlcm5hdGlvbmFsIHRyZWF0aWVzLiA8L3NwYW4%2BPC9wPgogPHAgc3R5bGU9Im1hcmdpbjogMGNtIDBjbSAwcHQ7Ij48c3Bhbj4mbmJzcDs8L3NwYW4%2BPC9wPgogPHAgc3R5bGU9Im1hcmdpbjogMGNtIDBjbSAwcHQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IGJsYWNrOyI%2BS3lvZ2xlIENvdW5jaWwgZ3JhbnRzIHlvdSBhIG5vbi1leGNsdXNpdmUgbGljZW5jZSB0byByZXByb2R1Y2UgdGhlIGNvbnRlbnRzIG9mIHRoaXMgd2Vic2l0ZSBpbiB5b3VyIHdlYiBicm93c2VyIChhbmQgaW4gYW55IGNhY2hlIGZpbGUgcHJvZHVjZWQgYnkgeW91ciB3ZWIgYnJvd3NlcikgZm9yIHRoZSBzb2xlIHB1cnBvc2Ugb2Ygdmlld2luZyB0aGUgY29udGVudC4gS3lvZ2xlIENvdW5jaWwgcmVzZXJ2ZXMgYWxsIG90aGVyIHJpZ2h0cy4gPC9zcGFuPjwvcD4KIDxwIHN0eWxlPSJtYXJnaW46IDBjbSAwY20gMHB0OyI%2BPHNwYW4%2BJm5ic3A7PC9zcGFuPjwvcD4KIDxwIHN0eWxlPSJtYXJnaW46IDBjbSAwY20gMHB0OyI%2BPHNwYW4gc3R5bGU9ImNvbG9yOiBibGFjazsiPlRoaXMgV2ViLXNpdGUsIGluY2x1ZGluZyB0aGUgREFzIE9ubGluZSBmYWNpbGl0eSBwcm92aWRlZCB3aXRoaW4gaXQsIGlzIGZvciBpbmZvcm1hdGlvbiBwdXJwb3NlcyBvbmx5LCBhbmQgaXMgcHJvdmlkZWQgaW4gZ29vZCBmYWl0aC4gPC9zcGFuPjwvcD4KIDxwIHN0eWxlPSJtYXJnaW46IDBjbSAwY20gMHB0OyI%2BPHNwYW4%2BJm5ic3A7PC9zcGFuPjwvcD4KIDxwIHN0eWxlPSJtYXJnaW46IDBjbSAwY20gMHB0OyI%2BPHNwYW4gc3R5bGU9ImNvbG9yOiBibGFjazsiPkFsdGhvdWdoIGV2ZXJ5IGVmZm9ydCBpcyBtYWRlIHRvIGVuc3VyZSB0aGUgcmVsZXZhbmNlLCBhY2N1cmFjeSwgY3VycmVuY3kgYW5kIHRpbWVsaW5lc3Mgb2YgY29udGVudCwgS3lvZ2xlIENvdW5jaWwgYWNjZXB0cyBubyByZXNwb25zaWJpbGl0eSB3aGF0c29ldmVyIGZvciB0aGUgYWNjdXJhY3ksIGNvcnJlY3RuZXNzIG9yIG90aGVyd2lzZSBvZiBhbnkgaW5mb3JtYXRpb24gb24gdGhlIHBhZ2VzIHB1Ymxpc2hlZCB3aXRoaW4gdGhpcyBzaXRlIChpbmNsdWRpbmcgdGhlIERBcyBPbmxpbmUgZmFjaWxpdHkgcHJvdmlkZWQpLiA8L3NwYW4%2BPC9wPgogPHAgc3R5bGU9Im1hcmdpbjogMGNtIDBjbSAwcHQ7Ij48c3Bhbj4mbmJzcDs8L3NwYW4%2BPC9wPgogPHAgc3R5bGU9Im1hcmdpbjogMGNtIDBjbSAwcHQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IGJsYWNrOyI%2BV2l0aG91dCBsaW1pdGluZyB0aGUgZ2VuZXJhbGl0eSBvZiB0aGUgZm9yZWdvaW5nLCBhbmQgc3ViamVjdCBvbmx5IHRvIHN0YXR1dGUsIEt5b2dsZSBDb3VuY2lsIGRvZXMgbm90IHdhcnJhbnQgdGhhdCB0aGUgaW5mb3JtYXRpb24gb24gdGhlIHBhZ2VzIHB1Ymxpc2hlZCB3aXRoaW4gdGhpcyBzaXRlIChpbmNsdWRpbmcgdGhlIERBcyBPbmxpbmUgZmFjaWxpdHkgcHJvdmlkZWQpIGNhbiBiZSByZWxpZWQgdXBvbiwgZXhwcmVzc2x5IGRpc2NsYWltcyBhbGwgd2FycmFudGllcywgZXhwcmVzcyBvciBpbXBsaWVkLCBpbmNsdWRpbmcgYnV0IG5vdCBsaW1pdGVkIHRvIHRoZSBpbXBsaWVkIHdhcnJhbnRpZXMgb2YgcXVhbGl0eSBvciBhY2N1cmFjeSBvciBtZXJjaGFudGFiaWxpdHkgYW5kIGZpdG5lc3MgZm9yIGEgcGFydGljdWxhciBwdXJwb3NlLCBhbmQgZG9lcyBub3Qgd2FycmFudCBvciBtYWtlIGFueSByZXByZXNlbnRhdGlvbnMgcmVnYXJkaW5nIHRoZSB1c2Ugb3IgdGhlIHJlc3VsdHMgb2YgdGhlIHVzZSBvZiBhbnkgaW5mb3JtYXRpb24gb24gdGhlIHBhZ2UgcHVibGlzaGVkIHdpdGhpbiB0aGlzIHNpdGUgKGluY2x1ZGluZyB0aGUgREFzIE9ubGluZSBmYWNpbGl0eSBwcm92aWRlZCkuIDwvc3Bhbj48L3A%2BCiA8cCBzdHlsZT0ibWFyZ2luOiAwY20gMGNtIDBwdDsiPjxzcGFuPiZuYnNwOzwvc3Bhbj48L3A%2BCiA8cCBzdHlsZT0ibWFyZ2luOiAwY20gMGNtIDBwdDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogYmxhY2s7Ij5UaGlzIGZhY2lsaXR5IGlzIHVuZGVyIGNvbnN0YW50IGFtZW5kbWVudCB0byBwcm92aWRlIHRoZSBsYXRlc3QgYW5kIG1vc3QgYWNjdXJhdGUgaW5mb3JtYXRpb24gYXZhaWxhYmxlLiBTb21lIGluZm9ybWF0aW9uIG1heSwgaG93ZXZlciwgbm90IGJlIGN1cnJlbnQuIENoYW5nZXMgaW4gY2lyY3Vtc3RhbmNlcyBhZnRlciB0aW1lIG9mIHB1YmxpY2F0aW9uIG1heSBpbXBhY3Qgb24gdGhlIGFjY3VyYWN5IG9mIHRoZSBpbmZvcm1hdGlvbiBwcm92aWRlZCBieSB0aGlzIHdlYnNpdGUuIEluIGFkZGl0aW9uLCBpbmZvcm1hdGlvbiBwdWJsaXNoZWQgYW5kIHRyYW5zbWl0dGVkIGVsZWN0cm9uaWNhbGx5IG1heSBiZSBzdWJqZWN0IHRvIGNvcnJ1cHRpb24gYnkgdGhlIHByb2Nlc3MuIFZpZXdlcnMgbXVzdCB0YWtlIGFjY291bnQgb2YgYWxsIG9mIHRoZSBhYm92ZSB3aGVuIGFjY2Vzc2luZyBwdWJsaXNoZWQgaW5mb3JtYXRpb24uIDwvc3Bhbj48L3A%2BCiA8cCBzdHlsZT0ibWFyZ2luOiAwY20gMGNtIDBwdDsiPjxzcGFuPiZuYnNwOzwvc3Bhbj48L3A%2BCiA8cCBzdHlsZT0ibWFyZ2luOiAwY20gMGNtIDBwdDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogYmxhY2s7Ij5ObyBwZXJzb24gc2hvdWxkIHBsYWNlIHJlbGlhbmNlIG9uIGluZm9ybWF0aW9uIGZyb20gdGhpcyB3ZWJzaXRlIChpbmNsdWRpbmcgdGhlIERBcyBPbmxpbmUgZmFjaWxpdHkgcHJvdmlkZWQpIGluIGNpcmN1bXN0YW5jZXMgd2hlcmUgbG9zcywgZGFtYWdlIG9yIGluanVyeSBpcyBwb3NzaWJsZS4gVGhpcyBpcyBwYXJ0aWN1bGFybHkgaW1wb3J0YW50IHNob3VsZCB5b3Ugd2lzaCB0byB1c2UgYW55IGluZm9ybWF0aW9uIGZvciBhbnkgbGVnYWwgcHVycG9zZS4gPC9zcGFuPjwvcD4KIDxwIHN0eWxlPSJtYXJnaW46IDBjbSAwY20gMHB0OyI%2BPHNwYW4%2BJm5ic3A7PC9zcGFuPjwvcD4KIDxwIHN0eWxlPSJtYXJnaW46IDBjbSAwY20gMHB0OyI%2BPHNwYW4gc3R5bGU9ImNvbG9yOiBibGFjazsiPlNwZWNpZmljIGVucXVpcmllcyBzaG91bGQgYmUgbWFkZSB0byBDb3VuY2lsIGluIG9yZGVyIHRvIG9idGFpbiB0aGUgcmVxdWlyZWQgaW5mb3JtYXRpb24gb3IgYWR2aWNlIGRpcmVjdGx5IGZyb20gQ291bmNpbCBPZmZpY2VycyBhbmQgdG8gb3RoZXJ3aXNlIGFzY2VydGFpbiB0aGUgYWNjdXJhY3kgb2YgYWxsIGluZm9ybWF0aW9uIGNvbnRhaW5lZCB3aXRoaW4gdGhlc2UgcGFnZXMuIEluIHNvbWUgY2FzZXMsIHlvdSBtYXkgYmUgcmVxdWlyZWQgdG8gbWFrZSBhIHdyaXR0ZW4gYXBwbGljYXRpb24gdG8gQ291bmNpbCB0byBvYnRhaW4gdGhlIGRlc2lyZWQgaW5mb3JtYXRpb24gb3IgYWR2aWNlLiA8L3NwYW4%2BPC9wPgogPHAgc3R5bGU9Im1hcmdpbjogMGNtIDBjbSAwcHQ7Ij48c3Bhbj4mbmJzcDs8L3NwYW4%2BPC9wPgogPHAgc3R5bGU9Im1hcmdpbjogMGNtIDBjbSAwcHQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IGJsYWNrOyI%2BS3lvZ2xlIENvdW5jaWwgaXMgdW5kZXIgbm8gbGlhYmlsaXR5IHRvIGFueSBwZXJzb24gaW4gcmVzcGVjdCBvZiBhbnkgbG9zcyBvciBkYW1hZ2UgKGluY2x1ZGluZyBjb25zZXF1ZW50aWFsIGxvc3Mgb3IgZGFtYWdlKSB0aGF0IG1heSBiZSBzdWZmZXJlZCBvciBpbmN1cnJlZCwgb3Igd2hpY2ggbWF5IGFyaXNlIGRpcmVjdGx5IG9yIGluZGlyZWN0bHksIGluIHJlc3BlY3Qgb2YgaW5mb3JtYXRpb24gb24gdGhlIHBhZ2VzIHB1Ymxpc2hlZCB3aXRoaW4gdGhpcyBzaXRlIChpbmNsdWRpbmcgdGhlIERBcyBPbmxpbmUgZmFjaWxpdHkgcHJvdmlkZWQpLiA8L3NwYW4%2BPC9wPgogPHAgc3R5bGU9Im1hcmdpbjogMGNtIDBjbSAwcHQ7Ij48c3Bhbj4mbmJzcDs8L3NwYW4%2BPC9wPgogPHAgc3R5bGU9Im1hcmdpbjogMGNtIDBjbSAwcHQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IGJsYWNrOyI%2BSW4gYWRkaXRpb24sIEt5b2dsZSBDb3VuY2lsIGFjY2VwdHMgbm8gcmVzcG9uc2liaWxpdHkgZm9yIGVtYWlsIG9yIGFueSBvdGhlciBmb3JtIG9mIGNvcnJlc3BvbmRlbmNlIHNlbnQgdG8gb3IgZnJvbSB0aGlzIHNpdGUgdmlhIHRoZSBpbnRlcm5ldC4gRXhjZXB0IGFzIG90aGVyd2lzZSByZXF1aXJlZCBieSBsYXcsIHRoZXJlIGlzIG5vIG9ibGlnYXRpb24gdXBvbiBDb3VuY2lsIHRvIHJlYWQsIHJlc3BvbmQgb3IgdG8gZGVhbCB3aXRoIGluIGFueSB3YXksIGFueSBzdWNoIHRyYW5zbWlzc2lvbnMuIFVzZXJzIHdobyBjb250YWN0IENvdW5jaWwgdmlhIHRoaXMgbWVkaXVtIGRvIHNvIGF0IHRoZWlyIG93biBsaWFiaWxpdHkgYW5kIHdpdGhvdXQgb251cyB1cG9uIENvdW5jaWwuIDwvc3Bhbj48L3A%2BCiA8cCBzdHlsZT0ibWFyZ2luOiAwY20gMGNtIDBwdDsiPjxzcGFuPiZuYnNwOzwvc3Bhbj48L3A%2BCiA8cCBzdHlsZT0ibWFyZ2luOiAwY20gMGNtIDBwdDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogYmxhY2s7Ij5Db3VuY2lsIHJlY29nbml6ZXMgeW91ciBjb25jZXJuIGZvciBzZWN1cml0eSwgYW5kIHdpbGwgdXNlIGFsbCByZWFzb25hYmxlIGVmZm9ydHMgdG8gZXN0YWJsaXNoIHNlY3VyZSBjb25uZWN0aW9ucyB3aXRoIHlvdS4gPC9zcGFuPjwvcD4KIDxwIHN0eWxlPSJtYXJnaW46IDBjbSAwY20gMHB0OyI%2BPHNwYW4%2BJm5ic3A7PC9zcGFuPjwvcD4KIDxwIHN0eWxlPSJtYXJnaW46IDBjbSAwY20gMHB0OyI%2BPHNwYW4gc3R5bGU9ImNvbG9yOiBibGFjazsiPk5vdHdpdGhzdGFuZGluZyB0aGUgYWJvdmUsIHBsZWFzZSBiZSBhc3N1cmVkIHRoYXQgdGhlIENvdW5jaWwgaGlnaGx5IHZhbHVlcyBhbGwgZWxlY3Ryb25pYyBjb250YWN0cyBhbmQgd2lsbCBhdHRlbXB0IHRvIG9mZmVyIHRoZSBoaWdoZXN0IGxldmVscyBvZiBjdXN0b21lciBzZXJ2aWNlIGJ5IHRyZWF0aW5nIHRoZW0gaW4gYSBzaW1pbGFyIG1hbm5lciB0byBhbGwgb3RoZXIgZm9ybXMgb2YgY29udGFjdCB3aXRoIHRoZSBDb3VuY2lsLiA8L3NwYW4%2BPC9wPgogPHAgc3R5bGU9Im1hcmdpbjogMGNtIDBjbSAwcHQ7Ij48c3Bhbj4mbmJzcDs8L3NwYW4%2BPC9wPgogPHAgc3R5bGU9Im1hcmdpbjogMGNtIDBjbSAwcHQ7Ij48c3Ryb25nPjxzcGFuIHN0eWxlPSJjb2xvcjogIzRmNjIyODsiPkFwcGxpY2F0aW9uczwvc3Bhbj48L3N0cm9uZz48c3Ryb25nPjxzcGFuIHN0eWxlPSJjb2xvcjogIzMxNzE5ZjsiPjogPC9zcGFuPjwvc3Ryb25nPjxzdHJvbmc%2BPHNwYW4gc3R5bGU9ImNvbG9yOiAjNGY2MjI4OyI%2BREE8L3NwYW4%2BPC9zdHJvbmc%2BPHN0cm9uZz48c3BhbiBzdHlsZT0iY29sb3I6ICMzMTcxOWY7Ij4gPC9zcGFuPjwvc3Ryb25nPjxzdHJvbmc%2BPHNwYW4gc3R5bGU9ImNvbG9yOiAjNGY2MjI4OyI%2BSW5mb3JtYXRpb248L3NwYW4%2BPC9zdHJvbmc%2BPC9wPgogPHAgc3R5bGU9Im1hcmdpbjogMGNtIDBjbSAwcHQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IGJsYWNrOyI%2BVGhlIGluZm9ybWF0aW9uIG9uIHRoaXMgd2Vic2l0ZSBpcyBwcm92aWRlZCB0byBjdXN0b21lcnMgZm9yIHRoZSBwdXJwb3NlcyBvZiBlbnF1aXJpbmcgb24gdmFyaW91cyBhc3BlY3RzIG9mIGRldmVsb3BtZW50IGFwcGxpY2F0aW9ucy4gVGhlIGRvY3VtZW50cyBhbmQgaW5mb3JtYXRpb24gbWFkZSBhdmFpbGFibGUgZm9yIHRoZSBkZXZlbG9wbWVudCBhcHBsaWNhdGlvbnMgaXMgZGVlbWVkIHRvIGJlIG9wZW4gYWNjZXNzIGluZm9ybWF0aW9uIHVuZGVyIHRoZSByZWxldmFudCBzZWN0aW9ucyBvZiB0aGUgR292ZXJubWVudCBJbmZvcm1hdGlvbiAoUHVibGljIEFjY2VzcykgQWN0IDIwMDksIGhvd2V2ZXIgdGhleSBkbyBub3QgcmVwcmVzZW50IGEgZGV0YWlsZWQgaGlzdG9yeS4gUGVyc29ucyB3aXNoaW5nIHRvIGNvbmZpcm0gaW5mb3JtYXRpb24gaW4gZGV0YWlsIHNob3VsZCBjb250YWN0IENvdW5jaWwgaW4gd3JpdGluZyBpbiBvcmRlciB0byBvYnRhaW4gYSB3cml0dGVuIHJlc3BvbnNlLjwvc3Bhbj48L3A%2BCiA8cCBzdHlsZT0ibWFyZ2luOiAwY20gMGNtIDBwdDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogYmxhY2s7Ij4mbmJzcDsmbmJzcDs8L3NwYW4%2BPC9wPgogPC9kaXY%2BZAIJDxYCHwBlZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUaY3RsMDAkY3RNYWluJGNoa0FncmVlJGNoazGTzgB7L1iVnVjC3XvjkKzGFFmATA%3D%3D&__VIEWSTATEGENERATOR=A8DC4E82&__EVENTVALIDATION=%2FwEdAATpFbWPngpzpGfBLXeBeDQ4OcBhpQsJgyMjpoz897IvWkTdyBz%2Fe%2FCcgfJ5zxj4jwg%2FVxUvaVtQChmSC3DOB0MpRXjjrIfMcg7ZTip5g73%2BkoRoRtA%3D&ctl00%24ctMain%24chkAgree%24chk1=on&ctl00%24ctMain%24BtnAgree=I+Agree
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=iji1sxg5h3maucj4z2y4upts
+      Host:
+      - etrack.kyogle.nsw.gov.au
+      Referer:
+      - https://etrack.kyogle.nsw.gov.au/Common/Common/terms.aspx
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '9538'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Encoding:
+      - gzip,gzip
+      Location:
+      - "/Pages/XC.Track/SearchApplication.aspx"
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Mon, 29 Jul 2019 04:58:13 GMT
+      Content-Length:
+      - '143'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAFWOQQrCMBBF94XeIfQAGeh6DIgHULALt9NkdKKpCekgentbu3L5H4/HR9EpORSm4FCjJnbH8c5ezZRfHBA2hrAZYw4f1zYo/Z9mNBskI5Wvuw5OdOMZLgc7VPIPODNVL/tSUvSkMT8tzeXdOeHKCOTsEu/XKPzqy1ovtc0XU3r/JJsAAAA=
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://etrack.kyogle.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=last28days&k=LodgementDate&o=xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=iji1sxg5h3maucj4z2y4upts
+      Host:
+      - etrack.kyogle.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/xml; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Mon, 29 Jul 2019 04:58:15 GMT
+      Content-Length:
+      - '59608'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\"?><NewDataSet>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000047.001
+        </ApplicationId>\r\n    <ApplicationIdEscaped>010201900000047001</ApplicationIdEscaped>\r\n
+        \   <NatureOfApplication>Development Applications</NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Subdivision
+        \                            </Category>\r\n    <ReferenceNumber>010.2019.00000047.001
+        </ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>47</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
+        \   <ApplicationDetails>Subdivision Development consent is sought for the
+        subdivisionof Lot 3 DP 6128 to create a primary production lot </ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-28T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-07-05T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>0</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
+        \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
+        \   <AuthorityParty xml:space=\"preserve\">                                        </AuthorityParty>\r\n
+        \   <OfficerPh>6632 0211</OfficerPh>\r\n    <Officer>Lachlan Black</Officer>\r\n
+        \   <Title>Senior Town Planner                               </Title>\r\n
+        \   <Days>-24</Days>\r\n    <fmt_acc>010.2019.00000047.001 </fmt_acc>\r\n
+        \   <doc_typ>10</doc_typ>\r\n    <doc_yer>2019</doc_yer>\r\n    <doc_num>47</doc_num>\r\n
+        \   <doc_prt>1</doc_prt>\r\n    <CompressedApplicationId>DA47/2019</CompressedApplicationId>\r\n
+        \   <DivReferenceNumber>010201900000047001</DivReferenceNumber>\r\n    <ApplicationIdS>010.2019.00000047.001</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>010.2019.00000047.001 </ApplicationId>\r\n
+        \     <Officer>Lachlan Black</Officer>\r\n      <ApplicationIdS>010.2019.00000047.001</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>3758</PropertyId>\r\n
+        \     <ParcelId>3758</ParcelId>\r\n      <ApplicationId>010.2019.00000047.001
+        </ApplicationId>\r\n      <AssessmentId>10053920</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <str_nme>Needhams                                </str_nme>\r\n      <StreetType>RD
+        \ </StreetType>\r\n      <LocalityName>TOOLOOM</LocalityName>\r\n      <Postcode>2475
+        \     </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Suburb>TOOLOOM                            </Suburb>\r\n      <LotNumber>3
+        \                                      </LotNumber>\r\n      <PlanNumber>6128
+        \                                   </PlanNumber>\r\n      <FullLegalDescription>Lot:
+        3 DP: 6128                                             </FullLegalDescription>\r\n
+        \     <Area>137.7000</Area>\r\n      <AreaUnits>HECTARES                                </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201900000047001</PDivReferenceNumber>\r\n      <StreetName>Needhams
+        Road</StreetName>\r\n      <Line1> Needhams Road</Line1>\r\n      <Line2>TOOLOOM
+        NSW 2475</Line2>\r\n      <ApplicationIdS>010.2019.00000047.001</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PersonId>47228</PersonId>\r\n      <ApplicationId>010.2019.00000047.001
+        \                            </ApplicationId>\r\n      <lnk_typ>1</lnk_typ>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FamilyName>Newton Denny Chapelle
+        \                            </FamilyName>\r\n      <GivenName xml:space=\"preserve\">
+        </GivenName>\r\n      <Title>CO</Title>\r\n      <FullName> Newton Denny Chapelle</FullName>\r\n
+        \     <Line1>PO Box 1138                             </Line1>\r\n      <Line2>LISMORE
+        NSW  2480                       </Line2>\r\n      <Line3 xml:space=\"preserve\">
+        \                                       </Line3>\r\n      <TelephoneNumber>
+        02 6622 1011</TelephoneNumber>\r\n      <EmailAddress>office@newtondennychapelle.com.au
+        \                                                                                              </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00000047.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>52027</PersonId>\r\n      <ApplicationId>010.2019.00000047.001
+        \                            </ApplicationId>\r\n      <lnk_typ>7</lnk_typ>\r\n
+        \     <PartyRole>Owner</PartyRole>\r\n      <FamilyName>Amigo Developments
+        Pty Ltd                        </FamilyName>\r\n      <GivenName xml:space=\"preserve\">
+        </GivenName>\r\n      <Initial xml:space=\"preserve\">     </Initial>\r\n
+        \     <Title>CO</Title>\r\n      <FullName> Amigo Developments Pty Ltd</FullName>\r\n
+        \     <Line1>PO Box 501                              </Line1>\r\n      <Line2>BEENLEIGH
+        QLD  4207                     </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000047.001</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>010.2019.00000048.001 </ApplicationId>\r\n    <ApplicationIdEscaped>010201900000048001</ApplicationIdEscaped>\r\n
+        \   <NatureOfApplication>Development Applications</NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Dwelling
+        Houses                         </Category>\r\n    <ReferenceNumber>010.2019.00000048.001
+        </ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>48</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
+        \   <ApplicationDetails>Dwelling Houses Dwelling </ApplicationDetails>\r\n
+        \   <CreatedDate>2019-04-12T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-07-09T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>244000</EstimatedCost>\r\n    <DeterminationDate>2019-07-24T00:00:00+10:00</DeterminationDate>\r\n
+        \   <DeterminationType>Approved - Delegation                   </DeterminationType>\r\n
+        \   <DeterminationTypeCode1>1</DeterminationTypeCode1>\r\n    <DeterminationTypeCode>APPD</DeterminationTypeCode>\r\n
+        \   <AuthorityParty>Approved - Delegation                   </AuthorityParty>\r\n
+        \   <OfficerPh>6632 0211</OfficerPh>\r\n    <Officer>Lachlan Black</Officer>\r\n
+        \   <Title>Senior Town Planner                               </Title>\r\n
+        \   <Days>-15</Days>\r\n    <fmt_acc>010.2019.00000048.001 </fmt_acc>\r\n
+        \   <doc_typ>10</doc_typ>\r\n    <doc_yer>2019</doc_yer>\r\n    <doc_num>48</doc_num>\r\n
+        \   <doc_prt>1</doc_prt>\r\n    <CompressedApplicationId>DA48/2019</CompressedApplicationId>\r\n
+        \   <DivReferenceNumber>010201900000048001</DivReferenceNumber>\r\n    <ApplicationIdS>010.2019.00000048.001</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>010.2019.00000048.001 </ApplicationId>\r\n
+        \     <DeterminationDate>2019-07-24T00:00:00+10:00</DeterminationDate>\r\n
+        \     <DeterminationType>Approved - Delegation                   </DeterminationType>\r\n
+        \     <Officer>Lachlan Black</Officer>\r\n      <ApplicationIdS>010.2019.00000048.001</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>930</PropertyId>\r\n
+        \     <ParcelId>930</ParcelId>\r\n      <ApplicationId>010.2019.00000048.001
+        </ApplicationId>\r\n      <AssessmentId>10014062</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <StreetNumber1>106</StreetNumber1>\r\n      <str_nme>Davis                                   </str_nme>\r\n
+        \     <StreetType>RD  </StreetType>\r\n      <LocalityName>GREEN PIGEON</LocalityName>\r\n
+        \     <Postcode>2474      </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Suburb>GREEN PIGEON                       </Suburb>\r\n
+        \     <LotNumber>2                                       </LotNumber>\r\n
+        \     <PlanNumber>618060                                  </PlanNumber>\r\n
+        \     <FullLegalDescription>Lot: 2 DP: 618060                                           </FullLegalDescription>\r\n
+        \     <Area>39.8900</Area>\r\n      <AreaUnits>HECTARES                                </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201900000048001</PDivReferenceNumber>\r\n      <StreetName>Davis
+        Road</StreetName>\r\n      <Line1>106 Davis Road</Line1>\r\n      <Line2>GREEN
+        PIGEON NSW 2474</Line2>\r\n      <ApplicationIdS>010.2019.00000048.001</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PersonId>178983</PersonId>\r\n      <ApplicationId>010.2019.00000048.001
+        \                            </ApplicationId>\r\n      <lnk_typ>1</lnk_typ>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FamilyName>Evolve Planning
+        Services                          </FamilyName>\r\n      <GivenName xml:space=\"preserve\">
+        </GivenName>\r\n      <Title>CO</Title>\r\n      <FullName> Evolve Planning
+        Services</FullName>\r\n      <Line1>PO Box 243                              </Line1>\r\n
+        \     <Line2>BANORA POINT  NSW  2486                 </Line2>\r\n      <Line3
+        xml:space=\"preserve\">                                        </Line3>\r\n
+        \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000048.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>178354</PersonId>\r\n      <ApplicationId>010.2019.00000048.001
+        \                            </ApplicationId>\r\n      <lnk_typ>7</lnk_typ>\r\n
+        \     <PartyRole>Owner</PartyRole>\r\n      <FamilyName>Cox                                               </FamilyName>\r\n
+        \     <GivenName>Peter John</GivenName>\r\n      <Initial>P J  </Initial>\r\n
+        \     <Title>MR</Title>\r\n      <FullName> Mr P J Cox</FullName>\r\n      <Line1>106
+        Davis Road                          </Line1>\r\n      <Line2>GREEN PIGEON
+        \ NSW  2474                 </Line2>\r\n      <Line3 xml:space=\"preserve\">
+        \                                       </Line3>\r\n      <TelephoneNumber
+        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000048.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>20939</PersonId>\r\n      <ApplicationId>010.2019.00000048.001
+        \                            </ApplicationId>\r\n      <lnk_typ>7</lnk_typ>\r\n
+        \     <PartyRole>Owner</PartyRole>\r\n      <FamilyName>Solomon                                           </FamilyName>\r\n
+        \     <GivenName>Renee Rose</GivenName>\r\n      <Initial>R R  </Initial>\r\n
+        \     <Title>MS</Title>\r\n      <FullName> Ms R R Solomon</FullName>\r\n
+        \     <Line1>106 Davis Road                          </Line1>\r\n      <Line2>GREEN
+        PIGEON  NSW  2474                 </Line2>\r\n      <Line3 xml:space=\"preserve\">
+        \                                       </Line3>\r\n      <TelephoneNumber>6633
+        1549 </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000048.001</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>010.2019.00000049.001 </ApplicationId>\r\n    <ApplicationIdEscaped>010201900000049001</ApplicationIdEscaped>\r\n
+        \   <NatureOfApplication>Development Applications</NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Sheds
+        \                                  </Category>\r\n    <ReferenceNumber>010.2019.00000049.001
+        </ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>49</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
+        \   <ApplicationDetails>Sheds Shed &amp; Carport </ApplicationDetails>\r\n
+        \   <CreatedDate>2019-07-09T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-07-09T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>30000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
+        \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
+        \   <AuthorityParty xml:space=\"preserve\">                                        </AuthorityParty>\r\n
+        \   <OfficerPh>6632 0211</OfficerPh>\r\n    <Officer>Lachlan Black</Officer>\r\n
+        \   <Title>Senior Town Planner                               </Title>\r\n
+        \   <Days>-20</Days>\r\n    <fmt_acc>010.2019.00000049.001 </fmt_acc>\r\n
+        \   <doc_typ>10</doc_typ>\r\n    <doc_yer>2019</doc_yer>\r\n    <doc_num>49</doc_num>\r\n
+        \   <doc_prt>1</doc_prt>\r\n    <CompressedApplicationId>DA49/2019</CompressedApplicationId>\r\n
+        \   <DivReferenceNumber>010201900000049001</DivReferenceNumber>\r\n    <ApplicationIdS>010.2019.00000049.001</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>010.2019.00000049.001 </ApplicationId>\r\n
+        \     <Officer>Lachlan Black</Officer>\r\n      <ApplicationIdS>010.2019.00000049.001</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>3886</PropertyId>\r\n
+        \     <ParcelId>3886</ParcelId>\r\n      <ApplicationId>010.2019.00000049.001
+        </ApplicationId>\r\n      <AssessmentId>10020630</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <StreetNumber1>1</StreetNumber1>\r\n      <str_nme>Eagle                                   </str_nme>\r\n
+        \     <StreetType>CT  </StreetType>\r\n      <LocalityName>NEW PARK</LocalityName>\r\n
+        \     <Postcode>2474      </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Suburb>NEW PARK                           </Suburb>\r\n
+        \     <LotNumber>20                                      </LotNumber>\r\n
+        \     <PlanNumber>834552                                  </PlanNumber>\r\n
+        \     <FullLegalDescription>Lot: 20 DP: 834552                                          </FullLegalDescription>\r\n
+        \     <Area>2527.0000</Area>\r\n      <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201900000049001</PDivReferenceNumber>\r\n      <StreetName>Eagle
+        Court</StreetName>\r\n      <Line1>1 Eagle Court</Line1>\r\n      <Line2>NEW
+        PARK NSW 2474</Line2>\r\n      <ApplicationIdS>010.2019.00000049.001</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PersonId>26236</PersonId>\r\n      <ApplicationId>010.2019.00000049.001
+        \                            </ApplicationId>\r\n      <lnk_typ>1</lnk_typ>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FamilyName>Garred                                            </FamilyName>\r\n
+        \     <GivenName>Amanda Louise</GivenName>\r\n      <Initial>A L  </Initial>\r\n
+        \     <Title>MRS</Title>\r\n      <FullName> Mrs A L Garred</FullName>\r\n
+        \     <Line1>1 Eagle Court                           </Line1>\r\n      <Line2>KYOGLE
+        \ NSW  2474                       </Line2>\r\n      <Line3 xml:space=\"preserve\">
+        \                                       </Line3>\r\n      <TelephoneNumber
+        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000049.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>26236</PersonId>\r\n      <ApplicationId>010.2019.00000049.001
+        \                            </ApplicationId>\r\n      <lnk_typ>7</lnk_typ>\r\n
+        \     <PartyRole>Owner</PartyRole>\r\n      <FamilyName>Garred                                            </FamilyName>\r\n
+        \     <GivenName>Amanda Louise</GivenName>\r\n      <Initial>A L  </Initial>\r\n
+        \     <Title>MRS</Title>\r\n      <FullName> Mrs A L Garred</FullName>\r\n
+        \     <Line1>1 Eagle Court                           </Line1>\r\n      <Line2>KYOGLE
+        \ NSW  2474                       </Line2>\r\n      <Line3 xml:space=\"preserve\">
+        \                                       </Line3>\r\n      <TelephoneNumber
+        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000049.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>26237</PersonId>\r\n      <ApplicationId>010.2019.00000049.001
+        \                            </ApplicationId>\r\n      <lnk_typ>7</lnk_typ>\r\n
+        \     <PartyRole>Owner</PartyRole>\r\n      <FamilyName>Garred                                            </FamilyName>\r\n
+        \     <GivenName>Luke Mervyn</GivenName>\r\n      <Initial>L M  </Initial>\r\n
+        \     <Title>MR</Title>\r\n      <FullName> Mr L M Garred</FullName>\r\n      <Line1>1
+        Eagle Court                           </Line1>\r\n      <Line2>KYOGLE  NSW
+        \ 2474                       </Line2>\r\n      <Line3 xml:space=\"preserve\">
+        \                                       </Line3>\r\n      <TelephoneNumber
+        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <EmailAddress xml:space=\"preserve\">
+        \                                                                                                                               </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00000049.001</ApplicationIdS>\r\n    </Party>\r\n
+        \ <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>010.2015.00000042.002
+        </ApplicationId>\r\n    <ApplicationIdEscaped>010201500000042002</ApplicationIdEscaped>\r\n
+        \   <NatureOfApplication>Development Applications</NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Dwelling
+        Houses                         </Category>\r\n    <ReferenceNumber>010.2015.00000042.002
+        </ReferenceNumber>\r\n    <ReferenceNumberYear>2015</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>42</ReferenceNumberNumber>\r\n    <Amendment>2</Amendment>\r\n
+        \   <ApplicationDetails>Dwelling Houses </ApplicationDetails>\r\n    <CreatedDate>2019-07-10T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-07-10T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>150000</EstimatedCost>\r\n
+        \   <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n    <DeterminationTypeCode
+        xml:space=\"preserve\">    </DeterminationTypeCode>\r\n    <AuthorityParty
+        xml:space=\"preserve\">                                        </AuthorityParty>\r\n
+        \   <OfficerPh>6632 0211</OfficerPh>\r\n    <Officer>Lachlan Black</Officer>\r\n
+        \   <Title>Senior Town Planner                               </Title>\r\n
+        \   <Days>-19</Days>\r\n    <fmt_acc>010.2015.00000042.002 </fmt_acc>\r\n
+        \   <doc_typ>10</doc_typ>\r\n    <doc_yer>2015</doc_yer>\r\n    <doc_num>42</doc_num>\r\n
+        \   <doc_prt>2</doc_prt>\r\n    <CompressedApplicationId>DA42/2015.2</CompressedApplicationId>\r\n
+        \   <DivReferenceNumber>010201500000042002</DivReferenceNumber>\r\n    <ApplicationIdS>010.2015.00000042.002</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>010.2015.00000042.002 </ApplicationId>\r\n
+        \     <Officer>Lachlan Black</Officer>\r\n      <ApplicationIdS>010.2015.00000042.002</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>1007804</PropertyId>\r\n
+        \     <ParcelId>1007804</ParcelId>\r\n      <ApplicationId>010.2015.00000042.002
+        </ApplicationId>\r\n      <AssessmentId>10071021</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <StreetNumber1>101</StreetNumber1>\r\n      <str_nme>Homestead                               </str_nme>\r\n
+        \     <StreetType>RD  </StreetType>\r\n      <LocalityName>KILGRA</LocalityName>\r\n
+        \     <Postcode>2474      </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Suburb>KILGRA                             </Suburb>\r\n
+        \     <LotNumber>12                                      </LotNumber>\r\n
+        \     <PlanNumber>1112691                                 </PlanNumber>\r\n
+        \     <FullLegalDescription>Lot: 12 DP: 1112691                                         </FullLegalDescription>\r\n
+        \     <Area>2.0000</Area>\r\n      <AreaUnits>HECTARES                                </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201500000042002</PDivReferenceNumber>\r\n      <StreetName>Homestead
+        Road</StreetName>\r\n      <Line1>101 Homestead Road</Line1>\r\n      <Line2>KILGRA
+        NSW 2474</Line2>\r\n      <ApplicationIdS>010.2015.00000042.002</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PersonId>174289</PersonId>\r\n      <ApplicationId>010.2015.00000042.002
+        \                            </ApplicationId>\r\n      <lnk_typ>1</lnk_typ>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FamilyName>Thompson                                          </FamilyName>\r\n
+        \     <GivenName>Helen Patricia</GivenName>\r\n      <Initial>H P  </Initial>\r\n
+        \     <Title>MS</Title>\r\n      <FullName> Ms H P Thompson</FullName>\r\n
+        \     <Line1>U 8/5 Clancy Court                      </Line1>\r\n      <Line2>TUGUN
+        \ QLD  4224                        </Line2>\r\n      <Line3 xml:space=\"preserve\">
+        \                                       </Line3>\r\n      <TelephoneNumber
+        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2015.00000042.002</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>174289</PersonId>\r\n      <ApplicationId>010.2015.00000042.002
+        \                            </ApplicationId>\r\n      <lnk_typ>7</lnk_typ>\r\n
+        \     <PartyRole>Owner</PartyRole>\r\n      <FamilyName>Thompson                                          </FamilyName>\r\n
+        \     <GivenName>Helen Patricia</GivenName>\r\n      <Initial>H P  </Initial>\r\n
+        \     <Title>MS</Title>\r\n      <FullName> Ms H P Thompson</FullName>\r\n
+        \     <Line1>U 8/5 Clancy Court                      </Line1>\r\n      <Line2>TUGUN
+        \ QLD  4224                        </Line2>\r\n      <Line3 xml:space=\"preserve\">
+        \                                       </Line3>\r\n      <TelephoneNumber
+        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2015.00000042.002</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>010.2017.00000093.002 </ApplicationId>\r\n    <ApplicationIdEscaped>010201700000093002</ApplicationIdEscaped>\r\n
+        \   <NatureOfApplication>Development Applications</NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Subdivision
+        \                            </Category>\r\n    <ReferenceNumber>010.2017.00000093.002
+        </ReferenceNumber>\r\n    <ReferenceNumberYear>2017</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>93</ReferenceNumberNumber>\r\n    <Amendment>2</Amendment>\r\n
+        \   <ApplicationDetails>Subdivision </ApplicationDetails>\r\n    <CreatedDate>2019-07-10T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-07-10T00:00:00+10:00</LodgementDate>\r\n    <EstimatedCost>0</EstimatedCost>\r\n
+        \   <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n    <DeterminationTypeCode
+        xml:space=\"preserve\">    </DeterminationTypeCode>\r\n    <AuthorityParty
+        xml:space=\"preserve\">                                        </AuthorityParty>\r\n
+        \   <OfficerPh>6632 0211</OfficerPh>\r\n    <Officer>Lachlan Black</Officer>\r\n
+        \   <Title>Senior Town Planner                               </Title>\r\n
+        \   <Days>-19</Days>\r\n    <fmt_acc>010.2017.00000093.002 </fmt_acc>\r\n
+        \   <doc_typ>10</doc_typ>\r\n    <doc_yer>2017</doc_yer>\r\n    <doc_num>93</doc_num>\r\n
+        \   <doc_prt>2</doc_prt>\r\n    <CompressedApplicationId>DA93/2017.2</CompressedApplicationId>\r\n
+        \   <DivReferenceNumber>010201700000093002</DivReferenceNumber>\r\n    <ApplicationIdS>010.2017.00000093.002</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>010.2017.00000093.002 </ApplicationId>\r\n
+        \     <Officer>Lachlan Black</Officer>\r\n      <ApplicationIdS>010.2017.00000093.002</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>2000</PropertyId>\r\n
+        \     <ParcelId>2000</ParcelId>\r\n      <ApplicationId>010.2017.00000093.002
+        </ApplicationId>\r\n      <AssessmentId>10027593</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <StreetNumber1>4</StreetNumber1>\r\n      <str_nme>Warrazambil                             </str_nme>\r\n
+        \     <StreetType>ST  </StreetType>\r\n      <LocalityName>KYOGLE</LocalityName>\r\n
+        \     <Postcode>2474      </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Suburb>KYOGLE                             </Suburb>\r\n
+        \     <LotNumber>2                                       </LotNumber>\r\n
+        \     <PlanNumber>588424                                  </PlanNumber>\r\n
+        \     <FullLegalDescription>Lot: 2 DP: 588424                                           </FullLegalDescription>\r\n
+        \     <Area>1239.0000</Area>\r\n      <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201700000093002</PDivReferenceNumber>\r\n      <StreetName>Warrazambil
+        Street</StreetName>\r\n      <Line1>4 Warrazambil Street</Line1>\r\n      <Line2>KYOGLE
+        NSW 2474</Line2>\r\n      <ApplicationIdS>010.2017.00000093.002</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PersonId>44743</PersonId>\r\n      <ApplicationId>010.2017.00000093.002
+        \                            </ApplicationId>\r\n      <lnk_typ>1</lnk_typ>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FamilyName>GM Project Development
+        &amp; Management               </FamilyName>\r\n      <GivenName xml:space=\"preserve\">
+        </GivenName>\r\n      <Title>CO</Title>\r\n      <FullName> GM Project Development
+        &amp; Management</FullName>\r\n      <Line1>43 Beaumont Drive                       </Line1>\r\n
+        \     <Line2>EAST LISMORE NSW  2480                  </Line2>\r\n      <Line3
+        xml:space=\"preserve\">                                        </Line3>\r\n
+        \     <TelephoneNumber> 6622 1749</TelephoneNumber>\r\n      <EmailAddress>graham@gmproject.com.au
+        \                                                                                                        </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2017.00000093.002</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>41982</PersonId>\r\n      <ApplicationId>010.2017.00000093.002
+        \                            </ApplicationId>\r\n      <lnk_typ>7</lnk_typ>\r\n
+        \     <PartyRole>Owner</PartyRole>\r\n      <FamilyName>Kerwin                                            </FamilyName>\r\n
+        \     <GivenName>Fiona Maree</GivenName>\r\n      <Initial>F M  </Initial>\r\n
+        \     <Title>MRS</Title>\r\n      <FullName> Mrs F M Kerwin</FullName>\r\n
+        \     <Line1>84 Collins Creek Road                   </Line1>\r\n      <Line2>NEW
+        PARK  NSW  2474                     </Line2>\r\n      <Line3 xml:space=\"preserve\">
+        \                                       </Line3>\r\n      <TelephoneNumber>02
+        6632 1371 </TelephoneNumber>\r\n      <EmailAddress>fmkerwin@gmail.com                                                                                                              </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2017.00000093.002</ApplicationIdS>\r\n    </Party>\r\n
+        \ <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000050.001
+        </ApplicationId>\r\n    <ApplicationIdEscaped>010201900000050001</ApplicationIdEscaped>\r\n
+        \   <NatureOfApplication>Development Applications</NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Dwelling
+        Houses                         </Category>\r\n    <ReferenceNumber>010.2019.00000050.001
+        </ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>50</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
+        \   <ApplicationDetails>Dwelling Houses and Sheds Dwelling and Shed </ApplicationDetails>\r\n
+        \   <CreatedDate>2019-07-12T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-07-12T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>120000</EstimatedCost>\r\n    <DeterminationDate>2019-07-19T00:00:00+10:00</DeterminationDate>\r\n
+        \   <DeterminationType>Approved - Delegation                   </DeterminationType>\r\n
+        \   <DeterminationTypeCode1>1</DeterminationTypeCode1>\r\n    <DeterminationTypeCode>APPD</DeterminationTypeCode>\r\n
+        \   <AuthorityParty>Approved - Delegation                   </AuthorityParty>\r\n
+        \   <OfficerPh>6632 0211</OfficerPh>\r\n    <Officer>Lachlan Black</Officer>\r\n
+        \   <Title>Senior Town Planner                               </Title>\r\n
+        \   <Days>-7</Days>\r\n    <fmt_acc>010.2019.00000050.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <doc_yer>2019</doc_yer>\r\n    <doc_num>50</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
+        \   <CompressedApplicationId>DA50/2019</CompressedApplicationId>\r\n    <DivReferenceNumber>010201900000050001</DivReferenceNumber>\r\n
+        \   <ApplicationIdS>010.2019.00000050.001</ApplicationIdS>\r\n    <Determination>\r\n
+        \     <ApplicationId>010.2019.00000050.001 </ApplicationId>\r\n      <DeterminationDate>2019-07-19T00:00:00+10:00</DeterminationDate>\r\n
+        \     <DeterminationType>Approved - Delegation                   </DeterminationType>\r\n
+        \     <Officer>Lachlan Black</Officer>\r\n      <ApplicationIdS>010.2019.00000050.001</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>2292</PropertyId>\r\n
+        \     <ParcelId>2292</ParcelId>\r\n      <ApplicationId>010.2019.00000050.001
+        </ApplicationId>\r\n      <AssessmentId>10031090</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <StreetNumber1>30</StreetNumber1>\r\n      <str_nme>James                                   </str_nme>\r\n
+        \     <StreetType>ST  </StreetType>\r\n      <LocalityName>GENEVA</LocalityName>\r\n
+        \     <Postcode>2474      </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Suburb>GENEVA                             </Suburb>\r\n
+        \     <LotNumber>305                                     </LotNumber>\r\n
+        \     <PlanNumber>260861                                  </PlanNumber>\r\n
+        \     <FullLegalDescription>Lot: 305 DP: 260861                                         </FullLegalDescription>\r\n
+        \     <Area>945.3000</Area>\r\n      <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201900000050001</PDivReferenceNumber>\r\n      <StreetName>James
+        Street</StreetName>\r\n      <Line1>30 James Street</Line1>\r\n      <Line2>GENEVA
+        NSW 2474</Line2>\r\n      <ApplicationIdS>010.2019.00000050.001</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PersonId>174855</PersonId>\r\n      <ApplicationId>010.2019.00000050.001
+        \                            </ApplicationId>\r\n      <lnk_typ>1</lnk_typ>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FamilyName>Hayes Building
+        Consultancy                        </FamilyName>\r\n      <GivenName xml:space=\"preserve\">
+        </GivenName>\r\n      <Title>CO</Title>\r\n      <FullName> Hayes Building
+        Consultancy</FullName>\r\n      <Line1>PO Box 125                              </Line1>\r\n
+        \     <Line2>EVANS HEAD NSW  2473                    </Line2>\r\n      <Line3
+        xml:space=\"preserve\">                                        </Line3>\r\n
+        \     <TelephoneNumber> 0415620220</TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000050.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>177958</PersonId>\r\n      <ApplicationId>010.2019.00000050.001
+        \                            </ApplicationId>\r\n      <lnk_typ>7</lnk_typ>\r\n
+        \     <PartyRole>Owner</PartyRole>\r\n      <FamilyName>Mazzer                                            </FamilyName>\r\n
+        \     <GivenName>Roger Phillip</GivenName>\r\n      <Initial>R P  </Initial>\r\n
+        \     <Title>MR</Title>\r\n      <FullName> Mr R P Mazzer</FullName>\r\n      <Line1>30
+        James Street                         </Line1>\r\n      <Line2>GENEVA  NSW
+        \ 2474                       </Line2>\r\n      <Line3 xml:space=\"preserve\">
+        \                                       </Line3>\r\n      <TelephoneNumber
+        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <EmailAddress xml:space=\"preserve\">
+        \                                                                                                                               </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00000050.001</ApplicationIdS>\r\n    </Party>\r\n
+        \ <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000051.001
+        </ApplicationId>\r\n    <ApplicationIdEscaped>010201900000051001</ApplicationIdEscaped>\r\n
+        \   <NatureOfApplication>Development Applications</NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Dwelling
+        Houses                         </Category>\r\n    <ReferenceNumber>010.2019.00000051.001
+        </ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>51</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
+        \   <ApplicationDetails>Dwelling Houses Dwelling </ApplicationDetails>\r\n
+        \   <CreatedDate>2019-04-29T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-07-17T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>150000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
+        \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
+        \   <AuthorityParty xml:space=\"preserve\">                                        </AuthorityParty>\r\n
+        \   <OfficerPh>6632 0211</OfficerPh>\r\n    <Officer>Lachlan Black</Officer>\r\n
+        \   <Title>Senior Town Planner                               </Title>\r\n
+        \   <Days>-12</Days>\r\n    <fmt_acc>010.2019.00000051.001 </fmt_acc>\r\n
+        \   <doc_typ>10</doc_typ>\r\n    <doc_yer>2019</doc_yer>\r\n    <doc_num>51</doc_num>\r\n
+        \   <doc_prt>1</doc_prt>\r\n    <CompressedApplicationId>DA51/2019</CompressedApplicationId>\r\n
+        \   <DivReferenceNumber>010201900000051001</DivReferenceNumber>\r\n    <ApplicationIdS>010.2019.00000051.001</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>010.2019.00000051.001 </ApplicationId>\r\n
+        \     <Officer>Lachlan Black</Officer>\r\n      <ApplicationIdS>010.2019.00000051.001</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>6120</PropertyId>\r\n
+        \     <ParcelId>6120</ParcelId>\r\n      <ApplicationId>010.2019.00000051.001
+        </ApplicationId>\r\n      <AssessmentId>10040083</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <StreetNumber1>6159</StreetNumber1>\r\n      <str_nme>Bruxner                                 </str_nme>\r\n
+        \     <StreetType>HWY </StreetType>\r\n      <LocalityName>MUMMULGUM</LocalityName>\r\n
+        \     <Postcode>2469      </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Suburb>MUMMULGUM                          </Suburb>\r\n
+        \     <LotNumber>1                                       </LotNumber>\r\n
+        \     <PlanNumber>790137                                  </PlanNumber>\r\n
+        \     <FullLegalDescription>Lot: 1 DP: 790137                                           </FullLegalDescription>\r\n
+        \     <Area>7.0000</Area>\r\n      <AreaUnits>HECTARES                                </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201900000051001</PDivReferenceNumber>\r\n      <StreetName>Bruxner
+        Highway</StreetName>\r\n      <Line1>6159 Bruxner Highway</Line1>\r\n      <Line2>MUMMULGUM
+        NSW 2469</Line2>\r\n      <ApplicationIdS>010.2019.00000051.001</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PersonId>179011</PersonId>\r\n      <ApplicationId>010.2019.00000051.001
+        \                            </ApplicationId>\r\n      <lnk_typ>1</lnk_typ>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FamilyName>Simpson                                           </FamilyName>\r\n
+        \     <GivenName>Peter </GivenName>\r\n      <Initial>P    </Initial>\r\n
+        \     <Title>MR</Title>\r\n      <FullName> Mr P Simpson</FullName>\r\n      <Line1>Shop
+        6 22-24 Fischer Street             </Line1>\r\n      <Line2>GOONELLABAH  NSW
+        \ 2480                  </Line2>\r\n      <Line3 xml:space=\"preserve\">                                        </Line3>\r\n
+        \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <EmailAddress>gpcentre@bigpond.net.au
+        \                                                                                                        </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00000051.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>25244</PersonId>\r\n      <ApplicationId>010.2019.00000051.001
+        \                            </ApplicationId>\r\n      <lnk_typ>7</lnk_typ>\r\n
+        \     <PartyRole>Owner</PartyRole>\r\n      <FamilyName>Simpson                                           </FamilyName>\r\n
+        \     <GivenName>Margaret Joan</GivenName>\r\n      <Initial>M J  </Initial>\r\n
+        \     <Title>MS</Title>\r\n      <FullName> Ms M J Simpson</FullName>\r\n
+        \     <Line1>Shop 6                                  </Line1>\r\n      <Line2>22-24
+        Fischer Street                    </Line2>\r\n      <Line3>GOONELLABAH  NSW
+        \ 2480                  </Line3>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000051.001</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>010.2012.00000043.002 </ApplicationId>\r\n    <ApplicationIdEscaped>010201200000043002</ApplicationIdEscaped>\r\n
+        \   <NatureOfApplication>Development Applications</NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Subdivision
+        \                            </Category>\r\n    <ReferenceNumber>010.2012.00000043.002
+        </ReferenceNumber>\r\n    <ReferenceNumberYear>2012</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>43</ReferenceNumberNumber>\r\n    <Amendment>2</Amendment>\r\n
+        \   <ApplicationDetails>Subdivision </ApplicationDetails>\r\n    <LodgementDate>2019-07-19T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>0</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
+        \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
+        \   <AuthorityParty xml:space=\"preserve\">                                        </AuthorityParty>\r\n
+        \   <OfficerPh>6632 0211</OfficerPh>\r\n    <Officer>Lachlan Black</Officer>\r\n
+        \   <Title>Senior Town Planner                               </Title>\r\n
+        \   <Days>-10</Days>\r\n    <fmt_acc>010.2012.00000043.002 </fmt_acc>\r\n
+        \   <doc_typ>10</doc_typ>\r\n    <doc_yer>2012</doc_yer>\r\n    <doc_num>43</doc_num>\r\n
+        \   <doc_prt>2</doc_prt>\r\n    <CompressedApplicationId>DA43/2012.2</CompressedApplicationId>\r\n
+        \   <DivReferenceNumber>010201200000043002</DivReferenceNumber>\r\n    <ApplicationIdS>010.2012.00000043.002</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>010.2012.00000043.002 </ApplicationId>\r\n
+        \     <Officer>Lachlan Black</Officer>\r\n      <ApplicationIdS>010.2012.00000043.002</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>357</PropertyId>\r\n
+        \     <ParcelId>357</ParcelId>\r\n      <ApplicationId>010.2012.00000043.002
+        </ApplicationId>\r\n      <AssessmentId>10004964</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <str_nme>Duck Creek                              </str_nme>\r\n      <StreetType>RD
+        \ </StreetType>\r\n      <LocalityName>DUCK CREEK</LocalityName>\r\n      <Postcode>2469
+        \     </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Suburb>DUCK CREEK                         </Suburb>\r\n      <LotNumber>19
+        \                                     </LotNumber>\r\n      <PlanNumber>751050
+        \                                 </PlanNumber>\r\n      <FullLegalDescription>Lot:
+        19 DP: 751050                                          </FullLegalDescription>\r\n
+        \     <Area>0.0000</Area>\r\n      <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201200000043002</PDivReferenceNumber>\r\n      <StreetName>Duck
+        Creek Road</StreetName>\r\n      <Line1> Duck Creek Road</Line1>\r\n      <Line2>DUCK
+        CREEK NSW 2469</Line2>\r\n      <ApplicationIdS>010.2012.00000043.002</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>4363</PropertyId>\r\n
+        \     <ParcelId>4363</ParcelId>\r\n      <ApplicationId>010.2012.00000043.002
+        </ApplicationId>\r\n      <AssessmentId>10004964</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <StreetNumber1>939</StreetNumber1>\r\n      <str_nme>Duck Creek                              </str_nme>\r\n
+        \     <StreetType>RD  </StreetType>\r\n      <LocalityName>DUCK CREEK</LocalityName>\r\n
+        \     <Postcode>2469      </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Suburb>DUCK CREEK                         </Suburb>\r\n
+        \     <LotNumber>2                                       </LotNumber>\r\n
+        \     <PlanNumber>709493                                  </PlanNumber>\r\n
+        \     <FullLegalDescription>Lot: 2 DP: 709493                                           </FullLegalDescription>\r\n
+        \     <Area>0.0000</Area>\r\n      <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201200000043002</PDivReferenceNumber>\r\n      <StreetName>Duck
+        Creek Road</StreetName>\r\n      <Line1>939 Duck Creek Road</Line1>\r\n      <Line2>DUCK
+        CREEK NSW 2469</Line2>\r\n      <ApplicationIdS>010.2012.00000043.002</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>4364</PropertyId>\r\n
+        \     <ParcelId>4364</ParcelId>\r\n      <ApplicationId>010.2012.00000043.002
+        </ApplicationId>\r\n      <AssessmentId>10004964</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <StreetNumber1>1097</StreetNumber1>\r\n      <str_nme>Duck Creek                              </str_nme>\r\n
+        \     <StreetType>RD  </StreetType>\r\n      <LocalityName>DUCK CREEK</LocalityName>\r\n
+        \     <Postcode>2469      </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Suburb>DUCK CREEK                         </Suburb>\r\n
+        \     <LotNumber>46                                      </LotNumber>\r\n
+        \     <PlanNumber>751050                                  </PlanNumber>\r\n
+        \     <FullLegalDescription>Lot: 46 DP: 751050                                          </FullLegalDescription>\r\n
+        \     <Area>0.0000</Area>\r\n      <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201200000043002</PDivReferenceNumber>\r\n      <StreetName>Duck
+        Creek Road</StreetName>\r\n      <Line1>1097 Duck Creek Road</Line1>\r\n      <Line2>DUCK
+        CREEK NSW 2469</Line2>\r\n      <ApplicationIdS>010.2012.00000043.002</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>4365</PropertyId>\r\n
+        \     <ParcelId>4365</ParcelId>\r\n      <ApplicationId>010.2012.00000043.002
+        </ApplicationId>\r\n      <AssessmentId>10004964</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <str_nme>Duck Creek                              </str_nme>\r\n      <StreetType>RD
+        \ </StreetType>\r\n      <LocalityName>DUCK CREEK</LocalityName>\r\n      <Postcode>2469
+        \     </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Suburb>DUCK CREEK                         </Suburb>\r\n      <LotNumber>61
+        \                                     </LotNumber>\r\n      <PlanNumber>751050
+        \                                 </PlanNumber>\r\n      <FullLegalDescription>Lot:
+        61 DP: 751050                                          </FullLegalDescription>\r\n
+        \     <Area>0.0000</Area>\r\n      <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201200000043002</PDivReferenceNumber>\r\n      <StreetName>Duck
+        Creek Road</StreetName>\r\n      <Line1> Duck Creek Road</Line1>\r\n      <Line2>DUCK
+        CREEK NSW 2469</Line2>\r\n      <ApplicationIdS>010.2012.00000043.002</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>4366</PropertyId>\r\n
+        \     <ParcelId>4366</ParcelId>\r\n      <ApplicationId>010.2012.00000043.002
+        </ApplicationId>\r\n      <AssessmentId>10004964</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <str_nme>Duck Creek                              </str_nme>\r\n      <StreetType>RD
+        \ </StreetType>\r\n      <LocalityName>DUCK CREEK</LocalityName>\r\n      <Postcode>2469
+        \     </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Suburb>DUCK CREEK                         </Suburb>\r\n      <LotNumber>62
+        \                                     </LotNumber>\r\n      <PlanNumber>751050
+        \                                 </PlanNumber>\r\n      <FullLegalDescription>Lot:
+        62 DP: 751050                                          </FullLegalDescription>\r\n
+        \     <Area>0.0000</Area>\r\n      <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201200000043002</PDivReferenceNumber>\r\n      <StreetName>Duck
+        Creek Road</StreetName>\r\n      <Line1> Duck Creek Road</Line1>\r\n      <Line2>DUCK
+        CREEK NSW 2469</Line2>\r\n      <ApplicationIdS>010.2012.00000043.002</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>4367</PropertyId>\r\n
+        \     <ParcelId>4367</ParcelId>\r\n      <ApplicationId>010.2012.00000043.002
+        </ApplicationId>\r\n      <AssessmentId>10004964</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <str_nme>Duck Creek                              </str_nme>\r\n      <StreetType>RD
+        \ </StreetType>\r\n      <LocalityName>DUCK CREEK</LocalityName>\r\n      <Postcode>2469
+        \     </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Suburb>DUCK CREEK                         </Suburb>\r\n      <LotNumber>76
+        \                                     </LotNumber>\r\n      <PlanNumber>751050
+        \                                 </PlanNumber>\r\n      <FullLegalDescription>Lot:
+        76 DP: 751050                                          </FullLegalDescription>\r\n
+        \     <Area>0.0000</Area>\r\n      <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201200000043002</PDivReferenceNumber>\r\n      <StreetName>Duck
+        Creek Road</StreetName>\r\n      <Line1> Duck Creek Road</Line1>\r\n      <Line2>DUCK
+        CREEK NSW 2469</Line2>\r\n      <ApplicationIdS>010.2012.00000043.002</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>4368</PropertyId>\r\n
+        \     <ParcelId>4368</ParcelId>\r\n      <ApplicationId>010.2012.00000043.002
+        </ApplicationId>\r\n      <AssessmentId>10004964</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <str_nme>Duck Creek                              </str_nme>\r\n      <StreetType>RD
+        \ </StreetType>\r\n      <LocalityName>DUCK CREEK</LocalityName>\r\n      <Postcode>2469
+        \     </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Suburb>DUCK CREEK                         </Suburb>\r\n      <LotNumber>77
+        \                                     </LotNumber>\r\n      <PlanNumber>751050
+        \                                 </PlanNumber>\r\n      <FullLegalDescription>Lot:
+        77 DP: 751050                                          </FullLegalDescription>\r\n
+        \     <Area>0.0000</Area>\r\n      <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201200000043002</PDivReferenceNumber>\r\n      <StreetName>Duck
+        Creek Road</StreetName>\r\n      <Line1> Duck Creek Road</Line1>\r\n      <Line2>DUCK
+        CREEK NSW 2469</Line2>\r\n      <ApplicationIdS>010.2012.00000043.002</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>4369</PropertyId>\r\n
+        \     <ParcelId>4369</ParcelId>\r\n      <ApplicationId>010.2012.00000043.002
+        </ApplicationId>\r\n      <AssessmentId>10004964</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <str_nme>Duck Creek                              </str_nme>\r\n      <StreetType>RD
+        \ </StreetType>\r\n      <LocalityName>DUCK CREEK</LocalityName>\r\n      <Postcode>2469
+        \     </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Suburb>DUCK CREEK                         </Suburb>\r\n      <LotNumber>97
+        \                                     </LotNumber>\r\n      <PlanNumber>751050
+        \                                 </PlanNumber>\r\n      <FullLegalDescription>Lot:
+        97 DP: 751050                                          </FullLegalDescription>\r\n
+        \     <Area>0.0000</Area>\r\n      <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201200000043002</PDivReferenceNumber>\r\n      <StreetName>Duck
+        Creek Road</StreetName>\r\n      <Line1> Duck Creek Road</Line1>\r\n      <Line2>DUCK
+        CREEK NSW 2469</Line2>\r\n      <ApplicationIdS>010.2012.00000043.002</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PersonId>10202</PersonId>\r\n      <ApplicationId>010.2012.00000043.002
+        \                            </ApplicationId>\r\n      <lnk_typ>1</lnk_typ>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FamilyName>Riordans Consulting
+        Surveyors                     </FamilyName>\r\n      <GivenName xml:space=\"preserve\">
+        </GivenName>\r\n      <Title>CO</Title>\r\n      <FullName> Riordans Consulting
+        Surveyors</FullName>\r\n      <Line1>Po Box 4053                             </Line1>\r\n
+        \     <Line2>Goonellabah NSW  2480                   </Line2>\r\n      <Line3
+        xml:space=\"preserve\">                                        </Line3>\r\n
+        \     <TelephoneNumber> 6622 2112</TelephoneNumber>\r\n      <EmailAddress>info@surveyor.com.au
+        \                                                                                                           </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2012.00000043.002</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>20351</PersonId>\r\n      <ApplicationId>010.2012.00000043.002
+        \                            </ApplicationId>\r\n      <lnk_typ>7</lnk_typ>\r\n
+        \     <PartyRole>Owner</PartyRole>\r\n      <FamilyName>Barrett                                           </FamilyName>\r\n
+        \     <GivenName>Stephen Richard</GivenName>\r\n      <Initial>S R  </Initial>\r\n
+        \     <Title>MR</Title>\r\n      <FullName> Mr S R Barrett</FullName>\r\n
+        \     <Line1>Duck Creek Road                         </Line1>\r\n      <Line2>OLD
+        BONALBO  NSW  2469                  </Line2>\r\n      <Line3 xml:space=\"preserve\">
+        \                                       </Line3>\r\n      <TelephoneNumber>
+        653226</TelephoneNumber>\r\n      <ApplicationIdS>010.2012.00000043.002</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>010.2016.00000067.002 </ApplicationId>\r\n    <ApplicationIdEscaped>010201600000067002</ApplicationIdEscaped>\r\n
+        \   <NatureOfApplication>Development Applications</NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Backpacker's
+        Accommodation              </Category>\r\n    <ReferenceNumber>010.2016.00000067.002
+        </ReferenceNumber>\r\n    <ReferenceNumberYear>2016</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>67</ReferenceNumberNumber>\r\n    <Amendment>2</Amendment>\r\n
+        \   <ApplicationDetails>Backpacker's Accommodation </ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-20T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-07-26T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>150000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
+        \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
+        \   <AuthorityParty xml:space=\"preserve\">                                        </AuthorityParty>\r\n
+        \   <OfficerPh>6632 0211</OfficerPh>\r\n    <Officer>Lachlan Black</Officer>\r\n
+        \   <Title>Senior Town Planner                               </Title>\r\n
+        \   <Days>-3</Days>\r\n    <fmt_acc>010.2016.00000067.002 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <doc_yer>2016</doc_yer>\r\n    <doc_num>67</doc_num>\r\n    <doc_prt>2</doc_prt>\r\n
+        \   <CompressedApplicationId>DA67/2016.2</CompressedApplicationId>\r\n    <DivReferenceNumber>010201600000067002</DivReferenceNumber>\r\n
+        \   <ApplicationIdS>010.2016.00000067.002</ApplicationIdS>\r\n    <Determination>\r\n
+        \     <ApplicationId>010.2016.00000067.002 </ApplicationId>\r\n      <Officer>Lachlan
+        Black</Officer>\r\n      <ApplicationIdS>010.2016.00000067.002</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>877</PropertyId>\r\n
+        \     <ParcelId>877</ParcelId>\r\n      <ApplicationId>010.2016.00000067.002
+        </ApplicationId>\r\n      <AssessmentId>10013239</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <StreetNumber1>968</StreetNumber1>\r\n      <str_nme>Tabulam                                 </str_nme>\r\n
+        \     <StreetType>RD  </StreetType>\r\n      <LocalityName>JACKSONS FLAT</LocalityName>\r\n
+        \     <Postcode>2469      </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Suburb>JACKSONS FLAT
+        \                     </Suburb>\r\n      <LotNumber>46                                      </LotNumber>\r\n
+        \     <PlanNumber>751062                                  </PlanNumber>\r\n
+        \     <FullLegalDescription>Lot: 46 DP: 751062                                          </FullLegalDescription>\r\n
+        \     <Area>108.0800</Area>\r\n      <AreaUnits>HECTARES                                </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201600000067002</PDivReferenceNumber>\r\n      <StreetName>Tabulam
+        Road</StreetName>\r\n      <Line1>968 Tabulam Road</Line1>\r\n      <Line2>JACKSONS
+        FLAT NSW 2469</Line2>\r\n      <ApplicationIdS>010.2016.00000067.002</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PersonId>176331</PersonId>\r\n      <ApplicationId>010.2016.00000067.002
+        \                            </ApplicationId>\r\n      <lnk_typ>1</lnk_typ>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FamilyName>River Run Holdings
+        Pty Ltd                        </FamilyName>\r\n      <GivenName xml:space=\"preserve\">
+        </GivenName>\r\n      <Title>CO</Title>\r\n      <FullName> River Run Holdings
+        Pty Ltd</FullName>\r\n      <Line1>C/- Greg Alderson &amp; Associates          </Line1>\r\n
+        \     <Line2>133 Scarrabelottis Road                 </Line2>\r\n      <Line3>NASHUA
+        NSW  2479                        </Line3>\r\n      <TelephoneNumber> 6629
+        1552</TelephoneNumber>\r\n      <EmailAddress>office@aldersonassociates.com.au
+        \                                                                                               </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2016.00000067.002</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>175614</PersonId>\r\n      <ApplicationId>010.2016.00000067.002
+        \                            </ApplicationId>\r\n      <lnk_typ>7</lnk_typ>\r\n
+        \     <PartyRole>Owner</PartyRole>\r\n      <FamilyName>River Run Holding
+        Pty Ltd                         </FamilyName>\r\n      <GivenName xml:space=\"preserve\">
+        </GivenName>\r\n      <Title>CO</Title>\r\n      <FullName> River Run Holding
+        Pty Ltd</FullName>\r\n      <Line1>PO Box 6001                             </Line1>\r\n
+        \     <Line2>South Lismore NSW  2480                 </Line2>\r\n      <Line3
+        xml:space=\"preserve\">                                        </Line3>\r\n
+        \     <TelephoneNumber>6624 6080 6624 8258</TelephoneNumber>\r\n      <ApplicationIdS>010.2016.00000067.002</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>010.2019.00000052.001 </ApplicationId>\r\n    <ApplicationIdEscaped>010201900000052001</ApplicationIdEscaped>\r\n
+        \   <NatureOfApplication>Development Applications</NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Dwelling
+        As Built                       </Category>\r\n    <ReferenceNumber>010.2019.00000052.001
+        </ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>52</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
+        \   <ApplicationDetails>Dwelling As Built Dwelling As Built </ApplicationDetails>\r\n
+        \   <CreatedDate>2019-07-26T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-07-26T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>50000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
+        \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
+        \   <AuthorityParty xml:space=\"preserve\">                                        </AuthorityParty>\r\n
+        \   <OfficerPh>6632 0211</OfficerPh>\r\n    <Officer>Lachlan Black</Officer>\r\n
+        \   <Title>Senior Town Planner                               </Title>\r\n
+        \   <Days>-3</Days>\r\n    <fmt_acc>010.2019.00000052.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <doc_yer>2019</doc_yer>\r\n    <doc_num>52</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
+        \   <CompressedApplicationId>DA52/2019</CompressedApplicationId>\r\n    <DivReferenceNumber>010201900000052001</DivReferenceNumber>\r\n
+        \   <ApplicationIdS>010.2019.00000052.001</ApplicationIdS>\r\n    <Determination>\r\n
+        \     <ApplicationId>010.2019.00000052.001 </ApplicationId>\r\n      <Officer>Lachlan
+        Black</Officer>\r\n      <ApplicationIdS>010.2019.00000052.001</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>1001489</PropertyId>\r\n
+        \     <ParcelId>1001489</ParcelId>\r\n      <ApplicationId>010.2019.00000052.001
+        </ApplicationId>\r\n      <AssessmentId>10083729</AssessmentId>\r\n      <Status>R</Status>\r\n
+        \     <StreetNumber1>285</StreetNumber1>\r\n      <str_nme>Ferndale                                </str_nme>\r\n
+        \     <StreetType>RD  </StreetType>\r\n      <LocalityName>LYNCHS CREEK</LocalityName>\r\n
+        \     <Postcode>2474      </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Suburb>LYNCHS CREEK                       </Suburb>\r\n
+        \     <LotNumber>21                                      </LotNumber>\r\n
+        \     <PlanNumber>1102842                                 </PlanNumber>\r\n
+        \     <FullLegalDescription>Lot: 21 DP: 1102842                                                                                 </FullLegalDescription>\r\n
+        \     <Area>2.0530</Area>\r\n      <AreaUnits>HECTARES                                </AreaUnits>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <PropertySequence>0</PropertySequence>\r\n
+        \     <PDivReferenceNumber>P010201900000052001</PDivReferenceNumber>\r\n      <StreetName>Ferndale
+        Road</StreetName>\r\n      <Line1>285 Ferndale Road</Line1>\r\n      <Line2>LYNCHS
+        CREEK NSW 2474</Line2>\r\n      <ApplicationIdS>010.2019.00000052.001</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PersonId>177379</PersonId>\r\n      <ApplicationId>010.2019.00000052.001
+        \                            </ApplicationId>\r\n      <lnk_typ>1</lnk_typ>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FamilyName>French                                            </FamilyName>\r\n
+        \     <GivenName>Dana Rose</GivenName>\r\n      <Initial>D R  </Initial>\r\n
+        \     <Title>MS</Title>\r\n      <FullName> Ms D R French</FullName>\r\n      <Line1>Po
+        Box 666                              </Line1>\r\n      <Line2>KYOGLE NSW  2474
+        \                       </Line2>\r\n      <Line3 xml:space=\"preserve\">                                        </Line3>\r\n
+        \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000052.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>177379</PersonId>\r\n      <ApplicationId>010.2019.00000052.001
+        \                            </ApplicationId>\r\n      <lnk_typ>7</lnk_typ>\r\n
+        \     <PartyRole>Owner</PartyRole>\r\n      <FamilyName>French                                            </FamilyName>\r\n
+        \     <GivenName>Dana Rose</GivenName>\r\n      <Initial>D R  </Initial>\r\n
+        \     <Title>MS</Title>\r\n      <FullName> Ms D R French</FullName>\r\n      <Line1>Po
+        Box 666                              </Line1>\r\n      <Line2>KYOGLE NSW  2474
+        \                       </Line2>\r\n      <Line3 xml:space=\"preserve\">                                        </Line3>\r\n
+        \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000052.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>179056</PersonId>\r\n      <ApplicationId>010.2019.00000052.001
+        \                            </ApplicationId>\r\n      <lnk_typ>7</lnk_typ>\r\n
+        \     <PartyRole>Owner</PartyRole>\r\n      <FamilyName>Vasterink                                         </FamilyName>\r\n
+        \     <GivenName>Justin </GivenName>\r\n      <Initial>J    </Initial>\r\n
+        \     <Title>MR</Title>\r\n      <FullName> Mr J Vasterink</FullName>\r\n
+        \     <Line1>PO Box 666                              </Line1>\r\n      <Line2>KYOGLE
+        \ NSW  2474                       </Line2>\r\n      <Line3 xml:space=\"preserve\">
+        \                                       </Line3>\r\n      <TelephoneNumber
+        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000052.001</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n</NewDataSet>"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+recorded_with: VCR 5.0.0
