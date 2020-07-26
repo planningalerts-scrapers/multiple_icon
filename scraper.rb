@@ -7,7 +7,7 @@ require "icon_scraper"
 
 def scrape(authorities)
   exceptions = {}
-  authorities.each_key do |authority_label|
+  authorities.each do |authority_label|
     puts "\nCollecting feed data for #{authority_label}..."
 
     begin
