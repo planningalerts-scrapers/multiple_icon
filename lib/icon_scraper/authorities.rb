@@ -33,7 +33,7 @@ module IconScraper
       ssl_verify: false
     },
     cumberland: {
-      url: "http://eplanning.cumberland.nsw.gov.au/Pages/XC.Track",
+      url: "https://cumberland-eplanning.t1cloud.com/Pages/XC.Track",
       period: "last14days"
     },
     coffs_harbour: {
