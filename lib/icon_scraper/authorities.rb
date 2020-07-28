@@ -32,6 +32,10 @@ module IconScraper
       period: "last14days",
       ssl_verify: false
     },
+    cumberland: {
+      url: "http://eplanning.cumberland.nsw.gov.au/Pages/XC.Track",
+      period: "last14days"
+    },
     coffs_harbour: {
       url: "https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track",
       period: "last14days"
