@@ -53,11 +53,6 @@ module IconScraper
       url: "http://apps.gosnells.wa.gov.au/ICON/Pages/XC.Track",
       period: "last14days"
     },
-    greater_taree: {
-      url: "http://icon.gtcc.nsw.gov.au/eplanning/Pages/XC.Track",
-      period: "last14days",
-      types: [290]
-    },
     hobart: {
       url: "https://apply.hobartcity.com.au/Pages/XC.Track",
       period: "last14days",
