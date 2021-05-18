@@ -2,6 +2,10 @@
 
 module IconScraper
   AUTHORITIES = {
+    mackay: {
+      url: "https://planning.mackay.qld.gov.au/Pages/XC.Track",
+      period: "last28days"
+    },
     georges_river: {
       url: "https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track",
       period: "thismonth"
