@@ -1,259 +1,215 @@
 ---
-- council_reference: 0001/21DA
-  description: New Dwelling, shed and pool - Proposed Lot 30
-  date_received: '2020-07-01'
-  address: MOONEE BEACH ROAD, MOONEE BEACH NSW 2450
+- council_reference: '0159/21DM'
+  description: S4.55 (2) - Development Modification
+  date_received: '2021-05-06'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284435
-- council_reference: 0001/21DM
-  description: Vehicle Sales or Hire Premises - Replace the relocatable amenities
-    building with a constructed building
-  date_received: '2020-07-03'
-  address: 6 B NORTH BOAMBEE ROAD, NORTH BOAMBEE VALLEY NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306689
+- council_reference: 0160/21DM
+  description: demolition of existing shed, construction of new single storey shed
+    with carport attached on a concrete slab
+  date_received: '2021-05-06'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284613
-- council_reference: 0002/21DA
-  description: Dwelling-Alteration (Replace timber fencing with concrete block wall)
-  date_received: '2020-07-01'
-  address: 9 LAKESIDE DRIVE, SAPPHIRE BEACH NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306690
+- council_reference: 0162/21DM
+  description: S4.55(1A) - Removal of condition 9 and 13
+  date_received: '2021-05-09'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284468
-- council_reference: 0002/21DM
-  description: Request to extend the pad level height and add retaining wall
-  date_received: '2020-07-07'
-  address: 28 B RUTLAND STREET, BONVILLE NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306842
+- council_reference: 0164/21DM
+  description: S4.55(2) Modification - Garage, Studio and Outdoor Alfresco Additions
+  date_received: '2021-05-10'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284823
-- council_reference: 0003/21DA
-  description: Dual Occupancy-New Free Stand Granny Flat
-  date_received: '2020-07-01'
-  address: 41 PINE CRESCENT, SANDY BEACH NSW 2456
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306980
+- council_reference: 0165/21DM
+  description: dwelling additions and alterations
+  date_received: '2021-05-12'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284477
-- council_reference: 0003/21DM
-  description: Development Application Modification - Relocating dwelling & conversion
-    of existing dwelling to secondary dwelling.
-  date_received: '2020-07-07'
-  address: 121 FIRST AVENUE, SAWTELL NSW 2452
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307204
+- council_reference: 0166/21DM
+  description: S4.55 ( 1) - Moving The Swimming Pool 300mm
+  date_received: '2021-05-13'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284850
-- council_reference: 0004/21DA
-  description: Dwelling-New (Demolition Existing Dwelling / New Single Storey)
-  date_received: '2020-07-02'
-  address: 81 CIRCULAR AVENUE, SAWTELL NSW 2452
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307270
+- council_reference: 0167/21DM
+  description: S4.55 (1a) Modification Size and changes to Internal Walls
+  date_received: '2021-05-13'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284495
-- council_reference: 0005/21DA
-  description: Dwelling House
-  date_received: '2020-07-02'
-  address: JOHNSONS ROAD, SANDY BEACH NSW 2456
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307296
+- council_reference: 1003/21DA
+  description: Change of Use from 'Office associated with Recreation Facility' to
+    Home Business
+  date_received: '2021-05-05'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284500
-- council_reference: 0006/21DA
-  description: Carport ancilliary to a dwelling
-  date_received: '2020-07-02'
-  address: 10 PALM TREES DRIVE, BOAMBEE EAST NSW 2452
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306574
+- council_reference: 1005/21DA
+  description: Construction of a steel shed on concrete slab.
+  date_received: '2021-05-06'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284503
-- council_reference: 0007/21DA
-  description: Subdivision (2 Lots - Torrens Title)
-  date_received: '2020-07-02'
-  address: 1555 BUCCA ROAD, NANA GLEN NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306738
+- council_reference: 1007/21DA
+  description: The proposal includes the conversion of part of the roof space into
+    a recordings studio plus the addition of a street facing awning.
+  date_received: '2021-05-07'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284513
-- council_reference: '0008/21DA'
-  description: Subdivision-2 Lots
-  date_received: '2020-07-02'
-  address: 68 - 70 NEWMANS ROAD, WOOLGOOLGA NSW 2456
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306756
+- council_reference: 1010/21DA
+  description: Extension of living area and new covered patio
+  date_received: '2021-05-07'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284533
-- council_reference: '0009/21DA'
-  description: Dwelling-New
-  date_received: '2020-07-02'
-  address: 141 CENTRAL BUCCA ROAD, BUCCA NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306771
+- council_reference: 1011/21DA
+  description: Continued of converstion of garage to two bedrooms and new attached
+    awning and carport
+  date_received: '2021-05-07'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284547
-- council_reference: 0010/21DA
-  description: Change of Land Use D/A - Neue Skin Clinic (formerly Chi Rejuvination
-    Clinic)
-  date_received: '2020-07-03'
-  address: 361 HARBOUR DRIVE, COFFS HARBOUR NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306815
+- council_reference: 1012/21DA
+  description: Conversion of carport to garage
+  date_received: '2021-05-07'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284589
-- council_reference: 0011/21DA
-  description: Dwelling-New
-  date_received: '2020-07-06'
-  address: 10 JACKWOOD GROVE, BOAMBEE EAST NSW 2452
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306831
+- council_reference: 1013/21DA
+  description: Steel Portal Frame Structure 8m span x 8m long, consisting of 2 bays
+    at 4m spacing, attached to rear of house.
+  date_received: '2021-05-07'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284673
-- council_reference: 0012/21DA
-  description: Dwelling-New
-  date_received: '2020-07-06'
-  address: 64 A KING STREET, COFFS HARBOUR NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306836
+- council_reference: 1014/21DA
+  description: Inground swimming pool & landscaping
+  date_received: '2021-05-08'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284678
-- council_reference: 0013/21DA
-  description: Dwelling-CONTINUAL USE Addition Rear Deck & Front Carport
-  date_received: '2020-07-06'
-  address: 5 HUGHES CLOSE, COFFS HARBOUR NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306837
+- council_reference: 1015/21DA
+  description: inground fibreglass pool and landscaping
+  date_received: '2021-05-08'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284679
-- council_reference: 0014/21DA
-  description: Dwelling-Addition - VERANDAH ADDITION - CONVERT CARPORT OT GARAGE
-  date_received: '2020-07-06'
-  address: 73 BLUFF ROAD, EMERALD BEACH NSW 2456
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306838
+- council_reference: 1016/21DA
+  description: New construction of Timber deck with roof
+  date_received: '2021-05-10'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284729
-- council_reference: 0015/21DA
-  description: Dwelling-Addition
-  date_received: '2020-07-07'
-  address: 5 MORRISON CLOSE, COFFS HARBOUR NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306843
+- council_reference: 1018/21DA
+  description: Swimming Pool
+  date_received: '2021-05-10'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284826
-- council_reference: 0016/21DA
-  description: Dwelling-Addition - Carport
-  date_received: '2020-07-07'
-  address: 64 SHEPHARDS LANE, COFFS HARBOUR NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306912
+- council_reference: 1019/21DA
+  description: Construction of single storey 2 bedroom residential dwelling
+  date_received: '2021-05-10'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284846
-- council_reference: 0017/21DA
-  description: Swimming Pool-Inground
-  date_received: '2020-07-08'
-  address: 43 PINE CRESCENT, SANDY BEACH NSW 2456
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=306969
+- council_reference: 1020/21DA
+  description: secondary dwelling
+  date_received: '2021-05-11'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284907
-- council_reference: '0018/21DA'
-  description: Dwelling-New
-  date_received: '2020-07-08'
-  address: 284 A NORTH BONVILLE ROAD, BONVILLE NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307003
+- council_reference: 1021/21DA
+  description: Steel Shed with Concrete slab
+  date_received: '2021-05-11'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284914
-- council_reference: '0019/21DA'
-  description: Outbuilding-New Shed with toilet and shower
-  date_received: '2020-07-08'
-  address: 11 MEADOW STREET, COFFS HARBOUR NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307012
+- council_reference: 1022/21DA
+  description: PATIO TO EXISTING SLAB
+  date_received: '2021-05-11'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284919
-- council_reference: 0020/21DA
-  description: Dwelling-New
-  date_received: '2020-07-08'
-  address: 29 STROUDS ROAD, BONVILLE NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307030
+- council_reference: 1023/21DA
+  description: Additions & Renovations to existing residence and construction of a
+    Granny Flat
+  date_received: '2021-05-11'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284941
-- council_reference: 0021/21DA
-  description: Swimming Pool-Inground (38,000 LITRES)
-  date_received: '2020-07-08'
-  address: 37 LOPHOSTEMON DRIVE, NORTH BOAMBEE VALLEY NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307038
+- council_reference: 1025/21DA
+  description: Installation of 13,700ltr plunge pool & filtration equipment, side
+    access for trailer parking with driveway, extend patio area, pathways
+  date_received: '2021-05-11'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284942
-- council_reference: 0022/21DA
-  description: Dwelling-Addition and Alteration
-  date_received: '2020-07-08'
-  address: 7 ARTHUR STREET, WOOLGOOLGA NSW 2456
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307092
+- council_reference: 1026/21DA
+  description: SILK LASER CLINICS currently exists in Shop 2 Park Beach Plaza and
+    is undergoing some expansion plans to increase our capacity. We are increasing
+    from from 5 treatments rooms to 9 and increasing our staff training facilities
+    and retail space. Creating a new space and upgrading existing clinic
+  date_received: '2021-05-11'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284944
-- council_reference: 0171/20DM
-  description: Development Application Modification - Inclusion of Patio and Storage
-  date_received: '2020-06-29'
-  address: 124 GRAFTON STREET, NANA GLEN NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307113
+- council_reference: 1030/21DA
+  description: Single Storey, five bedroom, 2 1/2 bathroom residential dwelling
+  date_received: '2021-05-13'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284292
-- council_reference: '0908/20DA'
-  description: Continued use (Retaining Wall)
-  date_received: '2020-06-25'
-  address: 15 PARKER CLOSE, WOOLGOOLGA NSW 2456
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307250
+- council_reference: 1031/21DA
+  description: SPLIT GABLE PATIO
+  date_received: '2021-05-13'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284072
-- council_reference: '0909/20DA'
-  description: Dwelling
-  date_received: '2020-06-25'
-  address: GRAFTON STREET, LOWANNA NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307253
+- council_reference: 1032/21DA
+  description: construction of steel shed on concrete slab
+  date_received: '2021-05-13'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284079
-- council_reference: '0910/20DA'
-  description: Subdivision (2 lots - Torrens Title)
-  date_received: '2020-06-25'
-  address: 14 CORAMBA ROAD, COFFS HARBOUR NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307328
+- council_reference: 1034/21DA
+  description: Construction of a  2 story home with single garage and carport.
+  date_received: '2021-05-14'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284084
-- council_reference: '0911/20DA'
-  description: Swimming Pool-Inground - 19,000 INGROUND
-  date_received: '2020-06-26'
-  address: 12 HEADLAND ROAD, SAPPHIRE BEACH NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307378
+- council_reference: 1035/21DA
+  description: Dwelling addition & alterations
+  date_received: '2021-05-14'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284139
-- council_reference: '0912/20DA'
-  description: Swimming Pool-Inground - 30,000 inground
-  date_received: '2020-06-26'
-  address: 97 BAILEY AVENUE, COFFS HARBOUR NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307398
+- council_reference: 1036/21DA
+  description: Swimming Pool and decking
+  date_received: '2021-05-14'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284141
-- council_reference: '0913/20DA'
-  description: Secondary Dwelling and Carport
-  date_received: '2020-06-26'
-  address: 69 EMERALD HEIGHTS DRIVE, EMERALD BEACH NSW 2456
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307420
+- council_reference: 1037/21DA
+  description: Deck
+  date_received: '2021-05-14'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284147
-- council_reference: '0914/20DA'
-  description: Dwelling and Swimming Pool
-  date_received: '2020-06-26'
-  address: 553 SOLITARY ISLANDS WAY, MOONEE BEACH NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307424
+- council_reference: 1038/21DA
+  description: Carport
+  date_received: '2021-05-14'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284178
-- council_reference: '0915/20DA'
-  description: Swimming Pool-Inground -27,600 litres
-  date_received: '2020-06-29'
-  address: 28 ROVERE DRIVE, COFFS HARBOUR NSW 2450
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307427
+- council_reference: 1039/21DA
+  description: Construction of single storey dwelling
+  date_received: '2021-05-14'
+  address: 282 EAST BANK ROAD, CORAMBA NSW 2450
   date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284219
-- council_reference: '0916/20DA'
-  description: Group Home (change of use from dual occupancy)
-  date_received: '2020-06-29'
-  address: 12 RINGTAIL CLOSE, BOAMBEE EAST NSW 2452
-  date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284291
-- council_reference: '0917/20DA'
-  description: Dwelling-Addition - Carport
-  date_received: '2020-06-29'
-  address: 22 DORRIGO STREET, CORAMBA NSW 2450
-  date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284296
-- council_reference: '0918/20DA'
-  description: Seniors Housing (Independent Living Units - 16 self-contained dwellings
-    in Building A and 57 self-contained dwellings in Building B, including alterations
-    to existing buildings to enclose the car parking and provide fire services required
-    under National Construction Code)
-  date_received: '2020-06-29'
-  address: ARTHUR STREET, COFFS HARBOUR NSW 2450
-  date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284306
-- council_reference: '0919/20DA'
-  description: Relocated Dwelling (detached Dual Occupancy)
-  date_received: '2020-06-30'
-  address: 52 SAWTELL ROAD, TOORMINA NSW 2452
-  date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284357
-- council_reference: '0920/20DA'
-  description: Dwelling-Addition (Bedroom, Ensuites and WIR)
-  date_received: '2020-06-30'
-  address: 17 SIXTEENTH AVENUE, SAWTELL NSW 2452
-  date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284361
-- council_reference: '0921/20DA'
-  description: Dwelling-Addition (Covered Deck)
-  date_received: '2020-06-30'
-  address: 10 WALLACE CIRCUIT, NORTH BOAMBEE VALLEY NSW 2450
-  date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284362
-- council_reference: '0922/20DA'
-  description: Swimming Pool-Inground (57,600 litres)
-  date_received: '2020-06-30'
-  address: 77 LAKE RUSSELL DRIVE, EMERALD BEACH NSW 2456
-  date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284365
-- council_reference: '0923/20DA'
-  description: Dwelling alterations and additions
-  date_received: '2020-06-30'
-  address: 27 SAPPHIRE CRESCENT, SAPPHIRE BEACH NSW 2450
-  date_scraped: '2019-05-15'
-  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=284377
+  info_url: https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track/SearchApplication.aspx?id=307450

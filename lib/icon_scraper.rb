@@ -60,11 +60,21 @@ module IconScraper
     root.search("Application").each do |application|
       council_reference = application.at("ReferenceNumber").inner_text.strip
 
-      unless application.at("Address Line1")
+      application_id = application.at("ApplicationId").inner_text.strip
+
+      # For some reason Coffs Harbour isn't wrapping the address in an <Address>
+      line1 = application.at("Address Line1") || application.at("Line1")
+      line2 = application.at("Address Line2") || application.at("Line2")
+
+      if line1
+        address = clean_whitespace(line1.inner_text)
+        unless line2.nil? || line2.inner_text.empty?
+          address += ", " + clean_whitespace(line2.inner_text)
+        end
+      else
         puts "Skipping due to lack of address for #{council_reference}"
         next
       end
-      application_id = application.at("ApplicationId").inner_text.strip
 
       # No idea what this means but it's required to calculate the
       # correct info_url
@@ -72,11 +82,6 @@ module IconScraper
 
       info_url = "#{base_url}?id=#{application_id}"
       info_url += "&pprs=#{pprs}" if pprs
-
-      address = clean_whitespace(application.at("Address Line1").inner_text)
-      unless application.at("Address Line2").inner_text.empty?
-        address += ", " + clean_whitespace(application.at("Address Line2").inner_text)
-      end
 
       description = application.at("ApplicationDetails") ||
                     application.at("SubNatureOfApplication")
