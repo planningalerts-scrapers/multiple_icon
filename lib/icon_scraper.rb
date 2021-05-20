@@ -63,17 +63,21 @@ module IconScraper
       application_id = application.at("ApplicationId").inner_text.strip
 
       # For some reason Coffs Harbour isn't wrapping the address in an <Address>
-      line1 = application.at("Address Line1") || application.at("Line1")
-      line2 = application.at("Address Line2") || application.at("Line2")
+      line1 = application.at("Address Line1")
+      line2 = application.at("Address Line2")
 
-      if line1
-        address = clean_whitespace(line1.inner_text)
-        unless line2.nil? || line2.inner_text.empty?
-          address += ", " + clean_whitespace(line2.inner_text)
+      if line1.nil?
+        properties = application.search("Line1").map{|p| p.parent}.select do |p|
+          p.at("ApplicationId").inner_text == application_id
         end
-      else
-        puts "Skipping due to lack of address for #{council_reference}"
-        next
+        # If there's more than one property only consider the first
+        line1 = properties.first.at("Line1")
+        line2 = properties.first.at("Line2")
+      end
+
+      address = clean_whitespace(line1.inner_text)
+      unless line2.nil? || line2.inner_text.empty?
+        address += ", " + clean_whitespace(line2.inner_text)
       end
 
       # No idea what this means but it's required to calculate the
