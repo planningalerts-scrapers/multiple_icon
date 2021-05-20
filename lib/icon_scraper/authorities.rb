@@ -68,7 +68,8 @@ module IconScraper
     },
     hornsby: {
       url: "http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track",
-      period: "last14days"
+      period: "last14days",
+      ssl_verify: false
     },
     leichhardt: {
       url: "http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track",
