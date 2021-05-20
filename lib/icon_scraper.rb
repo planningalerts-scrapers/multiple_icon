@@ -73,11 +73,15 @@ module IconScraper
         # If there's more than one property only consider the first
         line1 = properties.first.at("Line1")
         line2 = properties.first.at("Line2")
+        line3 = properties.first.at("Line3")
       end
 
       address = clean_whitespace(line1.inner_text)
       unless line2.nil? || line2.inner_text.empty?
         address += ", " + clean_whitespace(line2.inner_text)
+      end
+      unless line3.nil? || line3.inner_text.empty?
+        address += ", " + clean_whitespace(line3.inner_text)
       end
 
       # No idea what this means but it's required to calculate the

@@ -2,6 +2,10 @@
 
 module IconScraper
   AUTHORITIES = {
+    strathfield: {
+      url: "http://daenquiry.strathfield.nsw.gov.au/Pages/XC.Track",
+      period: "last28days"
+    },
     mackay: {
       url: "https://planning.mackay.qld.gov.au/Pages/XC.Track",
       period: "last28days"
