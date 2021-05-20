@@ -71,9 +71,16 @@ module IconScraper
           p.at("ApplicationId").inner_text == application_id
         end
         # If there's more than one property only consider the first
-        line1 = properties.first.at("Line1")
-        line2 = properties.first.at("Line2")
-        line3 = properties.first.at("Line3")
+        if properties.first
+          line1 = properties.first.at("Line1")
+          line2 = properties.first.at("Line2")
+          line3 = properties.first.at("Line3")
+        end
+      end
+
+      if line1.nil?
+        puts "No address found for #{council_reference}. So, skipping"
+        next
       end
 
       address = clean_whitespace(line1.inner_text)
